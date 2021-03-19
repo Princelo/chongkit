@@ -1930,17 +1930,20 @@ encoder:
 留	hhw
 等	hi
 篇	hib
+魍	hibtv
 簾	hic
 魅	hid
 鵝	hif
 鵝	hihaf
 魁	hij
 魅	hijd
+魎	himlb
 乏	hino
 乏	hio
 篇	hisb
 簾	hitc
 魁	hiyj
+魑	hiyub
 千	hj
 盾	hjbu
 朱	hjd
@@ -2539,11 +2542,12 @@ encoder:
 勃	jds
 支	je
 繫	jef
+攰	jeks
 翅	jem
 麪	jemls
 麵	jemwl	jemw'l
 麩	jeo
-擊	jeq
+擊	jeks
 麩	jeqo
 麪	jes
 翅	jesmm
@@ -4224,6 +4228,8 @@ encoder:
 快	pdk
 懶	pdlc
 穎	pdmbc
+乸	pdwyi
+乸	pdy
 慢	pe
 怪	peg
 悄	pfb
@@ -4512,6 +4518,7 @@ encoder:
 邦	qjl
 捷	qjlo
 控	qjm
+掟	qjmo
 挖	qjn
 邦	qjnl
 捷	qjo
@@ -4568,6 +4575,7 @@ encoder:
 捂	qmmr
 振	qmmv
 打	qmn
+抦	qmob
 拓	qmr
 扼	qmsu
 扼	qmu
@@ -4610,6 +4618,8 @@ encoder:
 推	qog
 携	qogs
 擕	qogs
+拎	qoi
+拎	qoii
 捻	qoip
 搶	qoir
 掄	qomb
@@ -4765,10 +4775,12 @@ encoder:
 唧	rail
 嘅	raiu
 唧	ral
+嗮	ramw
 喝	rapv
 吧	rau
 邑	rau
 喝	rav
+嗮	raw
 嘴	rb
 喎	rbb
 喎	rbbr	rbb'r
@@ -4794,6 +4806,7 @@ encoder:
 喇	rdn
 吸	re
 嗓	red
+啵	rede
 嗓	reed
 嗎	rf
 嚐	rfa
@@ -4801,6 +4814,7 @@ encoder:
 嚐	rfba
 噹	rfbw
 咪	rfd
+啖	rff
 嘮	rffs
 吵	rfh
 嘮	rfs
@@ -4826,6 +4840,7 @@ encoder:
 咱	rhbu
 呼	rhd
 嚟	rhe
+咯	rher
 咚	rhey
 嗚	rhf
 呼	rhfd
@@ -4836,6 +4851,7 @@ encoder:
 唾	rhjm
 嗅	rhk
 唾	rhm
+嘥	rhoo
 吒	rhp
 嘅	rhpu
 哦	rhqi
@@ -4874,19 +4890,25 @@ encoder:
 吱	rje
 嗦	rjf
 戰	rji
+唓	rjj
 嘲	rjjb
+啫	rjka
 哮	rjkd
 喧	rjm
 喧	rjmm
 嗜	rjpa
 咕	rjr
 噴	rjtc
+唓	rjwj
 嚴	rk
+喐	rkbl
 嘹	rkcf
 嘹	rkf
 唏	rkkb
 咗	rkm
+咦	rkn
 呔	rki
+喐	rkl
 喚	rk
 㗎	rkd
 咖	rkr
@@ -4934,10 +4956,12 @@ encoder:
 跎	rmjp
 吴	rmk
 跨	rmkms
+哽	rmlk
 啞	rmlm
 跳	rmlmo
 跩	rmlwp
 啞	rmm
+踎	rmmfr
 唔	rmmr
 叮	rmn
 踴	rmnbs
@@ -5023,9 +5047,12 @@ encoder:
 咆	rpu
 噸	rpuc
 咩	rq
+𡃁	rqbu
 喫	rqhk
 喫	rqk
 啦	rqt
+𡃁	rqu
+唞	rqyj
 啦	rqyt
 唔	rr
 噪	rrd
@@ -5064,7 +5091,9 @@ encoder:
 啦	rt
 嘈	rta
 嘶	rtcl
+嗌	rtct
 嘩	rtj
+嘞	rtjs
 哎	rtk
 嘶	rtl
 嘆	rtlo
