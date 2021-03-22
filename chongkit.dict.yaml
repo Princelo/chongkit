@@ -109,6 +109,7 @@ encoder:
 晨	ammv
 是	amo
 曬	amp
+晤	amr
 晒	amw
 量	amwg
 是	amyo
@@ -213,7 +214,8 @@ encoder:
 辭	bbj
 骷	bbjr
 髏	bbllv
-骯	bbn
+剮	bbln
+剮	bbn
 舜	bbnq
 愛	bbpe
 舜	bbq
@@ -244,6 +246,7 @@ encoder:
 賍	bcig
 賤	bcii
 賊	bcij
+贓	bcims
 賊	bcj
 賭	bcjka
 貯	bcjmn
@@ -261,6 +264,7 @@ encoder:
 貼	bcr
 腳	bcrl
 脫	bcru
+贓	bcs
 賬	bcsmv
 購	bcttb
 賺	bctxc
@@ -419,6 +423,7 @@ encoder:
 岡	btu	b'tu
 膿	btv
 膿	btwv
+罔	btyv
 目	bu
 睹	bua
 眼	buav
@@ -704,6 +709,7 @@ encoder:
 欄	danw
 棍	dap
 棍	dapp
+榻	dasm
 概	dau
 槪	dau
 根	dav
@@ -1112,6 +1118,7 @@ encoder:
 洲	eil
 洲	eill
 蚤	eilmi
+溏	eilr
 泳	eine
 治	eir
 淚	eisk
@@ -1844,6 +1851,7 @@ encoder:
 秧	hdlbk
 籟	hdlc
 利	hdln
+剁	hdln
 乘	hdlp
 笨	hdm
 秤	hdmfj
@@ -1855,6 +1863,7 @@ encoder:
 秩	hdo
 黍	hdoe
 稚	hdog
+稔	hdoip
 悉	hdp
 秘	hdph
 秕	hdpp
@@ -1867,6 +1876,7 @@ encoder:
 箱	hdu
 委	hdv
 番	hdw
+稷	hdwce
 釋	hdwlj
 稻	hdx
 科	hdyj
@@ -3992,7 +4002,6 @@ encoder:
 值	ojm
 佇	ojmn
 傢	ojmo
-佇	ojn
 傢	ojo
 佬	ojp
 估	ojr
@@ -4346,6 +4355,8 @@ encoder:
 憔	pof
 惟	pog
 憔	pogf
+懺	poim
+懺	pom
 愉	pomn
 恰	pomr
 愉	pon
@@ -4467,6 +4478,8 @@ encoder:
 揀	qdw
 揀	qdwf	qdw'f
 技	qe
+搡	qed
+搡	qeed
 搔	qei
 搔	qeii
 素	qf
@@ -4929,7 +4942,9 @@ encoder:
 單	rj
 嗜	rja
 嘲	rjb
+嗔	rjbc
 嗦	rjbf
+喃	rjbj	rjb'j
 噴	rjc
 味	rjd
 吱	rje
@@ -4965,7 +4980,9 @@ encoder:
 哪	rl
 吊	rlb
 呻	rll
+嘍	rllv
 啡	rlmy
+嘍	rlv
 呻	rlwl
 嘯	rlx
 啡	rly
@@ -5295,6 +5312,7 @@ encoder:
 履	she
 鬚	shhhc
 刃	shi
+戮	shi
 髮	shike
 髮	shikk
 鬢	shjmc
@@ -5309,6 +5327,8 @@ encoder:
 匾	shsb	s'hsb
 屜	sht
 尾	shu
+鬟	shv
+鬟	shwlv
 屬	si
 監	sibt
 熨	sif
