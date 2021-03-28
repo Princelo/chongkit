@@ -733,7 +733,7 @@ encoder:
 林	dd
 鬱	ddbuh
 森	ddd
-禁	ddf
+焚	ddf
 材	ddh
 彬	ddhh
 村	ddi
@@ -1100,6 +1100,7 @@ encoder:
 洗	ehu
 派	ehv
 溜	ehw
+裟	ehyhv
 叉	ei	ei
 叉	ei	e'i
 浪	eiav
@@ -2522,6 +2523,7 @@ encoder:
 窩	jcbbr	jcbb'r
 顛	jcc
 窒	jcg
+窐	jcgg
 竇	jcgwc
 竃	jcgwu
 穿	jch
@@ -2961,6 +2963,8 @@ encoder:
 駕	krf
 癌	krru
 駕	krsqf
+袈	krv
+袈	kryhv
 癌	kru
 力	ks
 脅	ksb
@@ -3342,6 +3346,7 @@ encoder:
 琴	mgoin
 致	mgok
 玫	mgok
+瑜	mgomn
 瑟	mgph
 噩	mgr
 噩	mgrr
@@ -4028,6 +4033,7 @@ encoder:
 悠	okp
 知	okr
 佑	okr
+伽	oksr
 矩	okss
 短	okt
 俺	oku
@@ -6811,6 +6817,8 @@ encoder:
 亡	yv
 牽	yvbq
 盲	yvbu
+雍	yvg
+雍	yvhg
 亥	yvho
 瓤	yvhvo
 玄	yvi
