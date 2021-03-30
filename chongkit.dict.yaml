@@ -439,6 +439,7 @@ encoder:
 眯	bufd
 瞳	bug
 睦	bugcg
+瞌	bugit
 盼	buh
 眨	buhio
 睡	buhjm
@@ -464,8 +465,8 @@ encoder:
 眠	burvp
 眶	bus
 眶	busmg	bus'mg
-瞞	butlb
 瞪	but
+瞞	butlb
 瞄	butw
 見	buu
 眼	buv
@@ -915,7 +916,9 @@ encoder:
 椰	dsjl
 椰	dsl
 櫃	dslc	ds'lc
+栩	dsm
 框	dsmg	ds'mg
+栩	dsmm
 樞	dsr	ds'r
 樞	dsrr	ds'rr
 欖	dsu
@@ -2369,7 +2372,7 @@ encoder:
 叄	iim
 郎	iinl
 盞	iit
-庫	ij
+戎	ij
 甫	ijb
 麻	ijc
 麻	ijcc
@@ -3121,8 +3124,10 @@ encoder:
 蠅	lirxu
 螃	lis
 螞	lisqf
+蟒	lit
 蟆	litak
 蟻	litgi
+蟒	litit
 蟥	litlc
 蠅	liu
 蠟	liv
@@ -3455,6 +3460,7 @@ encoder:
 鞏	mntlj
 裂	mnv
 裂	mnyhv
+仄	mo
 豬	moa
 丙	mob
 資	mobuc
@@ -4982,7 +4988,6 @@ encoder:
 咦	rkn
 呔	rki
 喐	rkl
-喚	rk
 㗎	rkd
 咖	rkr
 㗎	rkrd
@@ -5538,7 +5543,7 @@ encoder:
 業	tctd
 叢	tcte
 巷	tcu
-業	td
+某	td
 茉	tdj
 葦	tdmq
 萊	tdo
@@ -6725,6 +6730,7 @@ encoder:
 諾	yrtkr
 謹	yrtlm
 謀	yrtmd
+譁	yrtmj
 護	yrtoe
 詳	yrtq
 講	yrttb
@@ -6809,11 +6815,13 @@ encoder:
 遵	ytwi
 站	ytyr
 說	yu
+導	yudi
 彪	yuh
 彪	yuhhh
 導	yui
 齡	yuoii
-導	yudi
+齣	yupr
+齣	yur
 齪	yuryo
 齷	yusmg
 競	yuu
