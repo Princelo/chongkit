@@ -1166,8 +1166,10 @@ encoder:
 滯	ekpb
 淹	eku
 沖	el
+泱	elbk
 沈	elbu
 潰	elc
+泱	elk
 淵	ell
 沸	elln
 潰	elmc
@@ -2165,6 +2167,7 @@ encoder:
 籃	hsit
 笋	hsk
 所	hsl
+扉	hslmy
 扇	hsm
 筐	hsmg	hs'mg
 籃	hsmt
@@ -2175,6 +2178,7 @@ encoder:
 扇	hssmm
 籃	hst
 兜	hsu
+扉	hsy
 房	hsyhs
 升	ht
 箭	htbn
@@ -3639,6 +3643,8 @@ encoder:
 醇	mwyrd
 釀	mwyrv
 下	my
+焉	myf
+焉	mylf
 正	mylm
 正	mym
 忑	myp
@@ -4396,6 +4402,8 @@ encoder:
 比	pp
 皆	ppa
 皆	ppha
+惚	pphp
+惚	ppp
 憐	pq
 情	pqb
 情	pqmb
@@ -4496,7 +4504,9 @@ encoder:
 靜	qd
 揸	qdam
 耙	qdau
+㩒	qddf
 披	qde
+㩒	qdf
 披	qdhe
 耗	qdhqu
 抹	qdj
