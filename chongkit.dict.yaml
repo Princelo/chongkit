@@ -2392,6 +2392,7 @@ encoder:
 庵	iklu
 飆	ikn
 為	iknf
+欸	ikno
 啓	ikr
 尤	iku
 神	il
@@ -3674,6 +3675,7 @@ encoder:
 孔	ndu
 孩	ndyvo
 發	ne
+丞	nem
 尔	nf
 鰭	nfa
 鯽	nfail
@@ -3717,9 +3719,7 @@ encoder:
 名	nir
 外	niy
 蝨	nji
-敢	njk
 蝨	njlii
-敢	njok
 又	nk	e
 煞	nkf
 廷	nkg
@@ -4800,6 +4800,8 @@ encoder:
 描	qtw
 扎	qu
 揣	qub
+搖桿	qudaj
+🕹️	qudaj
 摧	qug
 揣	qumb
 摧	quog
@@ -5022,6 +5024,7 @@ encoder:
 踹	rmb
 踩	rmbd
 蹈	rmbhx
+蹊	rmbvk
 趴	rmc
 哂	rmcw
 蹭	rmcwa
@@ -5301,6 +5304,7 @@ encoder:
 騾	sff
 駐	sfg
 駱	sfher
+騮	sfhhw
 驕	sfhkb
 騙	sfhsb
 騷	sfi
@@ -5325,6 +5329,7 @@ encoder:
 驟	sfseo
 驅	sfsrr	sfs'rr
 驢	sft
+騮	sfw
 驛	sfwlj
 騾	sfwvf
 駐	sfyg
@@ -6114,7 +6119,6 @@ encoder:
 統	vfyiu
 紋	vfyk
 縴	vfyvq
-維	vg
 娃	vgg
 嬉	vgr
 嬉	vgrr
@@ -6678,6 +6682,7 @@ encoder:
 謝	yri
 誠	yrihs
 詠	yrine
+誒	yriok
 諮	yrior
 試	yripm
 誡	yrit
@@ -6927,6 +6932,7 @@ encoder:
 怠	xirp
 扁	xisbt
 宋	xjd
+冇	xkb
 郁	xkbnl
 刹	xkdln
 瘪	xkhup
