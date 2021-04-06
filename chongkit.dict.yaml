@@ -1166,8 +1166,10 @@ encoder:
 滯	ekpb
 淹	eku
 沖	el
+泱	elbk
 沈	elbu
 潰	elc
+泱	elk
 淵	ell
 沸	elln
 潰	elmc
@@ -2032,7 +2034,7 @@ encoder:
 颱	hnir
 第	hnlh
 風	hnmli	hn'mli
-犁	hnq
+掣	hnq
 颳	hnr
 筝	hnsd
 製	hnv
@@ -2165,6 +2167,7 @@ encoder:
 籃	hsit
 笋	hsk
 所	hsl
+扉	hslmy
 扇	hsm
 筐	hsmg	hs'mg
 籃	hsmt
@@ -2175,6 +2178,7 @@ encoder:
 扇	hssmm
 籃	hst
 兜	hsu
+扉	hsy
 房	hsyhs
 升	ht
 箭	htbn
@@ -2392,6 +2396,7 @@ encoder:
 庵	iklu
 飆	ikn
 為	iknf
+欸	ikno
 啓	ikr
 尤	iku
 神	il
@@ -3168,7 +3173,7 @@ encoder:
 褸	lllv
 片	llml
 片	llmn
-片	lln
+弗	lln
 患	llp
 婁	llv
 袖	llw
@@ -3639,6 +3644,8 @@ encoder:
 醇	mwyrd
 釀	mwyrv
 下	my
+焉	myf
+焉	mylf
 正	mylm
 正	mym
 忑	myp
@@ -3675,6 +3682,7 @@ encoder:
 孔	ndu
 孩	ndyvo
 發	ne
+丞	nem
 尔	nf
 鰭	nfa
 鯽	nfail
@@ -3718,9 +3726,7 @@ encoder:
 名	nir
 外	niy
 蝨	nji
-敢	njk
 蝨	njlii
-敢	njok
 又	nk	e
 煞	nkf
 廷	nkg
@@ -4397,6 +4403,8 @@ encoder:
 比	pp
 皆	ppa
 皆	ppha
+惚	pphp
+惚	ppp
 憐	pq
 情	pqb
 情	pqmb
@@ -4497,7 +4505,9 @@ encoder:
 靜	qd
 揸	qdam
 耙	qdau
+㩒	qddf
 披	qde
+㩒	qdf
 披	qdhe
 耗	qdhqu
 抹	qdj
@@ -4801,6 +4811,8 @@ encoder:
 描	qtw
 扎	qu
 揣	qub
+搖桿	qudaj
+🕹️	qudaj
 摧	qug
 揣	qumb
 摧	quog
@@ -5023,6 +5035,7 @@ encoder:
 踹	rmb
 踩	rmbd
 蹈	rmbhx
+蹊	rmbvk
 趴	rmc
 哂	rmcw
 蹭	rmcwa
@@ -5302,6 +5315,7 @@ encoder:
 騾	sff
 駐	sfg
 駱	sfher
+騮	sfhhw
 驕	sfhkb
 騙	sfhsb
 騷	sfi
@@ -5326,6 +5340,7 @@ encoder:
 驟	sfseo
 驅	sfsrr	sfs'rr
 驢	sft
+騮	sfw
 驛	sfwlj
 騾	sfwvf
 駐	sfyg
@@ -5399,6 +5414,7 @@ encoder:
 尹	sk
 君	skr
 那	sl
+匝	slb
 臣	sll	s'll
 屢	sllv
 匪	slmy	s'lmy
@@ -5841,7 +5857,7 @@ encoder:
 蔣	tvmi
 薅	tvmi
 慈	tvp
-菇	tvr
+茹	tvr
 勘	tvs
 蘊	tvt
 斟	tvyj
@@ -5963,6 +5979,8 @@ encoder:
 巖	urrk
 嶇	us
 嶇	usrr	us'rr
+崛	usu
+崛	usuu
 豐	ut
 覬	utbuu
 豔	utgit
@@ -6115,7 +6133,6 @@ encoder:
 統	vfyiu
 紋	vfyk
 縴	vfyvq
-維	vg
 娃	vgg
 嬉	vgr
 嬉	vgrr
@@ -6679,6 +6696,7 @@ encoder:
 謝	yri
 誠	yrihs
 詠	yrine
+誒	yriok
 諮	yrior
 試	yripm
 誡	yrit
@@ -6928,6 +6946,7 @@ encoder:
 怠	xirp
 扁	xisbt
 宋	xjd
+冇	xkb
 郁	xkbnl
 刹	xkdln
 瘪	xkhup
