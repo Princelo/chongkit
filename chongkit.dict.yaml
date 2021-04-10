@@ -3526,14 +3526,13 @@ encoder:
 磚	mrjii
 碗	mrjnu
 硬	mrk
-碴	mrm
+磋	mrm
 碩	mrmbc
 砰	mrmfj
 硏	mrmjj
 硬	mrmlk
 研	mrmt
 礪	mrmtb
-矾	mrhn
 碌	mrnme
 歌	mrno
 砍	mrno
@@ -3552,6 +3551,7 @@ encoder:
 碾	mrstv
 豆	mrt
 碘	mrtbc
+磋	mrtqm
 碰	mrttc
 磁	mrtvi
 碗	mru
@@ -5210,6 +5210,7 @@ encoder:
 號	rsypu
 啦	rt
 嘈	rta
+哄	rtc
 嘶	rtcl
 嗌	rtct
 嘩	rtj
@@ -5495,8 +5496,8 @@ encoder:
 匿	str	s'tr
 屏	stt
 展	stv
-己	su
 已	su
+己	su
 熙	suf
 屆	sug	su'g
 改	suk
@@ -6995,7 +6996,7 @@ encoder:
 臀	xseb
 慰	xsip
 羣	xsrtq
-已	xsu
+己	xsu
 藐	xtbhu
 繭	xtbli
 蓖	xthwp
