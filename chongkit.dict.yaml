@@ -1327,9 +1327,11 @@ encoder:
 油	ew
 濁	ewi
 澤	ewj
+涸	ewjr	ew'jr
 濁	ewli
 澤	ewlj
 溫	ewot
+涸	ewr	ew'r
 溫	ewt
 濟	ex
 海	ey
@@ -3902,6 +3904,7 @@ encoder:
 份	ocsh
 僧	ocwa
 休	od
+煲	odf
 堡	odg
 付	odi
 斜	odj
@@ -4375,6 +4378,7 @@ encoder:
 匆	pkk
 怖	pklb
 肄	pklq
+惰	pkmb
 疑	pknio
 疑	pko
 肄	pkq
