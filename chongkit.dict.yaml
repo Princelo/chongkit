@@ -1217,6 +1217,7 @@ encoder:
 染	end
 沒	ene
 漁	enf
+汐	eni
 涌	enib
 汛	enj
 渙	enk
@@ -2074,10 +2075,11 @@ encoder:
 筏	hoi
 術	hoicn
 籤	hoim
-術	hoid
+術	hoidn
 德	hojwp
 微	hok
 御	hol
+筱	holk
 彿	holln
 徘	holmy
 律	holq
@@ -2229,10 +2231,12 @@ encoder:
 囱	hwi	hw'i
 卑	hwhj
 卑	hwj
+箇	hwjr	hw'jr
 籮	hwlg
 翻	hwm
 粵	hwmvs
 囱	hwni	hw'ni
+箇	hwr	hw'r
 粵	hws
 翻	hwsmm
 臼	hx
@@ -2568,7 +2572,7 @@ encoder:
 顛	jcmbc
 窒	jcmig
 穿	jcmvh
-究	jcn
+窮	jcn
 窿	jcnlm
 窑	jcoju
 容	jcor
@@ -2888,7 +2892,7 @@ encoder:
 獲	khtoe
 犯	khu
 瘪	khup
-狠	khv
+狼	khv
 獵	khvvv
 猶	khw
 猬	khwb
@@ -2902,7 +2906,6 @@ encoder:
 太	ki
 痧	kifh
 雄	kig
-瘧	kih
 雄	kiog
 癖	kj
 奢	kja
@@ -3010,7 +3013,7 @@ encoder:
 尬	kuoll
 尷	kusit
 尷	kut
-狼	kv
+狠	kv
 奮	kw
 痹	kwl
 痹	kwml
@@ -3019,7 +3022,9 @@ encoder:
 疼	ky
 瘁	kyj
 瘧	kym
+疵	kymp
 瘁	kyoj
+疵	kyp
 瘧	kypm
 瘀	kysy
 瘀	kyy
@@ -3225,10 +3230,12 @@ encoder:
 裱	lqv
 帖	lr
 螃	ls
+褶	lsa
 初	lsh
 襤	lsit
 裙	lskr
 韭	lsm
+褶	lsma
 韭	lsmm
 裙	lsr
 襤	lst
@@ -3384,9 +3391,11 @@ encoder:
 琪	mgtmc
 現	mgu
 瑞	mgumb
+璀	mguog
 環	mgv
 理	mgwg
 環	mgwlv
+璨	mgyed
 琉	mgyiu
 斑	mgykg
 玷	mgyr
@@ -3587,6 +3596,7 @@ encoder:
 豌	mtu
 厥	mtuo
 厲	mtwb
+現	mu
 兀	mu
 蠶	muali
 両	mub
@@ -3717,7 +3727,9 @@ encoder:
 柔	nhd
 及	nhe
 務	nhhes
+矜	nhn
 弧	nho
+矜	nhoin
 務	nhoks
 乃	nhs
 弧	nhvo
@@ -3916,6 +3928,7 @@ encoder:
 敘	odok
 偉	odq
 斜	odyj
+你	of
 伙	of
 俏	ofb
 償	ofbc
@@ -4256,6 +4269,7 @@ encoder:
 偎	owv
 每	owy
 每	owyi	owy'i
+每	oy
 仆	oy
 禽	oyb
 偵	oybc
@@ -5165,6 +5179,7 @@ encoder:
 喩	rov
 嗰	row
 嗰	rowr	row'r
+民	rp
 叱	rp
 噸	rpc
 吻	rph
@@ -5325,6 +5340,7 @@ encoder:
 竪	seyt
 馬	sf
 屑	sfb
+騏	sfc
 屎	sfd
 尉	sfdi
 馭	sfe
@@ -5357,6 +5373,7 @@ encoder:
 驟	sfseo
 驅	sfsrr	sfs'rr
 驢	sft
+騏	sftmc
 騮	sfw
 驛	sfwlj
 騾	sfwvf
@@ -5858,6 +5875,7 @@ encoder:
 瓶	ttn
 善	ttr
 着	tu
+朔	tub
 茁	tuu
 甚	tv
 藥	tvd
@@ -6095,6 +6113,7 @@ encoder:
 繡	vflx
 紅	vfm
 緻	vfmgk
+紜	vfmmi
 經	vfmvm
 緬	vfmwl	vfmw'l
 繮	vfmwm
@@ -6418,6 +6437,7 @@ encoder:
 疊	wwwm
 罪	wy
 母	wyi	wy'i
+図	wyk	wy'k
 卜	y
 識	ya
 韻	yac
@@ -6500,6 +6520,7 @@ encoder:
 返	yhe
 逢	yhej
 造	yhgr
+遛	yhhw
 逢	yhj
 遁	yhju
 邀	yhk
@@ -6519,6 +6540,7 @@ encoder:
 邊	yhus
 衣	yhv
 迎	yhvl
+遛	yhw
 遞	yhyn
 遞	yhyu
 導	yi
@@ -6671,6 +6693,7 @@ encoder:
 逝	yqhl
 逝	yql
 這	yr
+占	yr
 謁	yrapv
 調	yrbgr	yrb'gr
 識	yra
@@ -6877,6 +6900,7 @@ encoder:
 競	yuu
 競	yuytu
 亡	yv
+裔	yvbcr	yvb'cr
 牽	yvbq
 盲	yvbu
 雍	yvg
