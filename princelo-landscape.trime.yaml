@@ -1,0 +1,895 @@
+# Trime default style settings
+# encoding: utf-8
+
+config_version: "3.0"
+name: 預設 #方案名稱
+author: osfans #作者資訊
+
+style:
+  auto_caps: false #自動句首大寫:true|false|ascii
+  background_dim_amount: 0.5
+  candidate_font: han.ttf #候選字型
+  candidate_padding: 10 #候選項內邊距
+  candidate_spacing: 0.5 #候選間距
+  candidate_text_size: 14 #候選字號
+  candidate_use_cursor: true #高亮候選項
+  candidate_view_height: 22 #候選區高度
+  color_scheme: default #配色方案
+  comment_font: comment.ttf #編碼提示字型
+  comment_height: 10 #編碼提示區高度
+  comment_on_top: true #編碼提示在上方或右側
+  comment_text_size: 10 #編碼提示字號
+  hanb_font: hanb.ttf #擴充字型
+  horizontal: true #水平模式
+  horizontal_gap: 5 #鍵水平間距
+  layout: #懸浮窗口設置
+    position: fixed #位置：left|right|left_up|right_up|fixed|bottom_left|bottom_right|top_left|top_right(left、right需要>=Android5.0)
+    min_length: 5 #最小詞長
+    max_length: 10 #超過字數則換行
+    sticky_lines: 0 #固頂行數
+    max_entries: 1 #最大詞條數
+    all_phrases: false #所有滿足條件的詞語都顯示在窗口
+    border: 2 #邊框寬度
+    max_width: 230 #最大寬度，超過則自動換行
+    max_height: 400 #最大高度
+    min_width: 40 #最小寬度
+    min_height: 0 #最小高度
+    margin_x: 5 #水平邊距
+    margin_y: 5 #豎直邊距
+    line_spacing: 0 #候选詞的行間距(px)
+    line_spacing_multiplier: 1.2 #候选詞的行間距(倍數)
+    spacing: 1 #與預編輯或邊緣的距離
+    round_corner: 8 #窗口圓角
+    alpha: 0xdd #透明度(0-255)
+    elevation: 5 #陰影(>=Android5.0)
+    background: background.png #顏色或者backgrounds目錄下的圖片文件名
+    movable: once #是否可移動窗口，或僅移動一次 true|false|once
+  window: #懸浮窗口組件
+    - {start: "", move: 'ㄓ ', end: ""}
+    - {start: "", composition: "%s", end: "", letter_spacing: 0} #letter_spacing需要>=Android5.0。TODO: 不爲0時，會導致不換行的問題
+    - {start: "\n", label: "%s.", candidate: "%s", comment: " %s", end: "", sep: " "}
+  key_font: symbol.ttf #鍵盤字型
+  key_height: 44 #鍵高
+  key_long_text_size: 12 #長標籤字號
+  key_text_size: 12 #鍵字號
+  key_width: 10.0 #鍵寬，佔螢幕寬的百分比
+  keyboards: [.default, letter, number, symbols] #鍵盤配置：自動鍵盤、字母、數字、符號
+  label_text_size: 12 #標籤字號
+  label_font: label.ttf #編標籤字型
+  latin_font: latin.ttf #西文字型
+  latin_locale: en_US #西文語言
+  locale: zh_TW #預設語言 zh_TW,zh_CN,zh_HK,""
+  longpress_timeout: 200
+  preview_font: latin.ttf #按鍵提示字型
+  preview_height: 60 #按鍵提示高度
+  preview_offset: -12 #按鍵提示縱向偏移
+  preview_text_size: 40 #按鍵提示字號
+  proximity_correction: true #按鍵糾錯
+  reset_ascii_mode: false #顯示鍵盤時重置爲中文狀態
+  round_corner: 16 #按鍵圓角半徑
+  shadow_radius: 0.1 #按鍵陰影半徑
+  speech_opencc_config: s2t.json #語音輸入簡繁轉換
+  symbol_font: symbol.ttf #符號字型
+  symbol_text_size: 7 #符號字號
+  text_font: latin.ttf #編碼字型
+  #text_height: 22 #編碼區高度
+  text_size: 16 #編碼區字號
+  vertical_correction: -10
+  vertical_gap: 4 #鍵盤行距
+
+fallback_colors:
+  candidate_text_color: text_color
+  comment_text_color: candidate_text_color
+  border_color: back_color
+  candidate_separator_color: border_color
+  hilited_text_color: text_color
+  hilited_back_color: back_color
+  hilited_candidate_text_color: hilited_text_color
+  hilited_candidate_back_color: hilited_back_color
+  hilited_comment_text_color: comment_text_color
+  text_back_color: back_color
+  hilited_key_back_color: hilited_candidate_back_color
+  hilited_key_text_color: hilited_candidate_text_color
+  hilited_key_symbol_color: hilited_comment_text_color
+  hilited_off_key_back_color: hilited_key_back_color
+  hilited_on_key_back_color: hilited_key_back_color
+  hilited_off_key_text_color: hilited_key_text_color
+  hilited_on_key_text_color: hilited_key_text_color
+  key_back_color: back_color
+  key_border_color: border_color
+  key_text_color: candidate_text_color
+  key_symbol_color: comment_text_color
+  keyboard_back_color: border_color
+  label_color: candidate_text_color
+  off_key_back_color: key_back_color
+  off_key_text_color: key_text_color
+  on_key_back_color: hilited_key_back_color
+  on_key_text_color: hilited_key_text_color
+  preview_back_color: key_back_color
+  preview_text_color: key_text_color
+  shadow_color: border_color
+
+preset_color_schemes:
+  default:
+    name: 預設／default #方案名稱
+    author: osfans #作者資訊
+    text_color: 0xd9dcdd
+    back_color: 0x424a50
+    border_color: 0x273237
+    label_color: 0x273237
+    hilited_text_color: 0xb1b8bc
+    hilited_back_color: 0x313c41
+    candidate_text_color: 0xd9dcdd
+    comment_text_color: 0xb1b8bc
+    hilited_candidate_text_color: 0xd9dcdd
+    hilited_comment_text_color: 0xb1b8bc
+    hilited_candidate_back_color: 0x273237
+    preview_back_color: 0x313c41
+
+  smurfs:
+    name: "無敵樟"
+    author: "無敵樟"
+    text_color: 0x3a474d
+    back_color: 0xfafbfc
+    border_color: 0xebeff2
+    label_color: 0xfafbfc
+    hilited_text_color: 0x3a474d
+    hilited_back_color: 0xaabbcc
+    candidate_text_color: 0x3a474d
+    comment_text_color: 0x737e81
+    hilited_candidate_text_color: 0x3a474d
+    hilited_comment_text_color: 0x3a474d
+    hilited_candidate_back_color: 0xebeff2
+    preview_back_color: 0xebeff2
+
+android_keys:
+  name: [VoidSymbol, SOFT_LEFT, SOFT_RIGHT, HOME, BACK, CALL, ENDCALL,
+    '0', '1', '2', '3', '4', '5', '6', '7', '8', '9',
+    asterisk, numbersign, Up, Down, Left, Right, KP_Begin,
+    VOLUME_UP, VOLUME_DOWN, POWER, CAMERA, Clear,
+    a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z,
+    comma, period, Alt_L, Alt_R, Shift_L, Shift_R, Tab, space,
+    SYM, EXPLORER, ENVELOPE, Return, BackSpace,
+    grave, minus, equal, bracketleft, bracketright, backslash, semicolon, apostrophe, slash, at,
+    NUM, HEADSETHOOK, FOCUS, plus, Menu, NOTIFICATION, Find,
+    MEDIA_PLAY_PAUSE, MEDIA_STOP, MEDIA_NEXT, MEDIA_PREVIOUS, MEDIA_REWIND, MEDIA_FAST_FORWARD, MUTE,
+    Page_Up, Page_Down, PICTSYMBOLS, Mode_switch,
+    BUTTON_A, BUTTON_B, BUTTON_C, BUTTON_X, BUTTON_Y, BUTTON_Z,
+    BUTTON_L1, BUTTON_R1, BUTTON_L2, BUTTON_R2,
+    BUTTON_THUMBL, BUTTON_THUMBR, BUTTON_START, BUTTON_SELECT, BUTTON_MODE,
+    Escape, Delete, Control_L, Control_R, Caps_Lock, Scroll_Lock, Meta_L, Meta_R,
+    function, Sys_Req, Pause, Home, End, Insert, Next,
+    MEDIA_PLAY, MEDIA_PAUSE, MEDIA_CLOSE, MEDIA_EJECT, MEDIA_RECORD,
+    F1, F2, F3, F4, F5, F6, F7, F8, F9, F10, F11, F12,
+    Num_Lock, KP_0, KP_1, KP_2, KP_3, KP_4, KP_5, KP_6, KP_7, KP_8, KP_9,
+    KP_Divide, KP_Multiply, KP_Subtract, KP_Add, KP_Decimal, KP_Separator, KP_Enter, KP_Equal,
+    parenleft, parenright,
+    VOLUME_MUTE, INFO, CHANNEL_UP, CHANNEL_DOWN, ZOOM_IN, ZOOM_OUT,
+    TV, WINDOW, GUIDE, DVR, BOOKMARK, CAPTIONS, SETTINGS,
+    TV_POWER, TV_INPUT, STB_POWER, STB_INPUT, AVR_POWER, AVR_INPUT,
+    PROG_RED, PROG_GREEN, PROG_YELLOW, PROG_BLUE, APP_SWITCH,
+    BUTTON_1, BUTTON_2, BUTTON_3, BUTTON_4, BUTTON_5, BUTTON_6, BUTTON_7, BUTTON_8,
+    BUTTON_9, BUTTON_10, BUTTON_11, BUTTON_12, BUTTON_13, BUTTON_14, BUTTON_15, BUTTON_16,
+    LANGUAGE_SWITCH, MANNER_MODE, 3D_MODE, CONTACTS, CALENDAR, MUSIC, CALCULATOR,
+    Zenkaku_Hankaku, Eisu_toggle, Muhenkan, Henkan, Hiragana_Katakana, yen, RO, Kana_Lock,
+    ASSIST, BRIGHTNESS_DOWN, BRIGHTNESS_UP, MEDIA_AUDIO_TRACK,
+    SLEEP, WAKEUP, PAIRING, MEDIA_TOP_MENU, '11', '12', LAST_CHANNEL, TV_DATA_SERVICE, VOICE_ASSIST,
+    TV_RADIO_SERVICE, TV_TELETEXT, TV_NUMBER_ENTRY, TV_TERRESTRIAL_ANALOG, TV_TERRESTRIAL_DIGITAL,
+    TV_SATELLITE, TV_SATELLITE_BS, TV_SATELLITE_CS, TV_SATELLITE_SERVICE, TV_NETWORK, TV_ANTENNA_CABLE,
+    TV_INPUT_HDMI_1, TV_INPUT_HDMI_2, TV_INPUT_HDMI_3, TV_INPUT_HDMI_4,
+    TV_INPUT_COMPOSITE_1, TV_INPUT_COMPOSITE_2, TV_INPUT_COMPONENT_1, TV_INPUT_COMPONENT_2, TV_INPUT_VGA_1,
+    TV_AUDIO_DESCRIPTION, TV_AUDIO_DESCRIPTION_MIX_UP, TV_AUDIO_DESCRIPTION_MIX_DOWN,
+    TV_ZOOM_MODE, TV_CONTENTS_MENU, TV_MEDIA_CONTEXT_MENU, TV_TIMER_PROGRAMMING,
+    Help, NAVIGATE_PREVIOUS, NAVIGATE_NEXT, NAVIGATE_IN, NAVIGATE_OUT,
+    STEM_PRIMARY, STEM_1, STEM_2, STEM_3,
+    Pointer_UpLeft, Pointer_DownLeft, Pointer_UpRight, Pointer_DownRight,
+    MEDIA_SKIP_FORWARD, MEDIA_SKIP_BACKWARD, MEDIA_STEP_FORWARD, MEDIA_STEP_BACKWARD,
+    SOFT_SLEEP, CUT, COPY, PASTE,
+    SYSTEM_NAVIGATION_UP, SYSTEM_NAVIGATION_DOWN, SYSTEM_NAVIGATION_LEFT, SYSTEM_NAVIGATION_RIGHT,
+    ALL_APPS, REFRESH, THUMBS_UP, THUMBS_DOWN, PROFILE_SWITCH,
+    A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z,
+    exclam, quotedbl, dollar, percent, ampersand, colon, less, greater, question, asciicircum, underscore, braceleft, bar, braceright, asciitilde]
+  symbols: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ!"$%&:<>?^_{|}~'
+  when:
+    ascii: 西文標籤
+    paging: 翻頁標籤
+    has_menu: 選單標籤
+    composing: 輸入狀態標籤
+    #always: 始終
+    #hover: 滑過
+    combo: 並擊
+    click: 單按
+    long_click: 長按
+    #double_click: 雙按
+    swipe_left: 左滑
+    swipe_right: 右滑
+    swipe_up: 上滑
+    swipe_down: 下滑
+  property:
+    width: 寬度
+    height: 高度
+    gap: 間隔
+    preview: 預覽
+    hint: 提示
+    label: 標籤
+    states: 狀態標籤
+    repeatable: 連續按鍵
+    functional: 功能鍵
+    shift_lock: Shift鎖定 #ascii_long: 英文長按中文單按鎖定, long: 長按鎖定, click: 單按鎖定
+  action:
+    command: 命令
+    option: 參數
+    select: 選擇
+    toggle: 狀態
+    send: 按鍵
+    text: 文字
+    commit: 上屏
+
+preset_keys:
+  # 安卓
+  BRIGHTNESS_DOWN: {label: 亮度-, send: BRIGHTNESS_DOWN}
+  BRIGHTNESS_UP: {label: 亮度+, send: BRIGHTNESS_UP}
+  CALCULATOR: {label: 計算機, send: CALCULATOR}
+  CALENDAR: {label: 日曆, send: CALENDAR}
+  CONTACTS: {label: 電話簿, send: CONTACTS}
+  ENVELOPE: {label: 信箱, send: ENVELOPE}
+  EXPLORER: {label: 瀏覽器, send: EXPLORER}
+  MUSIC: {label: 音樂, send: MUSIC}
+  POWER: {label: 電源, send: POWER}
+  SEARCH: {label: 搜尋, send: Find}
+  SLEEP: {label: 休眠, send: SLEEP}
+  VOICE_ASSIST: {label: 語音, send: VOICE_ASSIST}
+  VOLUME_DOWN: {label: 音量-, send: VOLUME_DOWN}
+  VOLUME_UP: {label: 音量+, send: VOLUME_UP}
+  VOLUME_MUTE: {label: 靜音, send: VOLUME_MUTE}
+  # 編輯
+  Shift_L: {label: Shift, send: Shift_L, shift_lock: ascii_long}
+  Return: {label: Enter, send: Return}
+  Hide: {label: 隱藏, send: BACK}
+  BackSpace: {label: DEL, repeatable: true, send: BackSpace}
+  space: {repeatable: false, functional: false, send: space}
+  Escape: {label: Esc, send: Escape}
+  Home: {label: 行首, send: Home}
+  Insert: {label: 插入, send: Insert}
+  Delete: {label: 刪除, send: Delete}
+  End: {label: 行尾, send: End}
+  Page_Up: {label: 上頁, send: Page_Up}
+  Page_Down: {label: 下頁, send: Page_Down}
+  Left: {label: '←', send: Left}
+  Down: {label: '↓', send: Down}
+  Up: {label: '↑', send: Up}
+  Right: {label: '→', send: Right}
+  select_all: {label: all, send: Control+a}
+  Clear: {label: 清除, text: "{Control+a}{BackSpace}"} #全選並刪除
+  cut: {label: 剪下, send: Control+x}
+  cut_all: {label: 全挪, text: "{Control+a}{Control+x}"} #全選並剪切
+  copy: {label: Copy, send: Control+c}
+  copy_all: {label: 全謄, text: "{Control+a}{Control+c}"} #全選並複製
+  paste: {label: 貼上, send: Control+v}
+  paste_no_comment: {label: 　, send: Control+v}
+  paste_text: {label: 貼上文本, send: Control+Shift+Alt+v} #>=Android 6.0
+  share_text: {label: 分享文本, send: Control+Alt+s} #>=Android 6.0
+  redo: {label: 重做, send: Control+y} #>=Android 6.0
+  undo: {label: 撤銷, send: Control+z} #>=Android 6.0
+  # rime組合鍵
+  F4: {label: 方案選單, send: F4}
+  BackToPreviousSyllable: {label: 刪音節, send: Control+BackSpace}
+  CommitRawInput: {label: 編碼, send: Control+Return}
+  CommitScriptText: {label: 編碼, send: Shift+Return}
+  CommitComment: {label: 編碼, send: Control+Shift+Return}
+  DeleteCandidate: {label: 刪詞, send: Control+Delete}
+  # rime狀態
+  Mode_switch: {toggle: ascii_mode, send: Mode_switch, states: [ 中文, 西文 ]}
+  Zenkaku_Hankaku: {toggle: full_shape, send: Mode_switch, states: [ 半角, 全角 ]}
+  Henkan: {toggle: simplification, send: Mode_switch, states: [ 漢字, 汉字 ]}
+  Charset_switch: {toggle: extended_charset, send: Mode_switch, states: [ 常用, 增廣 ]}
+  Punct_switch: {toggle: ascii_punct, send: Mode_switch, states: [ 。，, ．， ]}
+  # trime設定
+  IME_switch: {label: 🌐, send: LANGUAGE_SWITCH} #彈出對話框選擇輸入法
+  IME_last: {label: 上一輸入法, send: LANGUAGE_SWITCH, select: .last} #直接切換到上一輸入法
+  IME_next: {label: 下一輸入法, send: LANGUAGE_SWITCH, select: .next} #直接切換到下一輸入法
+  Keyboard_symbols: {label: '?123', send: Eisu_toggle, select: symbols}
+  Keyboard_number: {label: num, send: Eisu_toggle, select: number}
+  Keyboard_letter: {label: 字母, send: Eisu_toggle, select: default}
+  Keyboard_default: {label: 返回, send: Eisu_toggle, select: .default}
+  Keyboard_switch: {label: 鍵盤, send: Eisu_toggle, select: .next}
+  Schema_switch: {label: 下一方案, send: Control+Shift+1}
+  Color_switch: {label: 配色, send: PROG_RED}
+  Help: {label: 說明, send: Help}
+  Info: {label: 關於, send: INFO}
+  Menu: {label: 選單, send: Menu}
+  Menu_no_comment: {label: 　, send: Menu}
+  Settings: {label: 設定, send: SETTINGS}
+  Color_settings: {label: 配色, send: SETTINGS, option: "color"}
+  Theme_settings: {label: 主題, send: SETTINGS, option: "theme"}
+  Schema_settings: {label: 方案, send: SETTINGS, option: "schema"}
+  Candidate_switch: {toggle: _hide_candidate, send: Mode_switch, states: [ 有候選, 無候選]}
+  Comment_switch: {toggle: _hide_comment, send: Mode_switch, states: [ 有註釋, 無註釋]}
+  Hint_switch: {toggle: _hide_key_hint, send: Mode_switch, states: [ 有助記, 無助記]}
+  # trime命令
+  Date: {label: 日期, command: date, option: "yyyy-MM-dd"}
+  ChineseDate: {label: 農曆, command: date, option: "zh_CN@calendar=chinese"} #農曆等日期(>=Android 7.0)：date 語言@calendar=曆法 格式。具體參見https://developer.android.com/reference/android/icu/util/Calendar.html
+  Time: {label: 時間, command: date, option: "HH:mm:ss"} #時間： date 格式
+  TrimeApp: {label: 同文, command: run, option: "com.osfans.trime"} #運行程序: run 包名
+  TrimeCmp: {label: 同文組件, command: run, option: "com.osfans.trime/.Pref"} #運行程序指定組件: run 包名/組件名
+  Homepage: {label: 同文主頁, command: run, option: "https://github.com/osfans/trime"} #查看網頁: run 網址
+  CommitHomepage: {label: 同文網址, commit: https://github.com/osfans/trime} #直接上屏
+  Wiki: {label: 維基, command: run, option: "https://zh.wikipedia.org/wiki/%s"} #搜索網頁: %s或者%1$s爲當前字符
+  Google: {label: 谷歌, command: run, option: "https://www.google.com/search?q=%s"} #搜索網頁: %s或者%1$s爲當前字符
+  MoeDict: {label: 萌典, command: run, option: "https://www.moedict.tw/%3$s"} #搜索網頁: %3$s爲光標前字符
+  Baidu: {label: 百度搜索, command: run, option: "https://www.baidu.com/s?wd=%4$s"} #搜索網頁: %4s爲光標前所有字符
+  Zdic: {label: 漢典, command: run, option: "http://www.zdic.net/sousuo/?q=%1$s"} #搜索網頁: %s或者%1$s爲當前字符
+  Zdic2: {label: 漢典, command: run, option: "http://www.zdic.net/sousuo/?q=%2$s"} #搜索網頁: %2$s爲當前輸入的編碼
+  WebSearch: {label: 搜索網頁, command: web_search, option: "%4$s"} #搜索，其他view、dial、edit、search等intent，參考安卓的intent文檔：https://developer.android.com/reference/android/content/Intent.html
+  Search: {label: 搜索, command: search, option: "%1$s"} #搜索短信、字典等
+  Share: {label: 分享, command: send, option: "%s"} #分享指定文本: %s或者%1$s爲當前字符
+  Deploy: {label: 部署, command: broadcast, option: "com.osfans.trime.deploy"}
+  Sync: {label: 同步, command: broadcast, option: "com.osfans.trime.sync"}
+
+preset_keyboards:
+  default:
+    name: 預設40鍵
+    author: "osfans <waxaca@163.com>"
+    ascii_mode: 0
+    width: 10
+    height: 30
+    lock: true #切換程序時記憶鍵盤
+    keys:
+    - {click: '1', long_click: '!', shadow: 'true'}
+    - {click: '2', long_click: '@', shadow: 'true'}
+    - {click: '3', long_click: '#', shadow: 'true'}
+    - {click: '4', long_click: '$', shadow: 'true'}
+    - {click: '5', long_click: '%', shadow: 'true'}
+    - {click: '6', long_click: '^', shadow: 'true'}
+    - {click: '7', long_click: '&', shadow: 'true'}
+    - {click: '8', long_click: '*', shadow: 'true'}
+    - {click: '9', long_click: '(', shadow: 'true'}
+    - {click: '0', long_click: ')', shadow: 'true'}
+    - {click: 'q', long_click: '_', shadow: 'true'}
+    - {click: 'w', long_click: '-', shadow: 'true'}
+    - {click: 'e', long_click: '+', shadow: 'true'}
+    - {click: 'r', long_click: '=', shadow: 'true'}
+    - {click: 't', long_click: '|', shadow: 'true'}
+    - {click: 'y', long_click: '\', shadow: 'true'}
+    - {click: 'u', long_click: '[', shadow: 'true'}
+    - {click: 'i', long_click: ']', shadow: 'true'}
+    - {click: 'o', long_click: '{', shadow: 'true'}
+    - {click: 'p', long_click: '}', shadow: 'true'}
+    - {click: 'a', long_click: select_all, shadow: 'true'}
+    - {click: 's', long_click: Home, shadow: 'true'}
+    - {click: 'd', long_click: End, shadow: 'true'}
+    - {click: 'f', long_click: Page_Up, shadow: 'true'}
+    - {click: 'g', long_click: Page_Down, shadow: 'true'}
+    - {click: 'h', long_click: Left, shadow: 'true'}
+    - {click: 'j', long_click: Down, shadow: 'true'}
+    - {click: 'k', long_click: Up, shadow: 'true'}
+    - {click: 'l', long_click: Right, shadow: 'true'}
+    - {click: ';', long_click: ':', shadow: 'true'}
+    - {click: 'z', long_click: '`', shadow: 'true'}
+    - {click: 'x', long_click: cut, shadow: 'true'}
+    - {click: 'c', long_click: copy, shadow: 'true'}
+    - {click: 'v', long_click: paste, shadow: 'true'}
+    - {click: 'b', long_click: '~', shadow: 'true'}
+    - {click: 'n', long_click: Insert, shadow: 'true'}
+    - {click: 'm', long_click: Delete, shadow: 'true'}
+    - {click: ',', long_click: '<', shadow: 'true'}
+    - {click: '.', long_click: '>', shadow: 'true'}
+    - {click: '/', long_click: '?', shadow: 'true'}
+    - {draw_icon: 'shift_dark', click: Shift_L, shadow: 'true'}
+    - {key_back_color: 0x313c41, click: Keyboard_symbols, long_click: Keyboard_number, shadow: 'true'}
+    - {click: Mode_switch, long_click: Menu, shadow: 'true'}
+    - {click: space, width: 30, key_text_color: 0x969ea1, shadow: 'true'}
+    - {click: "'", long_click: '"', shadow: 'true'}
+    - {width: 15, draw_icon: 'delete_material_dark', click: BackSpace, key_back_color: 0x313c41, shadow: 'true'}
+    - {draw_icon: 'enter', click: Return, width: 15, key_back_color: 0x70b3ab, key_text_color: 0xfdfffe, shadow: 'true'}
+  letter:
+    __include: /preset_keyboards/default
+    ascii_mode: 1
+    lock: false
+  qwerty0:
+    name: 預設36鍵
+    author: "osfans <waxaca@163.com>"
+    ascii_mode: 0
+    width: 10
+    height: 44
+    label_transform: uppercase #uppercase|none 中文模式下的字母標籤自動大寫
+    lock: true
+    keys:
+    - {click: '1', long_click: '!', shadow: 'true'}
+    - {click: '2', long_click: '@', shadow: 'true'}
+    - {click: '3', long_click: '#', shadow: 'true'}
+    - {click: '4', long_click: '$', shadow: 'true'}
+    - {click: '5', long_click: '%', shadow: 'true'}
+    - {click: '6', long_click: '^', shadow: 'true'}
+    - {click: '7', long_click: '&', shadow: 'true'}
+    - {click: '8', long_click: '*', shadow: 'true'}
+    - {click: '9', long_click: '(', shadow: 'true'}
+    - {click: '0', long_click: ')', shadow: 'true'}
+    - {click: 'q', long_click: '_', shadow: 'true'}
+    - {click: 'w', long_click: '-', shadow: 'true'}
+    - {click: 'e', long_click: '+', shadow: 'true'}
+    - {click: 'r', long_click: '=', shadow: 'true'}
+    - {click: 't', long_click: '|', shadow: 'true'}
+    - {click: 'y', long_click: '\', shadow: 'true'}
+    - {click: 'u', long_click: '[', shadow: 'true'}
+    - {click: 'i', long_click: ']', shadow: 'true'}
+    - {click: 'o', long_click: '{', shadow: 'true'}
+    - {click: 'p', long_click: '}', shadow: 'true'}
+    - {width: 5}
+    - {click: 'a', long_click: select_all, shadow: 'true'}
+    - {click: 's', long_click: Home, shadow: 'true'}
+    - {click: 'd', long_click: End, shadow: 'true'}
+    - {click: 'f', long_click: Page_Up, shadow: 'true'}
+    - {click: 'g', long_click: Page_Down, shadow: 'true'}
+    - {click: 'h', long_click: Left, shadow: 'true'}
+    - {click: 'j', long_click: Down, shadow: 'true'}
+    - {click: 'k', long_click: ':', shadow: 'true'}
+    - {click: 'l', long_click: ';', shadow: 'true'}
+    - {width: 5}
+    - {draw_icon: 'shift_dark', click: Shift_L, has_menu: "'", width: 15, shadow: 'true'}
+    - {click: 'z', long_click: '`', shadow: 'true'}
+    - {click: 'x', long_click: cut, shadow: 'true'}
+    - {click: 'c', long_click: copy, shadow: 'true'}
+    - {click: 'v', long_click: paste, shadow: 'true'}
+    - {click: 'b', long_click: '~', shadow: 'true'}
+    - {click: 'n', long_click: '"', shadow: 'true'}
+    - {click: 'm', long_click: "MoeDict", shadow: 'true'}
+    - {width: 15, draw_icon: 'delete_material_dark', click: BackSpace, key_back_color: 0x313c41, shadow: 'true'}
+    - {click: Mode_switch, long_click: Menu, width: 15, shadow: 'true'}
+    - {key_back_color: 0x313c41, click: Keyboard_symbols, long_click: Keyboard_number, shadow: 'true'}
+    - {click: ',', long_click: '<', shadow: 'true'}
+    - {click: space, width: 30, key_text_color: 0x969ea1, shadow: 'true'}
+    - {click: '.', long_click: '>', shadow: 'true'}
+    - {click: '/', long_click: '?', shadow: 'true'}
+    - {draw_icon: 'enter', click: Return, width: 15, key_back_color: 0x70b3ab, key_text_color: 0xfdfffe, shadow: 'true'}
+  qwerty_:
+    name: 預設30鍵
+    author: "osfans <waxaca@163.com>"
+    ascii_mode: 0
+    width: 10
+    height: 55
+    lock: true
+    keys:
+    - {click: 'q', long_click: '!', swipe_up: 1, shadow: 'true'}
+    - {click: 'w', long_click: '@', swipe_up: 2, shadow: 'true'}
+    - {click: 'e', long_click: '#', swipe_up: 3, shadow: 'true'}
+    - {click: 'r', long_click: '$', swipe_up: 4, shadow: 'true'}
+    - {click: 't', long_click: '%', swipe_up: 5, shadow: 'true'}
+    - {click: 'y', long_click: '^', swipe_up: 6, shadow: 'true'}
+    - {click: 'u', long_click: '&', swipe_up: 7, shadow: 'true'}
+    - {click: 'i', long_click: '*', swipe_up: 8, shadow: 'true'}
+    - {click: 'o', long_click: '(', swipe_up: 9, shadow: 'true'}
+    - {click: 'p', long_click: ')', swipe_up: 0, shadow: 'true'}
+    - {click: 'a', long_click: select_all, swipe_left: Left, swipe_right: Right, swipe_up: Up, swipe_down: Down, shadow: 'true'}
+    - {click: 's', long_click: '~', swipe_left: Home, swipe_right: End, swipe_up: Page_Up, swipe_down: Page_Down, shadow: 'true'}
+    - {click: 'd', long_click: '-', swipe_down: '_', shadow: 'true'}
+    - {click: 'f', long_click: '+', swipe_down: '=', shadow: 'true'}
+    - {click: 'g', long_click: '\', swipe_down: '|', shadow: 'true'}
+    - {click: 'h', long_click: '[]{Left}', swipe_left: '[', swipe_right: ']', shadow: 'true'}
+    - {click: 'j', long_click: '{}{Left}', swipe_left: '{', swipe_right: '}', shadow: 'true'}
+    - {click: 'k', long_click: '"', shadow: 'true'}
+    - {click: 'l', long_click: "'", shadow: 'true'}
+    - {click: ';', long_click: ':', shadow: 'true'}
+    - {click: 'z', long_click: '`', shadow: 'true'}
+    - {click: 'x', long_click: cut, shadow: 'true'}
+    - {click: 'c', long_click: copy, shadow: 'true'}
+    - {click: 'v', long_click: paste, shadow: 'true'}
+    - {click: 'b', long_click: Time, swipe_up: Date, shadow: 'true'}
+    - {click: 'n', long_click: Insert, shadow: 'true'}
+    - {click: 'm', long_click: Delete, shadow: 'true'}
+    - {click: ',', long_click: '<', shadow: 'true'}
+    - {click: '.', long_click: '>', shadow: 'true'}
+    - {click: '/', long_click: '?', shadow: 'true'}
+    - {draw_icon: 'shift_dark', click: Shift_L, shadow: 'true'}
+    - {key_back_color: 0x313c41, click: Keyboard_symbols, long_click: Keyboard_number, shadow: 'true'}
+    - {click: Mode_switch, long_click: Menu, shadow: 'true'}
+    - {click: space, width: 40, key_text_color: 0x969ea1, shadow: 'true'}
+    - {width: 15, draw_icon: 'delete_material_dark', click: BackSpace, key_back_color: 0x313c41, shadow: 'true'}
+    - {draw_icon: 'enter', click: Return, width: 15, key_back_color: 0x70b3ab, key_text_color: 0xfdfffe, shadow: 'true'}
+  qwerty:
+    name: 預設26鍵
+    author: "osfans <waxaca@163.com>"
+    ascii_mode: 0
+    columns: 10 #鍵盤列數，超過則自動換行，默認30列
+    width: 10
+    height: 55
+    lock: true
+    key_symbol_offset_x: 0
+    key_symbol_offset_y: 0
+    key_text_offset_x: 0
+    key_text_offset_y: 0
+    key_hint_offset_x: 0
+    key_hint_offset_y: 0
+    key_press_offset_x: 2
+    key_press_offset_y: 2
+    keys:
+    - {click: 'q', long_click: '!', swipe_up: 1, shadow: 'true'}
+    - {click: 'w', long_click: '@', swipe_up: 2, shadow: 'true'}
+    - {click: 'e', long_click: '#', swipe_up: 3, shadow: 'true'}
+    - {click: 'r', long_click: '$', swipe_up: 4, shadow: 'true'}
+    - {click: 't', long_click: '%', swipe_up: 5, shadow: 'true'}
+    - {click: 'y', long_click: '^', swipe_up: 6, shadow: 'true'}
+    - {click: 'u', long_click: '&', swipe_up: 7, shadow: 'true'}
+    - {click: 'i', long_click: '*', swipe_up: 8, shadow: 'true'}
+    - {click: 'o', long_click: '(){Left}', swipe_up: 9, shadow: 'true'}
+    - {click: 'p', long_click: 'Hide', swipe_up: 0, shadow: 'true'}
+    - {width: 5}
+    - {click: 'a', long_click: select_all, swipe_left: Left, swipe_right: Right, swipe_up: Up, swipe_down: Down, shadow: 'true'}
+    - {click: 's', long_click: '~', swipe_left: Home, swipe_right: End, swipe_up: Page_Up, swipe_down: Page_Down, shadow: 'true'}
+    - {click: 'd', long_click: '-', swipe_down: '_', shadow: 'true'}
+    - {click: 'f', long_click: '+', swipe_down: '=', shadow: 'true'}
+    - {click: 'g', long_click: '\', swipe_down: '|', shadow: 'true'}
+    - {click: 'h', long_click: '[]{Left}', swipe_left: '[', swipe_right: ']', shadow: 'true'}
+    - {click: 'j', long_click: '{}{Left}', swipe_left: '{', swipe_right: '}', shadow: 'true'}
+    - {click: 'k', long_click: ':', shadow: 'true'}
+    - {click: 'l', long_click: ';', shadow: 'true'}
+    - {width: 5}
+    - {draw_icon: 'shift_dark', click: Shift_L, send_bindings: false, width: 15, shadow: 'true'}
+    - {click: 'z', long_click: '`', shadow: 'true'}
+    - {click: 'x', long_click: cut, shadow: 'true'}
+    - {click: 'c', long_click: copy, shadow: 'true'}
+    - {click: 'v', long_click: paste, shadow: 'true'}
+    - {click: 'b', long_click: Time, swipe_up: Date, shadow: 'true'}
+    - {click: 'n', long_click: '"', shadow: 'true'}
+    - {click: 'm', long_click: "'", shadow: 'true'}
+    - {swipe_left: Escape, width: 15, draw_icon: 'delete_material_dark', click: BackSpace, key_back_color: 0x313c41, shadow: 'true'}
+    - {click: Mode_switch, long_click: Menu, width: 15, shadow: 'true'}
+    - {key_back_color: 0x313c41, click: Keyboard_symbols, long_click: Keyboard_number, shadow: 'true'}
+    - {click: ',', long_click: '<', shadow: 'true'}
+    - {click: space, width: 30, key_text_color: 0x969ea1, shadow: 'true'}
+    - {click: '.', long_click: '>', shadow: 'true'}
+    - {click: '/', long_click: '?', shadow: 'true'}
+    - {draw_icon: 'enter', click: Return, width: 15, key_back_color: 0x70b3ab, key_text_color: 0xfdfffe, shadow: 'true'}
+  number:
+    name: 預設數字
+    author: "osfans <waxaca@163.com>"
+    width: 20
+    height: 44
+    keys:
+    - {click: '+', shadow: 'true'}
+    - {click: '1', shadow: 'true'}
+    - {click: '2', shadow: 'true'}
+    - {click: '3', shadow: 'true'}
+    - {click: '#', shadow: 'true'}
+    - {click: '-', shadow: 'true'}
+    - {click: '4', shadow: 'true'}
+    - {click: '5', shadow: 'true'}
+    - {click: '6', shadow: 'true'}
+    - {click: '%', shadow: 'true'}
+    - {click: '*', shadow: 'true'}
+    - {click: '7', shadow: 'true'}
+    - {click: '8', shadow: 'true'}
+    - {click: '9', shadow: 'true'}
+    - {click: ':', shadow: 'true'}
+    - {click: '/', shadow: 'true'}
+    - {click: '±', shadow: 'true'}
+    - {click: '0', shadow: 'true'}
+    - {click: '.', shadow: 'true'}
+    - {click: ',', shadow: 'true'}
+    - {click: '=', shadow: 'true'}
+    - {click: Keyboard_default, long_click: Keyboard_symbols, shadow: 'true'}
+    - {click: space, key_text_color: 0x969ea1, shadow: 'true'}
+    - {draw_icon: 'delete_material_dark', click: BackSpace, key_back_color: 0x313c41, shadow: 'true'}
+    - {draw_icon: 'enter', click: Return, key_back_color: 0x70b3ab, key_text_color: 0xfdfffe, shadow: 'true'}
+  symbols:
+    name: 符號
+    author: "天真可愛的滿滿"
+    ascii_mode: 1
+    width: 10
+    height: 44
+    keys:
+    - {click: '1', shadow: 'true'}
+    - {click: '2', shadow: 'true'}
+    - {click: '3', shadow: 'true'}
+    - {click: '4', shadow: 'true'}
+    - {click: '5', shadow: 'true'}
+    - {click: '6', shadow: 'true'}
+    - {click: '7', shadow: 'true'}
+    - {click: '8', shadow: 'true'}
+    - {click: '9', shadow: 'true'}
+    - {click: '0', shadow: 'true'}
+    - {click: '~',long_click: '`', shadow: 'true'}
+    - {click: '!', shadow: 'true'}
+    - {click: '@', shadow: 'true'}
+    - {click: '#', shadow: 'true'}
+    - {click: '$', shadow: 'true'}
+    - {click: '￥', shadow: 'true'}
+    - {click: '%', shadow: 'true'}
+    - {click: '^', shadow: 'true'}
+    - {click: '&', shadow: 'true'}
+    - {click: '*', shadow: 'true'}
+    - {click: '(', long_click: '{', shadow: 'true'}
+    - {click: ')', long_click: '}', shadow: 'true'}
+    - {click: '[', long_click: '【', shadow: 'true'}
+    - {click: ']', long_click: '】', shadow: 'true'}
+    - {click: '「', long_click: '『', shadow: 'true'}
+    - {click: '」', long_click: '』', shadow: 'true'}
+    - {click: '、', ascii: '\', long_click: '|', shadow: 'true'}
+    - {click: '/', long_click: '√', shadow: 'true'}
+    - {click: ':', shadow: 'true'}
+    - {click: ';', shadow: 'true'}
+    - {click: '+', shadow: 'true'}
+    - {click: '-', long_click: '_', shadow: 'true'}
+    - {click: '=', shadow: 'true'}
+    - {click: '〈', long_click: '《', ascii: '<', shadow: 'true'}
+    - {click: '〉', long_click: '》', ascii: '>', shadow: 'true'}
+    - {click: '“', ascii: '"', long_click: '‘', shadow: 'true'}
+    - {click: '”', ascii: "'", long_click: '’', shadow: 'true'}
+    - {click: '，', ascii: ',', shadow: 'true'}
+    - {click: '？', ascii: '?', shadow: 'true'}
+    - {long_click: Escape, draw_icon: 'delete_material_dark', click: BackSpace, key_back_color: 0x313c41, shadow: 'true'}
+    - {click: Keyboard_default, long_click: Menu, width: 15, shadow: 'true'}
+    - {key_back_color: 0x313c41, click: Keyboard_number, long_click: Color_switch, shadow: 'true'}
+    - {click: space, width: 40, key_text_color: 0x969ea1, shadow: 'true'}
+    - {click: '。', ascii: '.', shadow: 'true'}
+    - {click: Hide, long_click: Delete, shadow: 'true'}
+    - {draw_icon: 'enter', long_click: select_all, click: Return, width: 15, key_back_color: 0x70b3ab, key_text_color: 0xfdfffe, shadow: 'true'}
+  bopomofo:
+    name: 註音鍵盤
+    author: "皛筱晓小笨鱼"
+    ascii_mode: 0
+    ascii_keyboard: letter
+    width: 10
+    height: 44
+    keys:
+    - {label: 'ㄅ', long_click: '!', click: '1', shadow: 'true'}
+    - {label: 'ㄉ', long_click: '@', click: '2', shadow: 'true'}
+    - {label: 'ˇ', long_click: '#', click: '3', shadow: 'true'}
+    - {label: 'ˋ', long_click: '$', click: '4', shadow: 'true'}
+    - {label: 'ㄓ', long_click: '%', click: '5', shadow: 'true'}
+    - {label: 'ˊ', long_click: '^', click: '6', shadow: 'true'}
+    - {label: '˙', long_click: '&', click: '7', shadow: 'true'}
+    - {label: 'ㄚ', long_click: '*', click: '8', shadow: 'true'}
+    - {label: 'ㄞ', long_click: '(', click: '9', shadow: 'true'}
+    - {label: 'ㄢ', long_click: ')', click: '0', shadow: 'true'}
+    - {label: 'ㄆ', long_click: '_', click: q, shadow: 'true'}
+    - {label: 'ㄊ', long_click: '-', click: w, shadow: 'true'}
+    - {label: 'ㄍ', long_click: '+', click: e, shadow: 'true'}
+    - {label: 'ㄐ', long_click: '=', click: r, shadow: 'true'}
+    - {label: 'ㄔ', long_click: '|', click: t, shadow: 'true'}
+    - {label: 'ㄗ', long_click: '\', click: y, shadow: 'true'}
+    - {label: 'ㄧ', long_click: '[', click: u, shadow: 'true'}
+    - {label: 'ㄛ', long_click: ']', click: i, shadow: 'true'}
+    - {label: 'ㄟ', long_click: '{', click: o, shadow: 'true'}
+    - {label: 'ㄣ', long_click: '}', click: p, shadow: 'true'}
+    - {label: 'ㄇ', long_click: '`', click: a, shadow: 'true'}
+    - {label: 'ㄋ', long_click: Up, click: s, shadow: 'true'}
+    - {label: 'ㄎ', long_click: '~', click: d, shadow: 'true'}
+    - {label: 'ㄑ', long_click: '!', click: f, shadow: 'true'}
+    - {label: 'ㄕ', click: g, long_click: select_all, shadow: 'true'}
+    - {label: 'ㄘ', click: h, long_click: Home, shadow: 'true'}
+    - {label: 'ㄨ', click: j, long_click: End, shadow: 'true'}
+    - {label: 'ㄜ', click: k, long_click: Page_Up, shadow: 'true'}
+    - {label: 'ㄠ', click: l, long_click: Page_Down, shadow: 'true'}
+    - {label: 'ㄤ', long_click: ':', click: ';', shadow: 'true'}
+    - {label: 'ㄈ', click: z, long_click: Left, shadow: 'true'}
+    - {label: 'ㄌ', click: x, long_click: Down, shadow: 'true'}
+    - {label: 'ㄏ', click: c, long_click: Right, shadow: 'true'}
+    - {label: 'ㄒ', click: v, long_click: cut, shadow: 'true'}
+    - {label: 'ㄖ', click: b, long_click: copy, shadow: 'true'}
+    - {label: 'ㄙ', click: n, long_click: paste, shadow: 'true'}
+    - {label: 'ㄩ', click: m, long_click: Insert, shadow: 'true'}
+    - {label: 'ㄝ', long_click: '<', click: ',', shadow: 'true'}
+    - {label: 'ㄡ', long_click: '>', click: '.', shadow: 'true'}
+    - {label: 'ㄥ', long_click: '?', click: '/', shadow: 'true'}
+    - {draw_icon: 'shift_dark', click: Shift_L, send_bindings: false, shadow: 'true'}
+    - {click: Mode_switch, long_click: Menu, shadow: 'true'}
+    - {key_back_color: 0x313c41, click: Keyboard_symbols, long_click: Keyboard_number, shadow: 'true'}
+    - {click: space, label: '注音', width: 30, key_text_color: 0x969ea1, shadow: 'true'}
+    - {label: 'ㄦ', long_click: '"', click: "-", shadow: 'true'}
+    - {long_click: '。', click: '，', shadow: 'true'}
+    - {draw_icon: 'delete_material_dark', click: BackSpace, width: 10, key_back_color: 0x313c41, shadow: 'true'}
+    - {draw_icon: 'enter', click: Return, width: 10, key_back_color: 0x70b3ab, shadow: 'true'}
+  cangjie5:
+    name: 倉頡五代鍵盤
+    author: "皛筱晓小笨鱼"
+    ascii_mode: 0
+    width: 10
+    height: 46
+    keys:
+    - {label: '手', long_click: '#', click: q, shadow: 'true'}
+    - {label: '田', long_click: 1, click: w, shadow: 'true'}
+    - {label: '水', long_click: 2, click: e, shadow: 'true'}
+    - {label: '口', long_click: 3, click: r, shadow: 'true'}
+    - {label: '廿', long_click: '(', click: t, shadow: 'true'}
+    - {label: '卜', long_click: ')', click: y, shadow: 'true'}
+    - {label: '山', long_click: '_', click: u, shadow: 'true'}
+    - {label: '戈', long_click: '-', click: i, shadow: 'true'}
+    - {label: '人', long_click: '+', click: o, shadow: 'true'}
+    - {label: '心', long_click: '@', click: p, shadow: 'true'}
+    - {width: 5}
+    - {label: '日', long_click: '*', click: a, shadow: 'true'}
+    - {label: '尸', long_click: 4, click: s, shadow: 'true'}
+    - {label: '木', long_click: 5, click: d, shadow: 'true'}
+    - {label: '火', long_click: 6, click: f, shadow: 'true'}
+    - {label: '土', long_click: '/', click: g, shadow: 'true'}
+    - {label: '竹', long_click: ':', click: h, shadow: 'true'}
+    - {label: '十', long_click: ';', click: j, shadow: 'true'}
+    - {label: '大', long_click: "'", click: k, shadow: 'true'}
+    - {label: '中', long_click: '"', click: l, shadow: 'true'}
+    - {width: 5}
+    - {draw_icon: 'shift_dark', click: Shift_L, send_bindings: false, width: 15, shadow: 'true'}
+    - {label: '符', click: z, long_click: 7, shadow: 'true'}
+    - {label: '難', click: x, long_click: 8, shadow: 'true'}
+    - {label: '金', click: c, long_click: 9, shadow: 'true'}
+    - {label: '女', long_click: '?', click: v, shadow: 'true'}
+    - {label: '月', long_click: '!', click: b, shadow: 'true'}
+    - {label: '弓', long_click: ',', click: n, shadow: 'true'}
+    - {label: '一', long_click: '.', click: m, shadow: 'true'}
+    - {draw_icon: 'delete_material_dark', click: BackSpace, width: 15, key_back_color: 0x313c41, shadow: 'true'}
+    - {click: Keyboard_symbols, long_click: Keyboard_number, width: 13, height: 60, key_back_color: 0x313c41, shadow: 'true'}
+    - {long_click: select_all, click: copy, width: 12, height: 60, key_back_color: 0x313c41, shadow: 'true'}
+    - {click: 0, long_click: '<', height: 60, key_back_color: 0x313c41, shadow: 'true'}
+    - {click: space, long_click: Menu_no_comment, width: 40, height: 60, label: '倉頡', key_text_color: 0x969ea1, shadow: 'true'}
+    - {long_click: '>', click: '$', height: 60, key_back_color: 0x313c41, shadow: 'true'}
+    - {draw_icon: 'enter', click: Return, long_click: paste_no_comment, width: 15, height: 60, key_back_color: 0x70b3ab, key_text_color: 0xfdfffe, shadow: 'true'}
+  cangjie6:
+    ascii_mode: 0
+    name: 倉頡六代
+    author: 吴琛11
+    height: 44
+    width: 9.7
+    keys:
+    - {width: 3}
+    - {click: 1, long_click: "!", shadow: 'true'}
+    - {click: 2, long_click: "@", shadow: 'true'}
+    - {click: 3, long_click: "#", shadow: 'true'}
+    - {click: 4, long_click: "$", shadow: 'true'}
+    - {click: 5, long_click: "%", shadow: 'true'}
+    - {click: 6, long_click: "^", shadow: 'true'}
+    - {click: 7, long_click: "&", shadow: 'true'}
+    - {click: 8, long_click: "*", shadow: 'true'}
+    - {click: 9, long_click: "(", shadow: 'true'}
+    - {click: 0, long_click: ")", shadow: 'true'}
+    - {width: 3}
+    - {click: q, label: "手", long_click: _, shadow: 'true'}
+    - {click: w, label: "田", long_click: "-", shadow: 'true'}
+    - {click: e, label: "水", long_click: "+", shadow: 'true'}
+    - {click: r, label: "口", long_click: "=", shadow: 'true'}
+    - {click: t, label: "廿", long_click: "|", shadow: 'true'}
+    - {click: y, label: "卜", long_click: "\\", shadow: 'true'}
+    - {click: u, label: "山", long_click: "[", shadow: 'true'}
+    - {click: i, label: "戈", long_click: "]", shadow: 'true'}
+    - {click: o, label: "人", long_click: "{", shadow: 'true'}
+    - {click: p, label: "心", long_click: "}", shadow: 'true'}
+    - {width: 7}
+    - {click: a, label: "日", long_click: select_all, shadow: 'true'}
+    - {click: s, label: "尸", long_click: Home, shadow: 'true'}
+    - {click: d, label: "木", long_click: End, shadow: 'true'}
+    - {click: f, label: "火", long_click: Page_Up, shadow: 'true'}
+    - {click: g, label: "土", long_click: Page_Down, shadow: 'true'}
+    - {click: h, label: "的", long_click: Left, shadow: 'true'}
+    - {click: j, label: "十", long_click: Down, shadow: 'true'}
+    - {click: k, label: "大", long_click: Up, shadow: 'true'}
+    - {click: l, label: "中", long_click: Right, shadow: 'true'}
+    - {width: 6}
+    - {width: 3}
+    - {draw_icon: 'shift_dark', click: Shift_L, width: 13.8, shadow: 'true'}
+    - {click: z, label: "片", long_click: "`", shadow: 'true'}
+    - {click: x, label: "止", long_click: cut, shadow: 'true'}
+    - {click: c, label: "金", long_click: copy, shadow: 'true'}
+    - {click: v, label: "女", long_click: paste, shadow: 'true'}
+    - {click: b, label: "月", long_click: "~", shadow: 'true'}
+    - {click: n, label: "弓", long_click: '"', shadow: 'true'}
+    - {click: m, label: "一", long_click: Delete, shadow: 'true'}
+    - {draw_icon: 'delete_material_dark', width: 13.8, click: BackSpace, key_back_color: 0x313c41, shadow: 'true'}
+    - {width: 2}
+    - {width: 3}
+    - {click: Menu, long_click: Color_switch, width: 14, shadow: 'true'}
+    - {key_back_color: 0x313c41, click: Keyboard_symbols, long_click: Keyboard_number, width: 11.5, shadow: 'true'}
+    - {click: ",", long_click: ., shadow: 'true'}
+    - {click: space, width: 25, key_text_color: 0x969ea1, shadow: 'true'}
+    - {click: "'", long_click: "?", shadow: 'true'}
+    - {draw_icon: 'enter', click: Return, width: 25.5, key_back_color: 0x70b3ab, key_text_color: 0xfdfffe, shadow: 'true'}
+  chongkit:
+    name: 倉頡常用字
+    author: "無敵樟"
+    ascii_mode: 0
+    width: 10
+    height: 30
+    keys:
+    - {label: '手', long_click: '#', click: q, shadow: 'true'}
+    - {label: '田', long_click: 1, click: w, shadow: 'true'}
+    - {label: '水', long_click: 2, click: e, shadow: 'true'}
+    - {label: '口', long_click: 3, click: r, shadow: 'true'}
+    - {label: '廿', long_click: '(', click: t, shadow: 'true'}
+    - {label: '卜', long_click: ')', click: y, shadow: 'true'}
+    - {label: '山', long_click: '_', click: u, shadow: 'true'}
+    - {label: '戈', long_click: '-', click: i, shadow: 'true'}
+    - {label: '人', long_click: '+', click: o, shadow: 'true'}
+    - {label: '心', long_click: '@', click: p, shadow: 'true'}
+    - {width: 5}
+    - {label: '日', long_click: '*', click: a, shadow: 'true'}
+    - {label: '尸', long_click: 4, click: s, shadow: 'true'}
+    - {label: '木', long_click: 5, click: d, shadow: 'true'}
+    - {label: '火', long_click: 6, click: f, shadow: 'true'}
+    - {label: '土', long_click: '/', click: g, shadow: 'true'}
+    - {label: '竹', long_click: ':', click: h, shadow: 'true'}
+    - {label: '十', long_click: ';', click: j, shadow: 'true'}
+    - {label: '大', long_click: "'", click: k, shadow: 'true'}
+    - {label: '中', long_click: '"', click: l, shadow: 'true'}
+    - {width: 5}
+    - {draw_icon: 'shift_dark', click: Shift_L, send_bindings: false, width: 15, shadow: 'true'}
+    - {label: '符', click: z, long_click: 7, shadow: 'true'}
+    - {label: '難', click: x, long_click: 8, shadow: 'true'}
+    - {label: '金', click: c, long_click: 9, shadow: 'true'}
+    - {label: '女', long_click: '?', click: v, shadow: 'true'}
+    - {label: '月', long_click: '!', click: b, shadow: 'true'}
+    - {label: '弓', long_click: ',', click: n, shadow: 'true'}
+    - {label: '一', long_click: '.', click: m, shadow: 'true'}
+    - {draw_icon: 'delete_material_dark', click: BackSpace, width: 15, key_back_color: 0x313c41, shadow: 'true'}
+    - {click: Keyboard_symbols, long_click: Keyboard_number, width: 13, height: 40, key_back_color: 0x313c41, shadow: 'true'}
+    - {long_click: select_all, click: copy, width: 12, height: 40, key_back_color: 0x313c41, shadow: 'true'}
+    - {click: 0, long_click: '<', height: 40, key_back_color: 0x313c41, shadow: 'true'}
+    - {click: space, long_click: Menu_no_comment, width: 40, height: 40, label: '倉頡', key_text_color: 0x969ea1, shadow: 'true'}
+    - {long_click: '>', click: '$', height: 40, key_back_color: 0x313c41, shadow: 'true'}
+    - {draw_icon: 'enter', click: Return, long_click: paste_no_comment, width: 15, height: 40, key_back_color: 0x70b3ab, key_text_color: 0xfdfffe, shadow: 'true'}
+  scj6:
+    __include: /preset_keyboards/cangjie5
+  stroke:
+    name: 五筆畫鍵盤
+    author: 皛筱晓小笨鱼
+    ascii_mode: 0
+    width: 20
+    height: 75
+    keys:
+    - {click: '?', long_click: '!', shadow: 'true'}
+    - {click: h, label: '一', shadow: 'true'}
+    - {click: s, label: '丨', shadow: 'true'}
+    - {click: p, label: '丿', shadow: 'true'}
+    - {long_click: Escape, draw_icon: 'delete_material_dark', click: BackSpace, key_back_color: 0x313c41, shadow: 'true'}
+    - {click: ';', long_click: ':', shadow: 'true'}
+    - {click: n, label: '丶', shadow: 'true'}
+    - {click: z, label: '乙', shadow: 'true'}
+    - {click: "'", label: '詞組', shadow: 'true'}
+    - {click: ',', long_click: '.', shadow: 'true'}
+    - {click: Hide, width: 10, shadow: 'true'}
+    - {click: '/', long_click: '^', width: 10, shadow: 'true'}
+    - {key_back_color: 0x313c41, click: Keyboard_symbols, long_click: Keyboard_number, width: 10, shadow: 'true'}
+    - {click: space, width: 40, label: '筆畫', key_text_color: 0x969ea1, shadow: 'true'}
+    - {click: Keyboard_letter, long_click: Menu, width: 10, shadow: 'true'}
+    - {draw_icon: 'enter', click: Return, width: 20, key_back_color: 0x70b3ab, key_text_color: 0xfdfffe, shadow: 'true'}
+  terra_pinyin:
+    name: 地球拼音鍵盤
+    author: 默默ㄇㄛˋ
+    ascii_mode: 0
+    width: 10
+    height: 55
+    keys:
+    - {click: 'q', long_click: '_', shadow: 'true'}
+    - {click: 'w', long_click: '-', shadow: 'true'}
+    - {click: 'e', long_click: '+', shadow: 'true'}
+    - {click: 'r', long_click: '=', shadow: 'true'}
+    - {click: 't', long_click: '|', shadow: 'true'}
+    - {click: 'y', long_click: '^', shadow: 'true'}
+    - {click: 'u', long_click: '[', shadow: 'true'}
+    - {click: 'i', long_click: ']', shadow: 'true'}
+    - {click: 'o', long_click: '{', shadow: 'true'}
+    - {click: 'p', long_click: '}', shadow: 'true'}
+    - {click: 'a', long_click: '`', shadow: 'true'}
+    - {click: 's', long_click: Time, swipe_up: Date, shadow: 'true'}
+    - {click: 'd', long_click: '~', shadow: 'true'}
+    - {click: 'f', long_click: '!', shadow: 'true'}
+    - {click: 'g', long_click: '@', shadow: 'true'}
+    - {click: 'h', long_click: '#', shadow: 'true'}
+    - {click: 'j', long_click: '$', shadow: 'true'}
+    - {click: 'k', long_click: '%', shadow: 'true'}
+    - {click: 'l', long_click: '>', shadow: 'true'}
+    - {click: ';', long_click: ':', composing: 'ˉ', send_bindings: false, shadow: 'true'}  #一聲
+    - {click: 'z', long_click: cut, shadow: 'true'}
+    - {click: 'x', long_click: copy, shadow: 'true'}
+    - {click: 'c', long_click: paste, shadow: 'true'}
+    - {click: 'v', long_click: '&', shadow: 'true'}
+    - {click: 'b', long_click: '*', shadow: 'true'}
+    - {click: 'n', long_click: '(', shadow: 'true'}
+    - {click: 'm', long_click: ')', shadow: 'true'}
+    - {click: '/', long_click: '?', composing: 'ˊ', send_bindings: false, shadow: 'true'}  #二聲
+    - {click: ',', long_click: '<', composing: 'ˇ', send_bindings: false, shadow: 'true'}  #三聲
+    - {long_click: Escape, draw_icon: 'delete_material_dark', click: BackSpace, key_back_color: 0x313c41, shadow: 'true'}
+    - {click: Mode_switch, long_click: Menu, shadow: 'true'}
+    - {draw_icon: 'shift_dark', click: Shift_L, shadow: 'true'}
+    - {key_back_color: 0x313c41, click: Keyboard_symbols, long_click: Keyboard_number, shadow: 'true'}
+    - {click: space, width: 40, label: '拼音', key_text_color: 0x969ea1, shadow: 'true'}
+    - {click: ".", long_click: '"', shadow: 'true'}
+    - {click: '\', long_click: '.', composing: 'ˋ', send_bindings: false, shadow: 'true'}  #四聲
+    - {draw_icon: 'enter', click: Return, key_back_color: 0x70b3ab, key_text_color: 0xfdfffe, shadow: 'true'}
