@@ -723,7 +723,7 @@ preset_keyboards:
     - {label: '一', long_click: '.', click: m, shadow: 'true'}
     - {draw_icon: 'delete_material_dark', click: BackSpace, width: 15, key_back_color: 0x313c41, shadow: 'true'}
     - {click: Keyboard_symbols, long_click: Keyboard_number, width: 13, height: 60, key_back_color: 0x313c41, shadow: 'true'}
-    - {draw_icon: 'copy', draw_hint_icon: 'select_all', long_click: select_all, click: copy, width: 12, height: 60, key_back_color: 0x313c41, shadow: 'true'}
+    - {draw_icon: 'copy', draw_hint_icon: 'none', long_click: select_all, click: copy, width: 12, height: 60, key_back_color: 0x313c41, shadow: 'true'}
     - {click: 0, long_click: '<', height: 60, key_back_color: 0x313c41, shadow: 'true'}
     - {click: space, long_click: Menu_no_comment, width: 40, height: 60, label: '倉頡', key_text_color: 0x969ea1, shadow: 'true'}
     - {long_click: '>', click: '$', height: 60, key_back_color: 0x313c41, shadow: 'true'}
@@ -825,8 +825,8 @@ preset_keyboards:
     - {label: '難', click: x, long_click: 7, hint_location: 'top_right', shadow: 'true'}
     - {label: '土', long_click: 8, click: g, hint_location: 'top_right', shadow: 'true'}
     - {label: '女', long_click: 9, click: v, hint_location: 'top_right', shadow: 'true'}
-    - {label: '田', long_click: select_all, click: w, hint_location: 'top_right', draw_hint_icon: 'select_all', shadow: 'true'}
-    - {label: '弓', long_click: copy, click: n, hint_location: 'top_right', draw_hint_icon: 'copy', shadow: 'true'}
+    - {label: '田', long_click: select_all, click: w, hint_location: 'top_right', draw_hint_icon: 'none', shadow: 'true'}
+    - {label: '弓', long_click: copy, click: n, hint_location: 'top_right', draw_hint_icon: 'none', shadow: 'true'}
     - {label: '戈', long_click: ',', click: i, hint_location: 'top_right', shadow: 'true'}
     - {label: '符', click: z, long_click: '.', hint_location: 'top_right', shadow: 'true'}
     - {click: '', key_back_color: 0x273237, width: 5}
