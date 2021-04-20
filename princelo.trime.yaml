@@ -818,8 +818,8 @@ preset_keyboards:
     - {label: '難', click: x, long_click: 7, hint_location: 'top_right', shadow: 'true'}
     - {label: '土', long_click: 8, click: g, hint_location: 'top_right', shadow: 'true'}
     - {label: '女', long_click: 9, click: v, hint_location: 'top_right', shadow: 'true'}
-    - {label: '田', long_click: select_all, click: w, hint_location: 'top_right', draw_hint_icon: 'copy', shadow: 'true'}
-    - {label: '弓', long_click: copy, click: n, hint_location: 'top_right', draw_hint_icon: 'select_all', shadow: 'true'}
+    - {label: '田', long_click: select_all, click: w, hint_location: 'top_right', draw_hint_icon: 'select_all', shadow: 'true'}
+    - {label: '弓', long_click: copy, click: n, hint_location: 'top_right', draw_hint_icon: 'copy', shadow: 'true'}
     - {label: '戈', long_click: ',', click: i, hint_location: 'top_right', shadow: 'true'}
     - {label: '符', click: z, long_click: '.', hint_location: 'top_right', shadow: 'true'}
     - {click: '', key_back_color: 0x273237, width: 5}
