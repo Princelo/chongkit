@@ -1348,7 +1348,6 @@ encoder:
 滾	eycv
 滚	eycv
 游	eyd
-淑	eye
 涼	eyf
 淑	eyfe
 注	eyg
@@ -3696,7 +3695,9 @@ encoder:
 孫	ndf
 孫	ndhvf
 孤	ndhvo
+孜	ndk
 孩	ndo
+孜	ndok
 孟	ndt
 孔	ndu
 孩	ndyvo
@@ -4354,6 +4355,8 @@ encoder:
 惶	phag
 懊	phbk
 恤	phbt
+悸	phd
+悸	phdd
 惶	phg
 勿	phh
 懊	phk
@@ -5019,6 +5022,7 @@ encoder:
 嗔	rjbc
 嗦	rjbf
 喃	rjbj	rjb'j
+嚏	rjbo
 噴	rjc
 味	rjd
 吱	rje
