@@ -798,7 +798,7 @@ preset_keyboards:
     height: 40
     keys:
     - {click: '', key_back_color: 0xebeff2, width: 4}
-    - {draw_icon: 'delete_material_light', click: BackSpace, width: 26, key_back_color: 0xdee2e5, shadow: 'true', shadow_light: 'false', shadow_top_color: '#FAFBFC', shadow_bottom_color: '#DEE2E5'}
+    - {draw_icon: 'delete_material_light', click: BackSpace, width: 26, key_back_color: 0xdee2e5, shadow: 'true', shadow_light: 'true', shadow_top_color: '#FAFBFC', shadow_bottom_color: '#DEE2E5'}
     - {label: '心', long_click: 0, click: p, hint_location: 'top_right', shadow: 'true', shadow_top_color: '#FAFBFC', shadow_bottom_color: '#DEE2E5', shadow_light: 'true'}
     - {label: '火', long_click: '?', click: f, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_top_color: '#FAFBFC', shadow_bottom_color: '#DEE2E5'}
     - {label: '一', long_click: '@', click: m, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_top_color: '#FAFBFC', shadow_bottom_color: '#DEE2E5'}
@@ -834,7 +834,7 @@ preset_keyboards:
     - {click: '', key_back_color: 0xebeff2, width: 5}
     - {click: '', key_back_color: 0xebeff2, width: 4, height: 50}
     - {draw_icon: 'shift_dark', click: Shift_L, height: 50, send_bindings: false, shadow: 'true', shadow_light: 'true', shadow_top_color: '#FAFBFC', shadow_bottom_color: '#DEE2E5'}
-    - {click: Keyboard_symbols, long_click: Keyboard_number, height: 55, key_back_color: 0xdee2e5, shadow: 'true', shadow_light: 'false', shadow_top_color: '#FAFBFC', shadow_bottom_color: '#DEE2E5'}
+    - {click: Keyboard_symbols, long_click: Keyboard_number, height: 55, key_back_color: 0xdee2e5, shadow: 'true', shadow_light: 'true', shadow_top_color: '#FAFBFC', shadow_bottom_color: '#DEE2E5'}
     - {click: space, long_click: Menu_no_comment, width: 39, height: 55, label: '倉頡', key_text_color: 0x969ea1, shadow: 'true', shadow_light: 'true', shadow_top_color: '#FAFBFC', shadow_bottom_color: '#DEE2E5'}
     - {draw_icon: 'enter', click: Return, long_click: paste_no_comment, width: 26, height: 55, key_back_color: 0x70b3ab, key_text_color: 0xfdfffe, shadow: 'true', shadow_light: 'true', shadow_top_color: '#FAFBFC', shadow_bottom_color: '#DEE2E5'}
     - {click: '', key_back_color: 0xebeff2, width: 5}
