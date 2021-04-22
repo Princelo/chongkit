@@ -819,7 +819,7 @@ preset_keyboards:
     - {label: '一', long_click: '.', click: m, shadow: 'true'}
     - {draw_icon: 'delete_material_dark', click: BackSpace, width: 15, key_back_color: 0x313c41, shadow: 'true'}
     - {click: Keyboard_symbols, long_click: Keyboard_number, width: 13, height: 40, key_back_color: 0x313c41, shadow: 'true'}
-    - {long_click: select_all, click: copy, width: 12, height: 40, key_back_color: 0x313c41, shadow: 'true'}
+    - {draw_icon: 'copy', draw_hint_icon: 'none', long_click: select_all, click: copy, width: 12, height: 40, key_back_color: 0x313c41, shadow: 'true'}
     - {click: 0, long_click: '<', height: 40, key_back_color: 0x313c41, shadow: 'true'}
     - {click: space, long_click: Menu_no_comment, width: 40, height: 40, label: '倉頡', key_text_color: 0x969ea1, shadow: 'true'}
     - {long_click: '>', click: '$', height: 40, key_back_color: 0x313c41, shadow: 'true'}
