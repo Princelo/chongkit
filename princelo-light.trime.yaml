@@ -114,7 +114,7 @@ preset_color_schemes:
     name: 預設／default #方案名稱
     author: osfans #作者資訊
     text_color: 0x3a474d
-    back_color: 0xfafbfc
+    back_color: 0xfbfbfb
     border_color: 0xebeff2
     label_color: 0xebeff2
     hilited_text_color: 0x3a474d
@@ -130,7 +130,7 @@ preset_color_schemes:
     name: "無敵樟"
     author: "無敵樟"
     text_color: 0x3a474d
-    back_color: 0xfafbfc
+    back_color: 0xfbfbfb
     border_color: 0xebeff2
     label_color: 0xebeff2
     hilited_text_color: 0x3a474d
@@ -381,7 +381,7 @@ preset_keyboards:
     - {click: space, width: 30, key_text_color: 0x969ea1, shadow: 'true'}
     - {click: "'", long_click: '"', shadow: 'true'}
     - {width: 15, draw_icon: 'delete_material_light', click: BackSpace, key_back_color: 0xdee2e5, shadow: 'true'}
-    - {draw_icon: 'enter', click: Return, width: 15, key_back_color: 0x70b3ab, key_text_color: 0xfdfffe, shadow: 'true'}
+    - {draw_icon: 'enter', click: Return, width: 15, key_back_color: 0x5bb5ab, key_text_color: 0xfdfffe, shadow: 'true'}
     - {click: '', key_back_color: 0xebeff2, width: 100, height: 5}
   letter:
     __include: /preset_keyboards/default
@@ -442,7 +442,7 @@ preset_keyboards:
     - {click: space, width: 30, key_text_color: 0x969ea1, shadow: 'true'}
     - {click: '.', long_click: '>', shadow: 'true'}
     - {click: '/', long_click: '?', shadow: 'true'}
-    - {draw_icon: 'enter', click: Return, width: 15, key_back_color: 0x70b3ab, key_text_color: 0xfdfffe, shadow: 'true'}
+    - {draw_icon: 'enter', click: Return, width: 15, key_back_color: 0x5bb5ab, key_text_color: 0xfdfffe, shadow: 'true'}
     - {click: '', key_back_color: 0xebeff2, width: 100, height: 5}
   qwerty_:
     name: 預設30鍵
@@ -487,7 +487,7 @@ preset_keyboards:
     - {draw_icon: 'globe', click: Menu, shadow: 'true', height: 55}
     - {click: space, width: 40, key_text_color: 0x969ea1, shadow: 'true', height: 55}
     - {width: 15, draw_icon: 'delete_material_light', click: BackSpace, key_back_color: 0xdee2e5, shadow: 'true', height: 55}
-    - {draw_icon: 'enter', click: Return, width: 15, key_back_color: 0x70b3ab, key_text_color: 0xfdfffe, shadow: 'true', height: 55}
+    - {draw_icon: 'enter', click: Return, width: 15, key_back_color: 0x5bb5ab, key_text_color: 0xfdfffe, shadow: 'true', height: 55}
     - {click: '', key_back_color: 0xebeff2, width: 100, height: 5}
   qwerty:
     name: 預設26鍵
@@ -542,7 +542,7 @@ preset_keyboards:
     - {click: space, width: 30, key_text_color: 0x969ea1, shadow: 'true', height: 55}
     - {click: '.', long_click: '>', shadow: 'true', height: 55}
     - {click: '/', long_click: '?', shadow: 'true', height: 55}
-    - {draw_icon: 'enter', click: Return, width: 15, key_back_color: 0x70b3ab, key_text_color: 0xfdfffe, shadow: 'true', height: 55}
+    - {draw_icon: 'enter', click: Return, width: 15, key_back_color: 0x5bb5ab, key_text_color: 0xfdfffe, shadow: 'true', height: 55}
     - {click: '', key_back_color: 0xebeff2, width: 100, height: 5}
   number:
     name: 預設數字
@@ -574,7 +574,7 @@ preset_keyboards:
     - {click: Keyboard_default, long_click: Keyboard_symbols, shadow: 'true'}
     - {click: space, key_text_color: 0x969ea1, shadow: 'true'}
     - {draw_icon: 'delete_material_light', click: BackSpace, key_back_color: 0xdee2e5, shadow: 'true'}
-    - {draw_icon: 'enter', click: Return, key_back_color: 0x70b3ab, key_text_color: 0xfdfffe, shadow: 'true'}
+    - {draw_icon: 'enter', click: Return, key_back_color: 0x5bb5ab, key_text_color: 0xfdfffe, shadow: 'true'}
     - {click: '', key_back_color: 0xebeff2, width: 100, height: 5}
   symbols:
     name: 符號
@@ -628,7 +628,7 @@ preset_keyboards:
     - {click: space, width: 40, key_text_color: 0x969ea1, shadow: 'true'}
     - {click: '。', ascii: '.', shadow: 'true'}
     - {click: Hide, long_click: Delete, shadow: 'true'}
-    - {draw_icon: 'enter', long_click: select_all, click: Return, width: 15, key_back_color: 0x70b3ab, key_text_color: 0xfdfffe, shadow: 'true'}
+    - {draw_icon: 'enter', long_click: select_all, click: Return, width: 15, key_back_color: 0x5bb5ab, key_text_color: 0xfdfffe, shadow: 'true'}
     - {click: '', key_back_color: 0xebeff2, width: 100, height: 5}
   bopomofo:
     name: 註音鍵盤
@@ -685,7 +685,7 @@ preset_keyboards:
     - {label: 'ㄦ', long_click: '"', click: "-", shadow: 'true'}
     - {long_click: '。', click: '，', shadow: 'true'}
     - {draw_icon: 'delete_material_light', click: BackSpace, width: 10, key_back_color: 0xdee2e5, shadow: 'true'}
-    - {draw_icon: 'enter', click: Return, width: 10, key_back_color: 0x70b3ab, shadow: 'true'}
+    - {draw_icon: 'enter', click: Return, width: 10, key_back_color: 0x5bb5ab, shadow: 'true'}
     - {click: '', key_back_color: 0xebeff2, width: 100, height: 5}
   cangjie5:
     name: 倉頡五代鍵盤
@@ -729,7 +729,7 @@ preset_keyboards:
     - {click: 0, long_click: '<', height: 60, key_back_color: 0xdee2e5, shadow: 'true'}
     - {click: space, long_click: Menu_no_comment, width: 40, height: 60, label: '倉頡', key_text_color: 0x969ea1, shadow: 'true'}
     - {long_click: '>', click: '$', height: 60, key_back_color: 0xdee2e5, shadow: 'true'}
-    - {draw_icon: 'enter', click: Return, long_click: paste_no_comment, width: 15, height: 60, key_back_color: 0x70b3ab, key_text_color: 0xfdfffe, shadow: 'true'}
+    - {draw_icon: 'enter', click: Return, long_click: paste_no_comment, width: 15, height: 60, key_back_color: 0x5bb5ab, key_text_color: 0xfdfffe, shadow: 'true'}
     - {click: '', key_back_color: 0xebeff2, width: 100, height: 5}
   cangjie6:
     ascii_mode: 0
@@ -788,7 +788,7 @@ preset_keyboards:
     - {click: ",", long_click: ., shadow: 'true'}
     - {click: space, width: 25, key_text_color: 0x969ea1, shadow: 'true'}
     - {click: "'", long_click: "?", shadow: 'true'}
-    - {draw_icon: 'enter', click: Return, width: 25.5, key_back_color: 0x70b3ab, key_text_color: 0xfdfffe, shadow: 'true'}
+    - {draw_icon: 'enter', click: Return, width: 25.5, key_back_color: 0x5bb5ab, key_text_color: 0xfdfffe, shadow: 'true'}
     - {click: '', key_back_color: 0xebeff2, width: 100, height: 5}
   chongkit:
     name: 倉頡常用字
@@ -798,45 +798,45 @@ preset_keyboards:
     height: 40
     keys:
     - {click: '', key_back_color: 0xebeff2, width: 4}
-    - {draw_icon: 'delete_material_light', click: BackSpace, width: 26, key_back_color: 0xdee2e5, shadow: 'true', shadow_light: 'true', shadow_top_color: '#FAFBFC', shadow_bottom_color: '#DEE2E5'}
-    - {label: '心', long_click: 0, click: p, hint_location: 'top_right', shadow: 'true', shadow_top_color: '#FAFBFC', shadow_bottom_color: '#DEE2E5', shadow_light: 'true'}
-    - {label: '火', long_click: '?', click: f, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_top_color: '#FAFBFC', shadow_bottom_color: '#DEE2E5'}
-    - {label: '一', long_click: '@', click: m, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_top_color: '#FAFBFC', shadow_bottom_color: '#DEE2E5'}
-    - {label: '中', long_click: '"', click: l, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_top_color: '#FAFBFC', shadow_bottom_color: '#DEE2E5'}
-    - {label: '十', long_click: ';', click: j, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_top_color: '#FAFBFC', shadow_bottom_color: '#DEE2E5'}
+    - {draw_icon: 'delete_material_light', click: BackSpace, width: 26, key_back_color: 0xdee2e5, shadow: 'true', shadow_light: 'true', shadow_light_top_color: '#FCFCFC', shadow_light_bottom_color: '#D9D9DB'}
+    - {label: '心', long_click: 0, click: p, hint_location: 'top_right', shadow: 'true', shadow_light_top_color: '#FCFCFC', shadow_light_bottom_color: '#D9D9DB', shadow_light: 'true'}
+    - {label: '火', long_click: '?', click: f, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_light_top_color: '#FCFCFC', shadow_light_bottom_color: '#D9D9DB'}
+    - {label: '一', long_click: '@', click: m, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_light_top_color: '#FCFCFC', shadow_light_bottom_color: '#D9D9DB'}
+    - {label: '中', long_click: '"', click: l, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_light_top_color: '#FCFCFC', shadow_light_bottom_color: '#D9D9DB'}
+    - {label: '十', long_click: ';', click: j, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_light_top_color: '#FCFCFC', shadow_light_bottom_color: '#D9D9DB'}
     - {click: '', key_back_color: 0xebeff2, width: 5}
     - {click: '', key_back_color: 0xebeff2, width: 4}
-    - {label: '手', long_click: 1, click: q, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_top_color: '#FAFBFC', shadow_bottom_color: '#DEE2E5'}
-    - {label: '月', long_click: 2, click: b, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_top_color: '#FAFBFC', shadow_bottom_color: '#DEE2E5'}
-    - {label: '卜', long_click: 3, click: y, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_top_color: '#FAFBFC', shadow_bottom_color: '#DEE2E5'}
-    - {label: '山', long_click: '(', click: u, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_top_color: '#FAFBFC', shadow_bottom_color: '#DEE2E5'}
-    - {label: '口', long_click: ')', click: r, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_top_color: '#FAFBFC', shadow_bottom_color: '#DEE2E5'}
-    - {label: '尸', long_click: "'", click: s, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_top_color: '#FAFBFC', shadow_bottom_color: '#DEE2E5'}
-    - {label: '人', long_click: '+', click: o, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_top_color: '#FAFBFC', shadow_bottom_color: '#DEE2E5'}
+    - {label: '手', long_click: 1, click: q, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_light_top_color: '#FCFCFC', shadow_light_bottom_color: '#D9D9DB'}
+    - {label: '月', long_click: 2, click: b, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_light_top_color: '#FCFCFC', shadow_light_bottom_color: '#D9D9DB'}
+    - {label: '卜', long_click: 3, click: y, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_light_top_color: '#FCFCFC', shadow_light_bottom_color: '#D9D9DB'}
+    - {label: '山', long_click: '(', click: u, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_light_top_color: '#FCFCFC', shadow_light_bottom_color: '#D9D9DB'}
+    - {label: '口', long_click: ')', click: r, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_light_top_color: '#FCFCFC', shadow_light_bottom_color: '#D9D9DB'}
+    - {label: '尸', long_click: "'", click: s, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_light_top_color: '#FCFCFC', shadow_light_bottom_color: '#D9D9DB'}
+    - {label: '人', long_click: '+', click: o, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_light_top_color: '#FCFCFC', shadow_light_bottom_color: '#D9D9DB'}
     - {click: '', key_back_color: 0xebeff2, width: 5}
     - {click: '', key_back_color: 0xebeff2, width: 4}
-    - {label: '大', long_click: 4, click: k, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_top_color: '#FAFBFC', shadow_bottom_color: '#DEE2E5'}
-    - {label: '金', click: c, long_click: 5, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_top_color: '#FAFBFC', shadow_bottom_color: '#DEE2E5'}
-    - {label: '木', long_click: 6, click: d, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_top_color: '#FAFBFC', shadow_bottom_color: '#DEE2E5'}
-    - {label: '廿', long_click: '-', click: t, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_top_color: '#FAFBFC', shadow_bottom_color: '#DEE2E5'}
-    - {label: '竹', long_click: ':', click: h, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_top_color: '#FAFBFC', shadow_bottom_color: '#DEE2E5'}
-    - {label: '水', long_click: '!', click: e, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_top_color: '#FAFBFC', shadow_bottom_color: '#DEE2E5'}
-    - {label: '日', long_click: '*', click: a, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_top_color: '#FAFBFC', shadow_bottom_color: '#DEE2E5'}
+    - {label: '大', long_click: 4, click: k, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_light_top_color: '#FCFCFC', shadow_light_bottom_color: '#D9D9DB'}
+    - {label: '金', click: c, long_click: 5, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_light_top_color: '#FCFCFC', shadow_light_bottom_color: '#D9D9DB'}
+    - {label: '木', long_click: 6, click: d, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_light_top_color: '#FCFCFC', shadow_light_bottom_color: '#D9D9DB'}
+    - {label: '廿', long_click: '-', click: t, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_light_top_color: '#FCFCFC', shadow_light_bottom_color: '#D9D9DB'}
+    - {label: '竹', long_click: ':', click: h, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_light_top_color: '#FCFCFC', shadow_light_bottom_color: '#D9D9DB'}
+    - {label: '水', long_click: '!', click: e, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_light_top_color: '#FCFCFC', shadow_light_bottom_color: '#D9D9DB'}
+    - {label: '日', long_click: '*', click: a, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_light_top_color: '#FCFCFC', shadow_light_bottom_color: '#D9D9DB'}
     - {click: '', key_back_color: 0xebeff2, width: 5}
     - {click: '', key_back_color: 0xebeff2, width: 4}
-    - {label: '難', click: x, long_click: 7, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_top_color: '#FAFBFC', shadow_bottom_color: '#DEE2E5'}
-    - {label: '土', long_click: 8, click: g, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_top_color: '#FAFBFC', shadow_bottom_color: '#DEE2E5'}
-    - {label: '女', long_click: 9, click: v, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_top_color: '#FAFBFC', shadow_bottom_color: '#DEE2E5'}
-    - {label: '田', long_click: select_all, click: w, hint_location: 'top_right', draw_hint_icon: 'none', shadow: 'true', shadow_light: 'true', shadow_top_color: '#FAFBFC', shadow_bottom_color: '#DEE2E5'}
-    - {label: '弓', long_click: copy, click: n, hint_location: 'top_right', draw_hint_icon: 'none', shadow: 'true', shadow_light: 'true', shadow_top_color: '#FAFBFC', shadow_bottom_color: '#DEE2E5'}
-    - {label: '戈', long_click: ',', click: i, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_top_color: '#FAFBFC', shadow_bottom_color: '#DEE2E5'}
-    - {label: '符', click: z, long_click: '.', hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_top_color: '#FAFBFC', shadow_bottom_color: '#DEE2E5'}
+    - {label: '難', click: x, long_click: 7, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_light_top_color: '#FCFCFC', shadow_light_bottom_color: '#D9D9DB'}
+    - {label: '土', long_click: 8, click: g, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_light_top_color: '#FCFCFC', shadow_light_bottom_color: '#D9D9DB'}
+    - {label: '女', long_click: 9, click: v, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_light_top_color: '#FCFCFC', shadow_light_bottom_color: '#D9D9DB'}
+    - {label: '田', long_click: select_all, click: w, hint_location: 'top_right', draw_hint_icon: 'none', shadow: 'true', shadow_light: 'true', shadow_light_top_color: '#FCFCFC', shadow_light_bottom_color: '#D9D9DB'}
+    - {label: '弓', long_click: copy, click: n, hint_location: 'top_right', draw_hint_icon: 'none', shadow: 'true', shadow_light: 'true', shadow_light_top_color: '#FCFCFC', shadow_light_bottom_color: '#D9D9DB'}
+    - {label: '戈', long_click: ',', click: i, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_light_top_color: '#FCFCFC', shadow_light_bottom_color: '#D9D9DB'}
+    - {label: '符', click: z, long_click: '.', hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_light_top_color: '#FCFCFC', shadow_light_bottom_color: '#D9D9DB'}
     - {click: '', key_back_color: 0xebeff2, width: 5}
     - {click: '', key_back_color: 0xebeff2, width: 4, height: 50}
-    - {draw_icon: 'shift_dark', click: Shift_L, height: 50, send_bindings: false, shadow: 'true', shadow_light: 'true', shadow_top_color: '#FAFBFC', shadow_bottom_color: '#DEE2E5'}
-    - {click: Keyboard_symbols, long_click: Keyboard_number, height: 55, key_back_color: 0xdee2e5, shadow: 'true', shadow_light: 'true', shadow_top_color: '#FAFBFC', shadow_bottom_color: '#DEE2E5'}
-    - {click: space, long_click: Menu_no_comment, width: 39, height: 55, label: '倉頡', key_text_color: 0x969ea1, shadow: 'true', shadow_light: 'true', shadow_top_color: '#FAFBFC', shadow_bottom_color: '#DEE2E5'}
-    - {draw_icon: 'enter', click: Return, long_click: paste_no_comment, width: 26, height: 55, key_back_color: 0x70b3ab, key_text_color: 0xfdfffe, shadow: 'true', shadow_light: 'true', shadow_top_color: '#FAFBFC', shadow_bottom_color: '#DEE2E5'}
+    - {draw_icon: 'shift_dark', click: Shift_L, height: 50, send_bindings: false, shadow: 'true', shadow_light: 'true', shadow_light_top_color: '#FCFCFC', shadow_light_bottom_color: '#D9D9DB'}
+    - {click: Keyboard_symbols, long_click: Keyboard_number, height: 55, key_back_color: 0xdee2e5, shadow: 'true', shadow_light: 'true', shadow_light_top_color: '#FCFCFC', shadow_light_bottom_color: '#D9D9DB'}
+    - {click: space, long_click: Menu_no_comment, width: 39, height: 55, label: '倉頡', key_text_color: 0x969ea1, shadow: 'true', shadow_light: 'true', shadow_light_top_color: '#FCFCFC', shadow_light_bottom_color: '#D9D9DB'}
+    - {draw_icon: 'enter', click: Return, long_click: paste_no_comment, width: 26, height: 55, key_back_color: 0x5bb5ab, key_text_color: 0xfdfffe, shadow: 'true', shadow_light: 'true', shadow_light_top_color: '#FCFCFC', shadow_light_bottom_cohor: '#D9D9DB'}
     - {click: '', key_back_color: 0xebeff2, width: 5}
     - {click: '', key_back_color: 0xebeff2, width: 100, height: 5}
   scj6:
@@ -863,7 +863,7 @@ preset_keyboards:
     - {key_back_color: 0xdee2e5, click: Keyboard_symbols, long_click: Keyboard_number, width: 10, shadow: 'true'}
     - {click: space, width: 40, label: '筆畫', key_text_color: 0x969ea1, shadow: 'true'}
     - {click: Keyboard_letter, long_click: Menu, width: 10, shadow: 'true'}
-    - {draw_icon: 'enter', click: Return, width: 20, key_back_color: 0x70b3ab, key_text_color: 0xfdfffe, shadow: 'true'}
+    - {draw_icon: 'enter', click: Return, width: 20, key_back_color: 0x5bb5ab, key_text_color: 0xfdfffe, shadow: 'true'}
     - {click: '', key_back_color: 0xebeff2, width: 100, height: 5}
   terra_pinyin:
     name: 地球拼音鍵盤
@@ -908,5 +908,5 @@ preset_keyboards:
     - {click: space, width: 40, label: '拼音', key_text_color: 0x969ea1, shadow: 'true'}
     - {click: ".", long_click: '"', shadow: 'true'}
     - {click: '\', long_click: '.', composing: 'ˋ', send_bindings: false, shadow: 'true'}  #四聲
-    - {draw_icon: 'enter', click: Return, key_back_color: 0x70b3ab, key_text_color: 0xfdfffe, shadow: 'true'}
+    - {draw_icon: 'enter', click: Return, key_back_color: 0x5bb5ab, key_text_color: 0xfdfffe, shadow: 'true'}
     - {click: '', key_back_color: 0xebeff2, width: 100, height: 5}
