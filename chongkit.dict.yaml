@@ -1507,9 +1507,11 @@ encoder:
 燼	flmt
 燼	flt
 粗	fm
+炳	fmb
 煩	fmbc
 煩	fmc
 煙	fmg
+炳	fmob
 光	fmu
 煙	fmwg
 判	fn
@@ -4311,10 +4313,9 @@ encoder:
 惺	pahm
 慨	paiu
 悍	paj
-憫	pak
 惺	pam
 悍	pamj
-憫	pank
+憫	pank	pan'k
 惕	paph
 慨	pau
 恨	pav
@@ -5399,6 +5400,7 @@ encoder:
 鬆	shdci
 履	she
 鬚	shhhc
+髦	shhqu
 刃	shi
 戮	shi
 髮	shike
@@ -6493,6 +6495,7 @@ encoder:
 変	yche
 交	yck
 奕	yck
+戇	ycp
 遊	yd
 親	ydbuu
 雜	ydg
@@ -6747,6 +6750,7 @@ encoder:
 託	yrhp
 讚	yrhuc
 哀	yrhv
+諛	yrhxo
 謝	yri
 誠	yrihs
 詠	yrine
