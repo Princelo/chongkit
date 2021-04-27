@@ -42,6 +42,7 @@ encoder:
 ...
 
 日	a
+曰	a
 昌	aa
 晶	aaa
 明	ab
@@ -201,11 +202,13 @@ encoder:
 暗	ayta
 月	b
 賭	ba
+冥	bac
 腸	bah
 腥	bahm
 腥	bam
 腸	bamh
 肥	bau
+冥	bayc
 朋	bb
 骨	bbb
 受	bbe
@@ -2133,6 +2136,7 @@ encoder:
 旣	hpu
 牛	hq
 籍	hqa
+犒	hqb
 看	hqbu
 掰	hqchq
 籍	hqda
@@ -2153,6 +2157,7 @@ encoder:
 箍	hqsb	hqs'b
 犧	hqtgs
 毛	hqu
+犒	hqyrb
 和	hr
 師	hrb
 烏	hrf
@@ -6916,6 +6921,7 @@ encoder:
 競	yuu
 競	yuytu
 亡	yv
+肓	yvb
 裔	yvbcr	yvb'cr
 牽	yvbq
 盲	yvbu
@@ -6964,6 +6970,7 @@ encoder:
 這	yyr
 遊	yysd
 的	x
+曰	xa
 冕	xanau
 晾	xayrf
 冗	xbhn
