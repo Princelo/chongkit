@@ -1937,7 +1937,7 @@ encoder:
 熏	hgf
 毀	hghne
 先	hghu
-丢	hgi
+等	hgi
 動	hgks
 顧	hgmbc
 籌	hgni
@@ -1972,7 +1972,7 @@ encoder:
 卵	hhsli	hhsl'i
 軀	hhsrr	hhs'rr
 留	hhw
-等	hi
+得	hi
 篇	hib
 魍	hibtv
 簾	hic
@@ -2083,7 +2083,7 @@ encoder:
 衝	hohgn
 循	hohju
 役	hohne
-得	hoi
+待	hoi
 筏	hoi
 術	hoicn
 籤	hoim
@@ -2218,7 +2218,7 @@ encoder:
 衆	hto
 衆	htoho
 衊	httwi
-自	hu
+覺	hu
 贊	hubuc
 贊	huc
 毯	huf
@@ -3142,6 +3142,7 @@ encoder:
 蚊	lik
 蚓	lil
 蟲	lilii
+蠱	lilit
 虹	lim
 蠕	limbb
 蝠	limrw
@@ -3171,7 +3172,7 @@ encoder:
 蠅	lirxu
 螃	lis
 螞	lisqf
-蟒	lit
+蠱	lit
 蟆	litak
 蟻	litgi
 蟒	litit
@@ -3409,7 +3410,7 @@ encoder:
 弄	mgt
 璜	mgtlc
 琪	mgtmc
-現	mgu
+玩	mgu
 瑞	mgumb
 璀	mguog
 環	mgv
@@ -4327,9 +4328,10 @@ encoder:
 惺	pahm
 慨	paiu
 悍	paj
+憫	pak
 惺	pam
 悍	pamj
-憫	pank	pan'k
+憫	pank
 惕	paph
 慨	pau
 恨	pav
@@ -6019,7 +6021,6 @@ encoder:
 峽	ukoo
 崎	ukr
 兇	uku
-嶄	ul
 炭	umf
 崖	umg
 崖	umgg
@@ -6036,6 +6037,7 @@ encoder:
 岭	uoi
 嶺	uoic
 岭	uoii
+岑	uoin
 屹	uon
 崽	up
 岩	ur
@@ -6064,7 +6066,7 @@ encoder:
 幽	uvii	u'vii
 崽	uwp
 女	v
-織	va
+縮	va
 媚	vahu
 媚	vau
 編	vb
@@ -6750,7 +6752,7 @@ encoder:
 訣	yrdk
 諱	yrdmq
 諌	yrdwf	yrdw'f
-設	yre
+護	yre
 京	yrf
 談	yrff
 誰	yrg
