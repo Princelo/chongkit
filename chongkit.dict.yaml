@@ -1974,7 +1974,7 @@ encoder:
 留	hhw
 得	hi
 篇	hib
-魍	hibtv
+魍	hibtv	hib'tv
 簾	hic
 魅	hid
 鵝	hif
@@ -4358,7 +4358,7 @@ encoder:
 穎	pdmbc
 愇	pdmq
 愇	pdq
-乸	pdwyi
+乸	pdwyi	pdwy'i
 乸	pdy
 慢	pe
 怪	peg
@@ -4962,6 +4962,7 @@ encoder:
 啵	rede
 嗓	reed
 嗨	reoy
+嗨	rey
 嗎	rf
 嚐	rfa
 哨	rfb
@@ -7045,7 +7046,7 @@ encoder:
 久	xno
 朶	xnsd
 隻	xoge
-午	xoj
+什	xoj
 佑	xokr
 貸	xopbu
 旨	xpa
