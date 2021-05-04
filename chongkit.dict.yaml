@@ -249,6 +249,7 @@ encoder:
 賂	bcher
 貶	bchio
 賍	bcig
+賤	bci
 賤	bcii
 賊	bcij
 贓	bcims
@@ -259,6 +260,7 @@ encoder:
 賄	bckb
 腳	bcl
 則	bcln
+賦	bcm
 罕	bcmj
 賦	bcmpm
 則	bcn
@@ -416,7 +418,9 @@ encoder:
 冪	btab
 膜	btak
 冪	btb
+腆	btbc
 朦	btbo
+腆	btc
 膳	btgr
 臟	btis
 膜	btk
@@ -497,6 +501,7 @@ encoder:
 腦	bvw
 貓	bw
 爵	bwi
+胭	bwk	bw'k
 爵	bwli
 腮	bwp
 舀	bx
@@ -664,6 +669,7 @@ encoder:
 兌	cru
 鈣	cs
 貧	csc
+鏗	cseg
 分	csh
 貧	cshc
 忿	cshp
@@ -686,6 +692,8 @@ encoder:
 鏡	cu
 銀	cv
 錄	cve
+鏘	cvi
+鏘	cvmi
 錄	cvne
 鍊	cw
 曾	cwa
@@ -3271,7 +3279,6 @@ encoder:
 裡	lwg
 申	lwl
 甴	lwlm
-甴	lwm
 曳	lwp
 肅	lx
 非	ly
@@ -4838,6 +4845,8 @@ encoder:
 招	qsr
 摳	qsrr	qs'rr
 拒	qss
+摒	qst
+摒	qstt
 掘	qsu
 掘	qsuu
 攬	qswu
@@ -4944,6 +4953,7 @@ encoder:
 嚼	rbi
 咀	rbm
 員	rbuc
+唄	rbuc
 嚼	rbwi
 只	rc
 叭	rc
@@ -5090,6 +5100,7 @@ encoder:
 踹	rmb
 踩	rmbd
 蹈	rmbhx
+跚	rmbt
 蹊	rmbvk
 趴	rmc
 哂	rmcw
@@ -5150,6 +5161,7 @@ encoder:
 蹬	rmt
 躪	rmtag
 躇	rmtja
+蹣	rmtlb
 蹉	rmtqm
 蹧	rmtwa
 蹲	rmtwi
@@ -6085,7 +6097,7 @@ encoder:
 努	ves
 媽	vf
 織	vfa
-編	vfb
+網	vfb
 嫦	vfbb
 綳	vfbb
 纓	vfbcv
@@ -6478,10 +6490,12 @@ encoder:
 韻	yac
 桌	yad
 卓	yaj
+遢	yam
 遏	yapv
 韶	yar
 韻	yarbc
 韶	yashr
+遢	yasm
 退	yav
 高	yb
 過	ybb
@@ -6955,6 +6969,7 @@ encoder:
 盲	yvu
 妄	yvv
 巡	yvvv
+邋	yvvv
 畜	yvw
 逼	yw
 遇	ywb
