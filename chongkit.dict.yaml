@@ -2226,7 +2226,7 @@ encoder:
 衆	hto
 衆	htoho
 衊	httwi
-覺	hu
+看	hu
 贊	hubuc
 贊	huc
 毯	huf
@@ -2494,9 +2494,11 @@ encoder:
 瓷	ion
 座	ioog
 應	iop
+恣	iop
 咨	ior
 姿	iov
 能	ip
+弋	ip
 貳	ipc
 熊	ipf
 麟	ipfdq
@@ -4217,6 +4219,7 @@ encoder:
 貨	opc
 他	opd
 傾	opmc
+偕	oppa
 佝	opr
 袋	opv
 袋	opyhv
@@ -4346,8 +4349,10 @@ encoder:
 憬	payf
 情	pb
 眞	pbc
+惻	pbcn
 懼	pbg
 惆	pbgr	pb'gr
+惻	pbn
 惆	pbr	pb'r
 惘	pbtv
 眞	pbuc
@@ -4598,11 +4603,13 @@ encoder:
 捲	qfu
 擋	qfw
 怪	qg
+擷	qgc
 持	qgdi
 擡	qgg
 撓	qggu
 掛	qggy
 持	qgi
+擷	qgrc
 擡	qgrg
 撓	qgu
 掛	qgy
@@ -5325,6 +5332,7 @@ encoder:
 咬	ryck
 噠	rygq
 吭	ryhn
+唷	ryib
 咬	ryk
 噓	rym
 啃	rymb
@@ -6106,6 +6114,7 @@ encoder:
 緩	vfbme
 綱	vfbtu	vfb'tu
 網	vfbtv	vfb'tv
+緲	vfbuh
 續	vfc
 紛	vfcsh
 緯	vfdmq
@@ -6158,6 +6167,7 @@ encoder:
 緻	vfmgk
 紜	vfmmi
 經	vfmvm
+縹	vfmwf
 緬	vfmwl	vfmw'l
 繮	vfmwm
 彎	vfn
@@ -6198,7 +6208,7 @@ encoder:
 綠	vfvne
 緣	vfvno
 繼	vfvvi
-絕	vfu
+統	vfu
 細	vfw
 繹	vfwlj
 繡	vfx
@@ -6846,6 +6856,7 @@ encoder:
 誤	yrrmk
 誤	yrrvk
 誠	yrs
+詔	yrshr
 認	yrsip
 謬	yrsmh
 詞	yrsmr
