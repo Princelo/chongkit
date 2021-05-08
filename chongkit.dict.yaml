@@ -359,6 +359,7 @@ encoder:
 肋	bks
 腌	bku
 腳	bl
+円	blm
 且	bm
 肛	bm
 具	bmc
@@ -1007,6 +1008,7 @@ encoder:
 濕	eaf
 涅	eag
 湯	eah
+湄	eaho
 溉	eaiu
 湯	eamh
 澗	eana
@@ -1623,6 +1625,7 @@ encoder:
 壼	gbmm
 壹	gbmt
 壹	gbt
+坍	gby
 賣	gc
 增	gca
 赫	gcc
@@ -2279,7 +2282,6 @@ encoder:
 舅	hxwks
 與	hxyc
 靠	hy
-舶	hya
 篱	hyb
 籠	hybp
 船	hycr
@@ -3148,6 +3150,7 @@ encoder:
 褲	lij
 補	lijb
 褲	lijj
+蜿	lijnu
 蛇	lijp
 蝴	lijrb
 蚊	lik
@@ -3359,6 +3362,7 @@ encoder:
 于	md
 五	mdm
 汞	me
+亟	mem
 不	mf
 爾	mfb
 爾	mfbk	mfb'k
@@ -3431,6 +3435,7 @@ encoder:
 斑	mgykg
 玷	mgyr
 琼	mgyrf
+璇	mgyso
 璃	mgyub
 形	mh
 曆	mha
@@ -4262,6 +4267,7 @@ encoder:
 伺	osr
 僻	osrj
 佢	oss
+侷	ossr	oss'r
 倔	osu
 倔	osuu
 位	ot
@@ -4883,7 +4889,11 @@ encoder:
 🕹️	qudaj
 摧	qug
 揣	qumb
+攜	quob
 摧	quog
+𢹂	quos
+㩗	quos
+㩗	qus
 拙	quu
 表	qv
 摷	qvd
@@ -6528,6 +6538,7 @@ encoder:
 遙	ybou
 龍	ybp
 週	ybr	yb'r
+迥	ybr	yb'r
 旁	ybs
 遙	ybu
 貞	ybuc
@@ -6724,6 +6735,7 @@ encoder:
 褒	yov
 此	yp
 膚	ypb
+龔	ypc
 柴	ypd
 紫	ypf
 壟	ypg
@@ -6741,6 +6753,7 @@ encoder:
 聾	ypsj
 虐	ypsm
 盧	ypt
+龔	yptc
 虛	yptm
 虎	ypu
 襲	ypv
