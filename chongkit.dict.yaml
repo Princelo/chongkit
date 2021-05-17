@@ -94,6 +94,7 @@ encoder:
 暑	aja
 昧	ajd
 暑	ajka
+晏	ajv
 旯	akn
 即	al
 映	albk
@@ -318,6 +319,7 @@ encoder:
 冗	bhn
 股	bhne
 爲	bhnf
+貶	bho
 豹	bhpi
 貌	bhu
 脈	bhv
@@ -386,10 +388,11 @@ encoder:
 脆	bnmu
 膽	bnr
 脆	bnu
-貶	bo
+膾	boa
 腹	boae
 腹	boe
 祭	bof
+膾	boma
 祭	bommf
 臉	bomo
 臉	boo
@@ -462,6 +465,7 @@ encoder:
 鼎	bul
 剛	buln
 睡	bum
+瞰	bumjk
 盯	bumn
 剛	bun
 瞻	buncr
@@ -626,6 +630,7 @@ encoder:
 翁	cm
 釘	cmn
 鈣	cms
+兮	cmvs
 鈣	cmys
 釘	cn
 錳	cndt
@@ -657,6 +662,8 @@ encoder:
 鉤	cpr
 鈍	cpu
 鍵	cq
+鍵盤	cqhet
+⌨️	cqhet
 錶	cqmv
 錶	cqv
 鉛	cr
@@ -795,6 +802,7 @@ encoder:
 皮	dhe
 板	dhe
 格	dher
+梏	dhgr
 杉	dhh
 杉	dhhh
 柳	dhhl
@@ -862,6 +870,7 @@ encoder:
 杯	dmf
 枉	dmg
 橱	dmi
+桎	dmig
 橄	dmjk
 梗	dmk
 梗	dmlk
@@ -964,7 +973,7 @@ encoder:
 構	dttb
 槽	dtwa
 樽	dtwi
-相	du
+札	du
 紮	duf
 想	dup
 紮	duvif
@@ -1113,6 +1122,8 @@ encoder:
 活	ehjr
 沃	ehk
 添	ehkp
+沂	ehl
+沂	ehml
 瀏	ehn
 沿	ehnr
 泛	eho
@@ -2055,10 +2066,9 @@ encoder:
 颶	hnc
 朵	hnd
 梨	hnd
-鳯	hnf	hn'f
+鳳	hnf	hn'f
 凰	hng	hn'g
 第	hnh
-鳯	hnhaf	hn'haf
 凰	hnhag	hn'hag
 颳	hnhjr
 風	hnhli	hn'hli
@@ -2066,6 +2076,7 @@ encoder:
 凡	hni	hn'i
 颱	hnir
 第	hnlh
+鳳	hnmaf	hn'maf
 風	hnmli	hn'mli
 掣	hnq
 颳	hnr
@@ -2196,6 +2207,7 @@ encoder:
 肩	hsb
 扁	hsbt	hsb't
 殷	hse
+篤	hsf
 雇	hsg
 所	hshml
 殷	hshne
@@ -2210,6 +2222,7 @@ encoder:
 筐	hsmg	hs'mg
 籃	hsmt
 雇	hsog
+篤	hsqf
 笤	hsr
 扈	hsrau
 房	hss
@@ -2243,6 +2256,8 @@ encoder:
 息	hup
 鼻	huwml
 很	hv
+鼠標	hvdmf
+🖱️	hvdmf
 系	hvf
 兜	hvhu
 魏	hvhui
@@ -2745,6 +2760,7 @@ encoder:
 宗	jmmf
 完	jmmu
 定	jmo
+宕	jmr
 富	jmrw
 家	jmso
 完	jmu
@@ -2832,6 +2848,7 @@ encoder:
 車	jwj
 實	jwjc
 寓	jwlb
+寰	jwlv
 寒	jy
 寵	jybp
 寂	jye
@@ -2944,7 +2961,6 @@ encoder:
 癲	kjcc
 奢	kjka
 奔	kjt
-爽	kk
 肴	kkb
 療	kkcf
 療	kkf
@@ -3078,6 +3094,7 @@ encoder:
 帆	lbhni	lbhn'i
 央	lbk
 幅	lbmrw
+帆	lbn
 帆	lbhn
 帖	lbr
 帳	lbsmv
@@ -3781,6 +3798,7 @@ encoder:
 舛	niq
 名	nir
 外	niy
+陣	nj
 蝨	nji
 蝨	njlii
 又	nk	e
@@ -4165,6 +4183,7 @@ encoder:
 会	ommi
 伝	ommi
 例	omn
+邱	omnl
 例	omnn
 何	omnr
 愈	omp
@@ -4396,6 +4415,7 @@ encoder:
 恤	phbt
 悸	phd
 悸	phdd
+恪	pher
 惶	phg
 勿	phh
 懊	phk
@@ -4404,7 +4424,6 @@ encoder:
 恬	phjr
 忽	php
 性	phqm
-恬	phr
 恤	pht
 愧	phui
 勾	pi
@@ -4641,6 +4660,8 @@ encoder:
 折	qhml
 拆	qhmy
 投	qhne
+手掣	qhnq
+🎮	qhnqa
 抓	qho
 托	qhp
 抵	qhpm
@@ -4871,12 +4892,14 @@ encoder:
 拱	qtc
 撕	qtcl
 撲	qtco
+搽	qtd
 攤	qtg
 摸	qtk
 擲	qtkl
 撕	qtl
 搓	qtm
 撲	qto
+搽	qtod
 攤	qtog
 搭	qtor
 搓	qtqm
@@ -5066,6 +5089,7 @@ encoder:
 吮	riu
 單	rj
 嗜	rja
+嘟	rjal
 嘲	rjb
 嗔	rjbc
 嗦	rjbf
@@ -5081,6 +5105,7 @@ encoder:
 嘲	rjjb
 啫	rjka
 哮	rjkd
+嘟	rjl
 喧	rjmm
 咤	rjp
 嗜	rjpa
@@ -5123,7 +5148,7 @@ encoder:
 趴	rmc
 哂	rmcw
 蹭	rmcwa
-吁	rmd
+踩	rmd
 跛	rmdhe
 跛	rme
 踏	rmea
@@ -5750,6 +5775,7 @@ encoder:
 藏	tims
 芝	tino
 芝	tio
+懟	tip
 苔	tir
 藏	tis
 莽	tit
