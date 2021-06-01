@@ -2521,6 +2521,7 @@ encoder:
 應	iop
 恣	iop
 咨	ior
+iOS	ios
 姿	iov
 能	ip
 弋	ip
@@ -4022,7 +4023,6 @@ encoder:
 僥	oggu
 鶴	oghaf
 侍	ogi
-傲	ogk
 隽	ognhs
 售	ogr
 隽	ogs
@@ -4376,6 +4376,7 @@ encoder:
 心	p
 旬	pa
 旨	pa
+PaaS	paas
 慢	pae
 惕	pah
 惺	pahm
