@@ -664,7 +664,7 @@ encoder:
 鈍	cpu
 鍵	cq
 鍵盤	cqhet
-⌨️	cqhet
+⌨️	cqheta
 錶	cqmv
 錶	cqv
 鉛	cr
@@ -2264,7 +2264,7 @@ encoder:
 鼻	huwml
 很	hv
 鼠標	hvdmf
-🖱️	hvdmf
+🖱️	hvdmfa
 系	hvf
 兜	hvhu
 魏	hvhui
@@ -4929,7 +4929,7 @@ PaaS	paas
 扎	qu
 揣	qub
 搖桿	qudaj
-🕹️	qudaj
+🕹️	qudaja
 摧	qug
 揣	qumb
 攜	quob
