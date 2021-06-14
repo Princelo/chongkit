@@ -1014,7 +1014,7 @@ encoder:
 檩	dywf
 檀	dywm
 水	e
-泊	ea
+沓	ea
 澗	eaa
 温	eabt
 漫	eae
@@ -2414,6 +2414,7 @@ encoder:
 祥	ifq
 祠	ifr
 祝	ifrhu
+祀	ifru
 祠	ifsmr
 禮	ift
 祺	iftmc
@@ -5072,7 +5073,6 @@ PaaS	paas
 呀	rh
 啲	rhai
 鳴	rhaf
-鳴	rhf
 响	rhb
 噢	rhbk
 响	rhbr	rhb'r
@@ -5081,7 +5081,7 @@ PaaS	paas
 嚟	rhe
 咯	rher
 咚	rhey
-嗚	rhf
+鳴	rhf
 呼	rhfd
 呈	rhg
 嚟	rhhe
