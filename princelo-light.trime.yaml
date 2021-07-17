@@ -83,7 +83,7 @@ fallback_colors:
   border_color: back_color
   candidate_separator_color: border_color
   hilited_text_color: text_color
-  hilited_back_color: back_color
+  hilited_back_color: border_color
   hilited_candidate_text_color: hilited_text_color
   hilited_candidate_back_color: hilited_back_color
   hilited_comment_text_color: comment_text_color
@@ -821,7 +821,7 @@ preset_keyboards:
     - {label: '廿', long_click: '-', click: t, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_light_top_color: '#FCFCFC', shadow_light_bottom_color: '#D9D9DB'}
     - {label: '竹', long_click: ':', click: h, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_light_top_color: '#FCFCFC', shadow_light_bottom_color: '#D9D9DB'}
     - {label: '水', long_click: '!', click: e, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_light_top_color: '#FCFCFC', shadow_light_bottom_color: '#D9D9DB'}
-    - {label: '日', long_click: '*', click: a, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_light_top_color: '#FCFCFC', shadow_light_bottom_color: '#D9D9DB'}
+    - {label: '日', long_click: DeleteCandidate, click: a, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_light_top_color: '#FCFCFC', shadow_light_bottom_color: '#D9D9DB', draw_hint_icon: 'none'}
     - {click: '', key_back_color: 0xebeff2, width: 5}
     - {click: '', key_back_color: 0xebeff2, width: 4}
     - {label: '難', click: x, long_click: 7, hint_location: 'top_right', shadow: 'true', shadow_light: 'true', shadow_light_top_color: '#FCFCFC', shadow_light_bottom_color: '#D9D9DB'}
@@ -838,7 +838,7 @@ preset_keyboards:
     - {click: space, long_click: Menu_no_comment, width: 39, height: 55, label: '倉頡', key_text_color: 0x969ea1, shadow: 'true', shadow_light: 'true', shadow_light_top_color: '#FCFCFC', shadow_light_bottom_color: '#D9D9DB'}
     - {draw_icon: 'enter', click: Return, long_click: paste_no_comment, width: 26, height: 55, key_back_color: 0x5bb5ab, key_text_color: 0xfdfffe, shadow: 'true', shadow_light: 'true', shadow_light_top_color: '#FCFCFC', shadow_light_bottom_cohor: '#D9D9DB'}
     - {click: '', key_back_color: 0xebeff2, width: 5}
-    - {click: '', key_back_color: 0xebeff2, width: 100, height: 5}
+      #- {click: '', key_back_color: 0xebeff2, width: 100, height: 5}
   scj6:
     __include: /preset_keyboards/cangjie5
   stroke:

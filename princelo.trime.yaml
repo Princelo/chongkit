@@ -78,7 +78,7 @@ style:
   vertical_gap: 8 #鍵盤行距
 
 fallback_colors:
-  candidate_bg_color: label_color
+  candidate_bg_color: border_color
   candidate_text_color: text_color
   comment_text_color: candidate_text_color
   border_color: back_color
