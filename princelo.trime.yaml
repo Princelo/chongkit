@@ -124,7 +124,7 @@ preset_color_schemes:
     comment_text_color: 0xb1b8bc
     hilited_candidate_text_color: 0xd9dcdd
     hilited_comment_text_color: 0xb1b8bc
-    hilited_candidate_back_color: 0x404a51
+    hilited_candidate_back_color: 0x273238
     preview_back_color: 0x313c42
 
   smurfs:
