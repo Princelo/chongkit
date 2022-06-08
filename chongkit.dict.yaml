@@ -604,7 +604,6 @@ encoder:
 鍍	cie
 鑣	cif
 錢	cii
-💰	ciia
 鋪	cijb
 翁	cim
 頌	cimbc
@@ -677,7 +676,6 @@ encoder:
 鈍	cpu
 鍵	cq
 鍵盤	cqhet
-⌨️	cqheta
 錶	cqmv
 錶	cqv
 鉛	cr
@@ -1544,7 +1542,6 @@ encoder:
 烙	fhr
 劣	fhs
 火箭	fhtn
-🚀	fhtna
 省	fhu
 熄	fhup
 燭	fi
@@ -1667,6 +1664,7 @@ encoder:
 增	ga
 場	gah
 坦	gam
+🎮	gamepad
 場	gamh
 堤	gamo
 堤	gao
@@ -2311,7 +2309,6 @@ encoder:
 鼻	huwml
 很	hv
 鼠標	hvdmf
-🖱️	hvdmfa
 系	hvf
 兜	hvhu
 魏	hvhui
@@ -2846,6 +2843,7 @@ iOS	ios
 宿	joma
 麥	jon
 麥	joni	jon'i
+🕹️	joystick
 它	jp
 耆	jpa
 寗	jpb
@@ -2953,6 +2951,7 @@ iOS	ios
 友	ke
 痧	kefh
 痧	keh
+⌨️ 	keyboard
 灰	kf
 盔	kfbt
 痰	kff
@@ -3636,9 +3635,11 @@ iOS	ios
 攻	mok
 瓷	momvn
 瓷	mon
+💰	money
 巫	moo
 雁	moog
 咨	mor
+🖱️	mouse
 姿	mov
 死	mp
 貮	mpbuc
@@ -4767,7 +4768,6 @@ PaaS	paas
 拆	qhmy
 投	qhne
 手掣	qhnq
-🎮	qhnqa
 抓	qho
 托	qhp
 抵	qhpm
@@ -5016,7 +5016,6 @@ PaaS	paas
 扎	qu
 揣	qub
 搖桿	qudaj
-🕹️	qudaja
 摧	qug
 揣	qumb
 攜	quob
@@ -5366,6 +5365,7 @@ PaaS	paas
 唸	roip
 嗆	roir
 喉	rok
+🚀	roket
 噏	rom
 喻	romn
 哈	romr
