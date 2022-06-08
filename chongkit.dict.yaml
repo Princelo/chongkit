@@ -169,6 +169,7 @@ encoder:
 晦	aowy
 晦	aoy
 昆	ap
+🦍	ape
 易	aph
 易	aphh
 昆	app
@@ -543,6 +544,7 @@ encoder:
 曾	ca
 錫	cah
 錫	caph
+🐱	cat
 銀	cav
 鋼	cb
 鍋	cbb
@@ -666,6 +668,7 @@ encoder:
 銼	coog
 慾	cop
 谷	cor
+🐮	cow
 慾	cp
 釣	cpi
 鈎	cpi
@@ -840,6 +843,7 @@ encoder:
 棧	dii
 榔	diil
 榔	dil
+🎓	diploma
 枱	dir
 械	dit
 末	dj
@@ -926,6 +930,7 @@ encoder:
 來	do
 榷	dobg
 椎	dog
+🐶	doggy
 槍	doir
 枚	dok
 栓	domg
@@ -1228,6 +1233,7 @@ encoder:
 泱	elbk
 沈	elbu
 潰	elc
+🐘	elephant
 泱	elk
 淵	ell
 沸	elln
@@ -1586,6 +1592,7 @@ encoder:
 焰	fnx
 雀	fog
 炸	fos
+🦊	fox
 灼	fpi
 灼	fpm
 炮	fpru
@@ -2188,6 +2195,7 @@ encoder:
 慫	hop
 律	hoq
 咎	hor
+🐴	horse
 彷	hos
 聳	hosj
 徉	hotq
@@ -3259,7 +3267,9 @@ iOS	ios
 蚯	liom
 蜍	liomd
 蛤	liomr
+🦁	lion
 蛇	lip
+💄	lipstick
 蝶	liptd
 蚌	liqj
 蜻	liqmb
@@ -3636,6 +3646,7 @@ iOS	ios
 瓷	momvn
 瓷	mon
 💰	money
+🐒	monkey
 巫	moo
 雁	moog
 咨	mor
@@ -4533,6 +4544,7 @@ PaaS	paas
 勾	pi
 勺	pi
 慷	pie
+🐷	pig
 慘	pih
 慘	piih
 匍	pijb
@@ -5598,6 +5610,7 @@ PaaS	paas
 鬚	shc
 鬆	shdci
 履	she
+🐏	sheep
 鬚	shhhc
 髦	shhqu
 刃	shi
@@ -5905,6 +5918,7 @@ PaaS	paas
 蘑	ticr
 蘑	tidr
 薦	tif
+🐯	tiger
 茂	tih
 莽	tikt
 茨	timo
