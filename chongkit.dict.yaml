@@ -152,6 +152,7 @@ encoder:
 闖	ansqf
 闢	ansrj
 關	ant
+🐜	ant
 闕	antuo
 晚	anu
 關	anvit
@@ -173,6 +174,7 @@ encoder:
 易	aph
 易	aphh
 昆	app
+🍎	apple
 晴	aqb
 晴	aqmb
 問	ar
@@ -196,6 +198,7 @@ encoder:
 暨	aum
 歇	avno
 歇	avo
+🥑	avocado
 晒	aw
 曙	awa
 曼	awe
@@ -214,6 +217,8 @@ encoder:
 腥	bahm
 腥	bam
 腸	bamh
+🍌	banana
+🦇	bat
 肥	bau
 冥	bayc
 朋	bb
@@ -294,6 +299,8 @@ encoder:
 膝	bdoe
 乳	bdu
 愛	be
+🐨	bear
+🐝	bee
 爲	bf
 炙	bf
 膛	bfbg
@@ -462,6 +469,7 @@ encoder:
 瞧	buf
 眯	bufd
 瞳	bug
+🐛	bug
 睦	bugcg
 瞌	bugit
 盼	buh
@@ -496,6 +504,7 @@ encoder:
 眶	busmg	bus'mg
 瞪	but
 瞞	butlb
+🦋	butterfly
 瞄	butw
 見	buu
 眼	buv
@@ -581,10 +590,12 @@ encoder:
 銹	chds
 鍛	che
 鋒	chej
+🍒	cherries
 鍬	chf
 銑	chgu
 鍾	chg
 鉚	chhl
+🐤	chick
 鋒	chj
 鍛	chje
 鍾	chjg
@@ -660,6 +671,7 @@ encoder:
 錳	cnt
 欲	co
 鑰	cob
+🐓	cock
 錐	cog
 鈴	coi
 鈴	coii
@@ -682,11 +694,13 @@ encoder:
 錶	cqmv
 錶	cqv
 鉛	cr
+🦀	crab
 鋁	crhr
 兌	crhu
 卻	crl
 欲	crno
 欲	cro
+🐊	crocodile
 鋁	crr
 卻	crsl
 兌	cru
@@ -933,6 +947,7 @@ encoder:
 🐶	doggy
 槍	doir
 枚	dok
+🐬	dolphin
 栓	domg
 榆	domn
 檢	domo
@@ -962,6 +977,7 @@ encoder:
 韌	dqshi
 樁	dqx
 杏	dr
+🐉	dragon
 榜	ds
 櫃	dsc	ds'c
 框	dsg	ds'g
@@ -1042,6 +1058,7 @@ encoder:
 漫	eae
 濕	eaf
 涅	eag
+🦅	eagle
 湯	eah
 湄	eahu
 溉	eaiu
@@ -1123,6 +1140,7 @@ encoder:
 注	eg
 瀆	egc
 洼	egg
+🍆	eggplant
 澆	eggu
 澎	egh
 法	egi
@@ -1152,6 +1170,7 @@ encoder:
 沂	ehml
 瀏	ehn
 沿	ehnr
+鯊	ehnwf
 泛	eho
 添	ehp
 漑	ehpu
@@ -1551,6 +1570,7 @@ encoder:
 省	fhu
 熄	fhup
 燭	fi
+🐟	fish
 料	fj
 熔	fjcr
 烤	fjks
@@ -1616,6 +1636,7 @@ encoder:
 誊	fqymr
 營	fr
 燥	frd
+🐸	frog
 燥	frrd
 勞	fs
 熠	fsa
@@ -1807,8 +1828,10 @@ encoder:
 均	gpmm
 摯	gq
 吉	gr
+🍇	grape
 臺	grbg
 頡	grc
+🍏	greenapple
 臺	grg
 喆	grgr
 袁	grhv
@@ -3030,6 +3053,8 @@ iOS	ios
 痧	kifh
 雄	kig
 雄	kiog
+🥝	kiwi
+🥝	kiwifruit
 癖	kj
 奢	kja
 癲	kjc
@@ -3155,6 +3180,7 @@ iOS	ios
 瘀	kyy
 中	l
 書	la
+🐞	ladybug
 袒	lam
 褐	lapv
 褐	lav
@@ -3196,6 +3222,7 @@ iOS	ios
 被	le
 衩	lei	lei
 衩	lei	le'i
+🍋	lemon
 螺	lf
 襠	lfbw
 襠	lfw
@@ -3214,6 +3241,7 @@ iOS	ios
 襖	lhk
 裨	lhwj
 蟲	li
+蜴	liaph
 蝎	liapv
 蠍	liavo
 補	lib
@@ -3224,6 +3252,7 @@ iOS	ios
 蚣	lici
 蛻	licru
 蝶	lid
+蜥	lidhl
 螞	lif
 螳	lifbg
 蜷	lifqu
@@ -3300,6 +3329,7 @@ iOS	ios
 蚪	liyj
 蚊	liyk
 蟑	liytj
+🦎	lizard
 牌	lj
 史	lk
 盎	lkbt
@@ -3463,6 +3493,7 @@ iOS	ios
 于	md
 五	mdm
 汞	me
+🍈	melon
 亟	mem
 不	mf
 爾	mfb
@@ -3651,6 +3682,7 @@ iOS	ios
 雁	moog
 咨	mor
 🖱️	mouse
+🐭	mouse
 姿	mov
 死	mp
 貮	mpbuc
@@ -4076,6 +4108,7 @@ iOS	ios
 佣	obq	ob'q
 價	oc
 僧	ocs
+🐙	octopus
 份	och
 俗	ocor
 俗	ocr
@@ -4368,6 +4401,7 @@ iOS	ios
 傲	oqsk
 知	or
 智	ora
+🍊	orange
 舖	orb
 盒	orbt
 保	ord
@@ -4434,6 +4468,7 @@ iOS	ios
 佃	ow
 偶	owb
 個	owjr	ow'jr
+🦉	owl
 偶	owlb
 偎	owmv
 儡	oww
@@ -4482,6 +4517,7 @@ PaaS	paas
 憫	pak
 惺	pam
 悍	pamj
+🐼	panda
 憫	pank
 惕	paph
 慨	pau
@@ -4514,7 +4550,10 @@ PaaS	paas
 乸	pdwyi	pdwy'i
 乸	pdy
 慢	pe
+🍑	peach
+🍐	pear
 怪	peg
+🐧	penguin
 悄	pfb
 憐	pfdq
 恍	pfmu
@@ -4550,6 +4589,7 @@ PaaS	paas
 匍	pijb
 慷	pile
 匀	pim
+🍍	pineapple
 憾	pip
 怡	pir
 憾	pirp
@@ -4605,6 +4645,7 @@ PaaS	paas
 恰	pomr
 愉	pon
 恰	por
+🥔	potato
 悔	powy
 悔	poy
 比	pp
@@ -5094,6 +5135,7 @@ PaaS	paas
 口	r
 唱	ra
 唱	raa
+🐰	rabbit
 唧	rail
 嘅	raiu
 唧	ral
@@ -5173,6 +5215,7 @@ PaaS	paas
 呈	rhg
 嚟	rhhe
 哦	rhi
+🦏	rhinoceros
 啤	rhj
 唾	rhjm
 嗅	rhk
@@ -5532,6 +5575,7 @@ PaaS	paas
 殿	sce
 殿	schne
 🎒	schoolbag
+🦂	scorpion
 層	scwa
 屎	sd
 尿	se
@@ -5606,6 +5650,7 @@ PaaS	paas
 聽	sgjwp
 聽	sgp
 刀	sh
+🦈	shark
 鬍	shb
 鬚	shc
 鬆	shdci
@@ -5627,6 +5672,7 @@ PaaS	paas
 屜	shot
 尾	shqu
 召	shr
+🦐	shrimp
 匾	shsb	s'hsb
 屜	sht
 尾	shu
@@ -5706,6 +5752,8 @@ PaaS	paas
 長	smv
 翼	smwtc
 翠	smyoj
+🐌	snail
+🐍	snake
 屙	snlr
 屙	snr
 尺	so
@@ -5713,12 +5761,15 @@ PaaS	paas
 医	sok	s'ok
 咫	sorc
 尼	sp
+🕷️	spider
+🕸️	spiderweb
 屁	spp
 群	sq
 馬	sqf
 那	sql
 那	sqnl
 馬	sqsf
+🦑	squid
 區	sr	s'r
 屌	srb
 毆	sre
@@ -5744,6 +5795,7 @@ PaaS	paas
 聯	st
 匿	stkr	s'tkr
 匿	str	s'tr
+🍓	strawberry
 屏	stt
 展	stv
 已	su
@@ -5760,6 +5812,7 @@ PaaS	paas
 鹽	swbt
 覽	swbuu
 鑒	swc
+🍠	sweetpotato
 匣	swl	s'wl
 鹽	swt
 覽	swu
@@ -5781,6 +5834,7 @@ PaaS	paas
 慕	takp
 摹	takq
 募	taks
+🍊	tangerine
 蘭	tanw
 慕	tap
 葛	tapv
@@ -6052,6 +6106,7 @@ PaaS	paas
 薙	tokg
 芥	tol
 芥	toll
+🍅	tomato
 荼	tomd
 荷	tomr
 歎	tono
@@ -6118,6 +6173,7 @@ T恤	tpht
 善	ttr
 着	tu
 朔	tub
+🐢	turtle
 茁	tuu
 甚	tv
 藥	tvd
@@ -6574,6 +6630,7 @@ T恤	tpht
 婷	vyrn
 妨	vys
 田	w
+🍉	watermelon
 胃	wb
 愚	wbp
 四	wc	w'c
@@ -6608,6 +6665,7 @@ T恤	tpht
 野	wgnin
 園	wgrv	w'grv
 園	wgv	w'gv
+🐳	whale
 略	wher
 略	whr
 團	wi	w'i
