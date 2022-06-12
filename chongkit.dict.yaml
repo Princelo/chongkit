@@ -212,6 +212,7 @@ encoder:
 暗	ayta
 月	b
 賭	ba
+🍼	babybottle
 冥	bac
 🎒	backpack
 腸	bah
@@ -300,8 +301,10 @@ encoder:
 膝	bdoe
 乳	bdu
 愛	be
+🏖️	beach
 🐨	bear
 🐝	bee
+🍺	beermug
 爲	bf
 炙	bf
 膛	bfbg
@@ -422,6 +425,7 @@ encoder:
 甩	bqu
 同	br	b'r
 臊	brd
+🍞	bread
 雕	brg
 雕	brog
 臊	brrd
@@ -553,6 +557,7 @@ encoder:
 金	c
 曾	ca
 錫	cah
+🍰	cake
 錫	caph
 🐱	cat
 銀	cav
@@ -590,13 +595,18 @@ encoder:
 鍬	chdf
 銹	chds
 鍛	che
+🧀	cheese
 鋒	chej
 🍒	cherries
+🌰	chestnut
 鍬	chf
 銑	chgu
 鍾	chg
 鉚	chhl
 🐤	chick
+🇨🇳	china
+🇹🇼	china
+🍟	chips
 鋒	chj
 鍛	chje
 鍾	chjg
@@ -609,6 +619,7 @@ encoder:
 剃	chn
 鉛	chnr
 鍁	cho
+🍫	chocolate
 鉛	chr
 銹	chs
 鑽	chuc
@@ -673,6 +684,7 @@ encoder:
 欲	co
 鑰	cob
 🐓	cock
+☕	coffee
 錐	cog
 鈴	coi
 鈴	coii
@@ -681,6 +693,7 @@ encoder:
 銼	coog
 慾	cop
 谷	cor
+🌽	corn
 🐮	cow
 慾	cp
 釣	cpi
@@ -728,6 +741,7 @@ encoder:
 鑊	ctoe
 錨	ctw
 鏡	cu
+🥒	cucumber
 銀	cv
 錄	cve
 鏘	cvi
@@ -979,6 +993,7 @@ encoder:
 樁	dqx
 杏	dr
 🐉	dragon
+🐲	dragonface
 榜	ds
 櫃	dsc	ds'c
 框	dsg	ds'g
@@ -1018,6 +1033,7 @@ encoder:
 樽	dtwi
 札	du
 紮	duf
+🥟	dumpling
 想	dup
 紮	duvif
 根	dv
@@ -1070,6 +1086,7 @@ encoder:
 混	eap
 混	eapp
 渴	eapv
+🌏	earth
 温	eat
 瀑	eate
 溉	eau
@@ -1141,6 +1158,7 @@ encoder:
 注	eg
 瀆	egc
 洼	egg
+🥚	egga
 🍆	eggplant
 澆	eggu
 澎	egh
@@ -1432,6 +1450,8 @@ encoder:
 滾	eycv
 滚	eycv
 游	eyd
+👁️	eye
+👀	eyes
 涼	eyf
 淑	eyfe
 注	eyg
@@ -1571,7 +1591,10 @@ encoder:
 省	fhu
 熄	fhup
 燭	fi
+🍤	firedshrimp
+🍟	fires
 🐟	fish
+5️⃣	five
 料	fj
 熔	fjcr
 烤	fjks
@@ -1655,6 +1678,7 @@ encoder:
 燶	ftwv
 光	fu
 輝	fubjj
+🖕	fuck
 耀	fug
 輝	fuj
 耀	fusmg
@@ -1903,6 +1927,7 @@ encoder:
 皁	haj
 節	hal
 帛	halb
+🍔	hamburger
 皇	hamg
 鳬	han
 簡	hana
@@ -2210,6 +2235,8 @@ encoder:
 徑	homvm
 征	homym
 行	hon
+🍯	honeypot
+🇭🇰	hongkong
 衡	honkn
 從	hoo
 復	hooae
@@ -2222,6 +2249,7 @@ encoder:
 🐴	horse
 彷	hos
 聳	hosj
+🌭	hotdog
 徉	hotq
 爬	hou
 徽	houfk
@@ -2419,6 +2447,7 @@ encoder:
 翩	ibsmm
 廣	ic
 糜	icd
+🍦	icecream
 糜	icfd
 魔	ichi
 麾	ichqu
@@ -2707,6 +2736,7 @@ iOS	ios
 突	jck
 究	jckn
 空	jcm
+🈳	jcm
 顛	jcmbc
 窒	jcmig
 穿	jcmvh
@@ -2903,6 +2933,7 @@ iOS	ios
 辜	jrj
 故	jrk
 割	jrln
+🈹	jrln
 官	jrlr
 額	jrmbc
 割	jrn
@@ -3101,6 +3132,7 @@ iOS	ios
 鳩	knhaf
 丸	kni
 痛	knib
+🔪	knife
 瘓	knk
 癮	knlp
 疚	kno
@@ -3434,6 +3466,7 @@ iOS	ios
 一	m
 百	ma
 厭	mabk
+🇲🇴	macao
 厚	mad
 厭	mak
 碧	mamr
@@ -3494,6 +3527,7 @@ iOS	ios
 于	md
 五	mdm
 汞	me
+🍖	meat
 🍈	melon
 亟	mem
 不	mf
@@ -3682,6 +3716,7 @@ iOS	ios
 巫	moo
 雁	moog
 咨	mor
+⛰️	mountain
 🖱️	mouse
 🐭	mouse
 姿	mov
@@ -3789,6 +3824,7 @@ iOS	ios
 夏	muhe
 戛	mui
 頑	mumbc
+🍄	mushroom
 画	muw	mu'w
 要	mv
 脣	mvb
@@ -4552,9 +4588,11 @@ PaaS	paas
 乸	pdy
 慢	pe
 🍑	peach
+🥜	peanuts
 🍐	pear
 怪	peg
 🐧	penguin
+🌶️	pepper
 悄	pfb
 憐	pfdq
 恍	pfmu
@@ -4595,6 +4633,7 @@ PaaS	paas
 怡	pir
 憾	pirp
 惦	piyr
+🍕	pizza
 慎	pjbc
 悖	pjbd
 慎	pjc
@@ -4647,6 +4686,7 @@ PaaS	paas
 愉	pon
 恰	por
 🥔	potato
+🍗	poultryleg
 悔	powy
 悔	poy
 比	pp
@@ -4991,6 +5031,7 @@ PaaS	paas
 規	qou
 擒	qoyb
 指	qpa
+🈯	qpa
 擬	qpko
 擬	qpo
 掏	qpou
@@ -5138,6 +5179,7 @@ PaaS	paas
 唱	raa
 🐰	rabbit
 唧	rail
+🌧️	rain
 嘅	raiu
 唧	ral
 嗮	ramw
@@ -5174,6 +5216,7 @@ PaaS	paas
 吸	re
 嗓	red
 啵	rede
+🧧	redenvelope
 嗓	reed
 啜	reee
 嗨	reoy
@@ -5232,10 +5275,12 @@ PaaS	paas
 嗅	rhuk
 啤	rhwj
 咚	rhy
-戰	ri
+哦	ri
 哺	rib
 嘛	ric
 唆	rice
+🍚	ricea
+🍙	riceball
 嘛	rid
 嘛	ridd
 咏	rie
@@ -5436,6 +5481,7 @@ PaaS	paas
 咋	ros
 喩	rov
 嗰	row
+🚣	rowingboat
 嗰	rowr	row'r
 民	rp
 叱	rp
@@ -5670,6 +5716,7 @@ PaaS	paas
 匠	shl	s'hl
 匠	shml	s'hml
 履	shoe
+🍰	shortcake
 屜	shot
 尾	shqu
 召	shr
@@ -5756,6 +5803,7 @@ PaaS	paas
 🐌	snail
 🐍	snake
 屙	snlr
+🏔️	snowmountain
 屙	snr
 尺	so
 咫	soc
@@ -5764,6 +5812,7 @@ PaaS	paas
 尼	sp
 🕷️	spider
 🕸️	spiderweb
+🥄	spoon
 屁	spp
 群	sq
 馬	sqf
@@ -5806,6 +5855,7 @@ PaaS	paas
 改	suk
 改	suok
 忌	sup
+🍣	sushi
 屈	suu
 長	sv
 改	svok
@@ -5897,6 +5947,7 @@ PaaS	paas
 萊	tdoo
 葦	tdq
 菠	tr
+🍵	tea
 蕩	teah
 蒲	teb
 鑿	tec
@@ -6290,6 +6341,8 @@ T恤	tpht
 峽	ukoo
 崎	ukr
 兇	uku
+☂️	umbrella
+🌂	umbrellaclosed
 炭	umf
 崖	umg
 崖	umgg
@@ -6579,6 +6632,7 @@ T恤	tpht
 婀	vnr
 奶	vns
 娩	vnu
+🌋	volcano
 嫵	votf
 總	vp
 她	vpd
@@ -6673,6 +6727,7 @@ T恤	tpht
 圃	wib	w'ib
 圃	wijb	w'ijb
 國	wim	w'im
+🍷	wine
 國	wirm	w'irm
 毋	wj
 貫	wjbuc
