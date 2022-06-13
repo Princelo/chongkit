@@ -55,6 +55,8 @@ encoder:
 盟	abt
 冒	abu
 題	ac
+顕	acc
+顕	acmbc
 晰	adhl
 晰	adl
 昧	ad
@@ -95,6 +97,8 @@ encoder:
 暑	aja
 昧	ajd
 暑	ajka
+暁	ajtu
+暁	aju
 晏	ajv
 旯	akn
 即	al
@@ -134,12 +138,14 @@ encoder:
 閩	ani
 閾	anirm
 聞	anj
+関	ank
 閹	anklu
 閘	anl
 閩	anlmi
 閂	anm
 閏	anmg
 開	anmt
+闘	anmti
 閻	annhx
 閃	ano
 閥	anoi
@@ -153,6 +159,7 @@ encoder:
 闢	ansrj
 關	ant
 🐜	ant
+関	antk
 闕	antuo
 晚	anu
 關	anvit
@@ -183,8 +190,10 @@ encoder:
 暇	arse
 昨	as
 最	ase
+曜	asg
 昭	ashr
 最	asje
+曜	asmg
 昵	asp
 昭	asr
 暱	astr	as'tr
@@ -234,6 +243,8 @@ encoder:
 骷	bbjr
 髏	bbllv
 剮	bbln
+胴	bbm
+胴	bbmr	bbm'r
 剮	bbn
 舜	bbnq
 愛	bbpe
@@ -314,7 +325,9 @@ encoder:
 懸	bfp
 胖	bfq
 騰	bfqf
+謄	bfqr
 勝	bfqs
+謄	bfr
 勝	bfs
 肚	bg
 膨	bgh
@@ -412,6 +425,7 @@ encoder:
 腹	boae
 腹	boe
 祭	bof
+鶏	bohaf
 膾	boma
 祭	bommf
 臉	bomo
@@ -515,6 +529,7 @@ encoder:
 瞄	butw
 見	buu
 眼	buv
+県	buvf
 鼎	buvml
 鼎	buvmn
 睏	buw
@@ -622,6 +637,7 @@ encoder:
 鉛	chnr
 鍁	cho
 🍫	chocolate
+鉄	chqo
 鉛	chr
 銹	chs
 鑽	chuc
@@ -631,6 +647,7 @@ encoder:
 鍍	cie
 鑣	cif
 錢	cii
+銭	cij
 鋪	cijb
 翁	cim
 頌	cimbc
@@ -674,11 +691,13 @@ encoder:
 鈣	cmys
 釘	cn
 錳	cndt
+録	cne
 鈕	cng
 弟	cnh
 銘	cnir
 鍵	cnkq
 弟	cnlh
+録	cnme
 欽	cno
 鍵	cnq
 銘	cnr
@@ -706,6 +725,8 @@ encoder:
 鉤	cpr
 鈍	cpu
 鍵	cq
+鋳	cqki
+鋳	cqi
 鍵盤	cqhet
 錶	cqmv
 錶	cqv
@@ -794,6 +815,7 @@ encoder:
 棘	dbdb
 棗	dbdb
 刺	dbln
+査	dbm
 桐	dbmr	db'mr
 刺	dbn
 桐	dbr	db'r
@@ -833,8 +855,10 @@ encoder:
 標	df
 梢	dfb
 檔	dfbw
+楼	dfdv
 隸	dfe
 隸	dfle
+桜	dfv
 檔	dfw
 杜	dg
 棱	dgce
@@ -910,6 +934,7 @@ encoder:
 棣	dle
 勅	dlks
 樓	dllv
+頼	dlmbc
 桃	dlmo
 賴	dlnbc
 桃	dlo
@@ -966,6 +991,7 @@ encoder:
 🐶	doggy
 槍	doir
 枚	dok
+権	dokg
 🐬	dolphin
 栓	domg
 榆	domn
@@ -1003,6 +1029,7 @@ encoder:
 框	dsg	ds'g
 檻	dsit
 椰	dsjl
+枢	dsk
 椰	dsl
 櫃	dslc	ds'lc
 栩	dsm
@@ -1076,6 +1103,7 @@ encoder:
 沓	ea
 澗	eaa
 温	eabt
+湿	eac
 漫	eae
 濕	eaf
 涅	eag
@@ -1092,6 +1120,7 @@ encoder:
 渴	eapv
 🌏	earth
 温	eat
+湿	eatc
 瀑	eate
 溉	eau
 渴	eav
@@ -1220,6 +1249,7 @@ encoder:
 滲	eih
 淺	eii
 滲	eiih
+浅	eij
 浦	eijb
 淚	eik
 洲	eil
@@ -1234,6 +1264,7 @@ encoder:
 滬	eiu
 浪	eiv
 汁	ej
+渚	eja
 沛	ejb
 演	ejc
 溶	ejcr
@@ -1245,6 +1276,7 @@ encoder:
 潮	ejjb
 漸	ejjl
 瀚	ejjm
+渚	ejka
 漸	ejl
 淒	ejlv
 渲	ejm
@@ -1276,6 +1308,7 @@ encoder:
 沈	elbu
 潰	elc
 🐘	elephant
+渊	elfl
 泱	elk
 淵	ell
 沸	elln
@@ -1299,6 +1332,7 @@ encoder:
 鴻	emhf
 瀝	emhm
 汗	emj
+汚	emjs
 添	emkp
 瀝	emm
 灑	emmp
@@ -1331,6 +1365,7 @@ encoder:
 潑	enoe
 澄	enot
 湧	ens
+浄	ensd
 漲	ensv
 澄	ent
 漲	env
@@ -1410,6 +1445,7 @@ encoder:
 灌	etg
 漾	etge
 滋	eti
+滞	etjb
 漠	etk
 滿	etlb
 潢	etlc
@@ -1465,8 +1501,10 @@ encoder:
 漣	eyj
 漣	eyjj
 液	eyk
+済	eykl
 沛	eylb
 涉	eylh
+渋	eymo
 湾	eyn
 漩	eyo
 液	eyok
@@ -1514,6 +1552,7 @@ encoder:
 棠	fbrd
 堂	fbrg
 党	fbrhu
+営	fbrhr
 常	fbrlb
 嘗	fbrpa
 掌	fbrq
@@ -1525,6 +1564,8 @@ encoder:
 當	fbw
 類	fc
 脊	fcb
+誉	fcr
+誉	fcymr
 米	fd
 糟	fda
 糧	fdamg
@@ -1543,6 +1584,7 @@ encoder:
 料	fdj
 粽	fdjmf
 糊	fdjrb
+粋	fdknj
 粗	fdm
 糯	fdmbb
 煒	fdmq
@@ -1605,6 +1647,8 @@ encoder:
 烤	fjks
 熔	fjr
 烤	fjs
+焼	fjtu
+焼	fju
 尖	fk
 幣	fkb
 類	fkc
@@ -1629,6 +1673,7 @@ encoder:
 煩	fmc
 煙	fmg
 厳	fmmjk
+灯	fmn
 炳	fmob
 光	fmu
 煙	fmwg
@@ -1666,6 +1711,8 @@ encoder:
 誊	fqymr
 營	fr
 燥	frd
+獣	frik
+獣	frk
 🐸	frog
 燥	frrd
 勞	fs
@@ -1732,11 +1779,13 @@ encoder:
 堤	gao
 塌	gasm
 幫	gb
+売	gbhu
 壼	gbm
 壼	gbmm
 壹	gbmt
 壱	gbp
 壹	gbt
+売	gbu
 坍	gby
 賣	gc
 增	gca
@@ -1848,10 +1897,12 @@ encoder:
 趁	goohh
 趨	gopuu
 超	gor
+塩	gort
 起	goru
 超	goshr
 趣	gosje
 起	gosu
+塩	got
 起	gou
 越	gov
 嗇	gow
@@ -1987,8 +2038,10 @@ encoder:
 稱	hdbgb
 稠	hdbgr	hdb'gr
 稻	hdbhx
+稲	hdbla
 租	hdbm
 穩	hdbmp
+穏	hdbsp
 箱	hdbu
 積	hdc
 稅	hdcru
@@ -2012,6 +2065,7 @@ encoder:
 科	hdj
 穗	hdjip
 稼	hdjmo
+穂	hdjwp
 秧	hdk
 稀	hdkkb
 秉	hdl
@@ -2025,10 +2079,12 @@ encoder:
 秆	hdmj
 利	hdn
 季	hdnd
+称	hdnf
 秀	hdnhs
 移	hdnin
 秩	hdo
 黍	hdoe
+称	hdof
 稚	hdog
 稔	hdoip
 悉	hdp
@@ -2039,6 +2095,7 @@ encoder:
 程	hdrhg
 程	hdrmg
 秀	hds
+釈	hdso
 乗	hdt
 穫	hdtoe
 箱	hdu
@@ -2055,8 +2112,10 @@ encoder:
 盤	hebt
 槃	hed
 箔	heha
+処	hehn
 簿	hei
 簿	heii
+処	hen
 各	her
 盤	het
 冬	hey
@@ -2332,6 +2391,7 @@ encoder:
 甜	hrtm	hrt'm
 乱	hru
 烏	hryf
+辞	hrytj
 戶	hs
 肩	hsb
 扁	hsbt	hsb't
@@ -2367,6 +2427,7 @@ encoder:
 衆	hthho
 衊	hti
 剰	htln
+䇞	htm	ht'm
 箕	htmc
 箭	htn
 衆	hto
@@ -2504,8 +2565,10 @@ encoder:
 祖	ifbm
 視	ifbuu
 祺	ifc
+禅	ifcwj
 禕	ifdmq
 祿	ife
+禅	iffwj
 社	ifg
 祛	ifgi
 禱	ifgni
@@ -2577,11 +2640,13 @@ encoder:
 盞	iit
 戎	ij
 甫	ijb
+盏	ijbt
 麻	ijc
 麻	ijcc
 求	ije
 庫	ijj
 廟	ijjb
+盏	ijt
 庫	ijwj
 犬	ik
 為	ikf
@@ -2600,12 +2665,15 @@ encoder:
 康	ile
 州	ilil
 州	ill
+师	ilmb
 划	iln
 庚	ilo
 唐	ilr
+帰	ilsmb
 或	im
 凋	imb
 凋	imbgr
+净	imd
 凍	imdw
 冰	ime
 馮	imf
@@ -2615,6 +2683,7 @@ encoder:
 冶	imir
 凑	imk
 次	imno
+净	imnsd
 次	imo
 准	imog
 冷	imoii
@@ -2638,8 +2707,10 @@ encoder:
 廢	inoe
 之	io
 腐	iob
+盗	iobt
 資	ioc
 資	iobuc
+楽	iod
 府	iodi
 鷹	iof
 座	iog
@@ -2656,6 +2727,7 @@ encoder:
 恣	iop
 咨	ior
 iOS	ios
+盗	iot
 姿	iov
 能	ip
 弋	ip
@@ -2728,6 +2800,7 @@ iOS	ios
 南	jb
 真	jbc
 察	jbf
+献	jbik
 南	jbj	jb'j
 宜	jbm
 真	jbmc
@@ -2755,6 +2828,7 @@ iOS	ios
 窗	jchwn
 竄	jchxv
 突	jcik
+窓	jcip
 突	jck
 究	jckn
 空	jcm
@@ -2773,6 +2847,7 @@ iOS	ios
 窄	jcs
 窘	jcskr
 窟	jcsuu
+窯	jctgf
 竃	jcu
 竄	jcv
 窗	jcw
@@ -2828,6 +2903,7 @@ iOS	ios
 車	jj
 朝	jjb
 韓	jjdmq
+軽	jjeg
 轅	jjgrv
 轎	jjhkb
 斬	jjhml
@@ -2845,6 +2921,7 @@ iOS	ios
 輕	jjm
 軒	jjmj
 輛	jjmlb
+転	jjmmi
 輻	jjmrw
 輕	jjmvm
 輸	jjn
@@ -3039,6 +3116,7 @@ iOS	ios
 剎	kdln
 弒	kdm
 剎	kdn
+雑	kdog
 敎	kdok
 友	ke
 痧	kefh
@@ -3067,6 +3145,7 @@ iOS	ios
 痢	khdn
 瘦	khe
 疼	khey
+猟	khfhn
 狂	khg
 猿	khgrv
 獅	khhrb
@@ -3076,9 +3155,12 @@ iOS	ios
 狼	khiav
 犹	khiku
 猝	khj
+狩	khjdi
 獰	khjpn
 猴	khk
 狹	khkoo
+狭	khkt
+独	khlmi
 猩	khm
 狂	khmg
 獗	khmto
@@ -3295,8 +3377,10 @@ iOS	ios
 晝	lgam
 褂	lggy
 畫	lgm
+装	lgv
 畫	lgwm
 褂	lgy
+装	lgyhv
 初	lh
 襖	lhbk
 衫	lhh
@@ -3402,8 +3486,10 @@ iOS	ios
 盎	lkt
 串	ll
 暢	llamh
+帰	llb
 順	llc
 版	lle
+粛	llfl
 牘	llgwc
 暢	llh
 版	llhe
@@ -3412,10 +3498,12 @@ iOS	ios
 川	lll
 順	lllc
 褸	lllv
+师	llmb
 片	llml
 片	llmn
 弗	lln
 患	llp
+帰	llsmb
 婁	llv
 袖	llw
 畫	lm
@@ -3425,6 +3513,7 @@ iOS	ios
 盡	lmfbt
 壮	lmg
 虫	lmi
+状	lmik
 劃	lmln
 劃	lmn
 将	lmnii
@@ -3672,7 +3761,9 @@ iOS	ios
 天	mk
 壓	mkg
 甦	mkhqm
+蚕	mki
 👺	mkkhra
+蚕	mklmi
 甦	mkm
 靨	mkmwl
 憨	mkp
@@ -3717,6 +3808,7 @@ iOS	ios
 殊	mnhjd
 歹	mni	mn'i
 殘	mnii
+残	mnij
 歼	mnj
 殖	mnjbm
 殃	mnk
@@ -3759,6 +3851,7 @@ iOS	ios
 貮	mpbuc
 貮	mpc
 武	mpm
+弐	mpmm
 武	mpylm
 磷	mq
 石	mr
@@ -3789,6 +3882,7 @@ iOS	ios
 磚	mrjii
 碗	mrjnu
 硬	mrk
+砕	mrknj
 磋	mrm
 碩	mrmbc
 砰	mrmfj
@@ -3807,6 +3901,7 @@ iOS	ios
 砒	mrp
 礙	mrpko
 砒	mrpp
+砲	mrpru
 砌	mrpsh
 碟	mrptd
 磷	mrq
@@ -3858,6 +3953,7 @@ iOS	ios
 夏	mue
 夏	muhe
 戛	mui
+画	mulw
 頑	mumbc
 🍄	mushroom
 画	muw	mu'w
@@ -3897,12 +3993,14 @@ iOS	ios
 醉	mwj
 酵	mwjkd
 覈	mwk
+酔	mwknj
 面	mwl	mw'l
 副	mwln
 醒	mwm
 票	mwmmf
 酝	mwmmi
 副	mwn
+酢	mwos
 酌	mwpi
 酌	mwpm
 酷	mwr
@@ -3916,6 +4014,7 @@ iOS	ios
 酗	mwuk	mwu'k
 要	mwv
 醞	mwwot
+醸	mwycv
 醉	mwyoj
 醇	mwyrd
 釀	mwyrv
@@ -3941,6 +4040,7 @@ iOS	ios
 墮	nbg
 觸	nbi
 勇	nbks
+触	nblmi
 恿	nbp
 解	nbq
 勇	nbs
@@ -4037,12 +4137,14 @@ iOS	ios
 阻	nlbm
 隱	nlbmp
 際	nlbof
+隠	nlbsp
 隕	nlc
 除	nld
 陳	nldw
 陵	nle
 際	nlf
 隙	nlfaf
+隣	nlfdq
 隙	nlfhf
 陸	nlg
 陵	nlgce
@@ -4065,6 +4167,7 @@ iOS	ios
 阿	nlmnr
 隔	nlmrb
 陷	nlnhx
+陥	nlnla
 隊	nlo
 附	nlodi
 陰	nloii
@@ -4073,6 +4176,7 @@ iOS	ios
 隱	nlp
 陶	nlpou
 階	nlppa
+陛	nlppg
 降	nlq
 阿	nlr
 隕	nlrbc
@@ -4093,6 +4197,7 @@ iOS	ios
 陪	nlytr
 弱	nm
 彌	nmb
+疎	nmdl
 彌	nmfb
 弱	nmm
 弱	nmnim
@@ -4118,11 +4223,13 @@ iOS	ios
 飛	nohto
 蛋	noi
 蛋	nolmi
+発	nomkp
 凳	nomrn
 登	nomrt
 凳	non
 發	nonhe
 飛	noo
+発	nop
 登	not
 隱	np
 弛	npd
@@ -4214,6 +4321,7 @@ iOS	ios
 倦	ofu
 仕	og
 賃	ogbuc
+観	ogbuu
 賃	ogc
 集	ogd
 侍	ogdi
@@ -4226,6 +4334,7 @@ iOS	ios
 侍	ogi
 傲	ogk
 隽	ognhs
+歓	ogno
 售	ogr
 隽	ogs
 傲	ogsk
@@ -4895,6 +5004,7 @@ PaaS	paas
 揪	qhdf
 播	qhdw
 扳	qhe
+拠	qhen
 揪	qhf
 捏	qhg
 抵	qhi
@@ -4991,6 +5101,7 @@ PaaS	paas
 掩	qku
 拋	qkus
 折	ql
+捜	qle
 拂	qln
 拂	qlln
 摟	qllv
@@ -5000,6 +5111,7 @@ PaaS	paas
 挑	qlo
 哲	qlr
 抽	qlw
+捜	qlwe
 拽	qlwp
 排	qly
 誓	qlymr
@@ -5014,10 +5126,12 @@ PaaS	paas
 素	qmf
 捱	qmg
 捱	qmgg
+拝	qmj
 捂	qmmr
 振	qmmv
 打	qmn
 抦	qmob
+拝	qmqj
 拓	qmr
 揼	qmre
 扼	qmsu
@@ -5055,10 +5169,12 @@ PaaS	paas
 夫	qo
 替	qoa
 擒	qob
+賛	qobuc
 規	qobuu
 拖	qod
 撫	qof
 推	qog
+捨	qogr
 携	qogs
 擕	qogs
 拎	qoi
@@ -5123,6 +5239,7 @@ PaaS	paas
 招	qshr
 攝	qsj
 攝	qsjj
+摂	qsjo
 据	qsjr
 挪	qsl
 摺	qsma
@@ -5432,8 +5549,10 @@ PaaS	paas
 踐	rmii
 跋	rmike
 跋	rmikk
+践	rmij
 踱	rmite
 踮	rmiyr
+践	rmj
 噉	rmjk
 踪	rmjmf
 跎	rmjp
@@ -5711,6 +5830,7 @@ PaaS	paas
 尉	sfdi
 馭	sfe
 騷	sfeii
+騒	sfeli
 騾	sff
 駐	sfg
 駱	sfher
@@ -5738,6 +5858,8 @@ PaaS	paas
 駒	sfr
 驅	sfs
 驟	sfseo
+駆	sfsk	sfs'k
+駅	sfso	sfs'o
 驅	sfsrr	sfs'rr
 驢	sft
 騏	sftmc
@@ -5768,6 +5890,7 @@ PaaS	paas
 鬢	shjmc
 鬍	shjrb
 髮	shk
+髪	shke
 匠	shl	s'hl
 属	shlb
 匠	shml	s'hml
@@ -5803,6 +5926,7 @@ PaaS	paas
 聰	sjhwp
 璧	sji
 聶	sjj
+聴	sjjwp
 联	sjk
 屠	sjka
 聊	sjl
@@ -5823,6 +5947,9 @@ PaaS	paas
 職	sjyia
 譬	sjymr
 尹	sk
+殴	ske
+殴	skhne
+欧	skno
 君	skr
 那	sl
 匝	slb
@@ -5857,15 +5984,19 @@ PaaS	paas
 長	smv
 翼	smwtc
 翠	smyoj
+翌	smyt
 🐌	snail
 🐍	snake
 屙	snlr
 🏔️	snowmountain
 屙	snr
 尺	so
+昼	soam
 咫	soc
 医	sok	s'ok
+昼	som
 咫	sorc
+尽	soy
 尼	sp
 🕷️	spider
 🕸️	spiderweb
@@ -5886,8 +6017,11 @@ PaaS	paas
 聖	srhg
 毆	srhne
 辟	srj
+邵	srl
 屌	srlb
 聖	srmg
+郡	srnl
+邵	srnl
 歐	srno
 歐	sro
 群	srq
@@ -5974,6 +6108,8 @@ PaaS	paas
 蒙	tbo
 蔡	tbof
 散	tbok
+营	tbr
+营	tbrr
 藐	tbu
 共	tc
 普	tca
@@ -6011,9 +6147,11 @@ PaaS	paas
 藻	ted
 菠	tede
 莎	tefh
+茎	teg
 菠	tee
 蕩	teh
 落	tehr
+藩	tehw
 薄	tei
 蒲	teib
 薄	teii
@@ -6024,6 +6162,7 @@ PaaS	paas
 范	tesu
 范	teu
 茫	tev
+藩	tew
 茫	teyv
 驚	tf
 蔽	tfbk
@@ -6061,7 +6200,9 @@ PaaS	paas
 莉	thdn
 萎	thdv
 蕃	thdw
+薰	thf
 董	thg
+薰	thgf
 薛	thj
 董	thjg
 薇	thk
@@ -6079,15 +6220,18 @@ PaaS	paas
 蓖	thwp
 對	ti
 蘑	ticr
+薬	tiod
 蘑	tidr
 薦	tif
 🐯	tiger
 茂	tih
+蔵	tihs
 莽	tikt
 茨	timo
 藏	tims
 芝	tino
 芝	tio
+薬	tiod
 懟	tip
 苔	tir
 藏	tis
@@ -6148,9 +6292,11 @@ PaaS	paas
 茧	tli
 革	tlj
 英	tlk
+荘	tlmg
 茧	tlmi
 菲	tlmy
 燕	tlpf
+黄	tlwc
 蕭	tlx
 菲	tly
 甘	tm	t'm
@@ -6203,6 +6349,7 @@ PaaS	paas
 薩	tnm
 蔬	tnmu
 葵	tnok
+茎	tnom
 蔬	tnu
 歡	to
 艱	toav
@@ -6287,6 +6434,7 @@ T恤	tpht
 茁	tuu
 甚	tv
 藥	tvd
+葯	tvfi
 蘊	tvft
 藴	tvft
 莊	tvg
@@ -6309,6 +6457,7 @@ T恤	tpht
 曹	twa
 萬	twb
 躉	twbo
+黄	twc
 菌	twd	tw'd
 尊	twdi
 蘿	twg
@@ -6322,9 +6471,11 @@ T恤	tpht
 蔑	twli
 夢	twln
 農	twmmv
+豊	twmrt
 夢	twn
 躉	two
 茴	twr	tw'r
+豊	twt
 農	twv
 舊	tx
 兼	txc
@@ -6459,7 +6610,9 @@ T恤	tpht
 媛	vbme
 嫌	vc
 好	vd
+断	vdhml
 嫩	vdk
+断	vdl
 嫩	vdlk
 剿	vdln
 剿	vdn
@@ -6482,16 +6635,20 @@ T恤	tpht
 網	vfbtv	vfb'tv
 緲	vfbuh
 續	vfc
+総	vfcip
 紛	vfcsh
 孿	vfd
 緯	vfdmq
 練	vfdwf	vfdw'f
 級	vfe
 綴	vfeee
+経	vfeg
 絲	vff
 紗	vffh
 絆	vffq
 維	vfg
+続	vfgbu
+綾	vfgce
 繞	vfggu
 結	vfgr
 續	vfgwc
@@ -6515,6 +6672,7 @@ T恤	tpht
 編	vfisb
 纏	vfiwg
 縫	vfj
+纎	vfjim
 緒	vfjka
 繽	vfjmc
 綜	vfjmf
@@ -6544,6 +6702,8 @@ T恤	tpht
 紐	vfng
 級	vfnhe
 紓	vfnin
+緑	vfnme
+縁	vfnmo
 纔	vfnri
 緣	vfo
 納	vfob
@@ -6562,6 +6722,7 @@ T恤	tpht
 績	vfqmc
 給	vfr
 絹	vfrb
+繰	vfrrd
 緝	vfrsj
 繩	vfrxu
 綉	vfs
@@ -6571,6 +6732,7 @@ T恤	tpht
 繆	vfsmh
 紀	vfsu
 纜	vfswu
+紺	vftm	vft'm
 統	vfu
 巒	vfu
 繃	vfubb
@@ -6600,6 +6762,7 @@ T恤	tpht
 裝	vgyhv
 姊	vh
 婚	vha
+郷	vhail
 嬌	vhb
 嫂	vhe
 妊	vhg
@@ -6752,6 +6915,8 @@ T恤	tpht
 田	w
 🍉	watermelon
 胃	wb
+畳	wbbm
+畳	wbm
 愚	wbp
 四	wc	w'c
 果	wd
@@ -6804,6 +6969,7 @@ T恤	tpht
 固	wjr	w'jr
 因	wk	w'k
 囿	wkb
+黙	wkf
 畸	wkmr
 恩	wkp
 畸	wkr
@@ -6843,6 +7009,7 @@ T恤	tpht
 畀	wmll
 曱	wmll
 圄	wmmr
+町	wmn
 畏	wmv
 野	wn
 墅	wng
@@ -6923,8 +7090,10 @@ T恤	tpht
 商	ycbr	ycb'r
 変	yce
 変	yche
+蛮	yci
 交	yck
 奕	yck
+蛮	yclmi
 戇	ycp
 遊	yd
 親	ydbuu
@@ -6967,16 +7136,19 @@ T恤	tpht
 返	yhe
 逢	yhej
 造	yhgr
+産	yhhqm
 遛	yhhw
 逢	yhj
 遁	yhju
 邀	yhk
 近	yhl
+産	yhm
 頻	yhmbc
 顏	yhmbc
 近	yhml
 逅	yhmr
 遞	yhn
+逓	yhqb
 迭	yhqo
 造	yhr
 追	yhrr
@@ -7027,6 +7199,7 @@ T恤	tpht
 対	yki
 效	ykk
 郊	ykl
+斎	yklml
 產	ykm
 彥	ykmhh
 產	ykmhm
@@ -7061,6 +7234,7 @@ T恤	tpht
 雌	ymg
 歲	ymh
 氈	ymhqu
+歳	ymihf
 歲	ymihh
 歧	ymje
 顫	ymmbc
@@ -7075,6 +7249,7 @@ T恤	tpht
 逐	ymso
 逗	ymt
 齒	ymu
+歯	ymufd	ymu'fd
 齒	ymuoo	ymu'oo
 逼	ymw
 遷	ymwu
@@ -7125,6 +7300,7 @@ T恤	tpht
 些	ypmm
 處	ypn
 慮	ypp
+虞	yprvc
 虞	yprvk
 虜	yps
 聾	ypsj
@@ -7171,8 +7347,10 @@ T恤	tpht
 京	yrf
 談	yrff
 誰	yrg
+読	yrgbu
 詩	yrgdi
 誌	yrgp
+詰	yrgr
 讀	yrgwc
 診	yrh
 誘	yrhds
@@ -7246,12 +7424,14 @@ T恤	tpht
 請	yrqmb
 話	yrr
 誤	yrrmk
+誤	yrrvc
 誤	yrrvk
 誠	yrs
 詔	yrshr
 認	yrsip
 謬	yrsmh
 詞	yrsmr
+訳	yrso
 記	yrsu
 證	yrt
 譜	yrtca
@@ -7277,6 +7457,7 @@ T恤	tpht
 訴	yry
 諦	yrybb
 謗	yrybs
+譲	yrycv
 謎	yryfd
 註	yryg
 諺	yryhh
@@ -7310,6 +7491,7 @@ T恤	tpht
 遲	ysq
 迢	ysr
 避	ysrj
+遅	ystq
 旅	ysv
 於	ysy
 立	yt
