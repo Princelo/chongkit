@@ -427,6 +427,8 @@ encoder:
 臊	brd
 🍞	bread
 雕	brg
+彫	brh
+彫	brhhh
 雕	brog
 臊	brrd
 助	bs
@@ -750,6 +752,7 @@ encoder:
 鍊	cw
 曾	cwa
 鑼	cwg
+单	cwj
 鉀	cwl
 鑼	cwlg
 鏽	cx
@@ -905,6 +908,7 @@ encoder:
 枕	dlbu
 賴	dlc
 棣	dle
+勅	dlks
 樓	dllv
 桃	dlmo
 賴	dlnbc
@@ -1597,6 +1601,7 @@ encoder:
 5️⃣	five
 料	fj
 熔	fjcr
+戦	fji
 烤	fjks
 熔	fjr
 烤	fjs
@@ -1623,6 +1628,7 @@ encoder:
 煩	fmbc
 煩	fmc
 煙	fmg
+厳	fmmjk
 炳	fmob
 光	fmu
 煙	fmwg
@@ -1689,7 +1695,9 @@ encoder:
 数	fvk
 数	fvok
 當	fw
+巣	fwd
 燭	fwi
+単	fwj
 燭	fwli
 劏	fwln
 劏	fwn
@@ -1713,6 +1721,7 @@ encoder:
 炫	fyvi
 土	g
 場	gh
+坂	ghe
 👻	ghost
 增	ga
 場	gah
@@ -1726,6 +1735,7 @@ encoder:
 壼	gbm
 壼	gbmm
 壹	gbmt
+壱	gbp
 壹	gbt
 坍	gby
 賣	gc
@@ -1793,6 +1803,7 @@ encoder:
 坨	gjp
 報	gjsle
 墳	gjtc
+壊	gjwv
 埃	gk
 贅	gkbuc
 贅	gkc
@@ -2028,6 +2039,7 @@ encoder:
 程	hdrhg
 程	hdrmg
 秀	hds
+乗	hdt
 穫	hdtoe
 箱	hdu
 委	hdv
@@ -2205,6 +2217,7 @@ encoder:
 符	hodi
 衛	hodqn
 後	hoe
+径	hoeg
 衍	hoemn
 徜	hofbr	hofb'r
 往	hog
@@ -2238,6 +2251,7 @@ encoder:
 🍯	honeypot
 🇭🇰	hongkong
 衡	honkn
+径	honom
 從	hoo
 復	hooae
 徐	hoomd
@@ -2251,6 +2265,7 @@ encoder:
 聳	hosj
 🌭	hotdog
 徉	hotq
+従	hotyo
 爬	hou
 徽	houfk
 徵	hougk
@@ -2315,6 +2330,7 @@ encoder:
 舔	hrp
 甜	hrt
 甜	hrtm	hrt'm
+乱	hru
 烏	hryf
 戶	hs
 肩	hsb
@@ -2350,6 +2366,7 @@ encoder:
 簸	hte
 衆	hthho
 衊	hti
+剰	htln
 箕	htmc
 箭	htn
 衆	hto
@@ -2548,7 +2565,9 @@ encoder:
 麼	ii
 朗	iib
 盞	iibt
+垒	iig
 參	iih
+垒	iiig
 參	iiih
 廊	iiil
 叄	iiim
@@ -2566,8 +2585,11 @@ encoder:
 庫	ijwj
 犬	ik
 為	ikf
+参	ikh
+参	ikhhh
 飆	ikhni
 庵	iklu
+叁	ikmmm
 飆	ikn
 為	iknf
 欸	ikno
@@ -2846,6 +2868,7 @@ iOS	ios
 較	jjyck
 丈	jk
 者	jka
+寮	jkcf
 孝	jkd
 釐	jkg
 宏	jki
@@ -2864,6 +2887,7 @@ iOS	ios
 衷	jlhv
 吏	jlk
 事	jlln
+寝	jlme
 事	jln
 妻	jlv
 宙	jlw
@@ -2875,8 +2899,10 @@ iOS	ios
 寇	jme
 宗	jmf
 室	jmg
+宝	jmgi
 寡	jmh
 賓	jmhc
+宝	jmi
 室	jmig
 矗	jmjmm
 寅	jmlc
@@ -2920,6 +2946,7 @@ iOS	ios
 密	jpu
 擊	jq
 害	jqjr
+実	jqk
 憲	jqmp
 害	jqmr
 憲	jqp
@@ -2949,6 +2976,7 @@ iOS	ios
 卉	jt
 寞	jtak
 寬	jtbi
+寛	jtbu
 賽	jtc
 賽	jtcc
 寨	jtcd
@@ -2971,6 +2999,7 @@ iOS	ios
 富	jw
 寓	jwb
 實	jwc
+専	jwdi
 車	jwj
 實	jwjc
 寓	jwlb
@@ -3105,6 +3134,7 @@ iOS	ios
 布	klb
 存	kld
 在	klg
+刈	kln
 存	klnd
 奄	klu
 奄	klwu
@@ -3214,6 +3244,7 @@ iOS	ios
 中	l
 書	la
 🐞	ladybug
+児	lahu
 袒	lam
 褐	lapv
 褐	lav
@@ -3388,12 +3419,15 @@ iOS	ios
 婁	llv
 袖	llw
 畫	lm
+将	lmbdi
 貴	lmbuc
 貴	lmc
 盡	lmfbt
+壮	lmg
 虫	lmi
 劃	lmln
 劃	lmn
+将	lmnii
 兆	lmo
 北	lmp
 非	lmsy
@@ -3662,6 +3696,7 @@ iOS	ios
 三	mmm
 頸	mmmbc
 辰	mmmv
+庁	imn
 次	mmno
 次	mmo
 政	mmok
@@ -3913,6 +3948,8 @@ iOS	ios
 負	nbuc
 觸	nbwli
 小	nc	f
+弹	ncj
+弹	ncwj
 子	nd
 孺	ndb
 孟	ndbt
@@ -3949,6 +3986,7 @@ iOS	ios
 鮮	nftq
 鮑	nfu
 鯉	nfwg
+弾	nfwj
 鯨	nfyrf
 丑	ng
 疆	ngm
@@ -4132,6 +4170,7 @@ iOS	ios
 但	oam
 們	oan
 內	ob
+内	ob
 俱	obc
 側	obcn
 俘	obd
@@ -4200,8 +4239,10 @@ iOS	ios
 俬	ohdi
 俐	ohdn
 傻	ohe
+仮	ohe
 係	ohf
 任	ohg
+働	ohgs
 俄	ohi
 傀	ohi
 仟	ohj
@@ -4224,6 +4265,7 @@ iOS	ios
 俾	ohwj
 倪	ohxu
 伐	oi
+仏	oi
 倉	oiar
 食	oiav
 饅	oiawe
@@ -4331,6 +4373,7 @@ iOS	ios
 佛	olln
 僂	ollv
 儘	olmt
+俳	olmy
 佛	oln
 候	olnk
 條	olod
@@ -4360,6 +4403,7 @@ iOS	ios
 命	oml
 倆	omlb
 便	omlk
+価	omlw
 仁	omm
 会	ommi
 伝	ommi
@@ -4435,6 +4479,7 @@ iOS	ios
 債	oqc
 倩	oqmb
 債	oqmc
+俵	oqmv
 傲	oqsk
 知	or
 智	ora
@@ -4598,6 +4643,7 @@ PaaS	paas
 恍	pfmu
 憐	pfq
 恍	pfu
+悩	pfuk	pfu'k
 懂	pg
 恃	pgdi
 怯	pgi
@@ -4626,6 +4672,7 @@ PaaS	paas
 慘	pih
 慘	piih
 匍	pijb
+惨	pikh
 慷	pile
 匀	pim
 🍍	pineapple
@@ -4660,6 +4707,7 @@ PaaS	paas
 忱	plbu
 忱	plu
 勺	pm
+恒	pmam
 懦	pmb
 懦	pmbb
 頃	pmbc
@@ -4925,10 +4973,12 @@ PaaS	paas
 贅	qkc
 撩	qkcf
 秦	qkd
+寿	qkdi
 泰	qke
 熬	qkf
 秦	qkhd
 奏	qkhk
+寿	qki
 奏	qkk
 掩	qklu
 捺	qkmf
@@ -5196,6 +5246,8 @@ PaaS	paas
 鵑	rbhaf
 嚼	rbi
 咀	rbm
+嗣	rbr
+嗣	rbsmr
 員	rbuc
 唄	rbuc
 嚼	rbwi
@@ -5562,11 +5614,13 @@ PaaS	paas
 啱	rur
 咄	ruu
 喂	rv
+呉	rvc
 喲	rvfi
 吆	rvi
 嘰	rvii
 吳	rvk
 叫	rvl
+呉	rvnc
 吳	rvnk
 民	rvp
 哂	rw
@@ -5715,6 +5769,7 @@ PaaS	paas
 鬍	shjrb
 髮	shk
 匠	shl	s'hl
+属	shlb
 匠	shml	s'hml
 履	shoe
 🍰	shortcake
@@ -5779,6 +5834,7 @@ PaaS	paas
 臨	slr
 臣	slsl	s'lsl
 屢	slv
+届	slw
 匪	sly	s'ly
 刁	sm
 習	sma
@@ -6043,6 +6099,7 @@ PaaS	paas
 靶	tjau
 葫	tjb
 荸	tjbd
+帯	tjblb
 蓉	tjcr
 孽	tjd
 鞦	tjf
@@ -6326,6 +6383,7 @@ T恤	tpht
 峰	uj
 巔	ujc
 巔	ujcc
+岐	uje
 崇	ujf
 嶄	ujjl
 嶄	ujl
@@ -6341,6 +6399,7 @@ T恤	tpht
 峽	uko
 峽	ukoo
 崎	ukr
+峡	ukt
 兇	uku
 ☂️	umbrella
 🌂	umbrellaclosed
@@ -6388,6 +6447,8 @@ T恤	tpht
 幽	uvi	u'vi
 幽	uvii	u'vii
 崽	uwp
+峠	uymy
+峠	uyy
 女	v
 縮	va
 媚	vahu
@@ -6643,6 +6704,7 @@ T恤	tpht
 絮	vrf
 娛	vrk
 恕	vrp
+娯	vrvc
 絮	vrvif
 娛	vrvk
 奶	vs
@@ -6680,10 +6742,12 @@ T恤	tpht
 嫡	vyb
 嫡	vycb
 姣	vyck
+嬢	vycv
 妨	vyhs
 姣	vyk
 婷	vyn
 婷	vyrn
+孃	vyrv
 妨	vys
 田	w
 🍉	watermelon
@@ -6693,6 +6757,7 @@ T恤	tpht
 果	wd
 困	wd	w'd
 顆	wdc
+団	wdi
 顆	wdmbc
 圍	wdmq	w'dmq
 夥	wdn
@@ -6729,6 +6794,7 @@ T恤	tpht
 圃	wijb	w'ijb
 國	wim	w'im
 🍷	wine
+塁	wiog
 國	wirm	w'irm
 毋	wj
 貫	wjbuc
@@ -6771,6 +6837,8 @@ T恤	tpht
 罩	wlyaj
 罰	wlyrn
 國	wm	w'm
+国	wmgi
+国	wmi
 畀	wml
 畀	wmll
 曱	wmll
@@ -6797,6 +6865,8 @@ T恤	tpht
 嬲	wsvws
 異	wtc
 畢	wtj
+畊	wtt
+囲	wtt
 圈	wu
 園	wv
 累	wvf
@@ -6949,10 +7019,12 @@ T恤	tpht
 辯	yjyrj
 文	yk
 遼	ykcf
+対	ykdi
 遼	ykf
 逛	ykg
 彥	ykh
 逛	ykhg
+対	yki
 效	ykk
 郊	ykl
 產	ykm
@@ -6969,6 +7041,7 @@ T恤	tpht
 逮	yle
 步	ylh
 衷	ylhv
+剤	ylln
 止	ylm
 遺	ylmc
 步	ylmh
@@ -7430,6 +7503,7 @@ T恤	tpht
 槳	xvid
 幻	xvis
 困	xwd
+囲	xwtt
 丟	xxmgi
 奕	xyck
 顏	xyhmb
