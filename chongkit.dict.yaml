@@ -711,6 +711,17 @@ encoder:
 鈴	coii
 鎗	coir
 鑰	comb
+↓↘→	commandsd
+↓↙←	commandsa
+←↙↓↘→	commandasd
+→↘↓↙←	commanddsa
+→↓↘	commanddsd
+←↓↙	commandasa
+↑↓	commandws
+↓↑	commandsw
+←→	commandad
+↓↘→↘↓↙←	commandsdsa
+↓↙←↙↓↘→	commandsasd
 銼	coog
 慾	cop
 谷	cor
@@ -1001,6 +1012,7 @@ encoder:
 來	doo
 槍	dor
 楡	dov
+↓	down
 梅	dowy
 梅	doy
 想	dp
@@ -3369,6 +3381,9 @@ iOS	ios
 被	ldhe
 袜	ldj
 被	le
+←	left
+↙	leftdown
+↖	leftup
 衩	lei	lei
 衩	lei	le'i
 🍋	lemon
@@ -5461,6 +5476,9 @@ PaaS	paas
 咏	rie
 嘁	rif
 雖	rig
+→	right
+↘	rightdown
+↗	rightup
 嘁	rihf
 喊	rihr
 吮	rihu
@@ -6578,6 +6596,7 @@ T恤	tpht
 岑	uoin
 屹	uon
 崽	up
+↑	up
 岩	ur
 巖	urk
 巖	urrk
