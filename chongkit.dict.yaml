@@ -406,6 +406,7 @@ encoder:
 腌	bku
 腳	bl
 円	blm
+🩸	blooddrop
 且	bm
 肛	bm
 具	bmc
@@ -786,6 +787,7 @@ encoder:
 鋁	crr
 卻	crsl
 兌	cru
+😭	crying
 鈣	cs
 貧	csc
 鏗	cseg
@@ -1743,6 +1745,7 @@ encoder:
 省	fhu
 熄	fhup
 燭	fi
+🔥	fire
 🍤	firedshrimp
 🍟	fires
 🐟	fish
@@ -1797,6 +1800,7 @@ encoder:
 焰	fnx
 燴	foa
 雀	fog
+🙏	foldedhands
 燴	foma
 炸	fos
 🦊	fox
@@ -2244,6 +2248,8 @@ encoder:
 穢	hdymh
 稿	hdyrb
 反	he
+❤️ 	heart
+💕	hearts
 黐	heb
 盤	hebt
 槃	hed
@@ -2254,6 +2260,7 @@ encoder:
 磐	hemr
 処	hen
 各	her
+🌿	herb
 盤	het
 冬	hey
 黏	heyr
@@ -2466,6 +2473,7 @@ encoder:
 🐴	horse
 彷	hos
 聳	hosj
+🏥	hospital
 🌭	hotdog
 徉	hotq
 従	hotyo
@@ -3724,6 +3732,7 @@ iOS	ios
 複	loe
 袱	loik
 袱	lok
+🥰	loveface
 忠	lp
 背	lpb
 冀	lpc
@@ -3817,10 +3826,9 @@ iOS	ios
 雹	mbpru
 露	mbrmr
 靈	mbrro
-勵	mbs
+雪	mbs
 露	mbr
 霞	mbrse
-雪	mbsm	mbsm
 雪	mbsm	mbs'm
 霹	mbsrj
 霸	mbtjb
@@ -3843,6 +3851,7 @@ iOS	ios
 盂	mdt
 汞	me
 🍖	meat
+⚕️	medicalsymbol
 🍈	melon
 亟	mem
 不	mf
@@ -4029,6 +4038,7 @@ iOS	ios
 裂	mnyhv
 仄	mo
 豬	moa
+🗿	moai
 丙	mob
 資	mobuc
 資	moc
@@ -5029,6 +5039,7 @@ PaaS	paas
 匍	pijb
 惨	pikh
 慷	pile
+💊	pill
 匀	pim
 🍍	pineapple
 憾	pip
@@ -5060,6 +5071,7 @@ PaaS	paas
 疑	pko
 肄	pkq
 忱	plbu
+🥺	pleading
 忱	plu
 勺	pm
 恒	pmam
@@ -5926,6 +5938,7 @@ PaaS	paas
 🤖	robot
 咐	rodi
 喺	rof
+🤣	rofl
 唯	rog
 喺	rohf
 咐	roi
@@ -6280,6 +6293,7 @@ PaaS	paas
 習	smha
 尋	smi
 屋	smig
+😊	smiling
 翠	smj
 羽	smm
 尋	smmri
@@ -6306,6 +6320,7 @@ PaaS	paas
 咫	sorc
 尽	soy
 尼	sp
+✨	sparkles
 🕷️	spider
 🕸️	spiderweb
 🥄	spoon
@@ -6342,6 +6357,7 @@ PaaS	paas
 局	ssr	ss'r
 凹	ssu
 聯	st
+🩺	stethoscope
 匿	stkr	s'tkr
 匿	str	s'tr
 🍓	strawberry
@@ -6367,6 +6383,7 @@ PaaS	paas
 鹽	swt
 覽	swu
 匪	sy
+💉	syringe
 廿	t
 昔	ta
 暮	taa
