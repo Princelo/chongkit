@@ -48,6 +48,7 @@ encoder:
 曝	aae
 曝	aate
 明	ab
+🧮	abacus
 曖	abbe
 盟	abbt
 暖	abe
@@ -59,6 +60,7 @@ encoder:
 題	ac
 顕	acc
 顕	acmbc
+🩹	adhesivebandage
 晰	adhl
 晰	adl
 昧	ad
@@ -107,10 +109,12 @@ encoder:
 即	al
 ⏰	alarm
 映	albk
+⚗️	alembic
 映	alk
 旦	am
 曇	ambi
 晒	amcw
+🏈	americanfootball
 旺	amg
 曇	ami
 旱	amj
@@ -120,6 +124,7 @@ encoder:
 晨	ammv
 是	amo
 曬	amp
+🏺	amphora
 晤	amr
 晨	amv
 晒	amw
@@ -164,6 +169,7 @@ encoder:
 闢	ansrj
 關	ant
 🐜	ant
+📶	antennabars
 関	antk
 闕	antuo
 晚	anu
@@ -218,6 +224,7 @@ encoder:
 曼	awe
 曙	awla
 曼	awle
+🪓	axe
 晦	ay
 暗	aya
 景	ayf
@@ -229,12 +236,31 @@ encoder:
 🍼	babybottle
 冥	bac
 🎒	backpack
+🛍️	bagsa
 腸	bah
 腥	bahm
+⚖️	balancescale
+🎈	balloon
+🗳️	ballot
 腥	bam
 腸	bamh
 🍌	banana
+🩹	bandage
+🪕	banjo
+🏦	bank
+💴	banknote
+💵	banknote
+💶	banknote
+💷	banknote
+💈	barberpole
+📊	barchart
+⚾	baseball
+🧺	basket
+🏀	basketball
 🦇	bat
+🛀	bath
+🛁	bathtub
+🔋	battery
 肥	bau
 冥	bayc
 朋	bb
@@ -320,9 +346,16 @@ encoder:
 乳	bdu
 愛	be
 🏖️	beach
+🧿	beada
+📿	beads
 🐨	bear
+🧸	bear
+🛏️	bed
+🛌	bed
 🐝	bee
 🍺	beermug
+🛎️	bellhopbell
+🧃	beverage
 爲	bf
 炙	bf
 膛	bfbg
@@ -376,6 +409,7 @@ encoder:
 膩	bic
 膊	bii
 脯	bijb
+🚴	biking
 腑	bioi
 膩	bipc
 胎	bir
@@ -440,9 +474,20 @@ encoder:
 祭	bof
 鶏	bohaf
 膾	boma
+💣	bomb
 祭	bommf
 臉	bomo
 臉	boo
+📔	book
+📕	book
+📖	book
+📗	book
+📑	bookmarktabs
+🔖	bookmark
+📚	books
+🪃	boomerang
+📦	box
+🍱	boxedmeal
 眠	bp
 脂	bpa
 胞	bpru
@@ -451,13 +496,18 @@ encoder:
 用	bq	b'q
 甩	bqu
 同	br	b'r
+📯	brasshorn
 臊	brd
 🍞	bread
 雕	brg
 彫	brh
 彫	brhhh
+🧱	brick
+🥦	broccoli
 雕	brog
+🧹	broom
 臊	brrd
+🖌️	brush
 助	bs
 爭	bsd
 服	bse
@@ -497,6 +547,7 @@ encoder:
 睜	bubsd
 瞑	bubuc
 貝	buc
+🪣	bucket
 睇	bucnh
 盼	bucsh
 睬	bud
@@ -519,6 +570,7 @@ encoder:
 瞎	bujqr
 瞭	bukcf
 鼎	bul
+💡	bulb
 眺	bulmo
 剛	buln
 睡	bum
@@ -594,11 +646,28 @@ encoder:
 臍	byx
 金	c
 曾	ca
+🗄️	cabinet
 錫	cah
 🍰	cake
+📅	calender
+📆	calender
+🗓️	calender
+📷	camera
+📹	camera
+🎥	camera
+📸	camera
+🕯️	candle
 錕	cap
 錫	caph
 錕	capp
+🗃️	cardfilebox
+📇	cardindex
+🗂️	cardindexdividers
+🪚	carpentrysaw
+🎏	carpstreamer
+🛒	cart
+📼	cassette
+🐈	cat
 🐱	cat
 銀	cav
 鋼	cb
@@ -634,6 +703,8 @@ encoder:
 分	ch
 鉑	cha
 錦	chab
+⛓️	chain
+🪑	chair
 錦	chb
 頒	chc
 鎳	chd
@@ -667,6 +738,7 @@ encoder:
 鉛	chnr
 鍁	cho
 🍫	chocolate
+🥢	chopsticks
 鉄	chqo
 鉛	chr
 鎢	chrf
@@ -678,6 +750,7 @@ encoder:
 頌	cic
 鍍	cie
 鑣	cif
+🚬	cigarette
 錢	cii
 銭	cij
 鋪	cijb
@@ -715,7 +788,12 @@ encoder:
 爺	cksjl
 爸	cku
 丫	cl
+🗜️	clamp
+📋	clipboard
 釗	cln
+⏰	clock
+🕰️	clock
+⏲️	clock
 🤡	clown
 鈾	clw
 鏽	clx
@@ -744,9 +822,11 @@ encoder:
 鈉	cob
 🐓	cock
 ☕	coffee
+⚰️	coffin
 錐	cog
 鈴	coi
 鈴	coii
+🪙	coin
 鎗	coir
 鑰	comb
 ↓↘→	commandsd
@@ -760,10 +840,15 @@ encoder:
 ←→	commandad
 ↓↘→↘↓↙←	commandsdsa
 ↓↙←↙↓↘→	commandsasd
+🧭	compass
+🖥️	computer
+🎊	confettiball
+🎛️	controlknobs
 銼	coog
 慾	cop
 谷	cor
 🌽	corn
+🛋️	couch
 🐮	cow
 慾	cp
 釣	cpi
@@ -781,16 +866,21 @@ encoder:
 錶	cqv
 鉛	cr
 🦀	crab
+🖍️	crayon
+💳	creditcard
 鋁	crhr
 兌	crhu
 卻	crl
 欲	crno
 欲	cro
 🐊	crocodile
+⚔️	crossedswords
 鋁	crr
 卻	crsl
 兌	cru
+🩼	crutch
 😭	crying
+🔮	crystalball
 鈣	cs
 貧	csc
 鏗	cseg
@@ -817,6 +907,7 @@ encoder:
 錨	ctw
 鏡	cu
 🥒	cucumber
+💱	currencyexchange
 銀	cv
 錄	cve
 鏘	cvi
@@ -850,6 +941,7 @@ encoder:
 鑲	cyv
 木	d
 槽	da
+🗡️	dagger
 楊	dah
 楣	dahu
 概	daiu
@@ -908,6 +1000,7 @@ encoder:
 樣	de
 頗	dec
 樑	decd
+📉	decreasing
 樑	ded
 杈	dei	dei
 杈	dei	de'i
@@ -961,13 +1054,17 @@ encoder:
 💎	diamond
 梭	dice
 梭	die
+🎲	diea
 櫥	digi
 棧	dii
 榔	diil
 榔	dil
 🎓	diploma
 枱	dir
+💿	disc
+💽	disk
 械	dit
+🤿	divingmask
 末	dj
 楠	djb
 楠	djbj	djb'j
@@ -1036,6 +1133,7 @@ encoder:
 朽	dmvs
 標	dmwf
 刺	dn
+🧬	dna
 橡	dnao
 桶	dnb
 檐	dncr
@@ -1058,10 +1156,12 @@ encoder:
 來	do
 榷	dobg
 椎	dog
+🐕	doggy
 🐶	doggy
 槍	doir
 枚	dok
 権	dokg
+🪆	doll
 🐬	dolphin
 栓	domg
 榆	domn
@@ -1069,9 +1169,12 @@ encoder:
 楡	domv
 榆	don
 來	doo
+🚪	door
 槍	dor
 柞	dos
+🍩	doughnut
 楡	dov
+🕊️	dove
 ↓	down
 梅	dowy
 梅	doy
@@ -1096,6 +1199,7 @@ encoder:
 杏	dr
 🐉	dragon
 🐲	dragonface
+🥁	drum
 榜	ds
 櫃	dsc	ds'c
 框	dsg	ds'g
@@ -1386,6 +1490,7 @@ encoder:
 沈	elbu
 潰	elc
 🐘	elephant
+🔌	electricplug
 渊	elfl
 泱	elk
 淵	ell
@@ -1400,6 +1505,7 @@ encoder:
 淵	elxl
 江	em
 潛	ema
+📧	email
 酒	emcw
 洒	emcw
 汙	emd
@@ -1450,6 +1556,7 @@ encoder:
 漲	ensv
 澄	ent
 漲	env
+✉️	envelope
 漁	enwf
 漢	eo
 淪	eob
@@ -1548,6 +1655,7 @@ encoder:
 溝	ettb
 港	etu
 溯	etub
+🈵	etuba
 濃	etv
 滋	etvi
 濃	etwv
@@ -1577,6 +1685,7 @@ encoder:
 涸	ewr	ew'r
 溫	ewt
 濟	ex
+🧯	extinguisher
 海	ey
 淖	eyaj
 滴	eyb
@@ -1636,6 +1745,7 @@ encoder:
 焜	fapp
 爆	fate
 爛	faw
+📠	fax
 肖	fb
 嘗	fba
 常	fbb
@@ -1749,8 +1859,13 @@ encoder:
 省	fhu
 熄	fhup
 燭	fi
+🗄️	filecabinet
+🎞️	filmframes
+📽️	filmprojector
 🔥	fire
+🧨	firecracker
 🍤	firedshrimp
+🧯	fireextinguisher
 🍟	fires
 🐟	fish
 5️⃣	five
@@ -1781,7 +1896,9 @@ encoder:
 弊	fkt
 瞥	fku
 鄰	fl
+🔦	flashlight
 燼	flmt
+💾	floppydisk
 燼	flt
 粗	fm
 炳	fmb
@@ -1805,7 +1922,10 @@ encoder:
 燴	foa
 雀	fog
 🙏	foldedhands
+📂	folder
+📁	folder
 燴	foma
+⚽	football
 炸	fos
 🦊	fox
 灼	fpi
@@ -1831,6 +1951,8 @@ encoder:
 卷	fqu
 誊	fqymr
 營	fr
+🖼️	framedpicture
+🎞️	frames
 燥	frd
 獣	frik
 獣	frk
@@ -1855,6 +1977,7 @@ encoder:
 🖕	fuck
 耀	fug
 輝	fuj
+⚱️	funeralurn
 耀	fusmg
 勞	fs
 裳	fv
@@ -1895,6 +2018,7 @@ encoder:
 增	ga
 場	gah
 坦	gam
+🎲	gamedie
 🎮	gamepad
 場	gamh
 堤	gamo
@@ -1926,9 +2050,11 @@ encoder:
 寺	gdi
 報	ge
 馨	gea
+⚙️	gear
 㷫	gef
 馨	gehda
 聲	gej
+💎	gemstone
 聲	gesj
 熱	gf
 款	gfno
@@ -1954,6 +2080,7 @@ encoder:
 去	gi
 幫	gib
 熱	gif
+🎁	gift
 墊	gig
 幫	gihab
 堿	gihr
@@ -2017,6 +2144,7 @@ encoder:
 壽	gnmi
 坎	gno
 走	go
+🥅	goalnet
 趕	goamj
 趟	gob
 趣	goe
@@ -2127,8 +2255,13 @@ encoder:
 帛	halb
 🍔	hamburger
 皇	hamg
+🔨	hammer
+⚒️	hammerpick
+🛠️	hammerwrench
 鳬	han
 簡	hana
+👋	handa
+🪬	handa
 🤝	handshake
 皂	hap
 的	hapi
@@ -2253,6 +2386,8 @@ encoder:
 穢	hdymh
 稿	hdyrb
 反	he
+🎧	headphone
+🪦	headstone
 ❤️ 	heart
 🫶	hearthands
 💕	hearts
@@ -2420,6 +2555,7 @@ encoder:
 製	hnyhv
 八	ho	c
 得	hoami
+🉐️	hoami
 爬	hoau
 很	hoav
 籲	hobc
@@ -2453,6 +2589,7 @@ encoder:
 微	hok
 御	hol
 🥹	holdingbacktears
+🕳️	hole
 筱	holk
 彿	holln
 徘	holmy
@@ -2471,12 +2608,14 @@ encoder:
 径	honom
 從	hoo
 復	hooae
+🪝	hook
 徐	hoomd
 御	hooml
 從	hoooo
 慫	hop
 律	hoq
 咎	hor
+📯	horn
 🐴	horse
 彷	hos
 聳	hosj
@@ -2489,6 +2628,11 @@ encoder:
 黴	houfk
 徵	hougk
 微	hounk
+⏳	hourglass
+⌛	hourglass
+🏠	house
+🏡	house
+🏘️	houses
 微	houuk
 很	hov
 後	hovie
@@ -2694,6 +2838,7 @@ encoder:
 翩	ibsmm
 廣	ic
 糜	icd
+🧊	ice
 🍦	icecream
 糜	icfd
 魔	ichi
@@ -2712,6 +2857,7 @@ encoder:
 床	id
 廂	idbu
 麻	idd
+🪪	identificationcard
 糜	idfd
 魔	idhi
 麾	idhqu
@@ -2766,6 +2912,7 @@ encoder:
 祷	ifqki
 祠	ifr
 祝	ifrhu
+㊗️	ifrhua
 禪	ifrrj
 祀	ifru
 祠	ifsmr
@@ -2871,6 +3018,9 @@ encoder:
 凍	imw
 凜	imywd
 序	in
+🛌	inbed
+📥	inboxtray
+📈	increasing
 永	ine
 庭	ing
 廕	ini
@@ -2971,6 +3121,7 @@ iOS	ios
 煮	jaf
 都	jal
 都	janl
+🎎	japanesedolls
 宴	jav
 南	jb
 真	jbc
@@ -3009,7 +3160,7 @@ iOS	ios
 究	jckn
 帘	jclb
 空	jcm
-🈳	jcm
+🈳	jcma
 顛	jcmbc
 窒	jcmig
 穿	jcmvh
@@ -3304,6 +3455,8 @@ iOS	ios
 友	ke
 痧	kefh
 痧	keh
+🔑	keya
+🗝️	keya
 ⌨️ 	keyboard
 灰	kf
 盔	kfbt
@@ -3384,6 +3537,7 @@ iOS	ios
 痧	kifh
 雄	kig
 雄	kiog
+🪁	kitea
 🥝	kiwi
 🥝	kiwifruit
 癖	kj
@@ -3437,6 +3591,8 @@ iOS	ios
 瘓	knk
 癮	knlp
 疚	kno
+🎛️	knobs
+🪢	knot
 癮	knp
 癬	knq
 頰	koc
@@ -3519,9 +3675,14 @@ iOS	ios
 瘀	kyy
 中	l
 書	la
+🏷️	label
+🪜	ladder
 🐞	ladybug
 児	lahu
 袒	lam
+🪔	lamp
+🏮	lantern
+💻	laptop
 褐	lapv
 褐	lav
 巾	lb
@@ -3560,12 +3721,14 @@ iOS	ios
 被	ldhe
 袜	ldj
 被	le
+📒	ledger
 ←	left
 ↙	leftdown
 ↖	leftup
 衩	lei	lei
 衩	lei	le'i
 🍋	lemon
+🎚️	levelslider
 螺	lf
 襠	lfbw
 襠	lfw
@@ -3606,6 +3769,7 @@ iOS	ios
 蝦	lie
 蛙	lig
 蛙	ligg
+💡	lightbulb
 蚜	lih
 蝗	lihag
 蝌	lihdj
@@ -3633,6 +3797,7 @@ iOS	ios
 蚜	limvh
 蟾	lincr
 蛹	linib
+🔗	link
 蜓	linkg
 蜒	linkm
 蜒	linkv
@@ -3736,10 +3901,14 @@ iOS	ios
 鬧	lnylb
 兆	lo
 複	loae
+🔐	lock
+🔒	locked
 複	loe
 袱	loik
 袱	lok
+🧴	lotionbottle
 🥰	loveface
+💌	loveletter
 忠	lp
 背	lpb
 冀	lpc
@@ -3765,6 +3934,8 @@ iOS	ios
 盡	lt
 襪	lti
 襪	ltwi
+🧳	luggage
+🍱	lunch
 婁	lv
 數	lvk
 數	lvok
@@ -3794,9 +3965,21 @@ iOS	ios
 厭	mabk
 🇲🇴	macao
 厚	mad
+🪄	magicwand
+🧲	magnet
+🔍	magnify
+🔎	magnify
+📨	mail
+📩	mail
+📫	mailbox
+📪	mailbox
+📬	mailbox
+📭	mailbox
 厭	mak
 碧	mamr
 厚	mand
+🕰️	mantelpiececlock
+🗺️	mapa
 碧	mar
 厩	mau
 而	mb
@@ -3857,11 +4040,13 @@ iOS	ios
 五	mdm
 盂	mdt
 汞	me
+🍱	meal
 🍖	meat
 ⚕️	medicalsymbol
 🍈	melon
 🫠	melting
 亟	mem
+📝	memo
 不	mf
 爾	mfb
 爾	mfbk	mfb'k
@@ -3964,11 +4149,15 @@ iOS	ios
 厩	mhu
 雲	mi
 晉	mia
+🎙️	microphone
+🔬	microscope
 至	mig
 魂	mihi
 魂	mihui
 魂	mii
 晉	miia
+🥛	milk
+🪞	mirror
 干	mj
 敢	mjk
 刊	mjln
@@ -4048,6 +4237,8 @@ iOS	ios
 豬	moa
 🗿	moai
 丙	mob
+📱	mobilephone
+📲	mobilephone
 資	mobuc
 資	moc
 雁	mog
@@ -4056,6 +4247,13 @@ iOS	ios
 瓷	momvn
 瓷	mon
 💰	money
+💸	money
+💵	money
+💴	money
+💶	money
+💷	money
+🫰	money
+🤑	moneymouth
 🐒	monkey
 巫	moo
 雁	moog
@@ -4063,6 +4261,7 @@ iOS	ios
 ⛰️	mountain
 🖱️	mouse
 🐭	mouse
+🪤	mousetrap
 姿	mov
 死	mp
 貮	mpbuc
@@ -4179,6 +4378,7 @@ iOS	ios
 画	mulw
 頑	mumbc
 🍄	mushroom
+🎶	musicalnotes
 画	muw	mu'w
 要	mv
 脣	mvb
@@ -4297,7 +4497,11 @@ iOS	ios
 孔	ndu
 孩	ndyvo
 發	ne
+🪡	needle
 丞	nem
+🪆	nestingdolls
+📰	newspaper
+🗞️	newspaper
 尔	nf
 鰭	nfa
 鯽	nfail
@@ -4470,6 +4674,12 @@ iOS	ios
 飛	noo
 発	nop
 登	not
+📔	notebook
+📕	notebook
+📖	notebook
+📗	notebook
+📚	notebooks
+🗒️	notepad
 隱	np
 弛	npd
 解	nq
@@ -4497,6 +4707,7 @@ iOS	ios
 勉	nuks
 怨	nup
 勉	nus
+🔩	nutbolt
 張	nv
 陳	nw
 魯	nwa
@@ -4643,6 +4854,8 @@ iOS	ios
 伏	oik
 偽	oikf
 傭	oilb
+🛢️	oildrum
+🪔	oillamp
 饋	oilmc
 蝕	oilmi
 翎	oim
@@ -4890,6 +5103,7 @@ iOS	ios
 供	otc
 僕	otco
 無	otf
+🈚️	otfa
 儀	otgi
 備	othb
 儀	oti
@@ -4912,6 +5126,7 @@ iOS	ios
 缸	oum
 罈	oumwj
 催	ouog
+📤	outboxtray
 罐	outrg
 食	ov
 似	ovio
@@ -4962,9 +5177,14 @@ iOS	ios
 旬	pa
 旨	pa
 PaaS	paas
+📦	package
 慢	pae
+📃	page
+📄	page
+📟	pager
 惕	pah
 惺	pahm
+🖌️	paintbrush
 慨	paiu
 悍	paj
 憫	pak
@@ -4972,7 +5192,10 @@ PaaS	paas
 悍	pamj
 🐼	panda
 憫	pank
+📎	paperclip
+🖇️	paperclips
 惕	paph
+🎉	partypopper
 慨	pau
 恨	pav
 慢	pawe
@@ -5008,8 +5231,13 @@ PaaS	paas
 🥜	peanuts
 🍐	pear
 怪	peg
+✒️	pen
+🖋️	pen
+🖊️	pen
+✏️	pencil
 🐧	penguin
 🌶️	pepper
+🧫	petridish
 悄	pfb
 憐	pfdq
 恍	pfmu
@@ -5033,6 +5261,8 @@ PaaS	paas
 懊	phk
 性	phm
 忻	phml
+📱	phone
+📲	phone
 愧	phi
 恬	phjr
 忽	php
@@ -5041,6 +5271,8 @@ PaaS	paas
 愧	phui
 勾	pi
 勺	pi
+⛏️	pick
+🖼️	picture
 慷	pie
 🐷	pig
 慘	pih
@@ -5050,6 +5282,7 @@ PaaS	paas
 慷	pile
 💊	pill
 匀	pim
+🪅	pinata
 🍍	pineapple
 憾	pip
 怡	pir
@@ -5079,9 +5312,12 @@ PaaS	paas
 疑	pknio
 疑	pko
 肄	pkq
+🪧	placard
 忱	plbu
 🥺	pleading
 忱	plu
+🔌	plug
+🪠	plunger
 勺	pm
 恒	pmam
 懦	pmb
@@ -5109,7 +5345,13 @@ PaaS	paas
 恰	pomr
 愉	pon
 恰	por
+🚰	portablewater
+📯	postalhorn
+📮	postbox
+📯	posthorn
 🥔	potato
+🍲	potoffood
+🏺	pottery
 🍗	poultryleg
 悔	powy
 悔	poy
@@ -5124,9 +5366,13 @@ PaaS	paas
 情	pqb
 情	pqmb
 句	pr
+📿	prayerbeads
+🖨️	printer
 憚	prj
 够	prn
 够	prnin
+🦯	probingcane
+📽️	projector
 憚	prrj
 愕	prrs
 愕	prs
@@ -5161,6 +5407,9 @@ PaaS	paas
 鄒	punl
 邨	punl
 雛	puog
+📌	pushpin
+📍	pushpin
+🧩	puzzle
 懷	pv
 惱	pvvw
 惱	pvw
@@ -5485,7 +5734,7 @@ PaaS	paas
 規	qou
 擒	qoyb
 指	qpa
-🈯	qpa
+🈯	qpaa
 扡	qpd
 擬	qpko
 擬	qpo
@@ -5645,6 +5894,7 @@ PaaS	paas
 唱	ra
 唱	raa
 🐰	rabbit
+📻	radio
 唧	rail
 🌧️	rain
 嘅	raiu
@@ -5655,6 +5905,7 @@ PaaS	paas
 邑	rau
 喝	rav
 嗮	raw
+🪒	razer
 嘴	rb
 喎	rbb
 喎	rbbr	rbb'r
@@ -5685,6 +5936,8 @@ PaaS	paas
 喳	rdm
 喇	rdn
 吸	re
+🧾	receipt
+🗑️	recyclebin
 嗓	red
 啵	rede
 🧧	redenvelope
@@ -5751,6 +6004,7 @@ PaaS	paas
 咚	rhy
 哦	ri
 哺	rib
+🎀	ribbon
 嘛	ric
 唆	rice
 🍚	ricea
@@ -5956,6 +6210,9 @@ PaaS	paas
 嗆	roir
 喉	rok
 🚀	roket
+🛼	rollerskate
+🧻	rollofpaper
+📇	rolodex
 噏	rom
 喻	romn
 哈	romr
@@ -6049,7 +6306,10 @@ PaaS	paas
 吧	ru
 巳	ru
 喘	rub
+🏉	rugby
 嗤	rui
+📏	ruler
+📐	ruler
 喘	rumb
 嗤	rumi
 啱	rumr
@@ -6110,8 +6370,12 @@ PaaS	paas
 咳	ryvo
 尸	s
 習	sa
+🧷	safetypin
 🎅	santaclaus
 🎒	satchel
+📡	satelliteantenna
+💾	save
+🪚	saw
 騙	sb
 刷	sbln
 刷	sbn
@@ -6120,7 +6384,10 @@ PaaS	paas
 殿	sce
 殿	schne
 🎒	schoolbag
+✂️	scissors
 🦂	scorpion
+🪛	screwdriver
+📜	scroll
 層	scwa
 屎	sd
 尿	se
@@ -6146,6 +6413,7 @@ PaaS	paas
 緊	sevif
 醫	sew
 屬	sewi
+🪡	sewingneedle
 竪	seyt
 馬	sf
 屑	sfb
@@ -6199,6 +6467,7 @@ PaaS	paas
 聽	sgjwp
 聽	sgp
 刀	sh
+🧴	shampoo
 🦈	shark
 鬍	shb
 鬚	shc
@@ -6209,6 +6478,7 @@ PaaS	paas
 髦	shhqu
 刃	shi
 戮	shi
+🛡️	shield
 髮	shike
 髮	shikk
 💩	shit
@@ -6222,8 +6492,11 @@ PaaS	paas
 属	shlb
 匠	shml	s'hml
 履	shoe
+🛍️	shoppingbag
+🛒	shoppingcart
 🍰	shortcake
 屜	shot
+🚿	shower
 尾	shqu
 召	shr
 🦐	shrimp
@@ -6275,8 +6548,10 @@ PaaS	paas
 職	sjyia
 譬	sjymr
 尹	sk
+🛹	skateboard
 殴	ske
 殴	skhne
+⛷️	skier
 欧	skno
 君	skr
 💀	skull
@@ -6289,6 +6564,7 @@ PaaS	paas
 匪	slmy	s'lmy
 臥	slo
 臨	slorr
+🎰	slotmachine
 臨	slr
 臣	slsl	s'lsl
 屢	slv
@@ -6321,19 +6597,24 @@ PaaS	paas
 🐌	snail
 🐍	snake
 屙	snlr
+🏂	snowboarder
 🏔️	snowmountain
 屙	snr
 尺	so
 昼	soam
+🧼	soap
 咫	soc
+⚽	soccer
 医	sok	s'ok
 昼	som
 咫	sorc
 尽	soy
 尼	sp
+🔧	spanner
 ✨	sparkles
 🕷️	spider
 🕸️	spiderweb
+🧽	sponge
 🥄	spoon
 屁	spp
 群	sq
@@ -6370,9 +6651,11 @@ PaaS	paas
 聯	st
 🩺	stethoscope
 匿	stkr	s'tkr
+⏱️	stopwatch
 匿	str	s'tr
 🍓	strawberry
 屏	stt
+🎙️	studiomicrophone
 展	stv
 已	su
 己	su
@@ -6390,6 +6673,7 @@ PaaS	paas
 覽	swbuu
 鑒	swc
 🍠	sweetpotato
+🏊	swimming
 匣	swl	s'wl
 鹽	swt
 覽	swu
@@ -6409,6 +6693,7 @@ PaaS	paas
 幕	takb
 驀	takf
 墓	takg
+🛀	takingbath
 慕	takp
 摹	takq
 募	taks
@@ -6477,13 +6762,18 @@ PaaS	paas
 萊	tdoo
 葦	tdq
 菠	tr
+🖲️	trackball
+🪤	trap
+🗑️	trash
 🍵	tea
 蕩	teah
+🫖	teapot
 😂	tearsofjoy
 😹	tearsofjoy
 蒲	teb
 鑿	tec
 藻	ted
+🧸	teddy
 菠	tede
 莎	tefh
 茎	teg
@@ -6495,10 +6785,16 @@ PaaS	paas
 蒲	teib
 薄	teii
 萍	tej
+☎️	telephone
+📞	telephonereceiver
+🔭	telescope
+📺	television
 萍	temj
 菏	temr
+🎾	tennis
 落	ter
 藻	terd
+🧪	testtube
 范	tesu
 范	teu
 茫	tev
@@ -6542,6 +6838,7 @@ PaaS	paas
 莉	thdn
 萎	thdv
 蕃	thdw
+🌡️	thermometer
 薰	thf
 董	thg
 薰	thgf
@@ -6554,6 +6851,7 @@ PaaS	paas
 莉	thn
 薇	thok
 蔥	thp
+🧵	thread
 薛	thrj
 首	thu
 萎	thv
@@ -6571,6 +6869,7 @@ PaaS	paas
 蔵	tihs
 莆	tijb
 莽	tikt
+⏲️	timerclock
 茨	timo
 藏	tims
 芝	tino
@@ -6712,6 +7011,9 @@ PaaS	paas
 蕉	togf
 舊	togx
 養	toiav
+🚽	toilet
+🧻	toiletpaper
+🧻	toilettissue
 蒼	toir
 薙	tokg
 芥	tol
@@ -6722,6 +7024,8 @@ PaaS	paas
 歎	tono
 歎	too
 難	toog
+🧰	toolbox
+🪥	toothbrush
 花	top
 荷	tor
 蕪	totf
@@ -6915,6 +7219,7 @@ T恤	tpht
 峡	ukt
 兇	uku
 ☂️	umbrella
+⛱️	umbrella
 🌂	umbrellaclosed
 炭	umf
 崖	umg
@@ -6926,6 +7231,7 @@ T恤	tpht
 豈	umt
 凱	un
 函	une	u'ne
+🔓	unlocked
 峽	uo
 嶺	uoc
 崔	uog
@@ -6966,6 +7272,7 @@ T恤	tpht
 女	v
 縮	va
 媚	vahu
+🏺	vase
 媚	vau
 編	vb
 媛	vbe
@@ -7153,6 +7460,7 @@ T恤	tpht
 娘	viav
 樂	vid
 槳	vid
+📼	videocassette
 漿	vie
 幾	vihi
 斷	vihml
@@ -7229,6 +7537,7 @@ T恤	tpht
 奶	vns
 娩	vnu
 🌋	volcano
+🏐	vollyball
 嫵	votf
 總	vp
 她	vpd
@@ -7284,7 +7593,11 @@ T恤	tpht
 孃	vyrv
 妨	vys
 田	w
+🗑️	wastebasket
+👋	wavinghand
+⌚	watch
 🍉	watermelon
+🔫	waterpistol
 胃	wb
 畳	wbbm
 畳	wbm
@@ -7324,12 +7637,17 @@ T恤	tpht
 園	wgrv	w'grv
 園	wgv	w'gv
 🐳	whale
+🦽	wheelchair
+🦼	wheelchair
 略	wher
+🦯	whitecane
 略	whr
 團	wi	w'i
 圃	wib	w'ib
 圃	wijb	w'ijb
 國	wim	w'im
+🎐	windchime
+🪟	window
 🍷	wine
 塁	wiog
 國	wirm	w'irm
@@ -7389,13 +7707,16 @@ T恤	tpht
 囹	woii
 界	wol
 界	woll
+🗺️	worldmap
 思	wp
 毗	wpp
 囤	wpu	w'pu
 圍	wq
 回	wr	w'r
+🎁	wrappedgift
 圓	wrbc	w'rbc
 圓	wrc	w'rc
+🔧	wrench
 圖	wrjw
 圖	wrw	w'rw
 圖	wryw	w'ryw
@@ -7429,6 +7750,7 @@ T恤	tpht
 遏	yapv
 韶	yar
 韻	yarbc
+🧶	yarna
 韶	yashr
 遢	yasm
 退	yav
@@ -7662,6 +7984,7 @@ T恤	tpht
 夜	yonk
 卒	yooj
 褒	yov
+🪀	yoyo
 此	yp
 膚	ypb
 龔	ypc
