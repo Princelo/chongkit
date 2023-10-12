@@ -729,6 +729,7 @@ encoder:
 銹	chds
 鍛	che
 ✅	check
+✔	check
 🧀	cheese
 鋒	chej
 鉻	cher
@@ -901,6 +902,10 @@ encoder:
 🐊	crocodile
 🥐	croissant
 ❌	cross
+❎	cross
+✕	cross
+✗	cross
+✘	cross
 ⚔️	crossedswords
 鋁	crr
 卻	crsl
@@ -2022,6 +2027,7 @@ encoder:
 🖕	fuck
 耀	fug
 輝	fuj
+💯	fullmark
 ⚱️	funeralurn
 耀	fusmg
 勞	fs
@@ -5332,6 +5338,7 @@ PaaS	paas
 😔	pensive
 🌶️	pepper
 🫑	pepper
+💯	perfect
 🧫	petridish
 悄	pfb
 憐	pfdq
