@@ -39,6 +39,12 @@ encoder:
     - length_in_range: [4, 10]
       formula: "AaBzCaYzZz"
   tail_anchor: "'"
+import_tables:
+  - dicts/extend/luna_pinyin.wenhua # 成语、诗词、文言
+  - dicts/extend/luna_pinyin.computer # 计算机
+  - dicts/extend/luna_pinyin.changyong # 常用聊天用语
+  - dicts/extend/luna_pinyin.zhuanye # 专业术语，地理，法律，军事，天文，物理，数学
+  - dicts/extend/luna_pinyin.sgmain # @scomper 做的搜狗词汇汇总
 ...
 
 日	a
