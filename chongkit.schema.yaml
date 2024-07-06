@@ -358,11 +358,15 @@ recognizer:
 reverse_lookup:
   comment_format:
     - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
-  dictionary: cangjie5
+  dictionary: jyut6ping3
+  preedit_format:
+    - "xform/([nl])v/$1ü/"
+    - "xform/([nl])ue/$1üe/"
+    - "xform/([jqxy])v/$1u/"
   prefix: "x"
-  prism: cangjie5
-    #suffix: "z"
-  tips: "〔生僻字〕"
+  prism: jyut6ping3
+    #suffix: "'"
+  tips: "〔粵語拼音〕"
 schema:
   author:
     - "發明人 朱邦復先生"
