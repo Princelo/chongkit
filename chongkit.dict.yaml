@@ -39,12 +39,12 @@ encoder:
     - length_in_range: [4, 10]
       formula: "AaBzCaYzZz"
   tail_anchor: "'"
-import_tables:
-  - dicts/extend/luna_pinyin.wenhua # 成语、诗词、文言
-  - dicts/extend/luna_pinyin.computer # 计算机
-  - dicts/extend/luna_pinyin.changyong # 常用聊天用语
-  - dicts/extend/luna_pinyin.zhuanye # 专业术语，地理，法律，军事，天文，物理，数学
-  - dicts/extend/luna_pinyin.sgmain # @scomper 做的搜狗词汇汇总
+    #import_tables:
+    #- dicts/extend/luna_pinyin.wenhua # 成语、诗词、文言
+    #- dicts/extend/luna_pinyin.computer # 计算机
+    #- dicts/extend/luna_pinyin.changyong # 常用聊天用语
+    #- dicts/extend/luna_pinyin.zhuanye # 专业术语，地理，法律，军事，天文，物理，数学
+    #- dicts/extend/luna_pinyin.sgmain # @scomper 做的搜狗词汇汇总
 ...
 
 日	a
@@ -52,8 +52,11 @@ import_tables:
 昌	aa
 晶	aaa
 曝	aae
+暘	aamh
+暍	aapv
 曝	aate
 明	ab
+暝	abac
 🧮	abacus
 曖	abbe
 盟	abbt
@@ -66,10 +69,10 @@ import_tables:
 題	ac
 顕	acc
 顕	acmbc
+杲	ad
 🩹	adhesivebandage
 晰	adhl
 晰	adl
-昧	ad
 最	ae
 照	af
 顯	afc
@@ -90,7 +93,9 @@ import_tables:
 昂	ahl
 剔	ahln
 星	ahm
+昕	ahml
 剔	ahn
+晷	ahor
 星	ahqm
 昇	aht
 眉	ahu
@@ -107,9 +112,11 @@ import_tables:
 暑	aja
 昧	ajd
 暑	ajka
+暄	ajmm
 暁	ajtu
 暁	aju
 晏	ajv
+暸	akcf
 晞	akkb
 旯	akn
 即	al
@@ -117,6 +124,7 @@ import_tables:
 映	albk
 ⚗️	alembic
 映	alk
+晁	almo
 旦	am
 曇	ambi
 晒	amcw
@@ -144,31 +152,39 @@ import_tables:
 閒	anb
 閱	ancru
 閉	andh
+闈	andmq
 闌	andwf	andw'f
 闊	anehr
 闖	anf
 閨	ang
 閨	angg
+闔	angit
 閉	anh
 閣	anher
 閩	ani
 閾	anirm
 聞	anj
+闐	anjbc
 関	ank
+閎	anki
 閹	anklu
 閘	anl
 閩	anlmi
 閂	anm
+閪	anmcw'
 閏	anmg
 閆	anmmm
 開	anmt
 闘	anmti
 閻	annhx
+闋	annok
 閃	ano
 閥	anoi
 閤	anomr
 悶	anp
+闐	anpbc
 問	anr
+閭	anrhr
 闡	anrrj
 闆	anrrr
 聞	ansj
@@ -185,6 +201,7 @@ import_tables:
 閘	anwl
 閻	anx
 閡	anyvo
+閔	anyk
 是	ao
 題	aoc
 晗	aoir
@@ -198,9 +215,12 @@ import_tables:
 🦍	ape
 易	aph
 易	aphh
+昀	apim
+昀	apmm
 昆	app
 🍎	apple
 	apple
+曷	apvo
 晴	aqb
 晴	aqmb
 問	ar
@@ -220,10 +240,12 @@ import_tables:
 暴	atce
 暴	ate
 曦	atgs
+曄	atmj
 曦	ats
 巴	au
 暨	auam
 暨	aum
+艮	av
 歇	avno
 歇	avo
 🥑	avocado
@@ -236,8 +258,10 @@ import_tables:
 晦	ay
 暗	aya
 景	ayf
+preventFromAutoSelection	ayf
 景	ayrf
 晾	ayrf
+曩	ayrv
 暗	ayta
 月	b
 賭	ba
@@ -281,6 +305,7 @@ import_tables:
 骰	bbhne
 辭	bbj
 骷	bbjr
+髖	bbjti
 髏	bbllv
 剮	bbln
 胴	bbm
@@ -296,6 +321,8 @@ import_tables:
 亂	bbu
 覓	bbuu
 髏	bbv
+髁	bbwd
+髑	bbwli
 骯	bbyhn
 髓	bbykb
 髗	bbypt
@@ -315,11 +342,13 @@ import_tables:
 販	bche
 賂	bcher
 貶	bchio
-賍	bcig
 賤	bci
+賻	bcibi
+賍	bcig
 賤	bcii
 賊	bcij
 贓	bcims
+貽	bcir
 賊	bcj
 賭	bcjka
 貯	bcjmn
@@ -329,10 +358,12 @@ import_tables:
 則	bcln
 賦	bcm
 罕	bcmj
+賑	bcmmv
 賦	bcmpm
 則	bcn
 贍	bcncr
 貶	bco
+罌	bcoju
 敗	bcok
 賒	bcomf
 貼	bcr
@@ -346,6 +377,7 @@ import_tables:
 嬰	bcv
 貼	bcyr
 賠	bcytr
+賅	bcyvo
 采	bd
 膝	bde
 彩	bdh
@@ -377,7 +409,9 @@ import_tables:
 縣	bfhvf
 懸	bfp
 胖	bfq
+賸	bfqc
 騰	bfqf
+滕	bfqe
 謄	bfqr
 勝	bfqs
 謄	bfr
@@ -402,20 +436,25 @@ import_tables:
 豹	bhi
 脾	bhj
 腫	bhjg
+貊	bhma
 肌	bhn
 冗	bhn
 股	bhne
 爲	bhnf
 貶	bho
 豹	bhpi
+胝	bhpm
 貉	bhr
+貂	bhshr
 貌	bhu
+臢	bhuc
 脈	bhv
 貓	bhtw
 貓	bhw
 貍	bhwg
 脾	bhwj
 舀	bhx
+腴	bhxo
 冠	bi
 脯	bib
 膊	bibi
@@ -435,12 +474,14 @@ import_tables:
 肢	bje
 軍	bjj
 腔	bjm
+臏	bjmc
 腚	bjmo
 腕	bjnu
 腕	bju
 胺	bjv
 軍	bjwj
 敗	bk
+谿	bkcor
 然	bkf
 雞	bkg
 鷄	bkhaf
@@ -454,6 +495,7 @@ import_tables:
 腌	bku
 腳	bl
 円	blm
+刖	bln
 🩸	blooddrop
 🫐	blueberries
 且	bm
@@ -463,11 +505,15 @@ import_tables:
 胚	bmfm
 冠	bmi
 肝	bmj
+爰	bmke
 助	bmks
 胚	bmm
 具	bmmc
+脤	bmmv
 豚	bmo
 同	bmr	b'mr
+膈	bmrb
+脰	bmrt
 助	bms
 豚	bmso
 冢	bmso
@@ -478,7 +524,9 @@ import_tables:
 則	bn
 冤	bnai
 膽	bncr
+孚	bnd
 冤	bni
+腱	bnkq
 脆	bnmu
 膽	bnr
 脆	bnu
@@ -526,6 +574,7 @@ import_tables:
 臊	brrd
 🖌️	brush
 助	bs
+膀胱	bsbfu
 爭	bsd
 服	bse
 膠	bsh
@@ -570,8 +619,10 @@ import_tables:
 睬	bud
 睞	budoo
 瞧	buf
+瞠	bufbg
 眯	bufd
 🐃	buffalo
+眇	bufh
 瞳	bug
 🐛	bug
 睦	bugcg
@@ -582,6 +633,7 @@ import_tables:
 眨	buhio
 睡	buhjm
 見	buhu
+睥	buhwj
 眩	bui
 眸	buihq
 瞋	bujbc
@@ -597,13 +649,16 @@ import_tables:
 睡	bum
 瞰	bumjk
 盯	bumn
+瞫	bumwj
 剛	bun
 瞻	buncr
 𥄫	bunhe
 睽	bunok
 瞪	bunot
 眨	buo
+瞿	buog
 瞧	buogf
+瞼	buomo
 眠	bup
 盹	bupu
 瞬	buq
@@ -614,6 +669,7 @@ import_tables:
 矚	busei
 眶	busmg	bus'mg
 瞪	but
+矇	butbo
 瞞	butlb
 🦋	butterfly
 瞄	butw
@@ -624,6 +680,7 @@ import_tables:
 鼎	buvmn
 睏	buw
 睏	buwd	buw'd
+矓	buybp
 瞇	buyfd
 瞓	buyrl
 瞳	buytg
@@ -659,6 +716,7 @@ import_tables:
 写	bym
 腋	byok
 朧	byp
+臚	bypt
 膀	bys
 写	bysm
 臆	bytp
@@ -677,6 +735,8 @@ import_tables:
 📹	camera
 🎥	camera
 📸	camera
+鍚	camh
+銲	camj
 🕯️	candle
 錕	cap
 錫	caph
@@ -691,36 +751,44 @@ import_tables:
 📼	cassette
 🐈	cat
 🐱	cat
+鑤	cate
 銀	cav
+鏝	cawe
 鋼	cb
 鍋	cbb
 鍋	cbbr	cbb'r
 鍘	cbcn
+鍰	cbme
 銅	cbmr	cb'mr
 鋤	cbms
 鍘	cbn
 銅	cbr	cb'r
 鋤	cbs
+錚	cbsd
 鋼	cbtu	cb'tu
 鋼	cbu	cb'u
 鋇	cbuc
 鎖	cc
 鑫	ccc
+釵	cei	ce'i
 銻	ccnh
 鉛	ccr
 銳	ccru
 銳	ccu
+鈹	cdhe
 鉢	cdm
 鍊	cdw
 鍊	cdwf	cdw'f
 錄	ce
 銷	cfb
 鎖	cfbc
+鏜	cfbg
 鐺	cfbw
 鎖	cfc
 鈔	cfh
 鐺	cfw
 鐵	cg
+鐃	cggu
 鑄	cgi
 鑄	cgni
 分	ch
@@ -750,6 +818,7 @@ import_tables:
 🇹🇼	china
 🍟	chips
 鋒	chj
+銖	chjd
 鍛	chje
 鍾	chjg
 錘	chjm
@@ -779,6 +848,7 @@ import_tables:
 錢	cii
 銭	cij
 鋪	cijb
+鈸	cikk
 翁	cim
 頌	cimbc
 瓮	cimn
@@ -800,6 +870,7 @@ import_tables:
 錠	cjo
 鎔	cjr
 銬	cjs
+銨	cjv
 父	ck
 爸	ckau
 釜	ckc
@@ -807,7 +878,9 @@ import_tables:
 鐐	ckf
 斧	ckhml
 爺	ckl
+鈽	cklb
 釜	ckmgc
+錡	ckmr
 爹	ckn
 爹	cknin
 鋏	cko
@@ -817,6 +890,8 @@ import_tables:
 丫	cl
 🗜️	clamp
 📋	clipboard
+釧	clll
+鏤	cllv
 釗	cln
 ⏰	clock
 🕰️	clock
@@ -828,9 +903,11 @@ import_tables:
 翁	cm
 鐳	cmbw
 釘	cmn
+鎘	cmrb
 鈣	cms
 兮	cmvs
 鐳	cmw
+鏢	cmwf
 鈣	cmys
 釘	cn
 錳	cndt
@@ -853,12 +930,15 @@ import_tables:
 ☕	coffee
 ⚰️	coffin
 錐	cog
+鐫	cogs
 鈴	coi
 鈴	coii
+鈐	coin
 🪙	coin
 鎗	coir
 🥶	coldface
 鑰	comb
+銓	comg
 ↓↘→	commandsd
 ↓↙←	commandsa
 ←↙↓↘→	commandasd
@@ -882,20 +962,22 @@ import_tables:
 🛋️	couch
 🐮	cow
 慾	cp
+鉍	cph
 釣	cpi
 鈎	cpi
 鈞	cpim
 鈞	cpm
 鈞	cpmm
 鉤	cpr
+鉋	cpru
 鈍	cpu
 鍵	cq
-鋳	cqki
-鋳	cqi
 鍵盤	cqhet
+鍥	cqhk
+鋳	cqi
+鋳	cqki
 錶	cqmv
 錶	cqv
-鉛	cr
 🦀	crab
 🍘	cracker
 🖍️	crayon
@@ -914,6 +996,7 @@ import_tables:
 ✘	cross
 ⚔️	crossedswords
 鋁	crr
+鍔	crrs
 卻	crsl
 兌	cru
 🩼	crutch
@@ -933,15 +1016,18 @@ import_tables:
 鋸	csjr
 忿	csp
 鋸	csr
+鉅	css
 盆	cst
 岔	csu
 盆	ct
 錯	cta
+鎰	ctct
 鑊	cte
 鎂	ctgk
 鎂	ctk
 鉗	ctm	ct'm
 鑊	ctoe
+鉼	ctt
 錨	ctw
 鏡	cu
 🥒	cucumber
@@ -950,36 +1036,49 @@ import_tables:
 銀	cv
 錄	cve
 鏘	cvi
+鑠	cvid
 鏘	cvmi
 錄	cvne
 鍊	cw
 曾	cwa
 鋰	cwg
+鐲	cwi
+猷	cwik
 单	cwj
+錮	cwjr	cw'jr
 奠	cwk
 鉀	cwl
 鑼	cwlg
+鐲	cwli
+鐸	cwlj
+鏍	cwvf
 鏽	cx
+釙	cy
 鎬	cyb
 鎊	cybs
+鏑	cycb
 鉸	cyck
 鐘	cyg
 鏟	cyhm
+鎚	cyhr
 銥	cyhv
 鏈	cyj
 鏈	cyjj
 鉸	cyk
 鏟	cykm
 鏟	cym
+鑪	cypt
 鎬	cyrb
 鑲	cyrv
+鏃	cysk
 鐘	cytg
 鋅	cytj
 鏡	cytu
 鏡	cyu
 鑲	cyv
+鉉	cyvi
 木	d
-槽	da
+杳	da
 🗡️	dagger
 楊	dah
 楣	dahu
@@ -988,6 +1087,7 @@ import_tables:
 查	dam
 楊	damh
 桿	damj
+櫚	danr
 欄	danw
 棍	dap
 棍	dapp
@@ -1005,9 +1105,11 @@ import_tables:
 査	dbm
 桐	dbmr	db'mr
 刺	dbn
+榣	dbou
 桐	dbr	db'r
 柵	dbt
 相	dbu
+preventFromAutoSelection	dbu
 櫻	dbv
 橫	dc
 梯	dch
@@ -1032,11 +1134,12 @@ import_tables:
 郴	ddnl
 楚	ddnyo
 楚	ddo
-麓	ddp
+懋	ddp
 攀	ddq
 礬	ddr
 婪	ddv
 棟	ddw
+楝	ddwf
 樣	de
 頗	dec
 樑	decd
@@ -1046,11 +1149,13 @@ import_tables:
 杈	dei	de'i
 樑	deid
 頗	dembc
+皰	depru
 標	df
 梢	dfb
 檔	dfbw
 楼	dfdv
 隸	dfe
+杪	dfh
 隸	dfle
 桜	dfv
 檔	dfw
@@ -1058,13 +1163,18 @@ import_tables:
 棱	dgce
 棱	dge
 桂	dgg
+橈	dggu
 樹	dgi
+檮	dgni
+檣	dgow
 桔	dgr
 檯	dgrg
 樹	dgti
+櫝	dgwc
 才	dh
 柏	dha
 棉	dhab
+櫛	dhal
 橋	dhb
 株	dhd
 皮	dhe
@@ -1073,6 +1183,7 @@ import_tables:
 梏	dhgr
 杉	dhh
 杉	dhhh
+榭	dhhi
 柳	dhhl
 榴	dhhw
 槐	dhi
@@ -1082,8 +1193,12 @@ import_tables:
 柳	dhl
 析	dhml
 梔	dhmu
+柝	dhmy
 楓	dhn
 楓	dhni	dhn'i
+桁	dhon
+樅	dhoo
+柢	dhpm
 槪	dhpu
 格	dhr
 檄	dhsk
@@ -1097,8 +1212,10 @@ import_tables:
 梭	die
 🎲	diea
 櫥	digi
+槭	dihf
 棧	dii
 榔	diil
+梂	dije
 榔	dil
 🎓	diploma
 枱	dir
@@ -1117,9 +1234,11 @@ import_tables:
 枝	dje
 棕	djf
 杖	djk
+楮	djka
 棲	djlv
 植	djm
 檳	djmc
+梡	djmu
 檸	djn
 棕	djmf
 檸	djpn
@@ -1139,11 +1258,13 @@ import_tables:
 賴	dlc
 棣	dle
 勅	dlks
+剌	dlln
 樓	dllv
 頼	dlmbc
 桃	dlmo
 賴	dlnbc
 桃	dlo
+敕	dlok
 賴	dlshc
 枕	dlu
 樓	dlv
@@ -1154,16 +1275,20 @@ import_tables:
 桓	dmam
 柄	dmb
 槓	dmbc
+櫺	dmbr
 極	dmem
 杯	dmf
+枰	dmfj
 枉	dmg
 橱	dmi
 桎	dmig
+杆	dmj
 橄	dmjk
 梗	dmk
 梗	dmlk
 極	dmm
 橱	dmmi
+欐	dmmp
 梧	dmmr
 柯	dmnr
 韋	dmq
@@ -1182,8 +1307,10 @@ import_tables:
 極	dnem
 橘	dnhb
 桶	dnib
+杼	dnij
 橄	dnjk
 橄	dnk
+梃	dnkg
 橢	dnlb
 極	dnm
 桅	dnmu
@@ -1191,19 +1318,25 @@ import_tables:
 橡	dno
 橙	dnot
 檐	dnr
+楹	dnst
 橙	dnt
 櫈	dntn
 桅	dnu
+櫓	dnwa
 來	do
 榷	dobg
 椎	dog
+樵	dogf
 🐕	doggy
 🐶	doggy
+榫	dogj
 槍	doir
+杵	doj
 枚	dok
 権	dokg
 🪆	doll
 🐬	dolphin
+檜	doma
 栓	domg
 榆	domn
 檢	domo
@@ -1222,10 +1355,14 @@ import_tables:
 梅	doy
 想	dp
 楷	dpa
+杓	dpi
+杓	dpm
+枇	dpp
 楷	dppa
 枸	dpr
 棒	dq
 椿	dqa
+韜	dqbhx
 榛	dqd
 楔	dqhk
 韌	dqi
@@ -1242,7 +1379,11 @@ import_tables:
 杏	dr
 🐉	dragon
 🐲	dragonface
+柺	drks
 🤤	drooling
+橾	drrd
+枴	drsh
+楫	drsj
 🥁	drum
 榜	ds
 櫃	dsc	ds'c
@@ -1255,6 +1396,7 @@ import_tables:
 栩	dsm
 框	dsmg	ds'mg
 栩	dsmm
+柩	dsno	ds'no
 樞	dsr	ds'r
 樞	dsrr	ds'rr
 檻	dst
@@ -1272,6 +1414,7 @@ import_tables:
 樣	dtge
 樽	dti
 樺	dtj
+楛	dtjr
 模	dtk
 柑	dtm	dt'm
 棋	dtmc
@@ -1295,19 +1438,25 @@ import_tables:
 東	dw
 棵	dwd
 柬	dwf	dw'f
+柙	dwl
 楞	dwls
 楞	dws
 樁	dx
 朴	dy
+槕	dyad
 柿	dyb
+楨	dybc
 榜	dybs
 校	dyck
+槨	dydl
+櫬	dydu
 椒	dye
 檩	dyf
 椒	dyfe
 柱	dyg
 杭	dyhn
 槌	dyhr
+枋	dyhs
 梳	dyiu
 樟	dyj
 校	dyk
@@ -1370,6 +1519,7 @@ import_tables:
 渾	ebjj
 溪	ebk
 沮	ebm
+湲	ebme
 洞	ebmr	eb'mr
 測	ebn
 浮	ebnd
@@ -1391,11 +1541,13 @@ import_tables:
 潸	edb
 湘	edbu
 瀨	edc
+淞	edci
 淋	edd
 潸	eddb
 波	ede
 塗	edg
 波	edhe
+淅	edhl
 沫	edj
 決	edk
 瀨	edlc
@@ -1423,6 +1575,7 @@ import_tables:
 澆	eggu
 澎	egh
 法	egi
+溘	egit
 準	egj
 濤	egni
 澎	egth
@@ -1430,28 +1583,34 @@ import_tables:
 瀆	egwc
 沙	eh
 泊	eha
+湟	ehag
 澳	ehbk
 盪	ehbt
+洎	ehbu
 瀏	ehcn
 潘	ehdw
 洛	eher
 燙	ehf
 浩	ehgr
 洗	ehgu
+泖	ehhl
 派	ehhv
 溜	ehhw
 泛	ehio
 湃	ehj
+湩	ehjg
 活	ehjr
 沃	ehk
 添	ehkp
 沂	ehl
 沂	ehml
 瀏	ehn
+汎	ehni	ehn'i
 沿	ehnr
 鯊	ehnwf
 泛	eho
 添	ehp
+泜	ehpm
 漑	ehpu
 湃	ehqj
 活	ehr
@@ -1460,13 +1619,16 @@ import_tables:
 滬	ehsu
 盪	eht
 洗	ehu
+溴	ehuk
 派	ehv
 溜	ehw
+潟	ehxf
 裟	ehyhv
 叉	ei	ei
 叉	ei	e'i
 浪	eiav
 浦	eib
+溥	eibi
 浚	eice
 梁	eid
 泳	eie
@@ -1488,6 +1650,7 @@ import_tables:
 治	eir
 淚	eisk
 滬	eisu
+濂	eitc
 渡	eite
 滬	eiu
 浪	eiv
@@ -1498,6 +1661,7 @@ import_tables:
 演	ejc
 潸	ejcb
 溶	ejcr
+沬	ejd
 渤	ejds
 瀉	ejf
 瀉	ejhf
@@ -1512,6 +1676,7 @@ import_tables:
 渲	ejm
 濱	ejmc
 演	ejmc
+淙	ejmf
 渲	ejmm
 淀	ejmo
 濘	ejn
@@ -1533,6 +1698,9 @@ import_tables:
 汰	eki
 淆	ekkb
 淹	eklu
+氿	ekn
+汍	ekni
+浹	ekoo
 滯	ekpb
 淹	eku
 沖	el
@@ -1546,6 +1714,7 @@ import_tables:
 淵	ell
 沸	elln
 潰	elmc
+洮	elmo
 沸	eln
 洩	elp
 津	elq
@@ -1555,7 +1724,9 @@ import_tables:
 淵	elxl
 江	em
 潛	ema
+洹	emam
 📧	email
+濡	embb
 酒	emcw
 洒	emcw
 汙	emd
@@ -1568,23 +1739,31 @@ import_tables:
 汗	emj
 汚	emjs
 添	emkp
+沔	emls
 瀝	emm
 灑	emmp
 污	emms
+沅	emmu
 汀	emn
+洌	emnn
 河	emnr
 灑	emp
 河	emr
 污	ems
+涿	emso
 潛	emua
 溼	emvg
+涇	emvm
 酒	emw
+溧	emwd
 漂	emwf
+湮	emwg
 潭	emwj
 沉	en
 涌	enb
 渙	enbk
 湧	enbs
+澹	encr
 染	end
 🚫	enda
 沒	ene
@@ -1601,6 +1780,7 @@ import_tables:
 溺	enm
 瀰	enmb
 溺	enmm
+澦	ennc
 潑	enoe
 澄	enot
 湧	ens
@@ -1615,6 +1795,7 @@ import_tables:
 盜	eobt
 涂	eod
 淮	eog
+泠	eoii
 滄	eoir
 滌	eold
 淪	eomb
@@ -1626,14 +1807,17 @@ import_tables:
 汽	eon
 滄	eor
 盜	eot
+濮	eoto
 海	eowy
 海	eoy
 沁	ep
+洵	epa
 滇	epbc
 滇	epc
 池	epd
 柒	epd
 泌	eph
+沘	epp
 淘	epou
 泡	epru
 沏	epsh
@@ -1654,12 +1838,17 @@ import_tables:
 清	eqmb
 漬	eqmc
 活	er
+浥	erau
+涓	erb
 澡	erd
 況	erhu
 泯	erp
+湣	erpa
 澡	errd
 況	eru
+潠	eruc
 泯	ervp
+澠	erxu
 污	es
 漏	esb
 涮	esbn
@@ -1669,12 +1858,14 @@ import_tables:
 渥	esg
 沼	eshr
 澀	esim
+涊	esip
 濫	esit
 洱	esj
 澀	esm
 漏	esmb
 浸	esme
 渥	esmg
+潯	esmi
 濫	esmt
 涮	esn
 潺	esnd
@@ -1687,6 +1878,8 @@ import_tables:
 溫	et
 漠	etak
 滿	etb
+湔	etbn
+濛	etbo
 洪	etc
 溢	etct
 港	etcu
@@ -1703,6 +1896,7 @@ import_tables:
 淇	etmc
 湛	etmv
 漢	eto
+濩	etoe
 灘	etog
 洋	etq
 灌	etrg
@@ -1713,6 +1907,8 @@ import_tables:
 🈵	etuba
 濃	etv
 滋	etvi
+漕	etwa
+澧	etwt
 濃	etwv
 瀟	etx
 汕	eu
@@ -1720,6 +1916,7 @@ import_tables:
 汹	euk	eu'k
 湍	eumb
 涵	eune	eu'ne
+涔	euon
 汝	ev
 灤	evfd
 濰	evfg
@@ -1730,15 +1927,19 @@ import_tables:
 淄	evw
 油	ew
 渭	ewb
+泗	ewc
+浬	ewg
 濁	ewi
 澤	ewj
 涸	ewjr	ew'jr
 濁	ewli
 澤	ewlj
+澴	ewlv
 泅	ewo
 溫	ewot
 涸	ewr	ew'r
 溫	ewt
+漯	ewvf
 濟	ex
 😮‍💨	exhaling
 😑	expressionless
@@ -1749,6 +1950,7 @@ import_tables:
 灕	eybg
 澈	eybk
 滂	eybs
+濬	eybu
 瀕	eyc
 滴	eycb
 湾	eycn
@@ -1762,6 +1964,7 @@ import_tables:
 注	eyg
 涉	eyh
 瀕	eyhc
+沆	eyhn
 流	eyiu
 漣	eyj
 漣	eyjj
@@ -1771,20 +1974,24 @@ import_tables:
 涉	eylh
 渋	eymo
 湾	eyn
+瀛	eynv
 漩	eyo
 淬	eyoj
 液	eyok
 濾	eyp
 濾	eypp
+瀘	eypt
 沾	eyr
 淳	eyrd
 涼	eyrf
 滸	eyrj
 渟	eyrn
+濠	eyro
 游	eysd
 漩	eyso
 淤	eysy
 泣	eyt
+潼	eytg
 漳	eytj
 涪	eytr
 流	eyu
@@ -1792,18 +1999,22 @@ import_tables:
 滾	eyv
 滷	eyw
 滷	eywi	eyw'i
+澶	eywm
 淤	eyy
 濟	eyx
 火	f
 嘗	fa
 爆	fae
 焊	faj
+煬	famh
 焊	famj
+燜	fanp
 爛	fanw
 焜	fapp
 爆	fate
 爛	faw
 📠	fax
+煜	fayt
 肖	fb
 嘗	fba
 常	fbb
@@ -1814,6 +2025,7 @@ import_tables:
 敝	fbk
 燃	fbkf
 削	fbln
+煖	fbme
 削	fbn
 敝	fbok
 敞	fbok
@@ -1853,6 +2065,7 @@ import_tables:
 粕	fdha
 糍	fdi
 粧	fdig
+糝	fdiih
 糠	fdile
 糖	fdilr
 料	fdj
@@ -1864,11 +2077,13 @@ import_tables:
 糯	fdmbb
 粳	fdmlk
 煒	fdmq
+敉	fdok
 籽	fdnd
 煒	fdq
 精	fdqmb
 糖	fdr
 粒	fdt
+糢	fdtak
 糕	fdtgf
 糍	fdtvi
 糟	fdtwa
@@ -1890,12 +2105,16 @@ import_tables:
 勞	ffbks
 螢	ffbli
 瑩	ffbmi
+犖	ffbhq
 營	ffbrr
 縈	ffbvf
 榮	ffd
+燐	ffdq
 熒	fff
+塋	ffbg
 炒	ffh
 螢	ffi
+燮	ffe'
 營	ffr
 勞	ffs
 灶	fg
@@ -1903,10 +2122,13 @@ import_tables:
 燒	fgu
 少	fh
 煌	fhag
+燠	fhbk'
 省	fhbu
 烽	fhej
 烙	fher
 煌	fhg
+燬	fhge
+燻	fhgf
 烽	fhj
 劣	fhks
 熄	fhp
@@ -1942,6 +2164,7 @@ import_tables:
 類	fkc
 燎	fkcf
 鱉	fkf
+氅	fkhqu
 烯	fkkb
 幣	fklb
 類	fkmbc
@@ -1960,6 +2183,7 @@ import_tables:
 燼	flt
 粗	fm
 炳	fmb
+燸	fmbb
 煩	fmbc
 煩	fmc
 煙	fmg
@@ -2018,6 +2242,7 @@ import_tables:
 燥	frrd
 勞	fs
 熠	fsa
+炤	fshr
 熠	fsma
 炬	fss
 焗	fssr
@@ -2050,6 +2275,7 @@ import_tables:
 単	fwj
 燭	fwli
 劏	fwln
+煨	fwmv
 劏	fwn
 焰	fx
 熾	fya
@@ -2068,13 +2294,19 @@ import_tables:
 爐	fypt
 焙	fyr
 爐	fyt
+燧	fyto
 焙	fytr
 炫	fyvi
 土	g
 場	gh
 坂	ghe
+圻	ghml
+坼	ghmy
 👻	ghost
+埤	ghwj
 增	ga
+塭	gabt
+塒	gagi
 場	gah
 坦	gam
 🎲	gamedie
@@ -2087,10 +2319,12 @@ import_tables:
 垠	gav
 幫	gb
 冉	gb
+堝	gbbr	gbb'r
 売	gbhu
 壺	gblm
 壺	gbm
 壼	gbmm
+塚	gbmo
 壹	gbmt
 壱	gbp
 壹	gbt
@@ -2100,10 +2334,12 @@ import_tables:
 增	gca
 赫	gcc
 赫	gcglc
+赭	gcjka
 赦	gck
 郝	gcl
 郝	gcnl
 赦	gcok
+赧	gcsle
 增	gcwa
 坡	gde
 坡	gdhe
@@ -2113,10 +2349,15 @@ import_tables:
 報	ge
 馨	gea
 ⚙️	gear
+瞽	gebu
 㷫	gef
 馨	gehda
+鼕	gehey
+鼙	gehwj
 聲	gej
+磬	gemr
 💎	gemstone
+罄	geoje
 聲	gesj
 熱	gf
 款	gfno
@@ -2130,6 +2371,7 @@ import_tables:
 墻	ggw
 卦	ggy
 垛	ghd
+墦	ghdw
 塢	ghf
 塊	ghi
 埠	ghj
@@ -2141,6 +2383,7 @@ import_tables:
 塊	ghui
 去	gi
 幫	gib
+盍	gibt
 熱	gif
 🎁	gift
 墊	gig
@@ -2162,6 +2405,7 @@ import_tables:
 域	girm
 勢	gis
 却	gisl
+壙	gitc
 聲	gj
 堵	gja
 填	gjbc
@@ -2179,7 +2423,12 @@ import_tables:
 贅	gkbuc
 贅	gkc
 熬	gkf
+獒	gkik
+獒	gkk
+塽	gkkk
+螯	gklmi
 垮	gkms
+鼇	gkrxu
 垮	gks
 却	gl
 👓	glasses
@@ -2193,12 +2442,16 @@ import_tables:
 垣	gmam
 壩	gmb
 壩	gmbb
+圩	gmd
+坏	gmf
 坪	gmfj
 坯	gmfm
+壢	gmhm
 坪	gmj
 埂	gmk
 埂	gmlk
 坯	gmm
+圬	gmms
 坷	gmnr
 坷	gmr
 坑	gn
@@ -2206,6 +2459,7 @@ import_tables:
 圾	gnhe
 殼	gnhne
 壽	gni
+燾	gnmf
 壽	gnmi
 坎	gno
 走	go
@@ -2219,6 +2473,7 @@ import_tables:
 趁	goh
 越	goiv
 趕	goj
+堠	gonk
 趁	goohh
 趨	gopuu
 超	gor
@@ -2230,6 +2485,7 @@ import_tables:
 塩	got
 起	gou
 越	gov
+赳	govl
 嗇	gow
 嗇	gowr
 赴	goy
@@ -2244,6 +2500,7 @@ import_tables:
 臺	grbg
 頡	grc
 🍏	greenapple
+熹	grf
 臺	grg
 喆	grgr
 袁	grhv
@@ -2255,22 +2512,28 @@ import_tables:
 頡	grmbc
 喜	grr
 喪	grrv
+熹	grtf
 喜	grtr
 嘉	grtr
+圯	gru
 喪	grv
 城	gs
 堰	gsav	gs'av
+墀	gseq
 敖	gsk
 敖	gsok
 坭	gsp
 堰	gsv	gs'v
+墀	gsyq
 壹	gt
 鼓	gte
 彭	gth
 彭	gthhh
 幸	gtj
 鼓	gtje
+坩	gtm	gt'm
 堪	gtmv
+㦤	gtnop
 塔	gtor
 塔	gtr
 堪	gtv
@@ -2289,6 +2552,7 @@ import_tables:
 墩	gydk
 坑	gyhn
 坊	gyhs
+堉	gyib
 墩	gyk
 址	gylm
 址	gym
@@ -2305,6 +2569,7 @@ import_tables:
 境	gytu
 境	gyu
 壞	gyv
+垓	gyvo
 壇	gywm
 壞	gywv
 竹	h
@@ -2315,6 +2580,7 @@ import_tables:
 鳥	haf
 皇	hag
 皈	hahe
+皓	hahgr
 魄	hahi
 魄	hahui
 的	hai
@@ -2335,12 +2601,14 @@ import_tables:
 👋	handa
 🪬	handa
 🤝	handshake
+籣	hanw
 馥	haoae
 皂	hap
 的	hapi
 皚	hat
 笆	hau
 皚	haumt
+皎	hayck
 梟	hayd
 鳥	hayf
 鳬	hayn
@@ -2351,6 +2619,7 @@ import_tables:
 覺	hbbuu
 學	hbd
 纂	hbf
+籐	hbfe
 釁	hbh
 篡	hbi
 奧	hbk
@@ -2361,11 +2630,14 @@ import_tables:
 筒	hbmr	hb'mr
 制	hbn
 學	hbnd
+鱟	hbnwf
 向	hbr	hb'r
 筋	hbs
 箏	hbsd
 翩	hbsmm
 血	hbt
+黌	hbtlc
+黌	hbtmc
 自	hbu
 纂	hbuf
 篡	hbui
@@ -2375,6 +2647,7 @@ import_tables:
 與	hc
 劉	hcln
 劉	hcn
+歟	hcno
 舉	hcq
 譽	hcr
 譽	hcymr
@@ -2393,11 +2666,14 @@ import_tables:
 積	hdc
 稅	hdcru
 季	hdd
+秣	hddj
 黍	hde
 秋	hdf
 稍	hdfb
 秒	hdfh
 種	hdg
+稜	hdgce
+穡	hdgow
 秸	hdgr
 秒	hdh
 穆	hdhah
@@ -2410,6 +2686,7 @@ import_tables:
 秫	hdid
 秫	hdijc
 稽	hdiua
+嵇	hdiuu
 科	hdj
 穗	hdjip
 稼	hdjmo
@@ -2421,6 +2698,7 @@ import_tables:
 籟	hdlc
 剁	hdln
 利	hdln
+簌	hdlo
 乘	hdlp
 釉	hdlw
 笨	hdm
@@ -2445,9 +2723,11 @@ import_tables:
 程	hdrhg
 程	hdrmg
 秀	hds
+穋	hdsmh
 釈	hdso
 乗	hdt
 穫	hdtoe
+穠	hdtwv
 箱	hdu
 委	hdv
 番	hdw
@@ -2479,6 +2759,7 @@ import_tables:
 🪖	helmet
 磐	hemr
 処	hen
+慇	hep
 各	her
 🌿	herb
 盤	het
@@ -2487,8 +2768,10 @@ import_tables:
 黐	heyub
 系	hf
 乎	hfd
+鴃	hfdk
 鴕	hfjp
 勳	hfks
+鄔	hfnl
 愁	hfp
 勳	hfs
 壬	hg
@@ -2502,12 +2785,14 @@ import_tables:
 動	hgks
 顧	hgmbc
 籌	hgni
+筠	hgpm
 告	hgr
 靠	hgrly
 動	hgs
 先	hgu
 靠	hgy
 身	hh
+篁	hhag
 卿	hhail
 篇	hhb
 貿	hhbuc
@@ -2519,6 +2804,7 @@ import_tables:
 躲	hhhnd
 笑	hhk
 射	hhi
+箠	hhjm
 卵	hhl
 須	hhmbc
 躬	hhn
@@ -2532,6 +2818,8 @@ import_tables:
 卵	hhsli	hhsl'i
 軀	hhsrr	hhs'rr
 留	hhw
+箄	hhwj
+篦	hhwp
 得	hi
 篇	hib
 魍	hibtv	hib'tv
@@ -2539,6 +2827,7 @@ import_tables:
 魅	hid
 鵝	hif
 鵝	hihaf
+箴	hihr
 箋	hii
 魁	hij
 魅	hijd
@@ -2582,6 +2871,7 @@ import_tables:
 質	hlc
 禦	hlf
 鼾	hlj
+劓	hlln
 簍	hllv
 簣	hlmc
 鼾	hlmj
@@ -2603,15 +2893,20 @@ import_tables:
 築	hmnd
 郵	hmnl
 邸	hmnl
+筮	hmoo
 惩	hmp
 后	hmr
 甥	hms
 歸	hmsmb
+卮	hmsu
+簪	hmua
 甥	hmwks
 斥	hmy
 几	hn
+颺	hnamh
 颶	hnbmc
 颶	hnc
+簷	hncr
 朵	hnd
 梨	hnd
 鳳	hnf	hn'f
@@ -2622,6 +2917,7 @@ import_tables:
 颳	hnhjr
 風	hnhli	hn'hli
 犁	hnhq
+颼	hnhxe
 凡	hni	hn'i
 颱	hnir
 筵	hnkm
@@ -2629,6 +2925,8 @@ import_tables:
 筵	hnm
 鳳	hnmaf	hn'maf
 風	hnmli	hn'mli
+篛	hnmm
+夙	hnmni	hn'mni
 掣	hnq
 颳	hnr
 筝	hnsd
@@ -2685,6 +2983,7 @@ import_tables:
 行	hon
 🍯	honeypot
 🇭🇰	hongkong
+篌	honk
 衡	honkn
 径	honom
 從	hoo
@@ -2694,6 +2993,7 @@ import_tables:
 御	hooml
 從	hoooo
 慫	hop
+徇	hopa
 律	hoq
 咎	hor
 📯	horn
@@ -2722,6 +3022,7 @@ import_tables:
 徊	howr	how'r
 徘	hoy
 徹	hoybk
+徬	hoybs
 往	hoyg
 彷	hoyhs
 徙	hoylo
@@ -2732,6 +3033,7 @@ import_tables:
 筷	hpk
 印	hpl
 剩	hpln
+氐	hpm
 旣	hpmvu
 剩	hpn
 印	hpsl
@@ -2748,26 +3050,33 @@ import_tables:
 特	hqgdi
 犢	hqgwc
 物	hqh
+牴	hqhpm
 牲	hqhqm
+籀	hqhw
 我	hqi
 拜	hqj
+牯	hqjr
 牧	hqk
+犄	hqkmr
 生	hqm
 拜	hqmqj
 失	hqo
 牧	hqok
+牝	hqp
 牠	hqpd
 物	hqphh
 掰	hqq
 犧	hqs
 箍	hqsb	hqs'b
 犧	hqtgs
+箝	hqtm	hqt'm
 毛	hqu
 犒	hqyrb
 和	hr
 師	hrb
 烏	hrf
 舔	hrhkp
+舐	hrhvp
 阜	hrj
 啟	hrk
 帥	hrlb
@@ -2775,8 +3084,10 @@ import_tables:
 舔	hrmkp
 師	hrmlb
 刮	hrn
+雒	hrog
 啟	hrok
 舔	hrp
+簞	hrrj
 甜	hrt
 甜	hrtm	hrt'm
 乱	hru
@@ -2825,12 +3136,14 @@ import_tables:
 箭	htn
 衆	hto
 衆	htoho
+卹	htsl
 篝	httb
 衊	httwi
 簧	htwc
 看	hu
 贊	hubuc
 贊	huc
+臬	hud
 毯	huf
 毯	huff
 鬼	hui
@@ -2838,6 +3151,7 @@ import_tables:
 臭	huk
 鼻	hul
 頹	humbc
+風流倜儻	huobf
 息	hup
 鼻	huwml
 很	hv
@@ -2848,9 +3162,12 @@ import_tables:
 魏	hvi
 系	hvif
 瓜	hvio
+鼬	hvlw
+鼯	hvmmr
 篆	hvno
 瓜	hvo
 氏	hvp
+鼴	hvsav	hvs'av
 兜	hvu
 留	hw
 囱	hwe	hw'e
@@ -2863,8 +3180,10 @@ import_tables:
 囪	hwk	hw'k
 囪	hwkk	hw'kk
 籮	hwlg
+篾	hwli
 翻	hwm
 粵	hwmvs
+鄱	hwnl
 箇	hwr	hw'r
 粵	hws
 翻	hwsmm
@@ -2872,11 +3191,13 @@ import_tables:
 興	hxbc
 盥	hxbt
 興	hxc
+爨	hxddf
 叟	hxe
 身	hxh
 兒	hxhu
 輿	hxjc
 叟	hxle
+臾	hxo
 舅	hxs
 龜	hxu
 鼠	hxv
@@ -2891,6 +3212,7 @@ import_tables:
 般	hye
 艇	hyg
 舶	hyha
+舨	hyhe
 篷	hyhj
 般	hyhne
 船	hyhnr
@@ -2900,6 +3222,7 @@ import_tables:
 舵	hyjp
 簇	hyk
 航	hyn
+艋	hyndt
 艇	hynkg
 艙	hyoir
 籠	hyp
@@ -2910,6 +3233,8 @@ import_tables:
 艦	hysmt
 笠	hyt
 篱	hyub
+簑	hyv
+簑	hywv
 航	hyyhn
 舷	hyyvi
 戈	i
@@ -2920,6 +3245,7 @@ import_tables:
 廁	ibcn
 翩	ibm
 廁	ibn
+鄘	ibnl
 能	ibp
 能	ibpp
 翩	ibsmm
@@ -2960,6 +3286,8 @@ import_tables:
 求	ie
 救	iek
 救	ieok
+裘	iev
+裘	ieyhv
 為	if
 禍	ifb
 禍	ifbbr	ifbb'r
@@ -2976,6 +3304,8 @@ import_tables:
 禱	ifgni
 禧	ifgrr
 祕	ifh
+鷓	ifhaf
+祅	ifhk
 祈	ifhml
 凴	ifhn
 祗	ifhpm
@@ -2988,11 +3318,14 @@ import_tables:
 神	ifl
 神	iflwl
 祖	ifm
+祆	ifmk
 禰	ifmfb
 福	ifmrw
 凴	ifn
 祢	ifnf
 祁	ifnl
+祚	ifos
+祚	ifoyy
 憑	ifp
 祕	ifph
 祥	ifq
@@ -3002,6 +3335,7 @@ import_tables:
 ㊗️	ifrhua
 禪	ifrrj
 祀	ifru
+蹙	ifryo
 祠	ifsmr
 禮	ift
 祺	iftmc
@@ -3010,14 +3344,16 @@ import_tables:
 祝	ifu
 祿	ifvne
 福	ifw
+禎	ifybc
 祉	ifylm
+禳	ifyrv
 庄	ig
 顧	igc
 廚	igi
 應	igp
 顧	igmbc
 廚	igti
-參	ih
+戊	ih
 戚	ihf
 戍	ihi
 底	ihm
@@ -3030,6 +3366,7 @@ import_tables:
 允	ihu
 威	ihv
 底	ihvi
+庾	ihxo
 戚	ihymf
 麼	ii
 朗	iib
@@ -3050,6 +3387,7 @@ import_tables:
 麻	ijc
 麻	ijcc
 求	ije
+preventFromAutoSelection	ije
 庫	ijj
 廟	ijjb
 盏	ijt
@@ -3066,6 +3404,7 @@ import_tables:
 欸	ikno
 啓	ikr
 尤	iku
+畚	ikw
 神	il
 庸	ilb
 康	ile
@@ -3074,6 +3413,7 @@ import_tables:
 师	ilmb
 划	iln
 庚	ilo
+𢉼	ilob
 唐	ilr
 帰	ilsmb
 或	im
@@ -3101,6 +3441,7 @@ import_tables:
 ⇒	implies
 凑	imqkk
 冶	imr
+臧	imsll
 馮	imsqf
 廈	imue
 凍	imw
@@ -3147,15 +3488,19 @@ iOS	ios
 弋	ip
 貳	ipc
 熊	ipf
+麋	ipfd
 麟	ipfdq
 塵	ipg
 鳶	iphaf
+麝	iphhi
+麂	iphn
 式	ipm
 貳	ipmmc
 態	ipp
 庇	ipp
 忒	ipp
 麟	ipq
+庖	ipru
 麒	iptmc
 祥	iq
 台	ir
@@ -3191,6 +3536,7 @@ iOS	ios
 席	itlb
 廣	itlc
 廣	itmc
+庠	itq
 廉	itxc
 視	iu
 良	iv
@@ -3220,6 +3566,7 @@ iOS	ios
 宜	jbm
 真	jbmc
 直	jbmm
+蠹	jbmri
 察	jbof
 囊	jbrrv
 南	jbtj	jb'tj
@@ -3248,6 +3595,7 @@ iOS	ios
 突	jck
 究	jckn
 帘	jclb
+窕	jclmo
 空	jcm
 🈳	jcma
 顛	jcmbc
@@ -3267,6 +3615,7 @@ iOS	ios
 窯	jctgf
 竃	jcu
 竄	jcv
+窈	jcvis
 窗	jcw
 未	jd
 宋	jd
@@ -3282,6 +3631,7 @@ iOS	ios
 麪	jemls
 麵	jemwl	jemw'l
 麩	jeo
+麴	jepfd
 擊	jeq
 麩	jeqo
 麪	jes
@@ -3320,14 +3670,19 @@ iOS	ios
 車	jj
 輥	jjapp
 朝	jjb
+輞	jjbtv	jjb'tv
 韓	jjdmq
+輟	jje
+輟	jjeee
 軽	jjeg
+轔	jjfdq
 轅	jjgrv
 轎	jjhkb
 斬	jjhml
 軼	jjhqo
 轉	jji
 輔	jjijb
+軾	jjipm
 幹	jjj
 轉	jjjii
 轟	jjjjj
@@ -3337,14 +3692,20 @@ iOS	ios
 斬	jjl
 軸	jjlw
 輕	jjm
+輊	jjmig
 軒	jjmj
 輛	jjmlb
 転	jjmmi
+軻	jjmnr
 輻	jjmrw
+軛	jjmsu
+軏	jjmu
 輕	jjmvm
 輸	jjn
+輓	jjnau
 軟	jjno
 軟	jjo
+榦	jjod
 輪	jjomb
 幹	jjomj
 輸	jjomn
@@ -3353,21 +3714,26 @@ iOS	ios
 斡	jjoyj
 輥	jjp
 韓	jjq
+輳	jjqkk
 轄	jjr
 輯	jjrsj
+軔	jjshi
 輒	jjsju
 輾	jjstv
 軋	jju
 輾	jjv
+輜	jjvvw
 輻	jjw
 轍	jjybk
 較	jjyck
 丈	jk
 者	jka
+宥	jkb
 寮	jkcf
 孝	jkd
 釐	jkg
 宏	jki
+犛	jkmhq
 寄	jkmr
 考	jkmvs
 釐	jkmwg
@@ -3379,6 +3745,7 @@ iOS	ios
 考	jkys
 都	jl
 暫	jla
+鏨	jlc
 塹	jlg
 衷	jlhv
 吏	jlk
@@ -3405,6 +3772,7 @@ iOS	ios
 宣	jmm
 宗	jmmf
 完	jmmu
+宸	jmmv
 定	jmo
 宕	jmr
 富	jmrw
@@ -3452,6 +3820,7 @@ iOS	ios
 胡	jrb
 額	jrc
 豁	jrcor
+鴣	jrhaf
 宮	jrhr
 克	jrhu
 辜	jrj
@@ -3472,12 +3841,15 @@ iOS	ios
 寥	jsmh
 卉	jt
 寞	jtak
+賁	jtbc
 寬	jtbi
 寛	jtbu
 賽	jtc
 賽	jtcc
 寨	jtcd
+騫	jtcf
 塞	jtcg
+搴	jtcq
 寒	jtcy
 寨	jtd
 塞	jtg
@@ -3494,6 +3866,7 @@ iOS	ios
 寢	jve
 寐	jvmd
 寢	jvme
+寤	jvmr
 富	jw
 寓	jwb
 實	jwc
@@ -3513,6 +3886,7 @@ iOS	ios
 奢	ka
 瘟	kabt
 瘍	kah
+疸	kam
 瘍	kamh
 疤	kau
 瘟	kat
@@ -3531,6 +3905,7 @@ iOS	ios
 弒	kcm
 存	kd
 癩	kdc
+痳	kdd
 疲	kde
 疲	kdhe
 殺	kdhne
@@ -3550,7 +3925,9 @@ iOS	ios
 ⌨️ 	keyboard
 灰	kf
 盔	kfbt
+瘠	kfcb
 痰	kff
+癆	kffs
 盔	kft
 在	kg
 痔	kgdi
@@ -3572,6 +3949,7 @@ iOS	ios
 猙	khd
 獺	khdlc
 痢	khdn
+痿	khdv
 狄	khf
 瘦	khe
 疼	khey
@@ -3584,6 +3962,7 @@ iOS	ios
 獨	khi
 狼	khiav
 犹	khiku
+獷	khitc
 猝	khj
 狩	khjdi
 獰	khjpn
@@ -3606,26 +3985,36 @@ iOS	ios
 狗	khpr
 猜	khqmb
 狗	khr
+狷	khrb'
 犯	khsu
 猛	kht
 猶	khtcw
 獲	khtoe
 犯	khu
 癟	khub
+瘪	khup
 狼	khv
 獵	khvvv
 猶	khw
 猬	khwb
+猓	khwd
 狸	khwg
+痺	khwj
+狎	khwl
+玀	khwlg
 獨	khwli
 猥	khwmv
 瘦	khxe
 疼	khy
 狡	khyck
+瘢	khye
 獄	khyrk
+獐	khytj
 太	ki
+痠	kice
 痧	kifh
 雄	kig
+疣	kiku
 雄	kiog
 😘	kissing
 😗	kissing
@@ -3640,22 +4029,27 @@ iOS	ios
 癲	kjcc
 奢	kjka
 奔	kjt
+爻	kk
 肴	kkb
 療	kkcf
 療	kkf
 爽	kkk
 爽	kkkk
 希	kklb
+痍	kkn
 瘸	kkrb
+痂	kksr
 痹	kl
 布	klb
 存	kld
 在	klg
+痱	klmy
 刈	kln
 存	klnd
 奄	klu
 奄	klwu
 左	km
+奭	kmaa
 病	kmb
 奈	kmf
 痞	kmfr
@@ -3703,7 +4097,9 @@ iOS	ios
 疥	koll
 頰	kombc
 痊	komg
+瘉	komn
 癒	komp
+瘉	komv
 疙	kon
 夾	koo
 痤	koog
@@ -3730,21 +4126,28 @@ iOS	ios
 癌	kru
 力	ks
 脅	ksb
+瓠	kshvo
 套	ksi
 癖	ksj
 脅	ksksb
 疟	ksm
+瘺	ksmb
 套	ksmi
 加	ksr
 癖	ksrj
+勰	kswp
+匏	kspru
 猛	kt
 癱	ktg
+疳	ktm	kt'm
 癱	ktog
 瘩	ktor
 癢	ktov
 瘩	ktr
 癢	ktv
-犯	ku
+癘	ktwb
+疝	ku
+鵪	kuhaf
 尬	kul
 尬	kuoll
 尷	kusit
@@ -3786,15 +4189,18 @@ iOS	ios
 幌	lbafu
 幔	lbawe
 幀	lbc
+幃	lbdmq
 幔	lbe
 幢	lbg
+裯	lbgr	lb'gr
 帕	lbha
 幡	lbhdw
+帆	lbhn
 帆	lbhni	lbhn'i
 央	lbk
 幅	lbmrw
 帆	lbn
-帆	lbhn
+帷	lbog
 帖	lbr
 帳	lbsmv
 盅	lbt
@@ -3806,6 +4212,7 @@ iOS	ios
 幟	lbyia
 帖	lbyr
 幢	lbytg
+幛	lbytj
 貴	lc
 裕	lcor
 裕	lcr
@@ -3815,6 +4222,7 @@ iOS	ios
 襟	ldf
 被	ldhe
 袜	ldj
+袂	ldk
 被	le
 🥬	leafygreen
 📒	ledger
@@ -3839,11 +4247,15 @@ iOS	ios
 装	lgyhv
 初	lh
 襖	lhbk
+衽	lhg
 衫	lhh
 衫	lhhh
 裨	lhj
 襖	lhk
+褊	lhsb
+衹	lhvp
 裨	lhwj
+褫	lhyu
 蟲	li
 蜴	liaph
 蝎	liapv
@@ -3851,7 +4263,9 @@ iOS	ios
 補	lib
 螟	libac
 蝸	libbr	libb'r
+蜩	libgr
 蛆	libm
+蜆	libuu
 螟	lic
 蚣	lici
 蝉	licwj
@@ -3869,9 +4283,12 @@ iOS	ios
 蚜	lih
 蝗	lihag
 蝌	lihdj
+蜊	lihdn
 蟋	lihdp
+蟠	lihdw
 蜂	lihej
 蛛	lihjd
+蛞	lihjr
 蛾	lihqi
 蝙	lihsb
 蛾	lii
@@ -3882,14 +4299,19 @@ iOS	ios
 褲	lijj
 蜿	lijnu
 蛇	lijp
+蛄	lijr
 蝴	lijrb
 蚊	lik
 蚓	lil
 蟲	lilii
 蠱	lilit
+螻	lillv
 虹	lim
 蠕	limbb
+蛭	limig
+蚵	limnr
 蝠	limrw
+蠣	limtb
 蚜	limvh
 蟾	lincr
 蛹	linib
@@ -3904,8 +4326,10 @@ iOS	ios
 蚧	lioll
 蚯	liom
 蜍	liomd
+蝓	liomn
 蛤	liomr
 🦁	lion
+蚱	lios
 蛇	lip
 💄	lipstick
 蝶	liptd
@@ -3926,20 +4350,27 @@ iOS	ios
 蟻	litgi
 蟒	litit
 蟥	litlc
+蚶	litm	lit'm
+蛐	litw
 蠅	liu
 蠟	liv
 蠟	livvv
 蝠	liw
+蟈	liwim	liw'im
 蛔	liwr	liw'r
 螺	liwvf
 螃	liybs
+蛟	liyck
 蛀	liyg
 蟀	liyij
 蚪	liyj
 蚊	liyk
+蠔	liyro
 蟑	liytj
+虻	liyv
 🦎	lizard
 牌	lj
+褚	ljka
 史	lk
 盎	lkbt
 鴦	lkf
@@ -3949,11 +4380,13 @@ iOS	ios
 暢	llamh
 帰	llb
 順	llc
+牒	lld
 版	lle
 粛	llfl
 牘	llgwc
 暢	llh
 版	llhe
+牖	llhsb
 牌	llhwj
 牌	llj
 川	lll
@@ -3964,6 +4397,7 @@ iOS	ios
 片	llmn
 弗	lln
 患	llp
+牒	llptd
 帰	llsmb
 婁	llv
 袖	llw
@@ -3980,6 +4414,7 @@ iOS	ios
 将	lmnii
 兆	lmo
 北	lmp
+邶	lmpnl
 非	lmsy
 盡	lmt
 兆	lmuo
@@ -3994,14 +4429,18 @@ iOS	ios
 版	lnhe
 牌	lnhwj
 牌	lnj
+鬨	lntc
 鬧	lnylb
 兆	lo
 複	loae
+覜	lobuu
 🔐	lock
 🔒	locked
 複	loe
 袱	loik
 袱	lok
+褕	lomn
+褓	lord
 🧴	lotionbottle
 🥰	loveface
 💌	loveletter
@@ -4029,17 +4468,21 @@ iOS	ios
 襤	lst
 盡	lt
 襪	lti
+褡	ltor
 襪	ltwi
 🧳	luggage
+鴆	luhaf
 🍱	lunch
 婁	lv
 數	lvk
 數	lvok
 由	lw
+胄	lwb
 裸	lwd
 裡	lwg
 申	lwl
 甴	lwlm
+襬	lwlp
 曳	lwp
 肅	lx
 非	ly
@@ -4084,14 +4527,18 @@ iOS	ios
 厩	mau
 而	mb
 需	mbb
+霾	mbbhg
 頁	mbc
 霖	mbd
 霖	mbdd
 霜	mbdbu
 耐	mbdi
 憂	mbe
+䨙	mbehg
+霑	mbeyr
 霄	mbfb
 霆	mbg
+霤	mbhhw
 霓	mbhxu
 零	mbi
 霹	mbj
@@ -4132,7 +4579,9 @@ iOS	ios
 電	mbwu
 霉	mby
 雯	mbyk
+靄	mbyrv
 霎	mbytv
+霽	mbyx
 頭	mc
 西	mcw
 酉	mcwm	mcw'm
@@ -4156,6 +4605,7 @@ iOS	ios
 飄	mfhni	mfhn'i
 瓢	mfhvo
 平	mfj
+剽	mfln
 歪	mfm
 願	mfmbc
 歪	mfmym
@@ -4165,9 +4615,14 @@ iOS	ios
 否	mfr
 盃	mft
 王	mg
+瑁	mgabu
+琨	mgapp
 琶	mgau
+璟	mgayf
 再	mgb
 珊	mgbbm
+琛	mgbcd
+瓔	mgbcv
 瑤	mgbou
 珊	mgbt
 現	mgbuu
@@ -4179,10 +4634,17 @@ iOS	ios
 球	mge
 瑪	mgf
 瑣	mgfbc
+璘	mgfdq
 理	mgg
+珪	mggg
 珍	mgh
+珀	mgha
+琍	mghdn
+珞	mgher
 瑰	mghi
 珠	mghjd
+珮	mghnb
+瓚	mghuc
 瑰	mghui
 玉	mgi
 丟	mgi
@@ -4190,10 +4652,14 @@ iOS	ios
 瑯	mgiil
 球	mgije
 班	mgilg
+瑭	mgilr
 瑚	mgjrb
 致	mgk
 琦	mgkmr
 到	mgln
+頊	mgmbc
+玨	mgmg
+琊	mgmhl
 玩	mgmmu
 琢	mgmso
 甄	mgmvn
@@ -4204,6 +4670,7 @@ iOS	ios
 珍	mgohh
 玲	mgoii
 琴	mgoin
+玳	mgoip'
 致	mgok
 玫	mgok
 瑜	mgomn
@@ -4214,22 +4681,34 @@ iOS	ios
 臻	mgqkd
 噩	mgr
 噩	mgrr
+瑕	mgrse
+瑕	mgrye
 瑪	mgsqf
 弄	mgt
+璞	mgtco
 璜	mgtlc
+瑛	mgtlk
+瑾	mgtlm
 琪	mgtmc
 玩	mgu
 瑞	mgumb
 璀	mguog
 環	mgv
+璣	mgvii
+瑙	mgvvw
 理	mgwg
 環	mgwlv
 瓏	mgybp
+璿	mgybu
 璨	mgyed
 琉	mgyiu
+玟	mgyk
 斑	mgykg
+琥	mgypn'
+琥	mgypu'
 玷	mgyr
 琼	mgyrf
+瓖	mgyrv
 璇	mgyso
 璋	mgytj
 璃	mgyub
@@ -4247,6 +4726,7 @@ iOS	ios
 巩	mhni	mhn'i
 邪	mhnl
 雅	mhog
+餮	mhoiv
 厩	mhpu
 厩	mhu
 雲	mi
@@ -4268,6 +4748,7 @@ iOS	ios
 天	mk
 壓	mkg
 甦	mkhqm
+魘	mkhui
 蚕	mki
 👺	mkkhra
 蚕	mklmi
@@ -4318,6 +4799,7 @@ iOS	ios
 殆	mnir
 歼	mnj
 殖	mnjbm
+殯	mnjmc
 殃	mnk
 殃	mnlbk
 列	mnln
@@ -4325,8 +4807,11 @@ iOS	ios
 頂	mnmbc
 殭	mnmwm
 列	mnn
+歿	mnne
+殤	mnoah
 殄	mnohh
 殲	mnoim
+殮	mnomo
 死	mnp
 恐	mnp
 殉	mnpa
@@ -4343,9 +4828,11 @@ iOS	ios
 📲	mobilephone
 資	mobuc
 資	moc
+贗	mofc
 雁	mog
 豬	mojka
 攻	mok
+劂	moln
 瓷	momvn
 瓷	mon
 💰	money
@@ -4361,6 +4848,8 @@ iOS	ios
 雁	moog
 🥮	mooncake
 咨	mor
+豭	morse
+豭	morye
 ⛰️	mountain
 🖱️	mouse
 🐭	mouse
@@ -4371,12 +4860,16 @@ iOS	ios
 貮	mpc
 武	mpm
 弐	mpmm
+酈	mpnl
 武	mpylm
 磷	mq
 石	mr
+碣	mrapv
 硼	mrb
 硼	mrbb
 碉	mrbgr	mrb'gr
+鬲	mrbl
+砠	mrbm
 硯	mrbuu
 碰	mrc
 碴	mrdam
@@ -4392,6 +4885,7 @@ iOS	ios
 砝	mrgi
 磕	mrgit
 砂	mrh
+斫	mrhml
 矾	mrhni	mrhn'i
 砥	mrhpm
 碑	mrhwj
@@ -4421,7 +4915,11 @@ iOS	ios
 哥	mrnr
 歌	mro
 確	mrobg
+碓	mrog
 礁	mrogf
+敔	mrok
+砟	mros
+砟	mroyy
 砒	mrp
 礙	mrpko
 砒	mrpp
@@ -4429,6 +4927,7 @@ iOS	ios
 砌	mrpsh
 碟	mrptd
 磷	mrq
+磧	mrqmc
 哥	mrr
 砸	mrs
 砸	mrslb	mrs'lb
@@ -4445,6 +4944,7 @@ iOS	ios
 碳	mrukf
 碳	mrumf
 碾	mrv
+磯	mrvii
 碌	mrvne
 硒	mrw
 磅	mrybs
@@ -4452,10 +4952,12 @@ iOS	ios
 碎	mryoj
 砧	mryr
 功	ms
+豕	msho
 攷	msk
 攷	msok
 厄	msu
 研	mt
+厝	mta
 厲	mtb
 頭	mtc
 豉	mte
@@ -4479,6 +4981,7 @@ iOS	ios
 夏	mue
 夏	muhe
 戛	mui
+虺	mulmi
 画	mulw
 頑	mumbc
 🍄	mushroom
@@ -4499,6 +5002,7 @@ iOS	ios
 面	mw
 醋	mwa
 醒	mwahm
+覃	mwaj
 酮	mwb
 雷同	mwbmr
 賈	mwbuc
@@ -4513,6 +5017,7 @@ iOS	ios
 酚	mwh
 酥	mwhd
 酪	mwher
+醺	mwhgf
 酷	mwhgr
 覆	mwhoe
 醜	mwhi
@@ -4521,17 +5026,23 @@ iOS	ios
 酸	mwice
 醜	mwi
 酬	mwill
+醣	mwilr
 醉	mwj
 酵	mwjkd
 覈	mwk
 酞	mwki
+醃	mwklu
 酔	mwknj
 面	mwl	mw'l
 副	mwln
 醒	mwm
 票	mwmmf
 酝	mwmmi
+酊	mwmn
 副	mwn
+酩	mwnir
+醮	mwogf
+酴	mwomd
 酢	mwos
 酶	mwowy
 酌	mwpi
@@ -4543,6 +5054,7 @@ iOS	ios
 醋	mwta
 酣	mwtm	mwt'm
 醛	mwtog
+醴	mwtwt
 配	mwu
 酗	mwuk	mwu'k
 要	mwv
@@ -4571,17 +5083,21 @@ iOS	ios
 🤢	nauseated
 角	nb
 負	nbc
+奐	nbk
 角	nbg	nb'g
 墮	nbg
 觸	nbi
 勇	nbks
 触	nblmi
+觼	nbnbe
+觴	nboah
 恿	nbp
 解	nbq
 勇	nbs
 解	nbshq
 負	nbuc
 觸	nbwli
+斛	nbyj
 小	nc	f
 弹	ncj
 詹	ncr
@@ -4610,27 +5126,39 @@ iOS	ios
 🗞️	newspaper
 尔	nf
 鰭	nfa
+鯧	nfaa
 鯽	nfail
 鯤	nfapp
+鰻	nfawe
 粥	nfdn
+鰻	nfe
 鯨	nff
 鱗	nffdq
 鯉	nfg
+鮭	nfgg
+穌	nfhd
+鯀	nfhvf
 魷	nfiku
 鰭	nfjpa
 鯽	nfl
 鱷	nfmgr
 鱖	nfmto
+鰾	nfmwf
 粥	nfn
 鰓	nfp
 鮑	nfpru
 鮮	nfq
+鯖	nfqmb
 鱔	nftgr
 鮮	nftq
 鮑	nfu
 鯉	nfwg
 弾	nfwj
+鰥	nfwle
 鰓	nfwp
+鮫	nfyck
+鰱	nfyjj
+鱸	nfypt
 鯨	nfyrf
 丑	ng
 疆	ngm
@@ -4649,13 +5177,16 @@ iOS	ios
 弧	nhvo
 夕	ni	n'i
 弘	ni
+甬	nibq	nib'q
 矛	nih
 強	nii
+夤	nijmc
 強	nili
 多	nin
 矛	ninh
 多	nini	nin'i
 予	ninn
+飧	nioiv
 舛	niq
 名	nir
 外	niy
@@ -4678,6 +5209,7 @@ iOS	ios
 弔	nl
 階	nla
 陽	nlamh
+隄	nlamo
 限	nlav
 隨	nlb
 阻	nlbm
@@ -4686,6 +5218,7 @@ iOS	ios
 隠	nlbsp
 隕	nlc
 除	nld
+陂	nldhe
 陳	nldw
 陵	nle
 際	nlf
@@ -4697,9 +5230,13 @@ iOS	ios
 陸	nlgcg
 陡	nlgyo
 陽	nlh
+隍	nlhag
+阪	nlhe
 隆	nlhem
 降	nlheq
 阡	nlhj
+陞	nlhtg
+陴	nlhwj
 附	nli
 陣	nlj
 院	nljmu
@@ -4713,6 +5250,7 @@ iOS	ios
 阮	nlmmu
 阿	nlmnr
 隔	nlmrb
+陘	nlmvm
 陷	nlnhx
 陥	nlnla
 隊	nlo
@@ -4728,6 +5266,7 @@ iOS	ios
 阿	nlr
 隕	nlrbc
 防	nls
+陬	nlsje
 隘	nlt
 隘	nltct
 隊	nltpo
@@ -4738,20 +5277,24 @@ iOS	ios
 隅	nlwlb
 陷	nlx
 隴	nlybp
+阬	nlyhn
 防	nlyhs
 隨	nlykb
 障	nlytj
 隧	nlyto
 陪	nlytr
 弱	nm
+弼	nman
 彌	nmb
 疎	nmdl
 彌	nmfb
 弱	nmm
 弱	nmnim
+鶸	nmnmf
 急	nmp
 危	nmsu
 危	nmu
+彊	nmwm
 疏	nmyiu
 了	nn
 預	nnc
@@ -4766,6 +5309,7 @@ iOS	ios
 欠	no
 久	no
 疍	noam
+胥	nob
 發	noe
 灸	nof
 墜	nog
@@ -4790,14 +5334,17 @@ iOS	ios
 隱	np
 弛	npd
 解	nq
+桀	nqd
 蟹	nqi
 蟹	nqlmi
 名	nr
 彈	nrj
 彈	nrrj
+毚	nrppi
 務	ns
 盈	nsbt
 朶	nsd
+弭	nsj
 張	nsmv
 孕	nsnd
 急	nsp
@@ -4823,6 +5370,8 @@ iOS	ios
 亀	nwlu
 亀	nwu
 陷	nx
+燄	nxff
+卍	nx'
 龜	nxu
 外	ny
 弦	nyi
@@ -4833,22 +5382,26 @@ iOS	ios
 劊	oaln
 但	oam
 們	oan
+僩	oanb	oan'b
 內	ob
 内	ob
 俱	obc
 側	obcn
 俘	obd
 僞	obf
+倜	obgr	ob'gr
 僞	obhf
 俱	obmc
 侗	obmr	ob'mr
 側	obn
 俘	obnd
 肉	obo	ob'o
+倜儻	oboff
 憊	obp
 佣	obq	ob'q
 價	oc
 僧	oca
+佾	ocb
 僧	ocs
 🐙	octopus
 份	och
@@ -4873,6 +5426,7 @@ iOS	ios
 俏	ofb
 償	ofbc
 倘	ofbr	ofb'r
+儅	ofbw
 償	ofc
 您	ofp
 伴	ofq
@@ -4892,10 +5446,12 @@ iOS	ios
 鶴	oghaf
 侍	ogi
 傲	ogk
+雋	oglms
 隽	ognhs
 歓	ogno
 售	ogr
-隽	ogs
+僖	ogrr
+雋	ogs
 傲	ogsk
 倖	ogtj
 僥	ogu
@@ -4924,6 +5480,7 @@ iOS	ios
 低	ohpm
 件	ohq
 俄	ohqi
+佚	ohqo
 偏	ohsb
 僱	ohsg
 倪	ohu
@@ -4932,9 +5489,11 @@ iOS	ios
 低	ohvi
 仰	ohvl
 俾	ohwj
+傯	ohwp
 倪	ohxu
 伐	oi
 仏	oi
+餛	oiapp
 倉	oiar
 食	oiav
 饅	oiawe
@@ -4948,6 +5507,7 @@ iOS	ios
 偽	oif
 飪	oig
 饒	oiggu
+鴒	oihaf
 餉	oihbr	oihb'r
 飯	oihe
 飪	oihg
@@ -4957,10 +5517,12 @@ iOS	ios
 餿	oihxe
 令	oii
 餞	oiii
+飴	oiir
 餌	oij
 館	oijrr
 伏	oik
 偽	oikf
+餚	oikkb
 傭	oilb
 🛢️	oildrum
 🪔	oillamp
@@ -4978,10 +5540,13 @@ iOS	ios
 饞	oinri
 飲	oio
 俯	oioi
+俟	oiok
+飭	oioks
 飾	oiolb
 餘	oiomd
 代	oip
 飽	oipru
+飩	oipu
 含	oir
 偏	oisb
 餌	oisj
@@ -4990,6 +5555,7 @@ iOS	ios
 餅	oit
 饃	oitak
 饊	oitbk
+饉	oitlm
 饈	oitqg
 餅	oitt
 飽	oiu
@@ -5002,6 +5568,7 @@ iOS	ios
 什	oj
 午	oj
 值	ojbm
+倥	ojcm
 伎	oje
 傳	oji
 傳	ojii
@@ -5009,12 +5576,14 @@ iOS	ios
 佬	ojkp
 使	ojlk
 值	ojm
+儐	ojmc
 佇	ojmn
 傢	ojmo
 傢	ojo
 佬	ojp
 估	ojr
 做	ojrk
+缶	oju
 矢	ok
 僚	okcf
 佈	okb
@@ -5028,6 +5597,7 @@ iOS	ios
 短	okmrt
 仇	okn
 俠	oko
+雉	okog
 俠	okoo
 悠	okp
 知	okr
@@ -5044,16 +5614,20 @@ iOS	ios
 條	olhd
 絛	olhf
 修	olhh
+倏	olhk
 🫒	olive
 候	olk
 介	oll
 佛	olln
 僂	ollv
+佻	olmo
 儘	olmt
 俳	olmy
 佛	oln
 候	olnk
+脩	olob
 條	olod
+鯈	olof
 修	oloh
 攸	olok
 儘	olt
@@ -5095,6 +5669,7 @@ iOS	ios
 命	omrl
 卸	omsl
 岳	omu
+僭	omua
 俓	omvm
 會	omwa
 價	omwc
@@ -5112,7 +5687,9 @@ iOS	ios
 氣	onfd
 氮	onff
 氛	onh
+伋	onhe
 仍	onhs
+俑	onib
 侈	onin
 🧅	onion
 氨	onjv
@@ -5121,6 +5698,7 @@ iOS	ios
 氟	onlln
 氫	onm
 侯	onmk
+氬	onmlm
 氫	onmvm
 侈	onn
 氖	onnhs
@@ -5129,13 +5707,17 @@ iOS	ios
 健	onq
 傑	onqd
 氰	onqmb
+儳	onri
 仍	ons
 氧	ontq
 氨	onv
 氯	onvne
+氤	onwk	onw'k
+氳	onwot
 氦	onyvo
 傷	ooah
 倫	oob
+俎	oobm
 坐	oog
 傷	ooh
 伶	ooi
@@ -5144,6 +5726,7 @@ iOS	ios
 斂	ook
 劍	ooln
 倫	oomb
+佺	oomg
 偷	oomn
 儉	oomo
 偷	oon
@@ -5159,14 +5742,18 @@ iOS	ios
 貨	opc
 他	opd
 傾	opmc
+仳	opp
 偕	oppa
 佝	opr
+岱	opu
 袋	opv
+黛	opwgf
 袋	opyhv
 年	oq
 債	oqc
 傣	oqe
 傣	oqke
+俸	oqkq
 倩	oqmb
 債	oqmc
 俵	oqmv
@@ -5184,18 +5771,25 @@ iOS	ios
 侃	orhu
 舖	orijb
 創	orln
+頜	ormbc
 創	orn
 舒	ornin
+郃	ornl
 欱	orno
 促	oro
 拿	orq
 侶	orr
+儼	orrk
 假	orse
+翕	orsmm
 盒	ort
 侃	oru
+僎	oruc
 促	oryo
 乍	os
+偃	osav	os'av
 侵	ose
+仞	oshi
 僻	osj
 伊	osk
 侵	osme
@@ -5217,6 +5811,7 @@ iOS	ios
 儀	otgi
 備	othb
 儀	oti
+偌	otkr
 僅	otlm
 僅	otm
 舞	otniq
@@ -5224,6 +5819,7 @@ iOS	ios
 舞	otq
 佯	otq
 併	ott
+儂	otwv
 仙	ou
 罎	ouami
 儍	ouce
@@ -5244,9 +5840,11 @@ iOS	ios
 個	ow
 佃	ow
 偶	owb
+俚	owg
 個	owjr	ow'jr
 🦉	owl
 偶	owlb
+儸	owlg
 偎	owmv
 儡	oww
 儡	owww
@@ -5262,6 +5860,7 @@ iOS	ios
 偵	oyc
 佼	oyck
 住	oyg
+伉	oyhn
 仿	oyhs
 依	oyhv
 敏	oyk
@@ -5274,6 +5873,7 @@ iOS	ios
 佔	oyr
 儲	oyra
 停	oyrn
+偯	oyrv
 仿	oys
 位	oyt
 僮	oytg
@@ -5298,13 +5898,14 @@ PaaS	paas
 慨	paiu
 悍	paj
 憫	pak
-惺	pam
+怛	pam
 悍	pamj
 🐼	panda
 憫	pank
 📎	paperclip
 🖇️	paperclips
 惕	paph
+愒	papv
 🎉	partypopper
 慨	pau
 恨	pav
@@ -5324,12 +5925,16 @@ PaaS	paas
 惘	pbv
 慣	pc
 憎	pca
+忪	pci
+悌	pcnh
 悅	pcru
 悅	pcu
 憎	pcwa
 也	pd
 懶	pdc
+忖	pdi
 快	pdk
+悚	pdl
 懶	pdlc
 穎	pdmbc
 愇	pdmq
@@ -5362,6 +5967,7 @@ PaaS	paas
 懂	pg
 恃	pgdi
 怯	pgi
+悻	pgtj
 必	ph
 怕	pha
 惶	phag
@@ -5369,10 +5975,12 @@ PaaS	paas
 恤	phbt
 悸	phd
 悸	phdd
+愀	phdf
 恪	pher
 惶	phg
 勿	phh
 懊	phk
+刎	phln
 性	phm
 忻	phml
 📱	phone
@@ -5392,7 +6000,9 @@ PaaS	paas
 慘	pih
 慘	piih
 匍	pijb
+怵	pijc
 惨	pikh
+慵	pilb
 慷	pile
 💊	pill
 匀	pim
@@ -5427,8 +6037,10 @@ PaaS	paas
 疑	pko
 肄	pkq
 🪧	placard
+怏	plbk
 忱	plbu
 🥺	pleading
+怫	plln
 忱	plu
 🔌	plug
 🪠	plunger
@@ -5445,15 +6057,19 @@ PaaS	paas
 悟	pmr
 匐	pmrw
 匐	pmw
+慄	pmwd
 怔	pmym
 乜	pn
 懈	pnbq
+忸	png
 懈	pnq
 疑	po
+愎	poae
 憔	pof
 惟	pog
 憔	pogf
 懺	poim
+愴	poir
 👮‍♂️	police
 懺	pom
 愉	pomn
@@ -5465,6 +6081,7 @@ PaaS	paas
 📮	postbox
 📯	posthorn
 🥔	potato
+憮	potf
 🍲	potoffood
 🏺	pottery
 🍗	poultryleg
@@ -5487,6 +6104,7 @@ PaaS	paas
 够	prn
 够	prnin
 🦯	probingcane
+雊	prog
 🚫	prohibited
 📽️	projector
 proxy-pc.jd.com proxykt
@@ -5502,6 +6120,7 @@ proxy-pc.jd.com proxykt
 懾	psjj
 愜	psko	ps'ko
 悵	psmv
+怩	psp
 悵	psv
 世	pt
 惜	pta
@@ -5520,11 +6139,14 @@ proxy-pc.jd.com proxykt
 匈	puk	pu'k
 鄒	pul
 刨	puln
+惴	pumb
 頓	pumbc
+愷	pumt
 刨	pun
 鄒	punl
 邨	punl
 雛	puog
+芻	pupu
 📌	pushpin
 📍	pushpin
 🧩	puzzle
@@ -5535,6 +6157,7 @@ proxy-pc.jd.com proxykt
 慣	pwc
 慣	pwjc
 愣	pwls
+慍	pwot
 愣	pws
 悔	py
 悼	pyaj
@@ -5542,9 +6165,11 @@ proxy-pc.jd.com proxykt
 悼	pyj
 悴	pyoj
 憶	pyp
+惇	pyrd
 憧	pytg
 憶	pytp
 忙	pyv
+懍	pywd
 懷	pywv
 手	q
 指	qa
@@ -5558,6 +6183,7 @@ proxy-pc.jd.com proxykt
 揚	qamh
 捍	qamj
 提	qamo
+捫	qan
 擱	qanr
 攔	qanw
 提	qao
@@ -5587,6 +6213,7 @@ proxy-pc.jd.com proxykt
 扒	qc
 扮	qch
 掰	qchq
+勣	qcks
 撳	qcno
 掰	qcq
 扮	qcsh
@@ -5603,6 +6230,8 @@ proxy-pc.jd.com proxykt
 抉	qdk
 揸	qdm
 耘	qdmmi
+耨	qdmvi
+耜	qdrlr
 耪	qds
 耕	qdt
 耕	qdtt
@@ -5639,11 +6268,13 @@ proxy-pc.jd.com proxykt
 撓	qggu
 掛	qggy
 持	qgi
+拮	qgr
 擷	qgrc
 擡	qgrg
 撓	qgu
 掛	qgy
 扮	qh
+齧	qhymu
 拍	qha
 搗	qhau
 攪	qhbu
@@ -5671,7 +6302,9 @@ proxy-pc.jd.com proxykt
 抓	qho
 托	qhp
 抵	qhpm
+挈	qhq
 括	qhr
+捩	qhsk
 搗	qhu
 攢	qhuc
 撬	qhuu
@@ -5725,6 +6358,7 @@ proxy-pc.jd.com proxykt
 慧	qjp
 擰	qjpn
 拷	qjs
+彗	qjsm	qjs'm
 慧	qjsmp
 按	qjv
 換	qk
@@ -5738,6 +6372,7 @@ proxy-pc.jd.com proxykt
 熬	qkf
 秦	qkhd
 奏	qkhk
+舂	qkhx
 寿	qki
 奏	qkk
 掩	qklu
@@ -5748,19 +6383,23 @@ proxy-pc.jd.com proxykt
 挾	qkoo
 奉	qkq
 拋	qks
+聱	qksj
 掩	qku
 拋	qkus
 折	ql
 捜	qle
-拂	qln
+蜇	qli
+蜇	qllmi
 拂	qlln
 摟	qllv
+拂	qln
 摟	qlv
 擻	qlvk
 挑	qlmo
 排	qlmy
 挑	qlo
 拽	qlp
+揹	qlpb
 哲	qlr
 抽	qlw
 捜	qlwe
@@ -5794,6 +6433,7 @@ proxy-pc.jd.com proxykt
 表	qmv
 素	qmvif
 擂	qmw
+撢	qmwj
 毒	qmwyi	qmwy'i
 毒	qmy
 打	qn
@@ -5816,6 +6456,7 @@ proxy-pc.jd.com proxykt
 挺	qnkg
 抒	qnn
 撥	qnoe
+揆	qnok
 擔	qnr
 攙	qnri
 扔	qns
@@ -5838,6 +6479,7 @@ proxy-pc.jd.com proxykt
 拎	qoii
 捻	qoip
 搶	qoir
+輦	qoj
 掄	qomb
 拴	qomg
 撿	qomo
@@ -5856,6 +6498,7 @@ proxy-pc.jd.com proxykt
 指	qpa
 🈯	qpaa
 扡	qpd
+掬	qpfd
 擬	qpko
 擬	qpo
 掏	qpou
@@ -5935,7 +6578,9 @@ proxy-pc.jd.com proxykt
 搓	qtqm
 搭	qtr
 拼	qtt
+搆	qttb
 描	qtw
+撙	qtwi
 扎	qu
 揣	qub
 搖桿	qudaj
@@ -6013,6 +6658,7 @@ proxy-pc.jd.com proxykt
 口	r
 唱	ra
 唱	raa
+preventFromAutoSelection	raa
 🐰	rabbit
 📻	radio
 唧	rail
@@ -6028,9 +6674,12 @@ proxy-pc.jd.com proxykt
 🪒	razer
 嘴	rb
 喎	rbb
+噯	rbbe
 喎	rbbr	rbb'r
 員	rbc
+嚶	rbcv
 鵑	rbf
+啁	rbgr	rb'gr
 鵑	rbhaf
 嚼	rbi
 咀	rbm
@@ -6043,6 +6692,7 @@ proxy-pc.jd.com proxykt
 叭	rc
 吩	rch
 嗡	rcim
+勛	rcks
 吖	rcl
 鄖	rcnl
 吩	rcsh
@@ -6085,6 +6735,7 @@ proxy-pc.jd.com proxykt
 哇	rgg
 嗑	rgit
 嗷	rgk
+郢	rgnl
 哋	rgpd
 嘻	rgr
 嘻	rgrr
@@ -6093,11 +6744,13 @@ proxy-pc.jd.com proxykt
 呀	rh
 啲	rhai
 鳴	rhaf
+嗥	rhaj
 响	rhb
 噢	rhbk
 响	rhbr	rhb'r
 咱	rhbu
 呼	rhd
+啾	rhdf
 嚟	rhe
 咯	rher
 咚	rhey
@@ -6111,6 +6764,7 @@ proxy-pc.jd.com proxykt
 唾	rhjm
 嗅	rhk
 唾	rhm
+听	rhml
 噬	rhmo
 叽	rhn
 嘥	rhoo
@@ -6119,7 +6773,9 @@ proxy-pc.jd.com proxykt
 哦	rhqi
 呂	rhr
 嗚	rhrf
+唳	rhsk
 兄	rhu
+呱	rhvo
 嗅	rhuk
 啤	rhwj
 咚	rhy
@@ -6168,6 +6824,7 @@ proxy-pc.jd.com proxykt
 戰	rji
 唓	rjj
 嘲	rjjb
+囀	rjji
 啫	rjka
 哮	rjkd
 嘟	rjl
@@ -6209,6 +6866,7 @@ proxy-pc.jd.com proxykt
 蹋	rmasm
 跟	rmav
 踹	rmb
+嚅	rmbb
 踩	rmbd
 蹈	rmbhx
 跚	rmbt
@@ -6223,12 +6881,15 @@ proxy-pc.jd.com proxykt
 踪	rmf
 蹚	rmfbg
 呸	rmfm
+踡	rmfqu
 呈	rmg
 蹺	rmggu
 躊	rmgni
 踢	rmh
 路	rmher
+跦	rmhjd
 踵	rmhjg
+躓	rmhlc
 跺	rmhnd
 蹤	rmhoo
 跌	rmhqo
@@ -6237,6 +6898,7 @@ proxy-pc.jd.com proxykt
 跋	rmike
 跋	rmikk
 践	rmij
+跆	rmir
 踱	rmite
 踮	rmiyr
 践	rmj
@@ -6270,9 +6932,11 @@ proxy-pc.jd.com proxykt
 噁	rmp
 跑	rmpru
 蹟	rmqmc
+趺	rmqo
 路	rmr
 躁	rmrrd
 号	rms
+躡	rmsjj
 踞	rmsjr
 躍	rmsmg
 啄	rmso
@@ -6281,9 +6945,11 @@ proxy-pc.jd.com proxykt
 蹬	rmt
 躪	rmtag
 躇	rmtja
+躑	rmtkl
 蹣	rmtlb
 噘	rmto
 蹉	rmtqm
+踫	rmttc
 蹧	rmtwa
 蹲	rmtwi
 跑	rmu
@@ -6295,11 +6961,14 @@ proxy-pc.jd.com proxykt
 哂	rmw
 踝	rmwd
 喱	rmwg
+躅	rmwli
+蹕	rmwtj
 蹈	rmx
 吓	rmy
 蹄	rmybb
 跤	rmyck
 蹴	rmyfu
+躂	rmygq
 跡	rmylc
 趾	rmylm
 躋	rmyx
@@ -6308,19 +6977,23 @@ proxy-pc.jd.com proxykt
 吼	rndu
 吸	rne
 吸	rnhe
+啗	rnhx
 哆	rnin
 噉	rnjk
 喚	rnk
 啊	rnlr
 哆	rnn
 吹	rno
+饕	rnoiv
 噔	rnot
 啊	rnr
 噔	rnt
 吼	rnu
+嚕	rnwa
 足	ro
 吶	rob
 🤖	robot
+咻	rod
 咐	rodi
 喺	rof
 🤣	rofl
@@ -6337,6 +7010,7 @@ proxy-pc.jd.com proxykt
 🧻	rollofpaper
 📇	rolodex
 噏	rom
+啣	roml
 喻	romn
 哈	romr
 啥	romr
@@ -6349,17 +7023,21 @@ proxy-pc.jd.com proxykt
 噏	rorm
 嗱	rorq
 咋	ros
+咿	rosk
 喩	rov
 嗰	row
 🚣	rowingboat
 嗰	rowr	row'r
+噙	royb
 民	rp
 叱	rp
 噸	rpc
 吔	rpd
 吻	rph
 吻	rphh
+啕	rpou
 咆	rpru
+喋	rptd
 咆	rpu
 噸	rpuc
 咩	rq
@@ -6370,12 +7048,14 @@ proxy-pc.jd.com proxykt
 喫	rqhk
 喫	rqk
 嘖	rqmc
+嗉	rqmf
 啦	rqt
 𡃁	rqu
 唞	rqyj
 啦	rqyt
 唔	rr
 噪	rrd
+鷺	rrhaf
 咒	rrhn
 哭	rrik
 獸	rrik
@@ -6395,10 +7075,13 @@ proxy-pc.jd.com proxykt
 喔	rsg
 叨	rsh
 囑	rsi
+囁	rsjj
 叩	rsl
 別	rsln
 叼	rsm
+顎	rsmbc
 喔	rsmg
+嘐	rsmh
 別	rsn
 鄂	rsnl
 呢	rsp
@@ -6414,14 +7097,18 @@ proxy-pc.jd.com proxykt
 噶	rtav
 哄	rtc
 嘶	rtcl
+噗	rtco
 嗌	rtct
+囈	rtgi
 嘩	rtj
 嘞	rtjs
 哎	rtk
 嘶	rtl
+嚥	rtlf
 嘆	rtlo
 咁	rtm	rt'm
 嘩	rtmj
+囌	rtnd
 嘆	rto
 嚿	rtox
 咩	rtq
@@ -6429,6 +7116,7 @@ proxy-pc.jd.com proxykt
 嗌	rtt
 噶	rtv
 嘈	rtwa
+噥	rtwv
 嚿	rtx
 吧	ru
 巳	ru
@@ -6440,7 +7128,9 @@ proxy-pc.jd.com proxykt
 喘	rumb
 嗤	rumi
 啱	rumr
+饕	ruoiv
 啱	rur
+巽	rutc
 咄	ruu
 喂	rv
 呉	rvc
@@ -6451,8 +7141,10 @@ proxy-pc.jd.com proxykt
 叫	rvl
 呉	rvnc
 吳	rvnk
+喙	rvno
 民	rvp
 哂	rw
+喟	rwb
 嘿	rwf
 哩	rwg
 嘿	rwgf
@@ -6465,6 +7157,7 @@ proxy-pc.jd.com proxykt
 嘢	rwn
 鄙	rwnl
 嗯	rwp
+嗶	rwtj
 喂	rwv
 蹈	rx
 吓	ry
@@ -6492,6 +7185,8 @@ proxy-pc.jd.com proxykt
 哼	ryrn
 嚎	ryro
 嚷	ryrv
+嗾	rysk
+噫	rytp
 唬	ryu
 嚷	ryv
 咳	ryvo
@@ -6532,6 +7227,7 @@ proxy-pc.jd.com proxykt
 屬	sei
 翳	sem
 醫	semcw
+豎	semrt
 聚	seo
 匯	seog	s'eog
 聚	seoho
@@ -6555,6 +7251,7 @@ proxy-pc.jd.com proxykt
 騒	sfeli
 騾	sff
 駐	sfg
+驍	sfggu
 駱	sfher
 騮	sfhhw
 驕	sfhkb
@@ -6574,7 +7271,11 @@ proxy-pc.jd.com proxykt
 馴	sflll
 驥	sflpc
 騁	sflws
+騵	sfmhf
+驪	sfmmp
+驃	sfmwf
 驗	sfo
+駙	sfodi
 驗	sfomo
 馳	sfpd
 駒	sfpr
@@ -6586,7 +7287,9 @@ proxy-pc.jd.com proxykt
 驅	sfsrr	sfs'rr
 驢	sft
 騏	sftmc
+駢	sftt
 騮	sfw
+駟	sfwc	sfw'c
 驛	sfwlj
 騾	sfwvf
 駐	sfyg
@@ -6595,6 +7298,7 @@ proxy-pc.jd.com proxykt
 屋	sg
 戳	sgi
 聽	sgjwp
+劻	sgks
 聽	sgp
 刀	sh
 🧴	shampoo
@@ -6604,6 +7308,8 @@ proxy-pc.jd.com proxykt
 鬆	shdci
 履	she
 🐏	sheep
+髯	shgb
+髻	shgr
 鬚	shhhc
 髦	shhqu
 刃	shi
@@ -6621,6 +7327,7 @@ proxy-pc.jd.com proxykt
 匠	shl	s'hl
 属	shlb
 匠	shml	s'hml
+髡	shmu
 履	shoe
 🛍️	shoppingbag
 🛒	shoppingcart
@@ -6636,7 +7343,9 @@ proxy-pc.jd.com proxykt
 尾	shu
 🤫	shushing
 鬟	shv
+鬣	shvvv
 鬟	shwlv
+髭	shymp
 屬	si
 監	sibt
 熨	sif
@@ -6646,9 +7355,12 @@ proxy-pc.jd.com proxykt
 肆	siq
 匾	sisb	s'isb
 監	sit
+褽	siv
+褽	siyhv
 耳	sj
 職	sja
 臂	sjb
+檗	sjd
 取	sje
 耿	sjf
 壁	sjg
@@ -6668,6 +7380,7 @@ proxy-pc.jd.com proxykt
 耶	sjnl
 聆	sjoii
 恥	sjp
+擘	sjq
 居	sjr
 聘	sjs
 劈	sjsh
@@ -6676,6 +7389,7 @@ proxy-pc.jd.com proxykt
 联	sjtk
 耽	sju
 聯	sjvit
+襞	sjyhv
 職	sjyia
 譬	sjymr
 尹	sk
@@ -6694,6 +7408,7 @@ proxy-pc.jd.com proxykt
 臣	sll	s'll
 屢	sllv
 頤	slmbc
+匱	slmc	s'lmc
 匪	slmy	s'lmy
 臥	slo
 臨	slorr
@@ -6733,6 +7448,7 @@ proxy-pc.jd.com proxykt
 翌	smyt
 🐌	snail
 🐍	snake
+孱	sndd
 🤧	sneezing
 屙	snlr
 🏂	snowboarder
@@ -6745,6 +7461,7 @@ proxy-pc.jd.com proxykt
 ⚽	soccer
 医	sok	s'ok
 昼	som
+鄹	sonl
 咫	sorc
 尽	soy
 尼	sp
@@ -6788,11 +7505,13 @@ proxy-pc.jd.com proxykt
 巨	ss
 局	ssr	ss'r
 凹	ssu
+兕	ssuu
 聯	st
 🤩	starstruck
 🩺	stethoscope
 匿	stkr	s'tkr
 ⏱️	stopwatch
+羼	stqq
 匿	str	s'tr
 🍓	strawberry
 屏	stt
@@ -6803,12 +7522,14 @@ proxy-pc.jd.com proxykt
 熙	suf
 屆	sug	su'g
 改	suk
+屘	sund
 改	suok
 忌	sup
 🍣	sushi
 🤨	suspicion
 屈	suu
 長	sv
+郾	svnl
 改	svok
 醫	sw
 鹽	swbt
@@ -6821,7 +7542,9 @@ proxy-pc.jd.com proxykt
 鹽	swt
 覽	swu
 匪	sy
+犀	syq
 💉	syringe
+犀	syyq
 廿	t
 昔	ta
 暮	taa
@@ -6840,17 +7563,20 @@ proxy-pc.jd.com proxykt
 慕	takp
 摹	takq
 募	taks
+藺	tang
 🍊	tangerine
 蘭	tanw
 慕	tap
 葛	tapv
 摹	taq
 募	tas
+蕞	tase
 芭	tau
 葛	tav
 蘭	taw
 蔓	tawe
 萬	tb
+萵	tbbr	tbb'r
 典	tbc
 菜	tbd
 藤	tbe
@@ -6874,7 +7600,9 @@ proxy-pc.jd.com proxykt
 散	tbok
 营	tbr
 营	tbrr
+菔	tbse
 藐	tbu
+莧	tbuu
 共	tc
 普	tca
 期	tcb
@@ -6883,6 +7611,9 @@ proxy-pc.jd.com proxykt
 叢	tce
 基	tcg
 芬	tch
+蓊	tcim
+棻	tcsh
+夔	tche
 斯	tchml
 欺	tcno
 歉	tcno
@@ -6900,6 +7631,7 @@ proxy-pc.jd.com proxykt
 茉	tdj
 苯	tdm
 葦	tdmq
+鄴	tdnl
 萊	tdo
 萊	tdoo
 葦	tdq
@@ -6907,6 +7639,7 @@ proxy-pc.jd.com proxykt
 🖲️	trackball
 🪤	trap
 🗑️	trash
+莒	trhr
 🍵	tea
 蕩	teah
 🫖	teapot
@@ -6920,6 +7653,7 @@ proxy-pc.jd.com proxykt
 菠	tede
 莎	tefh
 茎	teg
+蔆	tege
 菠	tee
 蕩	teh
 落	tehr
@@ -6935,6 +7669,7 @@ proxy-pc.jd.com proxykt
 萍	temj
 菏	temr
 🎾	tennis
+蒞	teot
 落	ter
 藻	terd
 🧪	testtube
@@ -6947,6 +7682,7 @@ proxy-pc.jd.com proxykt
 蔽	tfbk
 蔽	tfk
 難	tg
+苒	tgb
 觀	tgbuu
 菱	tgce
 對	tgdi
@@ -6954,6 +7690,7 @@ proxy-pc.jd.com proxykt
 羨	tgeno
 羔	tgf
 羹	tgftk
+鸛	tghaf
 羲	tghds
 義	tghqi
 羌	tghu
@@ -6978,7 +7715,9 @@ proxy-pc.jd.com proxykt
 葩	thau
 蕎	thb
 首	thbu
+茱	thd
 莉	thdn
+莠	thds
 萎	thdv
 蕃	thdw
 🌡️	thermometer
@@ -6986,23 +7725,28 @@ proxy-pc.jd.com proxykt
 薰	thf
 董	thg
 薰	thgf
+茆	thhl
 🤔	thinking
 薛	thj
+茱	thjd
 董	thjg
 薇	thk
 蕎	thkb
 芹	thl
 芹	thml
 莉	thn
+芟	thne
 薇	thok
 蔥	thp
 🧵	thread
 薛	thrj
 首	thu
+蒐	thui
 萎	thv
 蕃	thw
 蔥	thwp
 蓖	thwp
+萸	thxo
 對	ti
 莆	tib
 蘑	ticr
@@ -7024,16 +7768,19 @@ proxy-pc.jd.com proxykt
 苔	tir
 藏	tis
 莽	tit
+蓆	titb
 蔗	titf
 薦	tixf
 華	tj
 著	tja
+靼	tjam
 靶	tjau
 葫	tjb
 荸	tjbd
 帯	tjblb
 蓉	tjcr
 孽	tjd
+芰	tje
 鞦	tjf
 鞘	tjfb
 鞋	tjg
@@ -7045,25 +7792,38 @@ proxy-pc.jd.com proxykt
 鞭	tjk
 著	tjka
 勒	tjks
+芾	tjlb
+鞅	tjlbk
 荆	tjln
+萋	tjlv
+萱	tjmm
+苧	tjmn
 莞	tjmu
 荆	tjn
 孽	tjnd
+鞣	tjnhd
+蓿	tjoa
 鞭	tjomk
 靴	tjop
 靴	tjp
 鞠	tjpfd
 苦	tjr
 葫	tjrb
+菅	tjrr
 勒	tjs
+韉	tjtif
 靶	tju
 鞍	tjv
+韃	tjygq
 韆	tjymu
 艾	tk
+檠	tkd
 驚	tkf
 茬	tkg
 鄭	tkl
+荐	tkld
 茬	tklg
+菴	tklu
 鄭	tknl
 莢	tko
 莢	tkoo
@@ -7087,11 +7847,13 @@ proxy-pc.jd.com proxykt
 菲	tlmy
 燕	tlpf
 羋	tlq
+藪	tlvk
 黄	tlwc
 蕭	tlx
 菲	tly
 甘	tm	t'm
 蕓	tmbi
+覲	tmbuu
 蕾	tmbw
 其	tmc
 茜	tmcw
@@ -7121,6 +7883,7 @@ proxy-pc.jd.com proxykt
 葬	tmt
 華	tmtj
 荊	tmtn
+蕨	tmto
 甚	tmv
 芽	tmvh
 莖	tmvm
@@ -7128,16 +7891,21 @@ proxy-pc.jd.com proxykt
 黃	tmwc
 蘸	tmwf
 薑	tmwm
+蕈	tmwj
 蔫	tmyf
 前	tn
+菟	tnai
 蘇	tnd
+蓀	tndf
 蒸	tnef
 蒸	tnf
 蘇	tnfd
 薊	tnfn
+蘚	tnfq
 茅	tnh
 蔭	tni
 茅	tnih
+茗	tnir
 苑	tniu
 葵	tnk
 蔭	tnli
@@ -7147,14 +7915,16 @@ proxy-pc.jd.com proxykt
 薊	tnn
 葵	tnok
 茎	tnom
+茗	tnr
 蔬	tnu
 歡	to
 艱	toav
 茶	tod
 蕉	tof
-難	tog
+荏	tog
 蕉	togf
 舊	togx
+荏	tohg
 苓	toi
 養	toiav
 苓	toii
@@ -7167,6 +7937,7 @@ proxy-pc.jd.com proxykt
 芥	toll
 🍅	tomato
 荼	tomd
+荃	tomg
 荷	tomr
 😛	tongue
 😜	tongue
@@ -7178,6 +7949,7 @@ proxy-pc.jd.com proxykt
 🪥	toothbrush
 花	top
 荷	tor
+葆	tord
 蕪	totf
 養	tov
 莓	towy
@@ -7185,6 +7957,7 @@ proxy-pc.jd.com proxykt
 莓	toy
 蓓	toyr
 芯	tp
+荀	tpa
 葡	tpb
 葉	tpd
 菊	tpfd
@@ -7218,17 +7991,25 @@ T恤	tpht
 翔	tqsmm
 着	tqu
 羯	tqv
+羶	tqywm
 落	tr
 葺	trj
 敬	trk
 敬	trok
+萼	trrs
+葭	trse
 葺	trsj
+葭	trye
 勤	ts
 蔚	tsfi
 蔚	tsi
 藍	tsit
 茸	tsj
+蘗	tsjd
 藍	tsmt
+萇	tsmv
+薜	tsrj
+苣	tss
 藍	tst
 井	tt
 并	tt
@@ -7273,6 +8054,7 @@ T恤	tpht
 蘿	twg
 菌	twhd	tw'hd
 尊	twi
+猷	twik
 奠	twk
 茵	twk	tw'k
 薯	twla
@@ -7280,6 +8062,7 @@ T恤	tpht
 蘿	twlg
 蔑	twli
 夢	twln
+薨	twlp
 農	twmmv
 豊	twmrt
 夢	twn
@@ -7294,22 +8077,28 @@ T恤	tpht
 蒂	tybb
 蘋	tyc
 薪	tydl
+菽	tyfe
 蘋	tyhc
 蓬	tyhj
 芳	tyhs
 蓬	tyj
 蓮	tyjj
 薪	tyl
+芾	tylb
 芷	tylm
+萃	tyoj
 蘆	typt
 苫	tyr
+藷	tyra
 蒿	tyrb
 藹	tyrv
 芳	tys
 菸	tysy
 蘆	tyt
+莘	tytj
 菩	tytr
 荒	tyu
+preventFromAutoSelection	tyu
 芒	tyv
 荒	tyvu
 蓄	tyvw
@@ -7318,18 +8107,26 @@ T恤	tpht
 薺	tyx
 菸	tyy
 山	u
+崑	uapp
 崩	ub
 崩	ubb
+崢	ubsd
+顓	ubmbc
+峒	ubmr	ub'mr
 崗	ubtu	ub'tu
 崗	ubu	ub'u
+峴	ubuu
 嶺	uc
+嶔	ucno
 峪	ucr
+崧	udci
 炭	uf
 峭	ufb
 嶸	uffd
 崖	ug
 峙	ugdi
 峙	ugi
+崁	ugno
 匕	uh	p
 巋	uhb
 嶼	uhc
@@ -7347,9 +8144,11 @@ T恤	tpht
 幽	ui
 峻	uice
 峻	uie
+崴	uihv
 峰	uj
 巔	ujc
 巔	ujcc
+崆	ujcm
 岐	uje
 崇	ujf
 嶄	ujjl
@@ -7362,12 +8161,15 @@ T恤	tpht
 嶽	ukhk
 兇	ukhu
 嶽	ukk
+崤	ukkb
 崎	ukmr
 峽	uko
 峽	ukoo
 崎	ukr
 峡	ukt
 兇	uku
+岫	ulw
+峏	umbl	umb'l
 ☂️	umbrella
 ⛱️	umbrella
 🌂	umbrellaclosed
@@ -7375,14 +8177,19 @@ T恤	tpht
 崖	umg
 崖	umgg
 岸	umj
+蚩	umli
 岸	ummj
+豳	umoo
 岩	umr
 豈	umrt
 豈	umt
 凱	un
 😒	unamused
 函	une	u'ne
+岌	unhe
 🔓	unlocked
+嶝	unot
+巉	unri
 峽	uo
 嶺	uoc
 崔	uog
@@ -7390,6 +8197,7 @@ T恤	tpht
 嶺	uoic
 岭	uoii
 岑	uoin
+崙	uomb
 屹	uon
 崽	up
 ↑	up
@@ -7397,6 +8205,7 @@ T恤	tpht
 岩	ur
 巖	urk
 巖	urrk
+岷	urvp
 嶇	us
 👤	user
 👥	users
@@ -7409,10 +8218,12 @@ T恤	tpht
 凱	uthn
 獃	utik
 獃	utk
+剴	utln
 嵌	utmo
 凱	utn
-嵌	uto
 艷	utnau
+嵌	uto
+嵯	utqm
 艷	utu
 豔	utt
 出	uu
@@ -7422,17 +8233,24 @@ T恤	tpht
 幽	uvii	u'vii
 崽	uwp
 峠	uymy
+嵩	uyrb
 峠	uyy
 女	v
 縮	va
+娼	vaa
 媚	vahu
+嫻	vand	van'd
 🏺	vase
 媚	vau
 編	vb
+媧	vbb
+媧	vbbr	vbb'r
 媛	vbe
 姐	vbm
 媛	vbme
+姍	vbt
 嫌	vc
+娣	vcnh
 好	vd
 断	vdhml
 嫩	vdk
@@ -7442,16 +8260,21 @@ T恤	tpht
 剿	vdn
 奴	ve
 努	veks
+帑	velb
 剝	veln
 弩	ven
 怒	vep
 努	ves
+駑	vesqf
 媽	vf
 織	vfa
+緹	vfamo
+縵	vfawe
 網	vfb
 嫦	vfbb
 綳	vfbb
 纓	vfbcv
+綵	vfbd
 綢	vfbgr	vfb'gr
 組	vfbm
 緩	vfbme
@@ -7462,7 +8285,9 @@ T恤	tpht
 續	vfc
 総	vfcip
 紛	vfcsh
+繒	vfcwa
 孿	vfd
+紂	vfdi
 緯	vfdmq
 練	vfdwf	vfdw'f
 級	vfe
@@ -7479,12 +8304,15 @@ T恤	tpht
 續	vfgwc
 妙	vfh
 綿	vfhab
+鸞	vfhaf
 線	vfhae
 綉	vfhds
+繙	vfhdw
 絳	vfheq
 絡	vfher
 終	vfhey
 緞	vfhje
+綞	vfhjm
 縱	vfhoo
 編	vfhsb
 繳	vfhsk
@@ -7495,21 +8323,25 @@ T恤	tpht
 約	vfi
 綫	vfii
 絨	vfij
+紱	vfikk
 編	vfisb
 纏	vfiwg
 縫	vfj
+縝	vfjbc
 纎	vfjim
 緒	vfjka
 繽	vfjmc
 綜	vfjmf
 綻	vfjmo
 縮	vfjoa
+綰	vfjrr
 變	vfk
 繚	vfkcf
 綺	vfkmr
 絝	vfkms
 紈	vfkni
 綁	vfl
+紼	vflln
 縷	vfllv
 蠻	vflmi
 緋	vflmy
@@ -7518,6 +8350,8 @@ T恤	tpht
 紅	vfm
 紆	vfmd
 緻	vfmgk
+縉	vfmia
+絰	vfmig
 紜	vfmmi
 經	vfmvm
 縹	vfmwf
@@ -7527,6 +8361,7 @@ T恤	tpht
 孿	vfnd
 紐	vfng
 級	vfnhe
+繈	vfnii
 紓	vfnin
 緑	vfnme
 縁	vfnmo
@@ -7540,11 +8375,14 @@ T恤	tpht
 繪	vfoma
 綸	vfomb
 給	vfomr
+紇	vfon
 戀	vfp
 絢	vfpa
+縝	vfpbc
 約	vfpi
 約	vfpm
 紕	vfpp
+紲	vfpt
 純	vfpu
 攣	vfq
 綁	vfqjl
@@ -7561,19 +8399,27 @@ T恤	tpht
 繆	vfsmh
 紀	vfsu
 纜	vfswu
+縊	vftct
 繕	vftgr
+緙	vftlj
 紺	vftm	vft'm
+縑	vftxc
 統	vfu
 巒	vfu
 繃	vfubb
+絀	vfuu
 縷	vfv
 絲	vfvif
 糾	vfvl
 綠	vfvne
 緣	vfvno
+繅	vfvvd
 繼	vfvvi
+緇	vfvvw
 細	vfw
+絪	vfwk	vfw'k
 繹	vfwlj
+縲	vfwvf
 繡	vfx
 終	vfy
 綽	vfyaj
@@ -7584,8 +8430,11 @@ T恤	tpht
 織	vfyia
 統	vfyiu
 紋	vfyk
+縞	vfyrb
+絃	vfyvi
 縴	vfyvq
 娃	vgg
+嬈	vggu
 嬉	vgr
 嬉	vgrr
 裝	vgv
@@ -7593,6 +8442,7 @@ T恤	tpht
 姊	vh
 婚	vha
 郷	vhail
+嬝	vhav
 嬌	vhb
 嫂	vhe
 妊	vhg
@@ -7620,6 +8470,7 @@ T恤	tpht
 嫲	vidd
 📼	videocassette
 嬤	vidi
+糸	vif
 漿	vie
 🇻🇳	vietnam
 幾	vihi
@@ -7641,6 +8492,7 @@ T恤	tpht
 妓	vje
 嬸	vjhw
 姥	vjkp
+嬪	vjmc
 嫁	vjmo
 婉	vjnu
 嫁	vjo
@@ -7663,11 +8515,14 @@ T恤	tpht
 饗	vloiv
 收	vlok
 饗	vlv
+妯	vlw
+娉	vlws
 姊	vlxh
 響	vlyta
 經	vm
 嬭	vmb
 將	vmbdi
+孀	vmbu
 彙	vmbwd
 牀	vmd
 嫖	vmf
@@ -7676,6 +8531,7 @@ T恤	tpht
 壯	vmg
 牆	vmgow
 將	vmi
+姪	vmig
 狀	vmik
 奸	vmj
 狀	vmk
@@ -7684,6 +8540,7 @@ T恤	tpht
 妝	vmv
 牆	vmw
 嫖	vmwf
+嫣	vmyf
 彎	vn
 娩	vnau
 婿	vnb
@@ -7691,6 +8548,7 @@ T恤	tpht
 妳	vnf
 妞	vng
 奶	vnhs
+妤	vnin
 婀	vnlr
 婿	vnob
 婀	vnr
@@ -7698,16 +8556,22 @@ T恤	tpht
 娩	vnu
 🌋	volcano
 🏐	vollyball
+䗍	volmi
 🤮	vomiting
 嫵	votf
 總	vp
 她	vpd
+妁	vpi
+妣	vpp
 緯	vq
+婊	vqmv
+婊	vqv
 如	vr
 娟	vrb
 絮	vrf
 娛	vrk
 恕	vrp
+嬋	vrrj
 娯	vrvc
 絮	vrvif
 娛	vrvk
@@ -7721,6 +8585,7 @@ T恤	tpht
 妮	vsp
 媽	vsqf
 娜	vsql
+嫗	vsrr	vs'rr
 妃	vsu
 妍	vt
 媾	vtb
@@ -7729,17 +8594,23 @@ T恤	tpht
 嬅	vtj
 媒	vtmd
 嬅	vtmj
+姘	vtt
 媾	vttb
 嫌	vtxc
 絕	vu
 裝	vv
 巢	vvd
 災	vvf
+姒	vvio
+邕	vvrau
 姦	vvv
 巢	vvwd
 細	vw
+娌	vwg
 姻	vwk	vw'k
 嬛	vwlv
+媼	vwot
+嫘	vwvf
 姆	vwy
 姆	vwyi	vwy'i
 繡	vx
@@ -7777,6 +8648,7 @@ T恤	tpht
 黑	wf
 黯	wfa
 黠	wfgr
+黷	wfgwc
 默	wfik
 默	wfk
 黔	wfn
@@ -7786,6 +8658,7 @@ T恤	tpht
 點	wfr
 圈	wfu	w'fu
 黜	wfuu
+黝	wfvis
 點	wfyr
 黯	wfyta
 里	wg
@@ -7797,6 +8670,7 @@ T恤	tpht
 疇	wgni
 野	wgnin
 園	wgrv	w'grv
+圉	wgtj	w'gtj
 園	wgv	w'gv
 🐳	whale
 🦽	wheelchair
@@ -7807,11 +8681,13 @@ T恤	tpht
 團	wi	w'i
 圃	wib	w'ib
 圃	wijb	w'ijb
+畎	wik
 國	wim	w'im
 🎐	windchime
 🪟	window
 🍷	wine
 😉	winking
+歜	wino
 塁	wiog
 國	wirm	w'irm
 😶	withoutmouth
@@ -7835,12 +8711,15 @@ T恤	tpht
 買	wlc
 罵	wlf
 羅	wlg
+睪	wlgtj
 鴨	wlhaf
 蜀	wli
 罷	wlibp
 罩	wlj
 置	wljbm
 署	wljka
+罟	wljr
+甽	wlll
 罪	wllmy
 置	wlm
 罡	wlmym
@@ -7866,14 +8745,17 @@ T恤	tpht
 町	wmn
 畏	wmv
 野	wn
+囝	wnd	w'nd
 墅	wng
 囚	wo	w'o
 囹	woii
+畋	wok
 界	wol
 界	woll
 🥴	woozy
 🗺️	worldmap
 思	wp
+囫	wphh	w'phh
 毗	wpp
 囤	wpu	w'pu
 圍	wq
@@ -7910,8 +8792,10 @@ T恤	tpht
 識	ya
 韻	yac
 桌	yad
+韹	yahag
 卓	yaj
 遢	yam
+暹	yaog
 遏	yapv
 韶	yar
 韻	yarbc
@@ -7934,6 +8818,7 @@ T恤	tpht
 帝	yblb
 睿	ybmcu
 望	ybmg
+鄗	ybnl
 離	ybog
 敵	ybok
 遙	ybou
@@ -7952,12 +8837,18 @@ T恤	tpht
 蛮	yci
 交	yck
 奕	yck
+帟	yclb
 蛮	yclmi
 戇	ycp
+兗	ycrhu
+兗	ycru
+袞	ycrhv
+袞	ycrv
 弈	yct
 遊	yd
 親	ydbuu
 雜	ydg
+鶉	ydhaf
 新	ydhml
 孰	ydi
 敦	ydk
@@ -7983,18 +8874,22 @@ T恤	tpht
 就	yfiku
 就	yfu
 主	yg
+逵	ygcg
 褻	ygiv
 虧	ygmms
 達	ygq
 遠	ygrv
 虧	ygs
+遨	ygsk
 達	ygtq
 遠	ygv
 步	yh
 迫	yha
+遑	yhag
 遍	yhb
 頻	yhc
 透	yhds
+逶	yhdv
 返	yhe
 逢	yhej
 造	yhgr
@@ -8024,15 +8919,18 @@ T恤	tpht
 遛	yhw
 遞	yhyn
 遞	yhyu
+裒	yhxv
 導	yi
 育	yib
 述	yic
 述	yid
 熟	yif
+塾	yig
 充	yihu
 率	yij
 述	yijc
 率	yioj
+迨	yir
 遍	yisb
 棄	yitd
 遮	yitf
@@ -8060,6 +8958,7 @@ T恤	tpht
 遼	ykf
 逛	ykg
 彥	ykh
+逖	ykhf
 逛	ykhg
 対	yki
 效	ykk
@@ -8095,8 +8994,10 @@ T恤	tpht
 肯	ymb
 覷	ymbuu
 顫	ymc
+逎	ymcw
 迂	ymd
 歧	yme
+邇	ymfb
 雌	ymg
 歲	ymh
 氈	ymhqu
@@ -8137,6 +9038,7 @@ T恤	tpht
 逸	yni
 通	ynib
 迅	ynj
+羸	yntq
 嬴	ynv
 該	yo
 途	yod
@@ -8155,10 +9057,12 @@ T恤	tpht
 迄	yon
 夜	yonk
 卒	yooj
+迤	yopd
 褒	yov
 🪀	yoyo
 此	yp
 膚	ypb
+貲	ypbuc
 龔	ypc
 柴	ypd
 紫	ypf
@@ -8206,19 +9110,23 @@ T恤	tpht
 亭	yrbn
 豪	yrbo
 謠	yrbou
+亳	yrbp
 高	yrbr	yrb'r
+諍	yrbsd
 亮	yrbu
 毫	yrbu
 讀	yrc
 訟	yrci
 說	yrcru
 課	yrd
+詖	yrdhe
 討	yrdi
 訣	yrdk
 諱	yrdmq
 諫	yrdwf	yrdw'f
 護	yre
 京	yrf
+誚	yrfb
 談	yrff
 誰	yrg
 読	yrgbu
@@ -8228,11 +9136,13 @@ T恤	tpht
 讀	yrgwc
 診	yrh
 誘	yrhds
+諉	yrhdv
 逞	yrhg
-譭	yrhge
 謝	yrhhi
 誅	yrhjd
 話	yrhjr
+訢	yrhml
+詬	yrhmr
 訴	yrhmy
 設	yrhne
 諷	yrhni	yrhn'i
@@ -8243,6 +9153,7 @@ T恤	tpht
 諛	yrhxo
 謝	yri
 誠	yrihs
+誧	yrijb
 詠	yrine
 誒	yriok
 諮	yrior
@@ -8252,26 +9163,33 @@ T恤	tpht
 誼	yrjbm
 詫	yrjhp
 諸	yrjka
+詁	yrjr
 誤	yrk
 詼	yrkf
+誑	yrkhg
 誇	yrkms
 部	yrl
 訓	yrlll
 誹	yrlmy
 剖	yrln
 試	yrm
+訏	yrmd
 評	yrmfj
 逞	yrmg
+訐	yrmj
 語	yrmmr
 訂	yrmn
+訶	yrmnr
 誣	yrmoo
 諮	yrmor
 訝	yrmvh
 譚	yrmwj
 証	yrmym
 訂	yrn
+譫	yrncr
 享	yrnd
 烹	yrnf
+譎	yrnhb
 諂	yrnhx
 誦	yrnib
 訊	yrnj
@@ -8282,14 +9200,18 @@ T恤	tpht
 亨	yrnn
 證	yrnot
 讒	yrnri
+䜛	yrnuu
+訑	yrpd
 謅	yrpuu
 該	yro
 訥	yrob
 誰	yrog
 診	yrohh
+讖	yroim
 諗	yroip
 許	yroj
 論	yromb
+詮	yromg
 諭	yromn
 訖	yron
 訛	yrop
@@ -8305,10 +9227,12 @@ T恤	tpht
 請	yrqmb
 話	yrr
 誤	yrrmk
+譟	yrrrd
 襄	yrrv
 誤	yrrvc
 誤	yrrvk
 誠	yrs
+遐	yrse
 詔	yrshr
 認	yrsip
 謬	yrsmh
@@ -8316,18 +9240,20 @@ T恤	tpht
 訳	yrso
 記	yrsu
 證	yrt
+謨	yrtak
 譜	yrtca
 議	yrtgi
 諾	yrtkr
 謹	yrtlm
 謀	yrtmd
 譁	yrtmj
+諶	yrtmv
 護	yrtoe
 詳	yrtq
 講	yrttb
 謙	yrtxc
 謊	yrtyu
-訕	yru
+亮	yru
 選	yruc
 讓	yrv
 譏	yrvii
@@ -8340,6 +9266,8 @@ T恤	tpht
 訃	yry
 諦	yrybb
 謗	yrybs
+謫	yrycb
+詨	yryck
 譲	yrycv
 謎	yryfd
 註	yryg
@@ -8348,6 +9276,7 @@ T恤	tpht
 識	yryia
 諺	yrykh
 譴	yrylr
+誶	yryoj
 諄	yryrd
 諒	yryrf
 讓	yryrv
@@ -8401,6 +9330,7 @@ T恤	tpht
 靖	ytqmb
 站	ytr
 迸	ytt
+遘	yttb
 逆	ytu
 端	ytumb
 妾	ytv
@@ -8410,12 +9340,15 @@ T恤	tpht
 遵	ytwi
 站	ytyr
 說	yu
+齦	yuav
 齲	yub
+齟	yubm
 導	yudi
 彪	yuh
 彪	yuhhh
 齲	yuhlb
 導	yui
+齬	yummr
 齡	yuoii
 齣	yupr
 齪	yuryo
@@ -8427,7 +9360,9 @@ T恤	tpht
 裔	yvbcr	yvb'cr
 牽	yvbq
 盲	yvbu
+杗	yvd
 雍	yvg
+壅	yvgg
 甕	yvgn
 雍	yvhg
 亥	yvho
@@ -8454,6 +9389,7 @@ T恤	tpht
 鹹	ywihr
 鹵	ywii	yw'ii
 遇	ywlb
+遝	ywle
 邏	ywlg
 還	ywlv
 衰	ywmv
@@ -8461,6 +9397,7 @@ T恤	tpht
 畝	ywo
 鹼	ywomo
 迴	ywr	yw'r
+稟	ywrd
 禀	ywrf
 還	ywv
 齊	yx
@@ -8474,122 +9411,288 @@ T恤	tpht
 遊	yyd
 迹	yylc
 這	yymr
+遽	yypo
 這	yyr
 遊	yysd
 的	x
 曰	xa
+暉	xabjj
+顥	xafmbc
 冕	xanau
+閑	xand
+煦	xarf
 晾	xayrf
+胱	xbfmu
 冗	xbhn
-肽	xbki
+肱	xbki
+腓	xblmy
 肛	xbm
+肫	xbpu
 冊	xbt
 臟	xbtis
+肼	xbtt
+胼	xbtt
+睨	xbuhxu
+睢	xbuog
+胛	xbwl
+鈑	xche
 鍁	xchlo
+鈷	xcjr
 鈡	xcl
+釭	xcm
 鈎	xcpi
+鈇	xcqo
+釦	xcr
+錙	xcvvw
+鈿	xcw
+杷	xdau
 棗	xdbdb
 焚	xddf
+杰	xdf
 板	xdhe
 杠	xdm
 橱	xdmmi
+栘	xdnin
+楃	xdsmg
+櫂	xdsmg
 橫	xdtmc
+梱	xdwd
+枓	xdyj
 梓	xdytj
+汨	xea
 沉	xebhu
+洸	xefmu
+淦	xec
+汾	xecsh
 漱	xedlo
+洫	xehbt
+娑	xehv
 叉	xei
 濱	xejmc
+洧	xekb
 洒	xemcw
 鴻	xemhf
+沍	xemvm
+湎	xemwl	xemw'l
+泓	xeni
 淮	xeog
 柒	xepd
+沌	xepu
+濯	xesmg
 滚	xeycv
+汶	xeyk
+汴	xeyy
 敞	xfbok
 炯	xfbr
 糉	xfduc
 熒	xffbf
 劫	xgiks
+螫	xgklmi
 嘉	xgrtr
+筧	xhbuu
 秉	xhdl
-戮	xshi
-懲	xhkp
+秈	xhdu
+釆	xhfd
+䲷	xhfd
+毬	xhuije
+忝	xhkp
 啓	xhkr
+竽	xhmd
 邸	xhmnl
 梨	xhnd
+篠	xhold
+籥	xhomb
+笮	xhos
+笮	xhoyy
 黴	xhoufk
 筍	xhpa
+耒	xhqd
+鵠	xhrhaf
+毽	xhunkq
+憩	xhup
+舢	xhyu
+舫	hyyhs
+皴	xiedhe
+戌	xihm
+朮	xijc
+鏖	xipc
 庇	xipp
 怠	xirp
 扁	xisbt
+弁	xit
+窠	xjcwd
 宋	xjd
+廾	xjj
+戟	xjji
+剜	xjuln
 冇	xkb
 郁	xkbnl
 刹	xkdln
+疢	xkf
 瘪	xkhup
+痲	xkjcc
+夯	xkks
 夷	xkn
+蟯	xliggu
+蜢	xlindt
 版	xlnhe
+頫	xlombc
+胤	xlvbu
+灞	xembb
+雩	xmbmms
+鬸	xmbhhw
+翮	xmbsmm
+霰	xmbtbk
 貢	xmbuc
+甭	xmfbq
+玥	xmgb
+璦	xmgbbe
+琿	xmgbjj
+琺	xmgegi
+琯	xmgjrr
 玫	xmgok
+璩	xmgypo
+琥	xmgypu
+饜	xmkoiv
 憨	xmkp
 歼	xmnhj
 恐	xmnp
 泵	xmre
+砭	xmrhio
+硿	xmrjcm
+硎	xmrmtn
 砍	xmrno
+磴	xmrnot
+礫	xmrvid
+醱	xmwnoe
+釅	xmwrrk
 墮	xnbg
+觔	xnbks
+鯛	xnfbgr
+鰍	xnfhdf
+鮪	xnfkb
 弘	xni
 憨	xnkp
 弔	xnl
+陲	xnlhjm
+孓	xnno
 久	xno
+癸	xnomk
 朶	xnsd
+疋	xnyo
+隹	xog
 隻	xoge
+餽	xoihui
 什	xoj
 佑	xokr
+絛	xolof
+儵	xolof
 僳	xomwd
 貸	xopbu
+頷	xormbc
+倀	xosmv
 旨	xpa
 勺	xpi
+靛	xqbjmo
 抓	xqhlo
 熬	xqkf
 擕	xqogs
 捨	xqomr
+擢	xqsmg
+擭	xqtoe
 扎	xqu
+抆	xqyk
 邑	xrau
 叭	xrc
+戢	xrji
 叻	xrks
+吁	xrmd
+跼	xrmssr	xrmss'r
+蹼	xrmtco
 呐	xrob
 啥	xromr
 獸	xrrik
 巳	xru
 臀	xseb
+屐	xshoe
+戮	xshi
 慰	xsip
+羿	xsmt
+叵	xsr	xs'r
 羣	xsrtq
 己	xsu
 藐	xtbhu
 繭	xtbli
+苜	xtbu
 蓖	xthwp
+卅	xtj
+韁	xtjmwm
 艾	xtk
+荻	xtkhf
 茧	xtlmi
 芋	xtmd
+芣	xtmf
+鄞	xtmnl
 蘸	xtmwf
+菰	xtndo
 芥	xtoll
 并	xtt
 藴	xtvft
+孳	xtvid
+茲	xtvii
+兹	xtvii
 苗	xtw
-茵	xtwk
+茵	xtwk	xtw'k
+甍	xtwln
 藹	xtyrv
 峯	xuhej
+耑	xumbl	xumb'l
 綳	xvfbb
+綬	xvfbbe
+鑾	xvfc
+鷥	xvfhaf
+縿	xvfiih
+縯	xvfjmc
+縐	xvfpuu
+姅	xvfq
+轡	xvfr
+㘘	xvfr
 槳	xvid
 幻	xvis
+畿	xviw
 困	xwd
 囲	xwtt
 丟	xxmgi
+邈	xybhu
+迥	xybr
+啻	xybr
+顰	xychwj
 奕	xyck
 顏	xyhmb
+迦	xyksr
+迺	xymcw
+邐	xymmp
 劇	xyoln
+迆	xypd
+㰍	xypd
+訾	xypymr
+諼	xyrbme
 亭	xyrbn
 毫	xyrbu
+讜	xyrfbf
+譆	xyrgrr
+詻	xyrher
+譭	xyrhge
+誥	xyrhgr
+訌	xyrm
+譙	xyrogf
 詣	xyrpa
+諶	xyrtmv
+訕	xyru
+諳	xyryta
+齜	xyuymp
+膂	xyvb
+卞	xyy
 我	z
 🤪	zany
 🤐	zippermouth
