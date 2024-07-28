@@ -3795,7 +3795,7 @@ iOS	ios
 耆	jpa
 寗	jpb
 寧	jpbn
-甯	jpbq
+甯	jpbq	jpb'q
 寗	jphb
 蜜	jphi
 耄	jphqu
@@ -3873,6 +3873,7 @@ iOS	ios
 寒	jy
 寵	jybp
 寂	jye
+preventFromAutoSelection	jye
 寂	jyfe
 宰	jyj
 寵	jyp
@@ -4564,10 +4565,9 @@ iOS	ios
 雪	mbsm	mbs'm
 霹	mbsrj
 霸	mbtjb
-霜	mbu
+電	mbu
 頁	mbuc
 貢	mbuc
-電	mbu
 耍	mbv
 雷	mbw
 電	mbwu
@@ -5415,6 +5415,7 @@ iOS	ios
 伙	of
 俏	ofb
 償	ofbc
+儻	ofbf
 倘	ofbr	ofb'r
 儅	ofbw
 償	ofc
@@ -6335,6 +6336,7 @@ proxy-pc.jd.com proxykt
 挖	qjcn
 搾	qjcs
 技	qje
+preventFromAutoSelection	qje
 擦	qjf
 拷	qjks
 邦	qjl
@@ -9413,6 +9415,7 @@ preventFromAutoSelection	wdc
 閑	xand
 煦	xarf
 晾	xayrf
+炙	xbf
 胱	xbfmu
 冗	xbhn
 肱	xbki
@@ -24055,7 +24058,6 @@ preventFromAutoSelection	wdc
 尒	of'
 尓	of'
 㒉	ofbd'
-儻	ofbf'
 㑽	ofbg'
 偿	ofbi'
 僘	ofbk'
