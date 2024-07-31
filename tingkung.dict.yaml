@@ -48,7 +48,7 @@ encoder:
 ...
 
 日	a
-曰	a
+曰	ax
 昌	aa
 晶	aaa
 曝	aae
@@ -61,7 +61,6 @@ encoder:
 盟	abbt
 暖	abe
 暈	abj
-暈	abjj
 暖	abme
 盟	abt
 冒	abu
@@ -72,11 +71,10 @@ encoder:
 晰	adhl
 晰	adl
 最	ae
-ae	ae
+暴	aex
 照	af
 顯	afc
 影	afh
-影	afhhh
 顯	afmbc
 晃	afmu
 晃	afu
@@ -157,14 +155,14 @@ ae	ae
 閹	anklu
 閘	anl
 閩	anlmi
-閂	anm'
+閂	anm
 閏	anmg
 閆	anmmm
 闘	anmti
 閻	annhx
 闋	annok
 閃	ano
-閥	ano'
+閥	anoix
 閤	anomr
 悶	anp
 闐	anpbc
@@ -193,7 +191,6 @@ ae	ae
 晦	aowy
 晦	aoy
 昆	ap
-🦍	ape
 易	aph
 昀	apim
 昀	apmm
@@ -252,7 +249,7 @@ ae	ae
 鵬	bbhf
 骰	bbhne
 辭	bbj
-骷	bbj'
+骷	bbjrx
 髖	bbjti
 髏	bbllv
 剮	bbln
@@ -266,6 +263,7 @@ ae	ae
 體	bbtwt
 亂	bbu
 覓	bbuu
+mark	mark
 髏	bbv
 髁	bbwd
 髑	bbwli
@@ -325,7 +323,7 @@ ae	ae
 膝	bdoe
 乳	bdu
 愛	be
-be	be
+服	bex
 炙	bf
 膛	bfbg
 賸	bfc
@@ -359,7 +357,7 @@ be	be
 脾	bhj
 貊	bhma
 肌	bhn
-冗	bhn'
+冗	bhnx
 貶	bho
 豹	bhpi
 胝	bhpm
@@ -409,7 +407,7 @@ be	be
 円	blm
 刖	bln
 且	bm
-肛	bm
+肛	bmx
 具	bmc
 膘	bmf
 冠	bmi
@@ -436,6 +434,7 @@ be	be
 脆	bnmu
 膽	bnr
 脆	bnu
+眨	bo
 膾	boa
 腹	boe
 祭	bof
@@ -458,7 +457,6 @@ be	be
 雕	brog
 臊	brrd
 助	bs
-膀胱	bsbfu
 爭	bsd
 服	bse
 膠	bsh
@@ -467,8 +465,8 @@ be	be
 脹	bsmv
 凸	bss
 脹	bsv
-皿	bt
 冊	bt
+皿	btx
 冪	btab
 膜	btak
 冪	btb
@@ -532,8 +530,7 @@ be	be
 𥄫	bunhe
 睽	bunok
 瞪	bunot
-眨	buo
-瞿	buo'
+瞿	buog
 瞧	buogf
 瞼	buomo
 眠	bup
@@ -614,7 +611,6 @@ be	be
 鋼	cbu	cb'u
 鎖	cc
 鑫	ccc
-釵	cei	ce'i
 銻	ccnh
 鉛	ccr
 銳	ccu
@@ -622,6 +618,7 @@ be	be
 鉢	cdm
 鍊	cdw
 錄	ce
+釵	cei	ce'i
 銷	cfb
 鎖	cfc
 鏜	cfg
@@ -741,7 +738,6 @@ be	be
 鉤	cpr
 鈍	cpu
 鍵	cq
-鍵盤	cqhet
 鍥	cqhk
 鋳	cqi
 鋳	cqki
@@ -778,6 +774,7 @@ be	be
 鉼	ctt
 錨	ctw
 鏡	cu
+兌	cux
 銀	cv
 鑠	cvd
 錄	cve
@@ -975,7 +972,7 @@ be	be
 樓	dlv
 柚	dlw
 本	dm
-杠	dm
+杠	dmx
 栢	dma
 桓	dma'
 柄	dmb
@@ -1544,6 +1541,7 @@ be	be
 濟	ex
 海	ey
 淖	eyaj
+漓	eyb
 灕	eybg
 澈	eybk
 滂	eybs
@@ -1579,7 +1577,6 @@ be	be
 漳	eyt'
 涪	eyt'
 流	eyu
-漓	eyub
 滾	eyv
 滷	eywi	eyw'i
 澶	eywm
@@ -1672,6 +1669,7 @@ be	be
 粘	fdyr
 粒	fdyt
 爆	fe
+叛	fex
 炎	ff
 榮	ffbd
 熒	ffbf
@@ -1709,6 +1707,7 @@ be	be
 劣	fhs
 省	fhu
 燭	fi
+瑩	fix
 料	fj
 熔	fjcr
 烤	fjks
@@ -1735,13 +1734,11 @@ be	be
 弊	fkt
 瞥	fku
 鄰	fl
-🔦	flashlight
 燼	flmt
-💾	floppydisk
 燼	flt
 粗	fm
 炳	fmb
-燸	fmb'
+燸	fmbbx
 煩	fmc
 煙	fmg
 厳	fmmjk
@@ -1803,7 +1800,6 @@ be	be
 耀	fug
 輝	fuj
 耀	fusmg
-勞	fs
 裳	fv
 爍	fvd
 爍	fvid
@@ -1833,11 +1829,6 @@ be	be
 燧	fyt'
 炫	fyvi
 土	g
-場	gh
-坂	ghe
-圻	ghml
-坼	ghmy
-埤	ghwj
 增	ga
 塭	gabt
 塒	gagi
@@ -1895,15 +1886,20 @@ be	be
 堯	ggu
 墻	ggw
 卦	ggy
+場	gh
 垛	ghd
 墦	ghdw
+坂	ghe
 塢	ghf
 塊	ghi
 埠	ghj
+圻	ghml
 垢	ghmr
+坼	ghmy
 垛	ghnd
 垢	ghr
 塊	ghui
+埤	ghwj
 去	gi
 盍	gibt
 熱	gif
@@ -1974,7 +1970,6 @@ be	be
 壽	gnmi
 坎	gno
 走	go
-🥅	goalnet
 趕	goamj
 趟	gob
 趣	goe
@@ -2000,7 +1995,6 @@ be	be
 地	gpd
 均	gpim
 均	gpm
-摯	gq
 吉	gr
 臺	grbg
 頡	grc
@@ -2061,8 +2055,6 @@ be	be
 垃	gyt
 境	gyu
 壞	gyv
-壞人	gyvo
-垓	gyvox
 壇	gywm
 壞	gywv
 竹	h
@@ -2396,7 +2388,6 @@ be	be
 衛	hodqn
 後	hoe
 径	hoegx
-後一	hoem
 衍	hoemn
 徜	hofbr	hofb'r
 往	hog
@@ -2427,8 +2418,6 @@ be	be
 行	hon
 篌	honkx
 衡	honkn
-行人	hono
-径	honom
 從	hoo
 復	hooae
 慫	hop
@@ -2568,7 +2557,6 @@ be	be
 息	hup
 鼻	huwml
 很	hv
-鼠標	hvdmf
 系	hvf
 兜	hvhu
 魏	hvhui
@@ -2647,10 +2635,10 @@ be	be
 航	hyyhn
 舷	hyyvi
 戈	i
-席	ib
 廄	iaie
 廄	iae
 良	iav
+席	ib
 廁	ibcn
 翩	ibm
 廁	ibn
@@ -2860,7 +2848,7 @@ iOS	ios
 盗	iot
 姿	iov
 能	ip
-弋	ip
+弋	ipx
 貳	ipc
 熊	ipf
 麋	ipfdx
@@ -2878,6 +2866,7 @@ iOS	ios
 庖	ipru
 麒	iptmc
 祥	iq
+摩	iqx
 台	ir
 啟	irk
 或	irm
@@ -2910,6 +2899,7 @@ iOS	ios
 視	iu
 祝	iux
 良	iv
+威	ivx
 福	iw
 凍	iwx
 慶	ixe
@@ -3418,7 +3408,6 @@ placeholder	jjmjjm
 疪	kpp
 疱	kpru
 疱	kpu
-癬	kq
 右	kr
 賀	krbuc
 賀	krc
@@ -4058,6 +4047,7 @@ placeholder	jjmjjm
 酈	mpnl
 武	mpylm
 磷	mq
+璘	mqx
 石	mr
 碣	mrapv
 硼	mrb
@@ -4274,7 +4264,6 @@ placeholder	jjmjjm
 恿	nbp
 解	nbq
 勇	nbs
-解	nbshq
 負	nbuc
 觸	nbwli
 斛	nbyj
@@ -4377,7 +4366,7 @@ placeholder	jjmjjm
 騖	nksqf
 延	nkv
 引	nl
-弔	nl
+弔	nlx
 階	nla
 陽	nlamh
 隄	nlamo
@@ -4531,7 +4520,6 @@ placeholder	jjmjjm
 魚	nwf
 亀	nwlu
 亀	nwu
-陷	nx
 燄	nxff
 龜	nxu
 外	ny
@@ -4545,7 +4533,7 @@ placeholder	jjmjjm
 們	oan
 僩	oanbx	oan'bx
 內	ob
-内	ob
+内	obx
 俱	obc
 俘	obd
 僞	obf
@@ -4555,7 +4543,6 @@ placeholder	jjmjjm
 侗	obmr	ob'mr
 側	obn
 肉	obo	ob'o
-倜儻	oboff
 憊	obp
 佣	obq	ob'q
 價	oc
@@ -4580,7 +4567,7 @@ placeholder	jjmjjm
 雙	oe
 俊	oex
 你	of
-伙	of
+伙	ofx
 俏	ofb
 倘	ofbr	ofb'r
 儅	ofbwx
@@ -4641,7 +4628,7 @@ placeholder	jjmjjm
 傯	ohwp
 倪	ohxu
 伐	oi
-仏	oi
+仏	oix
 餛	oiapp
 倉	oiar
 食	oiav
@@ -4708,7 +4695,6 @@ placeholder	jjmjjm
 餡	oix
 餃	oiyck
 什	oj
-午	oj
 午	ojx
 值	ojbm
 倥	ojcm
@@ -4954,7 +4940,7 @@ placeholder	jjmjjm
 似	ovio
 似	ovo
 個	ow
-佃	ow
+佃	owx
 偶	owb
 俚	owg
 個	owjr	ow'jr
@@ -4995,7 +4981,6 @@ placeholder	jjmjjm
 心	p
 旨	pa
 旬	pax
-PaaS	paas
 慢	pae
 惕	pah
 惺	pahm
@@ -5071,7 +5056,7 @@ PaaS	paas
 恤	pht
 愧	phui
 勾	pi
-勺	pi
+勺	pix
 慷	pie
 慘	pih
 慘	piih
@@ -5333,6 +5318,7 @@ PaaS	paas
 播	qhw
 搜	qhxe
 捏	qhxg
+揑	qhxm
 搬	qhye
 找	qi
 捕	qib
@@ -5482,6 +5468,7 @@ PaaS	paas
 撫	qotf
 規	qou
 擒	qoyb
+批	qp
 指	qpa
 扡	qpd
 掬	qpfd
@@ -5529,8 +5516,7 @@ PaaS	paas
 握	qsmg
 敖	qsok
 挪	qsql
-招	qsr
-摳	qsrr	qs'rr
+摳	qsr	qs'r
 拒	qss
 摒	qst
 掘	qsu
@@ -5582,7 +5568,6 @@ PaaS	paas
 搵	qwt
 拇	qwy
 插	qx
-placeholder	qx
 扑	qy
 掉	qyaj
 搞	qyb
@@ -5639,7 +5624,7 @@ placeholder	qx
 嚶	rbv
 嚼	rbwi
 只	rc
-叭	rc
+叭	rcx
 吩	rch
 嗡	rcim
 勛	rcks
@@ -5933,7 +5918,7 @@ placeholder	qx
 嗰	row
 噙	royb
 民	rp
-叱	rp
+叱	rpx
 噸	rpc
 吔	rpd
 吻	rph
@@ -6002,7 +5987,6 @@ placeholder	qx
 嘶	rtl
 嘆	rtlo
 咁	rtm	rt'm
-嘩	rtmj
 囌	rtnd
 嘆	rto
 嗟	rtqm
@@ -6012,7 +5996,7 @@ placeholder	qx
 噥	rtwv
 嚿	rtx
 吧	ru
-巳	ru
+巳	rux
 喘	rub
 嗤	rui
 喘	rumb
@@ -6087,6 +6071,7 @@ placeholder	qx
 殿	schne
 層	scwa
 屎	sd
+馳	sdx
 尿	se
 腎	seb
 臀	sebx
@@ -6114,7 +6099,6 @@ placeholder	qx
 馬	sf
 屑	sfb
 騏	sfc
-屎	sfd
 尉	sfdi
 馭	sfe
 騷	sfeii
@@ -6309,7 +6293,7 @@ placeholder	qx
 那	sql
 那	sqnl
 馬	sqsf
-區	sr	s'r
+叵	sr	s'r
 屌	srb
 毆	sre
 鷗	srf
@@ -6327,7 +6311,6 @@ placeholder	qx
 歐	sro
 群	srq
 區	srr	s'rr
-區	srrr	s'rrr
 群	srtq
 羣	srtq
 辟	srytj
@@ -6729,7 +6712,7 @@ placeholder	qx
 苣	tss
 藍	tst
 井	tt
-并	tt
+并	ttx
 並	ttc
 荆	ttln
 瓶	ttmvn
@@ -6783,7 +6766,6 @@ placeholder	qx
 茴	twr	tw'r
 豊	twt
 農	twv
-舊	tx
 兼	txc
 菲	ty
 蒂	tyb
@@ -6814,7 +6796,6 @@ placeholder	qx
 蓑	tywv
 薺	tyx
 菸	tyy
-mark	mark
 山	u
 崑	uapp
 崩	ub
@@ -7407,6 +7388,7 @@ mark	mark
 毗	wpp
 囤	wpu	w'pu
 圍	wq
+畔	wqx
 回	wr	w'r
 圓	wrbc	w'rbc
 圓	wrc	w'rc
@@ -7421,6 +7403,7 @@ mark	mark
 畊	wtt
 囲	wtt
 圈	wu	w'u
+囤	wux	w'ux
 園	wv
 累	wvf
 累	wvif
@@ -7466,6 +7449,7 @@ mark	mark
 遙	ybou
 龍	ybp
 週	ybr	yb'r
+迥	ybrx	yb'rx
 旁	ybs
 遙	ybu
 敲	ybye
@@ -7797,7 +7781,7 @@ placeholder	yrhvl
 訐	yrmjx
 語	yrmmr
 訂	yrmn
-訶	yrmnr
+訶	yrmnrx
 誣	yrmoo
 諮	yrmor
 訝	yrmvh

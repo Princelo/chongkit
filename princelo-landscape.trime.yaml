@@ -825,6 +825,49 @@ preset_keyboards:
     - {click: space, long_click: Menu_no_comment, width: 40, height: 40, label: '倉頡', key_text_color: 0x969ea1, shadow: 'true'}
     - {long_click: '>', click: '$', height: 40, key_back_color: 0x313c42, shadow: 'true'}
     - {draw_icon: 'enter', click: Return, long_click: paste_no_comment, width: 15, height: 40, key_back_color: 0x6eaca7, key_text_color: 0xfdfffe, shadow: 'true'}
+  tingkung:
+    name: 倉頡頂功
+    author: "無敵樟"
+    ascii_mode: 0
+    width: 10
+    height: 30
+    keys:
+    - {label: '手', long_click: '#', click: q, shadow: 'true'}
+    - {label: '田', long_click: 1, click: w, shadow: 'true'}
+    - {label: '水', long_click: 2, click: e, shadow: 'true'}
+    - {label: '口', long_click: 3, click: r, shadow: 'true'}
+    - {label: '廿', long_click: '(', click: t, shadow: 'true'}
+    - {label: '卜', long_click: ')', click: y, shadow: 'true'}
+    - {label: '山', long_click: '_', click: u, shadow: 'true'}
+    - {label: '戈', long_click: '-', click: i, shadow: 'true'}
+    - {label: '人', long_click: '+', click: o, shadow: 'true'}
+    - {label: '心', long_click: '@', click: p, shadow: 'true'}
+    - {width: 5}
+    - {label: '日', long_click: '*', click: a, shadow: 'true'}
+    - {label: '尸', long_click: 4, click: s, shadow: 'true'}
+    - {label: '木', long_click: 5, click: d, shadow: 'true'}
+    - {label: '火', long_click: 6, click: f, shadow: 'true'}
+    - {label: '土', long_click: '/', click: g, shadow: 'true'}
+    - {label: '竹', long_click: ':', click: h, shadow: 'true'}
+    - {label: '十', long_click: ';', click: j, shadow: 'true'}
+    - {label: '大', long_click: "'", click: k, shadow: 'true'}
+    - {label: '中', long_click: '"', click: l, shadow: 'true'}
+    - {width: 5}
+    - {draw_icon: 'shift_dark', click: Shift_L, send_bindings: false, width: 15, shadow: 'true'}
+    - {label: '符', click: z, long_click: 7, shadow: 'true'}
+    - {label: '難', click: x, long_click: 8, shadow: 'true'}
+    - {label: '金', click: c, long_click: 9, shadow: 'true'}
+    - {label: '女', long_click: '?', click: v, shadow: 'true'}
+    - {label: '月', long_click: '!', click: b, shadow: 'true'}
+    - {label: '弓', long_click: ',', click: n, shadow: 'true'}
+    - {label: '一', long_click: '.', click: m, shadow: 'true'}
+    - {draw_icon: 'delete_material_dark', click: BackSpace, width: 15, key_back_color: 0x313c42, shadow: 'true'}
+    - {click: Keyboard_symbols, long_click: Keyboard_number, width: 13, height: 40, key_back_color: 0x313c42, shadow: 'true'}
+    - {draw_icon: 'copy', draw_hint_icon: 'none', long_click: select_all, click: copy, width: 12, height: 40, key_back_color: 0x313c42, shadow: 'true'}
+    - {click: 0, long_click: '<', height: 40, key_back_color: 0x313c42, shadow: 'true'}
+    - {click: space, long_click: Menu_no_comment, width: 40, height: 40, label: '倉頡', key_text_color: 0x969ea1, shadow: 'true'}
+    - {long_click: '>', click: '$', height: 40, key_back_color: 0x313c42, shadow: 'true'}
+    - {draw_icon: 'enter', click: Return, long_click: paste_no_comment, width: 15, height: 40, key_back_color: 0x6eaca7, key_text_color: 0xfdfffe, shadow: 'true'}
   scj6:
     __include: /preset_keyboards/cangjie5
   stroke:
