@@ -437,7 +437,7 @@ translator:
     - "xform/^([a-z]*)$/$1/"
     #- "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
     #- "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符～|"
-    - "xlit|abcdefghijklmnopqrstuvwxyz~|子丑寅卯辰巳午未申酉戌亥金木水火土臨兵鬥者皆陣列前行～|"
+    - "xlit|abcdefghijklmnopqrstuvwxyz~|未巳臨亥申火前酉者金兵木水皆子土午寅丑戌卯列陣行辰鬥～|"
 jyut6ping3:
   tag: jyut6ping3
   dictionary: jyut6ping3

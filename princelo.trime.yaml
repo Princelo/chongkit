@@ -852,38 +852,38 @@ preset_keyboards:
     keys:
     - {click: '', key_back_color: 0x273238, width: 4}
     - {draw_icon: 'delete_material_dark', click: BackSpace, width: 26, key_back_color: 0x313c42, shadow: 'true'}
-    - {label: '心', long_click: 0, click: p, hint_location: 'top_right', shadow: 'true'}
+    - {label: '土', long_click: 0, click: p, hint_location: 'top_right', shadow: 'true'}
     - {label: '火', long_click: '?', click: f, hint_location: 'top_right', shadow: 'true'}
-    - {label: '一', long_click: '@', click: m, hint_location: 'top_right', shadow: 'true'}
-    - {label: '中', long_click: '"', click: l, hint_location: 'top_right', shadow: 'true'}
-    - {label: '十', long_click: ';', click: j, hint_location: 'top_right', shadow: 'true'}
+    - {label: '水', long_click: '@', click: m, hint_location: 'top_right', shadow: 'true'}
+    - {label: '木', long_click: '"', click: l, hint_location: 'top_right', shadow: 'true'}
+    - {label: '金', long_click: ';', click: j, hint_location: 'top_right', shadow: 'true'}
     - {click: '', key_back_color: 0x273238, width: 5}
     - {click: '', key_back_color: 0x273238, width: 4}
-    - {label: '手', long_click: 1, click: q, hint_location: 'top_right', shadow: 'true'}
-    - {label: '月', long_click: 2, click: b, hint_location: 'top_right', shadow: 'true'}
-    - {label: '卜', long_click: 3, click: y, hint_location: 'top_right', shadow: 'true'}
-    - {label: '山', long_click: '(', click: u, hint_location: 'top_right', shadow: 'true'}
-    - {label: '口', long_click: ')', click: r, hint_location: 'top_right', shadow: 'true'}
-    - {label: '尸', long_click: "'", click: s, hint_location: 'top_right', shadow: 'true'}
-    - {label: '人', long_click: '+', click: o, hint_location: 'top_right', shadow: 'true'}
+    - {label: '午', long_click: 1, click: q, hint_location: 'top_right', shadow: 'true'}
+    - {label: '巳', long_click: 2, click: b, hint_location: 'top_right', shadow: 'true'}
+    - {label: '辰', long_click: 3, click: y, hint_location: 'top_right', shadow: 'true'}
+    - {label: '卯', long_click: '(', click: u, hint_location: 'top_right', shadow: 'true'}
+    - {label: '寅', long_click: ')', click: r, hint_location: 'top_right', shadow: 'true'}
+    - {label: '丑', long_click: "'", click: s, hint_location: 'top_right', shadow: 'true'}
+    - {label: '子', long_click: '+', click: o, hint_location: 'top_right', shadow: 'true'}
     - {click: '', key_back_color: 0x273238, width: 5}
     - {click: '', key_back_color: 0x273238, width: 4}
-    - {label: '大', long_click: 4, click: k, hint_location: 'top_right', shadow: 'true'}
-    - {label: '金', click: c, long_click: 5, hint_location: 'top_right', shadow: 'true'}
-    - {label: '木', long_click: 6, click: d, hint_location: 'top_right', shadow: 'true'}
-    - {label: '廿', long_click: '-', click: t, hint_location: 'top_right', shadow: 'true'}
-    - {label: '竹', long_click: ':', click: h, hint_location: 'top_right', shadow: 'true'}
-    - {label: '水', long_click: '!', click: e, hint_location: 'top_right', shadow: 'true'}
-    - {label: '日', long_click: DeleteCandidate, click: a, hint_location: 'top_right', shadow: 'true', draw_hint_icon: 'none'}
+    - {label: '兵', long_click: 4, click: k, hint_location: 'top_right', shadow: 'true'}
+    - {label: '臨', click: c, long_click: 5, hint_location: 'top_right', shadow: 'true'}
+    - {label: '亥', long_click: 6, click: d, hint_location: 'top_right', shadow: 'true'}
+    - {label: '戌', long_click: '-', click: t, hint_location: 'top_right', shadow: 'true'}
+    - {label: '酉', long_click: ':', click: h, hint_location: 'top_right', shadow: 'true'}
+    - {label: '申', long_click: '!', click: e, hint_location: 'top_right', shadow: 'true'}
+    - {label: '未', long_click: DeleteCandidate, click: a, hint_location: 'top_right', shadow: 'true', draw_hint_icon: 'none'}
     - {click: '', key_back_color: 0x273238, width: 5}
     - {click: '', key_back_color: 0x273238, width: 4}
-    - {label: '難', click: x, long_click: 7, hint_location: 'top_right', shadow: 'true'}
-    - {label: '土', long_click: 8, click: g, hint_location: 'top_right', shadow: 'true'}
-    - {label: '女', long_click: 9, click: v, hint_location: 'top_right', shadow: 'true'}
-    - {label: '田', long_click: select_all, click: w, hint_location: 'top_right', draw_hint_icon: 'none', shadow: 'true'}
-    - {label: '弓', long_click: copy, click: n, hint_location: 'top_right', draw_hint_icon: 'none', shadow: 'true'}
-    - {label: '戈', long_click: ',', click: i, hint_location: 'top_right', shadow: 'true'}
-    - {label: '符', click: z, long_click: '.', hint_location: 'top_right', shadow: 'true'}
+    - {label: '行', click: x, long_click: 7, hint_location: 'top_right', shadow: 'true'}
+    - {label: '前', long_click: 8, click: g, hint_location: 'top_right', shadow: 'true'}
+    - {label: '列', long_click: 9, click: v, hint_location: 'top_right', shadow: 'true'}
+    - {label: '陣', long_click: select_all, click: w, hint_location: 'top_right', draw_hint_icon: 'none', shadow: 'true'}
+    - {label: '皆', long_click: copy, click: n, hint_location: 'top_right', draw_hint_icon: 'none', shadow: 'true'}
+    - {label: '者', long_click: ',', click: i, hint_location: 'top_right', shadow: 'true'}
+    - {label: '鬥', click: z, long_click: '.', hint_location: 'top_right', shadow: 'true'}
     - {click: '', key_back_color: 0x273238, width: 5}
     - {click: '', key_back_color: 0x273238, width: 4, height: 50}
     - {draw_icon: 'shift_dark', click: Shift_L, height: 50, send_bindings: false, shadow: 'true'}
