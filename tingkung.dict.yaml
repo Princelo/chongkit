@@ -135,7 +135,7 @@ encoder:
 是	amyo
 門	an
 間	ana
-冕	ana'
+冕	anaux
 閒	anb
 閱	ancru
 閉	andh
@@ -346,7 +346,7 @@ mark	mark
 臢	bhc
 豺	bhdh
 股	bhe
-胳	bhe'
+胳	bherx
 爲	bhf
 腫	bhg
 豺	bhh
@@ -415,7 +415,7 @@ mark	mark
 爰	bmke
 助	bmks
 胚	bmm
-脤	bmm'
+脤	bmmvx
 豚	bmo
 膈	bmrb
 脰	bmrt
@@ -534,7 +534,7 @@ mark	mark
 瞧	buogf
 瞼	buomo
 眠	bup
-盹	bup'
+盹	bupux
 瞬	buq
 睛	buqmb
 瞎	bur
@@ -542,7 +542,7 @@ mark	mark
 眶	bus
 矚	busei
 眶	busmg	bus'mg
-瞪	but'
+瞪	but
 矇	butbo
 瞞	butlb
 瞄	butw
@@ -785,7 +785,7 @@ mark	mark
 曾	cwa
 鋰	cwg
 鐲	cwi
-猷	cwi'
+猷	cwik
 鐸	cwj
 奠	cwk
 鉀	cwl
@@ -941,8 +941,8 @@ mark	mark
 杖	djk
 棲	djlv
 植	djm
-檳	djm'
-梡	djm'
+檳	djmcx
+梡	djmux
 檸	djn
 檸	djpn
 枯	djr
@@ -974,13 +974,13 @@ mark	mark
 本	dm
 杠	dmx
 栢	dma
-桓	dma'
+桓	dmam
 柄	dmb
-櫺	dmb'
+櫺	dmbrx
 槓	dmc
 極	dmem
 杯	dmf
-枰	dmf'
+枰	dmfjx
 枉	dmg
 桎	dmig
 橄	dmjk
@@ -1007,7 +1007,7 @@ mark	mark
 杼	dnij
 橄	dnjk
 橄	dnk
-梃	dnk'
+梃	dnkgx
 橢	dnlb
 桅	dnmu
 櫈	dnn
@@ -1022,7 +1022,7 @@ mark	mark
 榷	dobg
 樵	dof
 椎	dog
-榫	dog'
+榫	dogjx
 槍	doir
 杵	doj
 枚	dok
@@ -1084,7 +1084,7 @@ mark	mark
 槽	dta
 構	dtb
 棋	dtc
-樸	dtc'
+樸	dtcox
 樣	dte
 權	dtg
 樽	dti
@@ -1114,7 +1114,7 @@ mark	mark
 朴	dy
 槕	dyad
 柿	dyb
-楨	dyb'
+楨	dybcx
 槨	dydl
 櫬	dydu
 椒	dye
@@ -1124,7 +1124,7 @@ mark	mark
 槌	dyhr
 枋	dyhs
 梳	dyiu
-樟	dyj
+梓	dyj
 校	dyk
 柿	dylb
 檀	dym
@@ -1133,7 +1133,6 @@ mark	mark
 槌	dyr
 榜	dys
 樟	dytj
-梓	dytj
 梳	dyu
 核	dyvo
 檩	dywf
@@ -1147,7 +1146,7 @@ mark	mark
 濕	eaf
 涅	eag
 湯	eah
-湄	eah'
+湄	eahux
 溉	eaiu
 湯	eamh
 澗	eana
@@ -1172,7 +1171,7 @@ mark	mark
 渾	ebj
 溪	ebk
 沮	ebm
-湲	ebm'
+湲	ebmex
 浮	ebnd
 洞	ebr	eb'r
 淨	ebsd
@@ -1190,9 +1189,9 @@ mark	mark
 渣	edam
 湘	edbu
 瀨	edc
-淞	edc'
+淞	edcix
 淋	edd
-潸	edd'
+潸	eddbx
 波	ede
 塗	edg
 波	edhe
@@ -1227,7 +1226,7 @@ mark	mark
 瀆	egwc
 沙	eh
 泊	eha
-湟	eha'
+湟	ehagx
 澳	ehbk
 盪	ehbt
 洎	ehbu
@@ -1247,18 +1246,18 @@ mark	mark
 沂	ehl
 泜	ehm
 瀏	ehn
-汎	ehn'
+汎	ehnix
 鯊	ehnwf
 泛	eho
 添	ehp
-漑	ehp'
+漑	ehpux
 湃	ehqj
 活	ehr
 淚	ehsk
 滬	ehsu
 盪	eht
 洗	ehu
-溴	ehu'
+溴	ehukx
 派	ehv
 溜	ehw
 潟	ehxf
@@ -1267,12 +1266,12 @@ mark	mark
 叉	ei	e'i
 浪	eiav
 浦	eib
-溥	eib'
+溥	eibi
 浚	eice
 梁	eid
 泳	eie
 滅	eif
-粱	eif'
+粱	eifdx
 滅	eihf
 減	eihr
 滲	eih
@@ -1306,12 +1305,12 @@ mark	mark
 渚	ejka
 漸	ejl
 渲	ejm
-濱	ejm'
-淙	ejm'
+濱	ejmcx
+淙	ejmfx
 濘	ejn
 淀	ejo
 沱	ejp
-澝	ejp'
+澝	ejpbx
 沽	ejr
 湖	ejrb
 渤	ejs
@@ -1348,10 +1347,10 @@ mark	mark
 淵	elxl
 江	em
 潛	ema
-洹	ema'
+洹	emamx
 濡	embb
 酒	emcw
-洒	emcw
+洒	emcwx
 汙	emd
 鴻	emf
 汪	emg
@@ -1363,24 +1362,24 @@ mark	mark
 添	emkp
 沔	emls
 瀝	emm
-沅	emm'
+沅	emmux
 汀	emn
 洌	emnn
 河	emnr
 灑	emp
 河	emr
 污	ems
-涿	ems'
+涿	emsox
 潛	emua
 溼	emvg
 涇	emvm
-溧	emw'
+溧	emwdx
 漂	emwf
 湮	emwg
 潭	emwj
 沉	en
 涌	enb
-渙	enb'
+渙	enbkx
 澹	encr
 染	end
 沒	ene
@@ -1418,7 +1417,7 @@ mark	mark
 汽	eon
 滄	eor
 盜	eot
-濮	eot'
+濮	eotox
 海	eowy
 海	eoy
 沁	ep
@@ -1452,10 +1451,10 @@ mark	mark
 澡	erd
 況	erhu
 泯	erp
-湣	erp'
+湣	erpax
 澡	errd
 況	eru
-潠	eru'
+潠	erucx
 泯	ervp
 澠	erxu
 污	es
@@ -1484,8 +1483,8 @@ mark	mark
 溫	et
 漠	etak
 滿	etb
-湔	etb'
-濛	etb'
+湔	etbnx
+濛	etbox
 洪	etc
 溢	etct
 漾	ete
@@ -1559,7 +1558,7 @@ mark	mark
 涉	eylh
 渋	eymo
 沆	eyn
-瀛	eyn'
+瀛	eynvx
 淬	eyoj
 液	eyok
 濾	eyp
@@ -1573,9 +1572,9 @@ mark	mark
 漩	eyso
 淤	eysy
 泣	eyt
-潼	eyt'
-漳	eyt'
-涪	eyt'
+潼	eytgx
+漳	eytjx
+涪	eytrx
 流	eyu
 滾	eyv
 滷	eywi	eyw'i
@@ -1698,7 +1697,7 @@ mark	mark
 烙	fher
 燻	fhf
 煌	fhg
-燬	fhg'
+燬	fhgex
 烽	fhj
 劣	fhks
 煽	fhm
@@ -1718,7 +1717,7 @@ mark	mark
 烷	fju
 尖	fk
 幣	fkb
-瞥	fkb'
+瞥	fkbux
 燎	fkcf
 鱉	fkf
 氅	fkhqu
@@ -1826,7 +1825,7 @@ mark	mark
 爈	fyp
 焙	fyr
 爐	fyt
-燧	fyt'
+燧	fytox
 炫	fyvi
 土	g
 增	ga
@@ -1937,7 +1936,7 @@ mark	mark
 熬	gkf
 獒	gkik
 獒	gkk
-塽	gkk'
+塽	gkkk
 螯	gklmi
 垮	gkms
 鼇	gkrxu
@@ -1958,7 +1957,7 @@ mark	mark
 埂	gmk
 埂	gmlk
 坯	gmm
-圬	gmm'
+圬	gmmsx
 坷	gmnr
 坷	gmr
 坑	gn
@@ -2000,7 +1999,7 @@ mark	mark
 頡	grc
 熹	grf
 臺	grg
-喆	grg'
+喆	grgrx
 袁	grhv
 頡	grmbc
 喜	grr
@@ -2049,7 +2048,7 @@ mark	mark
 墟	gypc
 墟	gypm
 培	gyr
-壕	gyr'
+壕	gyrox
 壤	gyrv
 坊	gys
 垃	gyt
@@ -2078,6 +2077,7 @@ mark	mark
 籣	hanw
 馥	haoae
 皂	hap
+的	hapi
 皚	hat
 笆	hau
 皚	haumt
@@ -2142,7 +2142,7 @@ mark	mark
 秒	hdfh
 種	hdg
 稜	hdgce
-穡	hdg'
+穡	hdgwx
 秸	hdgrx
 秒	hdh
 穆	hdhah
@@ -2742,6 +2742,7 @@ mark	mark
 戚	ihf
 戍	ihi
 底	ihm
+戌	ihmx
 底	ihpm
 牟	ihq
 咸	ihr
@@ -3061,6 +3062,7 @@ placeholder	jjmjjm
 幹	jjomj
 輸	jjomn
 乾	jjon
+軟弱	jjonmm
 翰	jjosm
 斡	jjoyj
 輥	jjp
@@ -3804,7 +3806,6 @@ placeholder	jjmjjm
 雪	mbs
 露	mbr
 霞	mbrse
-雪	mbsm	mbs'm
 霹	mbsrj
 霸	mbtjb
 電	mbu
@@ -4374,7 +4375,6 @@ placeholder	jjmjjm
 隨	nlb
 阻	nlbm
 隱	nlbmp
-際	nlbof
 隠	nlbsp
 隕	nlc
 除	nld
@@ -5228,6 +5228,7 @@ placeholder	jjmjjm
 揮	qbj
 撚	qbkf
 援	qbme
+捊	qbnd
 搖	qbou
 掙	qbsd
 搖	qbu
@@ -5352,7 +5353,6 @@ placeholder	jjmjjm
 擰	qjpn
 拷	qjs
 彗	qjsm	qjs'm
-慧	qjsmp
 按	qjv
 換	qk
 春	qka
@@ -6557,7 +6557,6 @@ placeholder	jjmjjm
 驚	tkf
 茬	tkg
 鄭	tkl
-荐	tkldx
 鄭	tknl
 莢	tko
 惹	tkp

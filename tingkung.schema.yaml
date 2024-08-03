@@ -374,12 +374,21 @@ reverse_lookup:
   spelling_hints: 8  # 將呢度改作 0，可以去除候選字後邊嘅粵拼提示
   dictionary: jyut6ping3
   preedit_format:
-    - xform/([aeioumngptk])vv/${1}4/
-    - xform/([aeioumngptk])xx/${1}5/
-    - xform/([aeioumngptk])qq/${1}6/
-    - xform/([aeioumngptk])v/${1}1/
-    - xform/([aeioumngptk])x/${1}2/
-    - xform/([aeioumngptk])q/${1}3/
+    - xform/([aeioumngptk]*[aeioumng])vv/${1}陽平/
+    - xform/([aeioumngptk]*[aeioumng])xx/${1}陽上/
+    - xform/([aeioumngptk]*[aeioumng])qq/${1}陽去/
+    - xform/([aeioumngptk]*[aeioumng])v/${1}陰平/
+    - xform/([aeioumngptk]*[aeioumng])x/${1}陰上/
+    - xform/([aeioumngptk]*[aeioumng])q/${1}陰去/
+    - xform/([aeioumngptk]*[ptk])qq/${1}陽入/
+    - xform/([aeioumngptk]*[ptk])v/${1}上陰入/
+    - xform/([aeioumngptk]*[ptk])q/${1}中陰入/
+    #- xform/([aeioumngptk])vv/${1}4/
+    #- xform/([aeioumngptk])xx/${1}5/
+    #- xform/([aeioumngptk])qq/${1}6/
+    #- xform/([aeioumngptk])v/${1}1/
+    #- xform/([aeioumngptk])x/${1}2/
+    #- xform/([aeioumngptk])q/${1}3/
   prefix: "z"
   prism: jyut6ping3
   #suffix: "z"
@@ -446,12 +455,15 @@ jyut6ping3:
   tips: "〔粵語拼音〕"
   spelling_hints: 8  # 將呢度改作 0，可以去除候選字後邊嘅粵拼提示
   preedit_format:
-    - xform/([aeioumngptk])vv/${1}4/
-    - xform/([aeioumngptk])xx/${1}5/
-    - xform/([aeioumngptk])qq/${1}6/
-    - xform/([aeioumngptk])v/${1}1/
-    - xform/([aeioumngptk])x/${1}2/
-    - xform/([aeioumngptk])q/${1}3/
+    - xform/([aeioumngptk][aeioumng]$)vv/${1}陽平/
+    - xform/([aeioumngptk][aeioumng]$)xx/${1}陽上/
+    - xform/([aeioumngptk][aeioumng]$)qq/${1}陽去/
+    - xform/([aeioumngptk][aeioumng]$)v/${1}陰平/
+    - xform/([aeioumngptk][aeioumng]$)x/${1}陰上/
+    - xform/([aeioumngptk][aeioumng]$)q/${1}陰去/
+    - xform/([aeioumngptk][ptk]$)qq/${1}陽入/
+    - xform/([aeioumngptk][ptk]$)v/${1}上陰入/
+    - xform/([aeioumngptk][ptk]$)q/${1}中陰入/
 chongkit:
   tag: chongkit
   dictionary: chongkit
