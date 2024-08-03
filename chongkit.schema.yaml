@@ -404,6 +404,7 @@ translator:
     - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符～|"
   dictionary: chongkit
   disable_user_dict_for_patterns:
+    - "^.*$"
     - "^z.*$"
     - "^yyy.*$"
   enable_charset_filter: true
