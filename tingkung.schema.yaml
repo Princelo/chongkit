@@ -18,7 +18,7 @@ engine:
   filters:
     - simplifier
     - uniquifier
-    - single_char_filter
+    #- single_char_filter
     #- reverse_lookup_filter
   processors:
     - ascii_composer
