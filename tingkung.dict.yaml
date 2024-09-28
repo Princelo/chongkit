@@ -1635,6 +1635,7 @@ mark	mark
 糧	fdg
 粉	fdh
 粕	fdha
+糗	fdhuk
 糍	fdi
 粧	fdig
 糝	fdiih
@@ -1872,8 +1873,9 @@ mark	mark
 鼙	gehwj
 聲	gej
 磬	gemr
-罄	geoje
+罄	geoju
 聲	gesj
+罄	geu
 熱	gf
 款	gfno
 款	gfo
@@ -2110,6 +2112,10 @@ mark	mark
 黌	hbtlc
 黌	hbtmc
 自	hbu
+自尊	hbutwi
+自尊	hbutwdi
+自欺	hbutco
+自欺	hbutcno
 纂	hbufx
 篡	hbuix
 算	hbut
@@ -2132,7 +2138,6 @@ mark	mark
 租	hdbm
 穩	hdbmp
 穏	hdbsp
-箱	hdbu
 積	hdc
 稅	hdcru
 季	hdd
@@ -2400,7 +2405,7 @@ placeholder	hoema
 衝	hohgn
 循	hohju
 役	hohne
-筏	hoix
+筏	hoi
 術	hoicn
 籤	hoim
 術	hoidn
@@ -4436,7 +4441,6 @@ placeholder	jjmjjm
 限	nlv
 陳	nlw
 隅	nlwlb
-陷	nlx
 隴	nlybp
 阬	nlyhn
 防	nlyhs
@@ -4524,6 +4528,7 @@ placeholder	jjmjjm
 亀	nwlu
 亀	nwu
 燄	nxff
+陷	nx
 龜	nxu
 外	ny
 弦	nyi
@@ -4631,7 +4636,6 @@ placeholder	jjmjjm
 傯	ohwp
 倪	ohxu
 伐	oi
-仏	oix
 餛	oiapp
 倉	oiar
 食	oiav
@@ -4861,6 +4865,7 @@ placeholder	jjmjjm
 黛	opwgf
 袋	opyhv
 年	oq
+倩	oqb
 債	oqc
 傣	oqe
 傣	oqke
@@ -5826,8 +5831,10 @@ placeholder	jjmjjm
 蹶	rmmto
 叮	rmn
 叮囑	rmnrsi
-叮嚀	rmnrrjn
-叮嚀	rmnrrjpn
+叮嚀	rmnrjn
+叮嚀	rmnrjpn
+叮噹	rmnrfw
+叮噹	rmnrfbw
 踴	rmnbs
 蹂	rmnhd
 踊	rmnib
@@ -5948,7 +5955,6 @@ placeholder	jjmjjm
 噪	rrd
 鷺	rrhaf
 咒	rrhn
-哭	rrik
 獸	rrik
 器	rrikr
 單	rrj
@@ -6120,7 +6126,6 @@ placeholder	jjmjjm
 騙	sfisb
 驛	sfj
 駝	sfjp
-騎	sfr
 馱	sfk
 駁	sfkk
 騎	sfkmr
@@ -6135,10 +6140,9 @@ placeholder	jjmjjm
 驃	sfmwf
 驗	sfo
 駙	sfodi
-驗	sfomo
 馳	sfpd
 駒	sfpr
-駒	sfr
+騎	sfr
 驅	sfs
 驟	sfseo
 駆	sfskx	sfs'kx
@@ -6457,7 +6461,6 @@ placeholder	jjmjjm
 羌	tghu
 義	tgi
 藝	tgii
-蓋	tgit
 美	tgk
 顴	tgmbc
 歡	tgno
@@ -7049,8 +7052,8 @@ placeholder	jjmjjm
 絢	vfpa
 縝	vfpbc
 約	vfpi
-紕	vfpp
-紲	vfpt
+紕	vfppx
+紲	vfptx
 純	vfpu
 攣	vfq
 綁	vfqjl
@@ -7125,7 +7128,8 @@ placeholder	jjmjjm
 婢	vhwj
 媲	vhwp
 嫂	vhxe
-幺	vi
+繼	vi
+幺	vix
 娘	viav
 嬤	vici
 樂	vid
@@ -7504,7 +7508,6 @@ placeholder	jjmjjm
 就	yfu
 主	yg
 逵	ygcg
-遑	yhg
 褻	ygiv
 遨	ygk
 虧	ygmms
@@ -7520,6 +7523,7 @@ placeholder	jjmjjm
 透	yhds
 逶	yhdv
 返	yhe
+遑	yhg
 造	yhgr
 産	yhhqm
 遛	yhhw
@@ -7532,6 +7536,7 @@ placeholder	jjmjjm
 近	yhml
 逅	yhmr
 亢	yhn
+迭	yho
 逓	yhqb
 迭	yhqo
 追	yhr
@@ -7734,6 +7739,8 @@ placeholder	jjmjjm
 誰	yrg
 誰也	yrgpd
 placeholder	yrgpd
+誰必	yrgph
+誰怕	yrgpha
 読	yrgbux
 詩	yrgdi
 誌	yrgp
@@ -7785,6 +7792,7 @@ placeholder	yrhvl
 訐	yrmjx
 語	yrmmr
 訂	yrmn
+試了	yrmnnx
 訶	yrmnrx
 誣	yrmoo
 諮	yrmor
@@ -7832,7 +7840,7 @@ placeholder	yrhvl
 話	yrr
 誤	yrrmk
 譟	yrrrd
-襄	yrrv
+襄	yrrvx
 誤	yrrvc
 誤	yrrvk
 誠	yrs
@@ -7889,6 +7897,7 @@ placeholder	yrhvl
 施	ysd
 遲	yseq
 迢	yshr
+避	ysj
 放	ysk
 与	ysm
 旋	yso
@@ -7896,7 +7905,6 @@ placeholder	yrhvl
 旅	ysohv
 旎	ysosp
 旗	ysotc
-避	ysj
 放	ysok
 旖	ysokr
 旋	ysono
@@ -7905,7 +7913,6 @@ placeholder	yrhvl
 於	ysoy
 遲	ysq
 迢	ysr
-避	ysrj
 遅	ystq
 旅	ysv
 於	ysy

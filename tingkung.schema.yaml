@@ -369,11 +369,12 @@ recognizer:
 reverse_lookup:
   #tags: [cangjie5, chongkit]
   overwrite_comment: true
-  #comment_format:
-  #  - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
+  comment_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
   spelling_hints: 8  # 將呢度改作 0，可以去除候選字後邊嘅粵拼提示
   dictionary: jyut6ping3
   preedit_format:
+    - "xform/^z([a-z]*)$/$1/"
     - xform/([aeioumngptk]*[aeioumng])vv/${1}陽平/
     - xform/([aeioumngptk]*[aeioumng])xx/${1}陽上/
     - xform/([aeioumngptk]*[aeioumng])qq/${1}陽去/
@@ -445,8 +446,8 @@ translator:
     #- "xform/^([a-z]*)$/$1\\t（\\U$1\\E）/"
     - "xform/^([a-z]*)$/$1/"
     #- "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
+    - "xlit|abcdefghijklmnopqrstuvwxyz~|辰前行兵巳火者午酉金陣木水戌子土列寅丑未卯鬥亥皆臨申～|"
     #- "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符～|"
-    - "xlit|abcdefghijklmnopqrstuvwxyz~|未巳臨亥申火前酉者金兵木水皆子土午寅丑戌卯列陣行辰鬥～|"
 jyut6ping3:
   tag: jyut6ping3
   dictionary: jyut6ping3
@@ -470,6 +471,8 @@ chongkit:
   prism: chongkit
   prefix: "`"
   tips: "〔倉頡 Dvorak〕"
+  comment_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
   preedit_format:
     - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
     - "xform/^([a-z]*)$/$1\\t（\\U$1\\E）/"
@@ -479,6 +482,8 @@ cangjie5:
   prism: cangjie5
   prefix: "x"
   tips: "〔倉頡五代〕"
+  comment_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
   preedit_format:
     - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
     - "xform/^([a-z]*)$/$1\\t（\\U$1\\E）/"
