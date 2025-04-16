@@ -5951,7 +5951,6 @@ placeholder	jjmjjm
 擬	qpko
 擬	qpo
 掏	qpou
-批	qpp
 揩	qppa
 拘	qpr
 抱	qpu
@@ -9719,3 +9718,86 @@ placeholder	yrhvl
 ˊ	yyyym
 ˇ	yyyyn
 ˋ	yyyyo
+@{ shape: paper-tape, label: "" }	papertape
+@{ shape: procs, label: ""}	procs
+@{ shape: docs, label: ""}	docs
+@{ shape: manual-input, label: ""}	input
+@{ shape: manual-file, label: ""}	trianglerev
+@{ shape: text, label: "" }	text
+@{ shape: notch-rect, label: "" }	card
+@{ shape: sm-circ, label: "Small start" }	circle
+@{ shape: sm-circ, label: "Small start" }	start
+@{ shape: framed-circle, label: "Stop" }	stop
+@{ shape: fork, label: "Fork or Join" }	fork
+@{ shape: hourglass, label: "Collate" }	hourglass
+@{ shape: braces, label: "" }	comment
+@{ shape: comment, label: "" }	commentopen
+@{ shape: brace-r, label: "" }	commentclose
+@{ shape: bolt, label: "Communication link" }	bolt
+@{ shape: doc, label: "" }	document
+@{ shape: delay, label: "" }	delay
+@{ shape: das, label: "" }	messageq
+@{ shape: lin-cyl, label: "" }	cylinder
+@{ shape: curv-trap, label: "" }	display
+@{ shape: div-rect, label: "" }	process
+@{ shape: tri, label: "" }	triangle
+@{ shape: win-pane, label: "" }	window
+@{ shape: f-circ, label: "Junction" }	junction
+@{ shape: lin-doc, label: "" }	documentlined
+@{ shape: notch-pent, label: "" }	looplimit
+@{ shape: flip-tri, label: "" }	triangleflipped
+@{ shape: sl-rect, label: "" }	slopedrec
+@{ shape: processes, label: "" }	processes
+@{ shape: bow-rect, label: "" }	bowtie
+@{ shape: cross-circ, label: "Summary" }	summary
+@{ shape: tag-doc, label: "" }	doctagged
+@{ shape: tag-rect, label: "" }	processtagged
+@{ shape: tag-rect, label: "" }	rectagged
+classDef black color:#fff,fill:\#000;	classblack
+classDef white color:#022e1f,fill:\#fff;	classwhite
+color:#fff, fill:#000	black
+color:#000, fill:#fff	white
+color:#FFFFFF, stroke:#2962FF, fill:#2962FF	blue
+color:#FFFFFF, stroke:#00C853, fill:#00C853	green
+color:#FFFFFF, fill:#AA00FF, stroke:#AA00FF	purple
+	playstation
+󰨡	windows98
+	windows8
+	windows10
+	apple
+󰀶	finder
+󰀹	safari
+󰏎	operaold
+	opera
+	chrome
+󰈹	firefox
+	xbox
+󰖺	gamepad
+	gamepad
+󰊖	gamepad
+	tools
+	terminal
+	react
+󰄑	cart
+	intellij
+	json
+	box
+	vim
+󰿰	cards
+󱘢	log
+󰘑	wechat
+	qq'
+	tmux
+󰋊	harddisk
+	database
+󱀏	kafka
+	redis
+	android
+󰀷	ios'
+	appstore
+󰍹	monitor
+󰌢	laptop
+󱦟	sand
+	spring
+	gear'
+	cache
