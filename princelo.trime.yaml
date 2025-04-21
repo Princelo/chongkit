@@ -859,31 +859,31 @@ preset_keyboards:
     - {label: '金', long_click: ';', click: j, hint_location: 'top_right', shadow: 'true'}
     - {click: '', key_back_color: 0x273238, width: 5}
     - {click: '', key_back_color: 0x273238, width: 4}
-    - {label: '午', long_click: 1, click: q, hint_location: 'top_right', shadow: 'true'}
-    - {label: '巳', long_click: 2, click: b, hint_location: 'top_right', shadow: 'true'}
-    - {label: '辰', long_click: 3, click: y, hint_location: 'top_right', shadow: 'true'}
+    - {label: '列', long_click: 1, click: q, hint_location: 'top_right', shadow: 'true'}
+    - {label: '前', long_click: 2, click: b, hint_location: 'top_right', shadow: 'true'}
+    - {label: '臨', long_click: 3, click: y, hint_location: 'top_right', shadow: 'true'}
     - {label: '卯', long_click: '(', click: u, hint_location: 'top_right', shadow: 'true'}
     - {label: '寅', long_click: ')', click: r, hint_location: 'top_right', shadow: 'true'}
     - {label: '丑', long_click: "'", click: s, hint_location: 'top_right', shadow: 'true'}
     - {label: '子', long_click: '+', click: o, hint_location: 'top_right', shadow: 'true'}
     - {click: '', key_back_color: 0x273238, width: 5}
     - {click: '', key_back_color: 0x273238, width: 4}
-    - {label: '兵', long_click: 4, click: k, hint_location: 'top_right', shadow: 'true'}
-    - {label: '臨', click: c, long_click: 5, hint_location: 'top_right', shadow: 'true'}
-    - {label: '亥', long_click: 6, click: d, hint_location: 'top_right', shadow: 'true'}
-    - {label: '戌', long_click: '-', click: t, hint_location: 'top_right', shadow: 'true'}
-    - {label: '酉', long_click: ':', click: h, hint_location: 'top_right', shadow: 'true'}
-    - {label: '申', long_click: '!', click: e, hint_location: 'top_right', shadow: 'true'}
-    - {label: '未', long_click: DeleteCandidate, click: a, hint_location: 'top_right', shadow: 'true', draw_hint_icon: 'none'}
+    - {label: '陣', long_click: 4, click: k, hint_location: 'top_right', shadow: 'true'}
+    - {label: '行', click: c, long_click: 5, hint_location: 'top_right', shadow: 'true'}
+    - {label: '兵', long_click: 6, click: d, hint_location: 'top_right', shadow: 'true'}
+    - {label: '未', long_click: '-', click: t, hint_location: 'top_right', shadow: 'true'}
+    - {label: '午', long_click: ':', click: h, hint_location: 'top_right', shadow: 'true'}
+    - {label: '巳', long_click: '!', click: e, hint_location: 'top_right', shadow: 'true'}
+    - {label: '辰', long_click: DeleteCandidate, click: a, hint_location: 'top_right', shadow: 'true', draw_hint_icon: 'none'}
     - {click: '', key_back_color: 0x273238, width: 5}
     - {click: '', key_back_color: 0x273238, width: 4}
-    - {label: '行', click: x, long_click: 7, hint_location: 'top_right', shadow: 'true'}
-    - {label: '前', long_click: 8, click: g, hint_location: 'top_right', shadow: 'true'}
-    - {label: '列', long_click: 9, click: v, hint_location: 'top_right', shadow: 'true'}
-    - {label: '陣', long_click: select_all, click: w, hint_location: 'top_right', draw_hint_icon: 'none', shadow: 'true'}
-    - {label: '皆', long_click: copy, click: n, hint_location: 'top_right', draw_hint_icon: 'none', shadow: 'true'}
-    - {label: '者', long_click: ',', click: i, hint_location: 'top_right', shadow: 'true'}
-    - {label: '鬥', click: z, long_click: '.', hint_location: 'top_right', shadow: 'true'}
+    - {label: '皆', click: x, long_click: 7, hint_location: 'top_right', shadow: 'true'}
+    - {label: '者', long_click: 8, click: g, hint_location: 'top_right', shadow: 'true'}
+    - {label: '鬥', long_click: 9, click: v, hint_location: 'top_right', shadow: 'true'}
+    - {label: '亥', long_click: select_all, click: w, hint_location: 'top_right', draw_hint_icon: 'none', shadow: 'true'}
+    - {label: '戌', long_click: copy, click: n, hint_location: 'top_right', draw_hint_icon: 'none', shadow: 'true'}
+    - {label: '酉', long_click: ',', click: i, hint_location: 'top_right', shadow: 'true'}
+    - {label: '申', click: z, long_click: '.', hint_location: 'top_right', shadow: 'true'}
     - {click: '', key_back_color: 0x273238, width: 5}
     - {click: '', key_back_color: 0x273238, width: 4, height: 50}
     - {draw_icon: 'shift_dark', click: Shift_L, height: 50, send_bindings: false, shadow: 'true'}
