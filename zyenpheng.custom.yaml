@@ -1,0 +1,6 @@
+
+patch:
+  reverse_lookup/prism: cangjie5
+  reverse_lookup/tips: 〔倉頡〕
+  reverse_lookup/dictionary: cangjie5
+  #reverse_lookup/preedit_format: []
