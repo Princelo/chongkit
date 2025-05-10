@@ -1,0 +1,25 @@
+customization:
+  distribution_code_name: ""
+  distribution_version: ""
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Mon Mar 29 18:29:24 2021"
+  rime_version: 1.8.5
+patch:
+  schema_list:
+    - {schema: bopomofo_tw}
+    - {schema: cangjie5}
+    - {schema: chongkit}
+    - {schema: jyut6ping3}
+    - {schema: zyenpheng}
+    - {schema: triungkoxsampheng}
+    - {schema: tingkung}
+__patch:
+# Rx: custom:set:config=default,key=installed_from,value=rime-cantonese {
+  - patch/+:
+    installed_from: rime-cantonese
+# }
+# Rx: custom:add:schema=jyut6ping3 {
+  - patch/+:
+    schema_list/+/+:
+      - schema: jyut6ping3
+# }
