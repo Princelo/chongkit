@@ -52,6 +52,8 @@ app_options:
     inline: true
   com.jetbrains.intellij.ce:
     ascii_mode: true
+  md.obsidian:
+    ascii_mode: true
 chord_duration: 0.1
 config_version: 1.0
 keyboard_layout: last

@@ -48,7 +48,7 @@ encoder:
 ...
 
 日	a
-曰	ax
+曰	ax	a'x
 昌	aa
 晶	aaa
 曝	aae
@@ -57,6 +57,7 @@ encoder:
 曝	aate
 明	ab
 暝	abac
+🧮	abacus
 曖	abbe
 盟	abbt
 暖	abe
@@ -68,6 +69,7 @@ encoder:
 顕	acc
 顕	acmbc
 杲	ad
+🩹	adhesivebandage
 晰	adhl
 晰	adl
 最	ae
@@ -78,6 +80,7 @@ encoder:
 顯	afmbc
 晃	afmu
 晃	afu
+炅	afx
 量	ag
 時	agdi
 曉	aggu
@@ -95,10 +98,10 @@ encoder:
 昇	aht
 眉	ahu
 昂	ahvl
-既	aimvu
 時	ai
 曠	aic
 即	ail
+既	aimvu
 即	aisl
 曠	aitc
 既	aiu
@@ -110,6 +113,7 @@ encoder:
 暁	ajtu
 暁	aju
 晏	ajv
+旲	ak
 暸	akcf
 晞	akkb
 旯	akn
@@ -139,6 +143,8 @@ encoder:
 冕	anaux
 閒	anb
 閱	ancru
+閲	ancrux
+閑	and
 閉	andh
 闈	andmq
 闌	andwf	andw'f
@@ -206,10 +212,12 @@ encoder:
 昀	apim
 昀	apmm
 昆	app
+昆中	appl'
+昆尸	apps'
 曷	apvo
 晴	aqb
 晴	aqmb
-問	ar
+闊	ar
 暇	are
 煦	arf
 暇	arse
@@ -239,7 +247,6 @@ encoder:
 曼	awe
 曙	awla
 曼	awle
-晦	ay
 暗	aya
 景	ayf
 晾	ayrf
@@ -325,6 +332,7 @@ encoder:
 購	bcttb
 賺	bctxc
 脫	bcu
+脱	bcux
 嬰	bcv
 貼	bcyr
 賠	bcytr
@@ -657,6 +665,8 @@ encoder:
 銻	ccnh
 鉛	ccr
 銳	ccu
+鋭	ccux
+cd 	cd
 鈹	cdhe
 鉢	cdm
 鍊	cdw
@@ -787,7 +797,7 @@ encoder:
 錶	cqmv
 錶	cqv
 鋁	crhr
-兌	crhu
+兑	crhu
 卻	crl
 欲	crno
 欲	cro
@@ -824,7 +834,7 @@ encoder:
 鏘	cvi
 鏘	cvmi
 錄	cvne
-鍊	cw
+鈿	cw
 曾	cwa
 鋰	cwg
 鐲	cwi
@@ -916,7 +926,7 @@ encoder:
 杈	dei	de'i
 頗	dembc
 皰	depru
-標	df
+杰	df
 梢	dfb
 楼	dfdv
 隸	dfe
@@ -1421,6 +1431,7 @@ encoder:
 漂	emwf
 湮	emwg
 潭	emwj
+洒	emwx
 沉	en
 涌	enb
 渙	enbkx
@@ -1542,6 +1553,7 @@ encoder:
 瀟	etlx
 淇	etmc
 湛	etmv
+漢	eto
 濩	etoe
 灘	etog
 洋	etq
@@ -1582,6 +1594,9 @@ encoder:
 溫	ewt
 漯	ewvf
 濟	ex
+😮‍💨	exhaling
+😑	expressionless
+🧯	extinguisher
 海	ey
 淖	eyaj
 漓	eyb
@@ -1592,6 +1607,7 @@ encoder:
 滴	eycb
 游	eyd
 淑	eye
+👀	eyes'
 涼	eyf
 注	eyg
 瀕	eyhc
@@ -1636,6 +1652,7 @@ encoder:
 焜	fapp
 爆	fate
 爛	faw
+📠	fax
 煜	fayt
 肖	fb
 嘗	fba
@@ -1652,7 +1669,7 @@ encoder:
 敞	fbok
 掌	fbq
 尚	fbr	fb'r
-炯	fbrx
+炯	fbrx	fb'r
 賞	fbrbc
 党	fbrhu
 営	fbrhr
@@ -1769,8 +1786,19 @@ encoder:
 省	fhu
 燭	fi
 瑩	fix
+🗄️	filecabinet
+🎞️	filmframes
+📽️	filmprojector
+🔥	fire
+🧨	firecracker
+🍤	firedshrimp
+🧯	fireextinguisher
+🍟	fires
+🐟	fish
+5️⃣	five
 料	fj
 熔	fjcr
+戦	fji
 烤	fjks
 烷	fjmu
 熔	fjr
@@ -1779,7 +1807,7 @@ encoder:
 烷	fju
 尖	fk
 幣	fkb
-瞥	fkbux
+瞥	fkbu
 燎	fkcf
 鱉	fkf
 氅	fkhqu
@@ -1796,7 +1824,9 @@ encoder:
 弊	fkt
 瞥	fku
 鄰	fl
+🔦	flashlight
 燼	flmt
+💾	floppydisk
 燼	flt
 粗	fm
 炳	fmb
@@ -1818,8 +1848,13 @@ encoder:
 焰	fnx
 燴	foa
 雀	fog
+🙏	foldedhands
+📂	folder
+📁	folder
 燴	foma
+⚽	football
 炸	fos
+🦊	fox
 灼	fpi
 灼	fpm
 炮	fpru
@@ -1838,9 +1873,12 @@ encoder:
 卷	fqu
 誊	fqymr
 營	fr
+🖼️	framedpicture
+🎞️	frames
 燥	frd
 獣	frik
 獣	frk
+🐸	frog
 燥	frrd
 勞	fs
 熠	fsa
@@ -1859,8 +1897,11 @@ encoder:
 燶	ftwv
 光	fu
 輝	fubjj
+🖕	fuck
 耀	fug
 輝	fuj
+💯	fullmark
+⚱️	funeralurn
 耀	fusmg
 裳	fv
 爍	fvd
@@ -1980,6 +2021,7 @@ encoder:
 塘	gir
 域	girm
 勢	gis
+git 	git
 壙	gitc
 聲	gj
 堵	gja
@@ -2179,14 +2221,17 @@ encoder:
 血一	hbtm'
 黌	hbtmc
 自	hbu
-自欺	hbutcno
-自欺	hbutco
-自首	hbuthu
-自尊	hbutwi
-自尊	hbutwdi
 纂	hbufx
 篡	hbuix
 算	hbut
+算金	hbutc'
+自欺	hbutcno
+自欺	hbutco
+算竹	hbuth'
+自首	hbuthu
+算田	hbutw'
+自尊	hbutwi
+自尊	hbutwdi
 舟	hby
 與	hc
 劉	hcln
@@ -2213,6 +2258,7 @@ encoder:
 積	hdc
 積口	hdcr'
 稅	hdcru
+税	hdcrux
 季	hdd
 季十	hddj'
 秣	hddjx
@@ -2295,6 +2341,8 @@ encoder:
 乗田	hdtw'
 穠	hdtwv
 箱	hdu
+箱金	hduc'
+稯	hduce
 委	hdv
 番	hdw
 番金	hdwc'
@@ -2635,6 +2683,7 @@ encoder:
 牝竹	hqph'
 物	hqphh
 掰	hqq
+吿	hqr
 犧	hqs
 箍	hqsb	hqs'b
 犧	hqtgs
@@ -3063,16 +3112,18 @@ iOS	ios
 啟	irok
 感	irp
 怠	irpx
-成	is
+户	is
 盛	isbt
 扁	isbt	isb't
 雇	isg
 廖	ish
+戾	isik
 敷	isk
 扇	ism
 雇	isog
 敷	isok
 廳	isp
+房	iss
 盛	ist
 房	isyhs
 戒	it
@@ -3249,8 +3300,7 @@ iOS	ios
 轟	jjjjj
 幹手	jjjq'
 轄	jjjqr
-較	jjk
-軌	jjknx
+軌	jjkn
 斬	jjl
 軸	jjlw
 輕	jjm
@@ -3322,6 +3372,7 @@ placeholder	jjmjjm
 老	jkp
 寄	jkr
 協	jks
+較	jkx
 考	jkys
 都	jl
 暫	jla
@@ -3483,6 +3534,9 @@ placeholder	jjmjjm
 友	ke
 痧	kefh
 痧	keh
+🔑	key
+🗝️	key
+⌨️ 	keyboard
 灰	kf
 盔	kfbt
 瘠	kfcb
@@ -3583,6 +3637,13 @@ placeholder	jjmjjm
 雄	kig
 疣	kiku
 雄	kiog
+😘	kissing
+😗	kissing
+😚	kissing
+😙	kissing
+🪁	kitea
+🥝	kiwi
+🥝	kiwifruit
 癖	kj
 奢	kja
 癲	kjc
@@ -3626,9 +3687,15 @@ placeholder	jjmjjm
 鳩	knf
 鳩	knhaf
 丸	kni
+丸火	knif'
+🔪	knife
 瘓	knk
 癮	knlp
 疚	kno
+疚月	knob'
+🎛️	knobs
+疚廿	knot'
+🪢	knot'
 癮	knp
 癬	knq
 頰	koc
@@ -3710,9 +3777,17 @@ placeholder	jjmjjm
 瘀	kyy
 中	l
 書	la
+🏷️	label
+🪜	ladder
+🐞	ladybug
 児	lahu
 袒	lam
+袒心	lamp'
+🪔	lamp'
+🏮	lantern
+💻	laptop
 褐	lapv
+🤣	laughing
 褐	lav
 巾	lb
 帕	lba
@@ -3759,18 +3834,22 @@ placeholder	jjmjjm
 袜	ldj
 袂	ldk
 被	le
+🥬	leafygreen
+📒	ledger
 ←	left
 ↙	leftdown
 ↖	leftup
 衩	lei	lei
 衩	lei	le'i
+🍋	lemon
+🎚️	levelslider
 螺	lf
 襠	lfbw
 襠	lfw
 裡	lg
 晝	lgam
 褂	lggy
-畫	lgm
+晝	lgm
 装	lgv
 畫	lgwm
 褂	lgy
@@ -3796,6 +3875,7 @@ placeholder	jjmjjm
 蚣	lici
 蝉	licwj
 蛻	licru
+蜕	licrux
 蝶	lid
 蝶竹	lidh'
 蜥	lidhl
@@ -3808,6 +3888,8 @@ placeholder	jjmjjm
 蝉	lifwj
 蝦	lie
 蛙	lig
+蛙竹	ligh'
+💡	lightbulb
 蚜	lih
 蚜日	liha'
 蝗	lihag
@@ -3858,6 +3940,7 @@ placeholder	jjmjjm
 蚜	limvh
 蟾	lincr
 蛹	linib
+🔗	link
 蜓	linkg
 蜒	linkm
 蜒	linkv
@@ -3869,8 +3952,11 @@ placeholder	jjmjjm
 蜍	liomd
 蝓	liomn
 蛤	liomr
+🦁	lion
 蚱	lios
 蛇	lip
+蛇尸	lips'
+💄	lipstick
 蛇廿	lipt'
 蝶	liptd
 蚌	liqj
@@ -3916,6 +4002,7 @@ placeholder	jjmjjm
 蠔	liyro
 蟑	liytj
 虻	liyv
+🦎	lizard
 牌	lj
 褚	ljka
 史	lk
@@ -3985,11 +4072,16 @@ placeholder	jjmjjm
 兆	lo
 複	loae
 覜	lobuu
+🔐	lock
+🔒	locked
 複	loe
 袱	loik
 袱	lok
 褕	lomn
 褓	lord
+🧴	lotionbottle
+🥰	loveface
+💌	loveletter
 忠	lp
 背	lpb
 冀	lpc
@@ -4002,7 +4094,7 @@ placeholder	jjmjjm
 帖	lr
 襌	lrj
 襌	lrrj
-螃	ls
+ls 	ls
 褶	lsa
 初	lsh
 襤	lsit
@@ -4014,7 +4106,9 @@ placeholder	jjmjjm
 襪	lti
 褡	ltor
 襪	ltwi
+🧳	luggage
 鴆	luhaf
+🍱	lunch
 婁	lv
 數	lvk
 數	lvok
@@ -4032,6 +4126,8 @@ placeholder	jjmjjm
 褪	lyav
 襯	lydu
 蜚	lyi
+蜚弓	lyin'
+🤥	lying
 輩	lyj
 輩	lyjwj
 蜚	lylmi
@@ -4045,20 +4141,35 @@ placeholder	jjmjjm
 一	m
 百	ma
 厭	mabk
+🇲🇴	macao
 厚	mad
+🪄	magicwand
+🧲	magnet
+🔍	magnify
+🔎	magnify
+📨	mail
+📩	mail
+📫	mailbox
+📪	mailbox
+📬	mailbox
+📭	mailbox
 厭	mak
 碧	mamr
 厚	mand
+🍊	mandarin
+🥭	mango
+🕰️	mantelpiececlock
+🗺️	map
 碧	mar
+😷	mask
 厩	mau
 再	mb
 需	mbb
 需竹	mbbh'
 霾	mbbhg
 頁	mbc
-霖	mbd
-霖月	mbdb'
 霜	mbdbu
+霖	mbdd
 耐	mbdi
 憂	mbe
 憂竹	mbeh'
@@ -4123,7 +4234,14 @@ placeholder	jjmjjm
 五	mdm
 盂	mdt
 汞	me
+🍱	meal
+🍖	meat
+⚕️	medicalsymbol
+🍈	melon
+🫠	melting
 亟	mem
+亟人	memo'
+📝	memo
 不	mf
 爾	mfb
 願	mfc
@@ -4200,6 +4318,8 @@ placeholder	jjmjjm
 到	mgln
 頊	mgmbc
 玨	mgmg
+璀璨	mgmgd
+珏	mgmgi
 琊	mgmhl
 玩	mgmmu
 琢	mgmso
@@ -4240,6 +4360,7 @@ placeholder	jjmjjm
 玩	mgu
 玩一	mgum'
 瑞	mgumb
+玩耍	mgumbv
 玩人	mguo'
 璀	mguog
 環	mgv
@@ -4278,10 +4399,14 @@ placeholder	jjmjjm
 厩	mhu
 雲	mi
 晉	mia
+🎙️	microphone
+🔬	microscope
 至	mig
 魂	mihi
 魂	mihui
 魂	mii
+🥛	milk
+🪞	mirror
 干	mj
 敢	mjk
 刊	mjln
@@ -4292,6 +4417,7 @@ placeholder	jjmjjm
 甦	mkhqm
 魘	mkhui
 蚕	mki
+👺	mkkhr
 蚕	mklmi
 甦	mkm
 甦田	mkmw'
@@ -4375,12 +4501,30 @@ placeholder	jjmjjm
 劂	moln
 瓷	momvn
 瓷	mon
+瓷水	mone'
+💰	money
+💸	money
+💵	money
+💴	money
+💶	money
+💷	money
+🫰	money
+🤑	moneymouth
+瓷戈	moni'
+瓷大	monk'
+🐒	monkey
 巫	moo
+巫弓	moon'
+🥮	mooncake
 咨	mor
 咨尸	mors'
 豭	morse
 咨卜	mory'
 豭	morye
+⛰️	mountain
+🖱️	mouse
+🐭	mouse
+🪤	mousetrap
 姿	mov
 死	mp
 貮	mpbuc
@@ -4506,7 +4650,7 @@ placeholder	jjmjjm
 硫	mryiu
 碎	mryoj
 砧	mryr
-功	ms
+万	ms
 豕	msho
 攷	msk
 攷	msok
@@ -4536,6 +4680,8 @@ placeholder	jjmjjm
 虺	mulmi
 画	mulw
 頑	mumbc
+🍄	mushroom
+🎶	musicalnotes
 画	muw	mu'w
 要	mv
 脣	mvb
@@ -4643,6 +4789,8 @@ placeholder	jjmjjm
 象	nao
 象	napo
 色	nau
+色尸	naus'
+🤢	nauseated
 角	nb
 負	nbc
 奐	nbk
@@ -4675,8 +4823,13 @@ placeholder	jjmjjm
 孟	ndt
 孔	ndu
 孩	ndyvo
-發	ne
+氹	ne
+🪡	needle
 丞	nem
+🪆	nestingdolls
+😐	neutral
+📰	newspaper
+🗞️	newspaper
 尔	nf
 鰭	nfa
 鯧	nfaa
@@ -4914,13 +5067,20 @@ placeholder	jjmjjm
 飛	noo
 発	nop
 登	not
+登水	note'
+📔	notebook
+📕	notebook
+📖	notebook
+📗	notebook
+📚	notebooks
+🗒️	notepad
 隱	np
 弛	npd
 解	nq
 桀	nqd
 蟹	nqi
 蟹	nqlmi
-名	nr
+阿	nr
 彈	nrj
 彈	nrrj
 毚	nrppi
@@ -4943,6 +5103,7 @@ placeholder	jjmjjm
 勉	nuks
 怨	nup
 勉	nus
+🔩	nutbolt
 張	nv
 陋	nvx
 陳	nw
@@ -4981,6 +5142,7 @@ placeholder	jjmjjm
 僧	oca
 佾	ocb
 僧	ocs
+🐙	octopus
 份	och
 俗	ocor
 俗	ocr
@@ -5094,6 +5256,8 @@ placeholder	jjmjjm
 伏大	oikk'
 餚	oikkb
 傭	oilb
+🛢️	oildrum
+🪔	oillamp
 饋	oilmc
 蝕	oilmi
 翎	oim
@@ -5102,7 +5266,6 @@ placeholder	jjmjjm
 今	oin
 今竹	oinh'
 餡	oinhx
-念	oinp
 今口	oinr'
 饞	oinri
 飲	oio
@@ -5216,7 +5379,6 @@ placeholder	jjmjjm
 優	ome
 全	omg
 倒	omgn
-全名	omgnr'
 全名	omgnir
 乒	omh
 乓	omi
@@ -5253,6 +5415,7 @@ placeholder	jjmjjm
 氛	oncsh
 仔	ond
 氯	one
+你	onf
 氣	onfd
 氮	onff
 氛	onh
@@ -5319,6 +5482,7 @@ placeholder	jjmjjm
 岱	opu
 袋	opv
 黛	opwgf
+念	opx
 袋	opyhv
 年	oq
 倩	oqb
@@ -5332,6 +5496,8 @@ placeholder	jjmjjm
 傲	oqsk
 知	or
 智	ora
+智弓	oran'
+🍊	orange
 舖	orb
 保	ord
 假	ore
@@ -5377,6 +5543,7 @@ placeholder	jjmjjm
 備	otb
 供	otc
 無	otf
+🈚️	otfx
 儀	otgi
 備	othb
 儀	oti
@@ -5402,6 +5569,7 @@ placeholder	jjmjjm
 缸田	oumw'
 罈	oumwj
 催	ouog
+📤	outboxtray
 罐	outrg
 食	ov
 似	ovio
@@ -5411,6 +5579,7 @@ placeholder	jjmjjm
 偶	owb
 俚	owg
 個	owjr	ow'jr
+🦉	owl
 偶	owlb
 儸	owlg
 偎	owmv
@@ -5448,18 +5617,27 @@ placeholder	jjmjjm
 毓	oyyiu
 心	p
 旨	pa
+📦	package
 旬	pax
 慢	pae
+📃	page
+📄	page
+📟	pager
 惕	pah
 惺	pahm
+🖌️	paintbrush
 慨	paiu
 悍	paj
 憫	pak
 怛	pam
 悍	pamj
+🐼	panda
 憫	pank
+📎	paperclip
+🖇️	paperclips
 惕	paph
 愒	papv
+🎉	partypopper
 慨	pau
 恨	pav
 慢	pawe
@@ -5478,7 +5656,7 @@ placeholder	jjmjjm
 憎	pca
 忪	pci
 悌	pcnh
-悅	pcru
+悦	pcru
 悅	pcu
 憎	pcwa
 也	pd
@@ -5492,7 +5670,21 @@ placeholder	jjmjjm
 乸	pdwyi	pdwy'i
 乸	pdy
 慢	pe
+🍑	peach
+🥜	peanuts
+🍐	pear
+🫣	peeking
 怪	peg
+✒️	pen
+🖋️	pen
+🖊️	pen
+✏️	pencil
+🐧	penguin
+😔	pensive
+🌶️	pepper
+🫑	pepper
+💯	perfect
+🧫	petridish
 悄	pfb
 憐	pfdq
 恍	pfmu
@@ -5519,6 +5711,8 @@ placeholder	jjmjjm
 性	phm
 性中	phml'
 忻	phmlx
+📱	phone
+📲	phone
 愧	phi
 恬	phjr
 忽	php
@@ -5526,7 +5720,8 @@ placeholder	jjmjjm
 恤	pht
 愧	phui
 勾	pi
-勺	pix
+⛏️	pick
+🖼️	picture
 慷	pie
 慘	pih
 慘	piih
@@ -5535,10 +5730,15 @@ placeholder	jjmjjm
 惨	pikh
 慵	pilb
 慷	pile
+💊	pill
 匀	pim
+🪅	pinata
+🍍	pineapple
 憾	pip
 怡	pir
+勺	pix
 惦	piyr
+🍕	pizza
 慎	pjbc
 悖	pjbd
 憤	pjc
@@ -5562,10 +5762,16 @@ placeholder	jjmjjm
 疑	pknio
 疑	pko
 肄	pkq
+🪧	placard
 怏	plbk
 忱	plbu
+🥺	pleading
 怫	plln
 忱	plu
+忱土	plug'
+🔌	plug
+忱弓	plun'
+🪠	plunger
 勺	pm
 恒	pmam
 懦	pmbb
@@ -5588,10 +5794,20 @@ placeholder	jjmjjm
 惟	pog
 懺	poim
 愴	poir
+👮‍♂️	police
 懺	pom
 愉	pon
 恰	por
+恰廿	port'
+🚰	portablewater
+📯	postalhorn
+📮	postbox
+📯	posthorn
+🥔	potato
 憮	potf
+🍲	potoffood
+🏺	pottery
+🍗	poultryleg
 悔	powy
 悔	poy
 比	pp
@@ -5605,11 +5821,16 @@ placeholder	jjmjjm
 情	pqmb
 愫	pqmf
 句	pr
+📿	prayerbeads
+🖨️	printer
 憚	prj
 够	prn
 够戈	prni'
 够	prnin
+🦯	probingcane
 雊	prog
+🚫	prohibited
+📽️	projector
 憚	prrj
 愕	prrs
 愕	prs
@@ -5646,6 +5867,9 @@ placeholder	jjmjjm
 邨	punl
 雛	puog
 芻	pupu
+📌	pushpin
+📍	pushpin
+🧩	puzzle
 懷	pv
 惱	pvvw
 惱	pvw
@@ -5952,6 +6176,7 @@ placeholder	jjmjjm
 擒	qoyb
 批	qp
 指	qpa
+🈯	qpa'
 扡	qpd
 掬	qpfd
 擬	qpko
@@ -6084,7 +6309,10 @@ placeholder	jjmjjm
 口	r
 唱	ra
 唱	raa
+🐰	rabbit
+📻	radio
 唧	rail
+🌧️	rain
 嘅	raiu
 唧	ral
 嗮	ramw
@@ -6092,6 +6320,7 @@ placeholder	jjmjjm
 邑	rau
 喝	rav
 嗮	raw
+🪒	razer
 嘴	rb
 喎	rbb
 噯	rbe
@@ -6107,6 +6336,7 @@ placeholder	jjmjjm
 員	rbuc
 嚶	rbv
 嚼	rbwi
+肙	rbx
 只	rc
 叭	rcx
 吩	rch
@@ -6125,10 +6355,14 @@ placeholder	jjmjjm
 喳	rdm
 喇	rdn
 吸	re
+🧾	receipt
+🗑️	recyclebin
 嗓	red
 啵	rede
+🧧	redenvelope
 嗓	reed
 啜	reee
+😌	relieved
 嗨	reoy
 嗨	rey
 嗎	rf
@@ -6186,7 +6420,12 @@ placeholder	jjmjjm
 咚	rhy
 哦	ri
 哺	rib
+哺月	ribb'
+🎀	ribbon
 唆	rice
+🍚	rice'
+🍙	riceball
+🍘	ricecracker
 嘛	rid
 咏	rie
 嘁	rif
@@ -6202,6 +6441,7 @@ placeholder	jjmjjm
 嘛	rijc
 吠	rik
 咏	rine
+💍	ring
 雖	riog
 唉	riok
 喊	rir
@@ -6427,8 +6667,12 @@ placeholder	jjmjjm
 嚕	rnwa
 足	ro
 吶	rob
+吶人	robo'
+🤖	robot
 咻	rod
 喺	rof
+喺中	rofl'
+🤣	rofl'
 唯	rog
 喺	rohf
 咐	roi
@@ -6436,7 +6680,12 @@ placeholder	jjmjjm
 唸	roip
 嗆	roir
 喉	rok
+喉水	roke'
+🚀	roket
 ♛	rolex
+🛼	rollerskate
+🧻	rollofpaper
+📇	rolodex
 噏	rom
 啣	roml
 喻	romn
@@ -6450,9 +6699,10 @@ placeholder	jjmjjm
 咿	rosk
 喩	rov
 嗰	row
+嗰戈	rowi'
+🚣	rowingboat
 噙	royb
-民	rp
-叱	rpx
+叱	rp
 噸	rpc
 吔	rpd
 吻	rph
@@ -6466,6 +6716,7 @@ placeholder	jjmjjm
 嘖	rqc
 啪	rqha
 喫	rqhk
+唞	rqj
 喫	rqk
 嘖	rqmc
 嗉	rqmf
@@ -6534,7 +6785,10 @@ placeholder	jjmjjm
 吧	ru
 巳	rux
 喘	rub
+🏉	rugby
 嗤	rui
+📏	ruler
+📐	ruler
 喘	rumb
 嗤	rumi
 啱	rumr
@@ -6597,6 +6851,14 @@ placeholder	jjmjjm
 咳	ryvo
 尸	s
 習	sa
+🧷	safetypin
+🫡	saluting
+🎅	santaclaus
+🎒	satchel
+📡	satelliteantenna
+💾	save
+😋	savoring
+🪚	saw
 層	sax
 騙	sb
 刷	sbln
@@ -6605,6 +6867,11 @@ placeholder	jjmjjm
 層	sca
 殿	sce
 殿	schne
+🎒	schoolbag
+✂️	scissors
+🦂	scorpion
+🪛	screwdriver
+📜	scroll
 層	scwa
 屎	sd
 馳	sdx
@@ -6614,6 +6881,7 @@ placeholder	jjmjjm
 腎山	sebu'
 賢	sebuc
 賢	sec
+🙈	seenoevil
 緊	sef
 堅	seg
 聚	sehho
@@ -6637,6 +6905,8 @@ placeholder	jjmjjm
 娶戈	sevi'
 緊	sevif
 醫	sew
+醫戈	sewi'
+🪡	sewingneedle
 竪	seyt
 馬	sf
 屑	sfb
@@ -6709,18 +6979,25 @@ placeholder	jjmjjm
 劻	sgks
 聽	sgp
 刀	sh
+🧴	shampoo
+🦈	shark
 鬍	shb
 鬚	shc
 鬆	shdci
 履	she
+履水	shee'
+🐏	sheep
 髯	shgb
 髻	shgr
 鬚	shhhc
 髦	shhqu
 刃	shi
-戮	shix
+刃水	shie'
+🛡️	shield
 髮	shike
 髮	shikk
+💩	shit
+戮	shix
 鬢	shjmc
 鬃	shjmf
 鬍	shjrb
@@ -6732,13 +7009,21 @@ placeholder	jjmjjm
 匠	shml	s'hml
 髡	shmu
 履	shoe
+🛍️	shoppingbag
+🛒	shoppingcart
+🍰	shortcake
 屜	shot
+🚿	shower
 尾	shqu
 召	shr
+召戈	shri'
+🦐	shrimp
 勠	shs
 匾	shsb	s'hsb
 屜	sht
 尾	shu
+尾尸	shus'
+🤫	shushing
 鬟	shv
 鬟女	shvv'
 鬣	shvvv
@@ -6803,6 +7088,8 @@ placeholder	jjmjjm
 那	sl
 匝	slb
 頤	slc
+😴	sleeping
+😪	sleepy
 臣	sll	s'll
 屢	sllv
 頤	slmbc
@@ -6811,6 +7098,7 @@ placeholder	jjmjjm
 臥	slo
 臥口	slor'
 臨	slorr
+🎰	slotmachine
 臨	slr
 臣	slsl	s'lsl
 屢	slv
@@ -6826,6 +7114,11 @@ placeholder	jjmjjm
 匡	smg
 習	smha
 屋	smig
+😊	smiling
+🙂	smiling
+☺️	smiling
+🤗	smiling
+😏	smirking
 翠	smj
 羽	smm
 羽口	smmr'
@@ -6840,25 +7133,40 @@ placeholder	jjmjjm
 翼	smwtc
 翠	smyoj
 翌	smyt
+🐌	snail
+🐍	snake
 孱	sndd
+🤧	sneezing
 屙	snlr
+🏂	snowboarder
+🏔️	snowmountain
 屙	snr
 尺	so
 昼	soam
 🧼	soap
 咫	soc
+咫金	socc'
+⚽	soccer
 医	sok	s'ok
 昼	som
 鄹	sonl
 咫	sorc
 尽	soy
 尼	sp
+🔧	spanner
+✨	sparkles
+🙊	speaknoevil
+🕷️	spider
+🕸️	spiderweb
+🧽	sponge
+🥄	spoon
 屁	spp
 群	sq
 馬	sqf
 那	sql
 那	sqnl
 馬	sqsf
+🦑	squid
 叵	sr	s'r
 屌	srb
 毆	sre
@@ -6877,7 +7185,6 @@ placeholder	jjmjjm
 歐	sro
 群	srq
 區	srr	s'rr
-群	srtq
 羣	srtq
 辟	srytj
 巨	ss
@@ -6885,20 +7192,28 @@ placeholder	jjmjjm
 凹	ssu
 兕	ssuu
 聯	st
+🤩	starstruck
+🩺	stethoscope
 匿	stkr	s'tkr
+⏱️	stopwatch
 羼	stqq
 匿	str	s'tr
+匿日	stra'
+🍓	strawberry
 屏	stt
+🎙️	studiomicrophone
 展	stv
 已	su
-己	sux
 熙	suf
 屆	sug	su'g
 改	suk
 屘	sund
 改	suok
 忌	sup
+🍣	sushi
+🤨	suspicion
 屈	suu
+己	sux
 長	sv
 郾	svnl
 改	svok
@@ -6906,11 +7221,15 @@ placeholder	jjmjjm
 鹽	swbt
 覽	swbuu
 鑒	swc
+😅	sweat
+🍠	sweetpotato
+🏊	swimming
 匣	swl	s'wl
 鹽	swt
 覽	swu
 匪	sy
 犀	syq
+💉	syringe
 犀	syyq
 廿	t
 昔	ta
@@ -6923,7 +7242,10 @@ placeholder	jjmjjm
 鵲	tahaf
 草	taj
 莫	tak
+莫戈	taki
+🛀	takingbath
 藺	tang
+🍊	tangerine
 蘭	tanw
 慕	tap
 摹	taq
@@ -6981,11 +7303,21 @@ placeholder	jjmjjm
 萊	tdo
 葦	tdq
 蔓	te
+🖲️	trackball
+🪤	trap
+🗑️	trash
 莒	trhr
+🍵	tea
 蕩	teah
+🫖	teapot
+🥲	tear
+😂	tearsofjoy
+😹	tearsofjoy
 蒲	teb
 鑿	tec
 藻	ted
+藻木	tedd'
+🧸	teddy
 莎	tefh
 茎	teg
 蔆	tege
@@ -6993,10 +7325,16 @@ placeholder	jjmjjm
 蕩	teh
 薄	tei
 萍	tej
+☎️	telephone
+📞	telephonereceiver
+🔭	telescope
+📺	television
 萍	temj
 菏	temr
+🎾	tennis
 蒞	teot
 藻	terd
+🧪	testtube
 范	tesu
 范	teu
 茫	tev
@@ -7017,6 +7355,7 @@ placeholder	jjmjjm
 羔	tgf
 羔廿	tgft'
 羹	tgftk
+薹	tgg
 鸛	tghaf
 羲	tghds
 義	tghqi
@@ -7042,9 +7381,12 @@ placeholder	jjmjjm
 莠	thds
 萎	thdv
 蕃	thdw
+🌡️	thermometer
+🤒	thermometer
 薰	thf
 董	thg
 茆	thhl
+🤔	thinking
 薛	thj
 薇	thk
 芹	thl
@@ -7054,6 +7396,7 @@ placeholder	jjmjjm
 芟	thnex
 薇	thok
 蔥	thp
+🧵	thread
 薛	thrj
 首	thu
 首戈	thui'
@@ -7069,10 +7412,12 @@ placeholder	jjmjjm
 薬	tiod
 蘑	tidr
 薦	tif
+🐯	tiger
 茂	tih
 蔵	tihs
 莆	tijb
 莽	tikt
+⏲️	timerclock
 茨	timo
 藏	tims
 芝	tino
@@ -7220,15 +7565,25 @@ placeholder	jjmjjm
 苓	toi
 苓日	toia'
 養	toiav
+🚽	toilet
+🧻	toiletpaper
+🧻	toilettissue
 蒼	toir
 薙	tokg
 芥	tol
 薈	toma
+🍅	tomato
 荼	tomd
 荃	tomg
 荷	tomr
+😛	tongue
+😜	tongue
+😝	tongue
 歎	tono
 歎	too
+歎中	tool'
+🧰	toolbox
+🪥	toothbrush
 花	top
 荷	tor
 葆	tord
@@ -7301,14 +7656,17 @@ placeholder	jjmjjm
 善	ttr
 着	tu
 朔	tub
+🐢	turtle
 茁	tuu
 甚	tv
 藥	tvd
 葯	tvfi
 蘊	tvft
-藴	tvft
+藴	tvftx
 莊	tvg
 蔣	tvi
+兹	tvii
+茲	tviix
 斟	tvj
 菇	tvjr
 勘	tvks
@@ -7403,7 +7761,6 @@ placeholder	jjmjjm
 匕	uh	p
 巋	uhb
 嶼	uhc
-峰	uhej
 峯	uhej
 巍	uhi
 峰	uhj
@@ -7442,6 +7799,9 @@ placeholder	jjmjjm
 兇	uku
 岫	ulw
 峏	umbl	umb'l
+☂️	umbrella
+⛱️	umbrella
+🌂	umbrellaclosed
 炭	umf
 崖	umg
 岸	umj
@@ -7451,8 +7811,10 @@ placeholder	jjmjjm
 岩	umr
 豈	umt
 凱	un
+😒	unamused
 函	une	u'ne
 岌	unhe
+🔓	unlocked
 嶝	unot
 巉	unri
 峽	uo
@@ -7464,11 +7826,14 @@ placeholder	jjmjjm
 屹	uon
 崽	up
 ↑	upx
+🙃	upsidedown
 岩	ur
 巖	urk
 巖	urrk
 岷	urvp
 嶇	us
+👤	user
+👥	users
 嶇	usrr	us'rr
 崛	usu
 豐	ut
@@ -7500,6 +7865,7 @@ placeholder	jjmjjm
 娼	vaa
 媚	vahu
 嫻	vand	van'd
+🏺	vase
 媚	vau
 編	vb
 媧	vbb
@@ -7782,15 +8148,18 @@ placeholder	jjmjjm
 樂木	vidd'
 嫲	viddx
 樂戈	vidi'
+📼	videocassette
 嬤	vidix
 糸	vif
 漿	vie
+🇻🇳	vietnam
 幾	vihi
 斷	vihml
 幾	vii
 獎	vik
 幼	viks
 斷	vil
+vim 	vim
 醬	vimcw
 以	vio
 始	vir
@@ -7870,7 +8239,10 @@ placeholder	jjmjjm
 奶	vns
 娩	vnu
 以	vo
+🌋	volcano
+🏐	vollyball
 䗍	volmi
+🤮	vomiting
 嫵	votf
 總	vp
 她	vpd
@@ -7938,6 +8310,11 @@ placeholder	jjmjjm
 孃	vyrv
 妨	vys
 田	w
+🗑️	wastebasket
+👋	wavinghand
+⌚	watch
+🍉	watermelon
+🔫	waterpistol
 胃	wb
 畳	wbbm
 畳	wbm
@@ -7980,16 +8357,25 @@ placeholder	jjmjjm
 園	wgrv	w'grv
 圉	wgtj	w'gtj
 園	wgv	w'gv
+🐳	whale
+🦽	wheelchair
+🦼	wheelchair
 略	wher
+🦯	whitecane
 略	whr
 團	wi	w'i
 圃	wib	w'ib
 圃	wijb	w'ijb
 畎	wik
 國	wim	w'im
+🎐	windchime
+🪟	window
+🍷	wine
+😉	winking
 歜	wino
 塁	wiog
 國	wirm	w'irm
+😶	withoutmouth
 毋	wj
 貫	wjbuc
 貫	wjc
@@ -8059,6 +8445,8 @@ placeholder	jjmjjm
 囹	woii
 畋	wok
 界	wol
+🥴	woozy
+🗺️	worldmap
 思	wp
 囫	wphh	w'phh
 毗	wpp
@@ -8066,8 +8454,10 @@ placeholder	jjmjjm
 圍	wq
 畔	wqx
 回	wr	w'r
+🎁	wrappedgift
 圓	wrbc	w'rbc
 圓	wrc	w'rc
+🔧	wrench
 圖	wrjw
 圖	wrw	w'rw
 圖	wryw	w'ryw
@@ -8094,7 +8484,7 @@ placeholder	jjmjjm
 母	wyi	wy'i
 図	wyk	wy'k
 卜	y
-識	ya
+音	ya
 韻	yac
 桌	yad
 韹	yahag
@@ -8105,6 +8495,7 @@ placeholder	jjmjjm
 韶	yar
 韶月	yarb'
 韻	yarbc
+🧶	yarn
 韶	yashr
 遢	yasm
 退	yav
@@ -8219,7 +8610,7 @@ placeholder	jjmjjm
 遞	yhyn
 遞	yhyu
 裒	yhxv
-導	yi
+齡	yi
 育	yib
 述	yic
 述	yid
@@ -8249,8 +8640,11 @@ placeholder	jjmjjm
 辦	yjksj
 辣	yjl
 邃	yjo
+邃一	yjom'
+評價	yjomc
 辮	yjvfj
 連	yjwj
+評論	yjyrb
 辯	yjyrj
 文	yk
 斕	ykanw
@@ -8297,6 +8691,7 @@ placeholder	jjmjjm
 逎	ymcwx
 迂	ymd
 歧	yme
+还	ymf
 邇	ymfb
 雌	ymg
 歲	ymh
@@ -8358,6 +8753,7 @@ placeholder	jjmjjm
 迤	yopd
 劾	yos
 褒	yov
+🪀	yoyo
 此	yp
 膚	ypb
 膚山	ypbu'
@@ -8394,8 +8790,7 @@ placeholder	jjmjjm
 達	yq
 逝	yqhl
 逝	yql
-這	yr
-占	yrx
+占	yr
 識	yra
 識弓	yran'
 讕	yranw
@@ -8416,7 +8811,7 @@ placeholder	jjmjjm
 讀	yrc
 訟	yrci
 讀口	yrcr'
-說	yrcru
+説	yrcru
 詖	yrdhe
 討	yrdi
 訣	yrdk
@@ -8430,6 +8825,7 @@ placeholder	jjmjjm
 placeholder	yrgpd
 誰必	yrgph
 誰怕	yrgpha
+誰比	yrgpp'
 読	yrgbux
 誰木	yrgd'
 詩	yrgdi
@@ -8492,10 +8888,7 @@ placeholder	yrhvl
 誑	yrkhg
 誤一	yrkm'
 誇	yrkms
-部	yrl
-部中	yrll'
 訓	yrlll
-部一	yrlm'
 誹	yrlmy
 剖	yrln
 試	yrm
@@ -8720,7 +9113,7 @@ placeholder	yrhvl
 彪	yuh
 彪中	yuhl'
 齲	yuhlb
-齡	yui
+導	yui
 齬	yummr
 齡	yuoii
 齣	yupr
@@ -9022,7 +9415,6 @@ placeholder	yrhvl
 茵	xtwk	xtw'k
 甍	xtwln
 藹	xtyrv
-峯	xuhej
 耑	xumbl	xumb'l
 綳	xvfbb
 綬	xvfbbe
@@ -9793,7 +10185,7 @@ color:#FFFFFF, fill:#AA00FF, stroke:#AA00FF	purple
 	intellij
 	json
 	box
-	vim
+	vim'
 󰿰	cards
 󱘢	log
 󰘑	wechat
@@ -9812,3 +10204,6 @@ color:#FFFFFF, fill:#AA00FF, stroke:#AA00FF	purple
 	spring
 	gear'
 	cache
+󰒚	shop
+17478743	eumfi
+12595530	siqi

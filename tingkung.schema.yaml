@@ -65,6 +65,7 @@ key_binder:
     - {accept: Tab, send: "Shift+Right", when: composing}
     - {accept: minus, send: Page_Up, when: has_menu}
     - {accept: equal, send: Page_Down, when: has_menu}
+    - {accept: Return, send: 1, when: has_menu}
     #- {accept: comma, send: Page_Up, when: paging}
     #- {accept: period, send: Page_Down, when: has_menu}
     - { when: paging, accept: comma, send: comma }
