@@ -364,7 +364,7 @@ encoder:
 脚	bgl
 周	bgr	b'gr
 膨	bgth
-財	bh
+賜	bh
 腺	bhae
 臢	bhc
 豺	bhdh
@@ -1403,8 +1403,7 @@ cd 	cd
 潛	ema
 洹	emamx
 濡	embb
-酒	emcw
-洒	emcwx
+洒	emcw
 汙	emd
 鴻	emf
 汪	emg
@@ -1580,7 +1579,7 @@ cd 	cd
 灣	evn
 淄	evvw
 淄	evw
-油	ew
+酒	ew
 渭	ewb
 泗	ewc
 浬	ewg
@@ -2487,7 +2486,7 @@ git 	git
 簍	hlv
 笛	hlw
 簫	hlx
-生	hm
+徑	hm
 歸	hmb
 築	hmd
 筑	hmhn
@@ -2555,6 +2554,8 @@ git 	git
 徐竹	hodh'
 彼	hodhe
 符	hodi
+符中	hodil'
+徐州	hodill
 徐手	hodq'
 衛	hodqn
 後	hoe
@@ -5914,7 +5915,7 @@ ls 	ls
 把	qau
 揭	qav
 攔	qaw
-青	qb
+搞	qb
 授	qbbe
 靜	qbbsd
 靚	qbbuu
@@ -5961,7 +5962,7 @@ ls 	ls
 揀中	qdwl'
 耦	qdwlb
 耪	qdybs
-技	qe
+投	qe
 搡	qed
 掇	qee
 搔	qei
@@ -6278,7 +6279,7 @@ ls 	ls
 插	qx
 扑	qy
 掉	qyaj
-搞	qyb
+摘	qyb
 撾	qybbx
 摘	qycb
 掠	qyf
@@ -6665,7 +6666,7 @@ ls 	ls
 噔	rnt
 吼	rnu
 嚕	rnwa
-足	ro
+跌	ro
 吶	rob
 吶人	robo'
 🤖	robot
@@ -6738,7 +6739,7 @@ ls 	ls
 咒	rrn
 品	rrr
 單	rrwj
-另	rs
+距	rs
 嗎	rsf
 囑	rsei
 喔	rsg
@@ -7824,8 +7825,7 @@ ls 	ls
 岑	uoin
 崙	uomb
 屹	uon
-崽	up
-↑	upx
+↑	up
 🙃	upsidedown
 岩	ur
 巖	urk
@@ -7890,6 +7890,7 @@ ls 	ls
 努	ves
 努手	vesq'
 駑	vesqf
+緩	vex
 媽	vf
 織	vfa
 織一	vfam'
@@ -8238,7 +8239,7 @@ vim 	vim
 婀	vnr
 奶	vns
 娩	vnu
-以	vo
+縱	vo
 🌋	volcano
 🏐	vollyball
 䗍	volmi
