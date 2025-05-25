@@ -10145,6 +10145,7 @@ placeholder	yrhvl
 @{ shape: sm-circ, label: "Small start" }	start
 @{ shape: framed-circle, label: "Stop" }	stop
 @{ shape: fork, label: "Fork or Join" }	fork
+爬口	hour'
 @{ shape: hourglass, label: "Collate" }	hourglass
 @{ shape: braces, label: "" }	comment
 @{ shape: comment, label: "" }	commentopen
@@ -10158,10 +10159,12 @@ placeholder	yrhvl
 @{ shape: div-rect, label: "" }	process
 @{ shape: tri, label: "" }	triangle
 @{ shape: win-pane, label: "" }	window
+剋金	junc'
 @{ shape: f-circ, label: "Junction" }	junction
 @{ shape: lin-doc, label: "" }	documentlined
 @{ shape: notch-pent, label: "" }	looplimit
 @{ shape: flip-tri, label: "" }	triangleflipped
+臥心	slop'
 @{ shape: sl-rect, label: "" }	slopedrec
 @{ shape: processes, label: "" }	processes
 @{ shape: bow-rect, label: "" }	bowtie
@@ -10185,9 +10188,11 @@ color:#FFFFFF, fill:#AA00FF, stroke:#AA00FF	purple
 󰀹	safari
 󰏎	operaold
 	opera
+鉛人	chro'
 	chrome
 󰈹	firefox
 	xbox
+坦水	game'
 󰖺	gamepad
 	gamepad
 󰊖	gamepad
@@ -10207,15 +10212,20 @@ color:#FFFFFF, fill:#AA00FF, stroke:#AA00FF	purple
 󰋊	harddisk
 	database
 󱀏	kafka
+嗓戈	redi'
 	redis
+閑口 	andr'
 	android
 󰀷	ios'
+昆尸	apps'
 	appstore
+瓷戈	moni'
 󰍹	monitor
 󰌢	laptop
 󱦟	sand
 	spring
-	gear'
+馨口	gear'
+	geara'
 	cache
 󰒚	shop
 17478743	eumfi
