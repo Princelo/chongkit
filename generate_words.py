@@ -1,11 +1,100 @@
+import opencc
+converter = opencc.OpenCC('t2s.json')
+
+
 def single_key(code):
     keyboard = "日月金木水火土竹戈十大中一弓人心手口尸廿山女田的卜我"
     i = ord(code) - 97
     return keyboard[i]
 
 
+qq = open("qq.txt", mode="r")
+
+qq_set = set()
+
+for line in qq:
+    line = line[:-1]
+    if line == "":
+        continue
+    line = line.split("\t")
+    if len(line[1]) > 1:
+        qq_set.add(line[1])
+
+
+def append_res(res, combined_code):
+    suffix = ""
+    if len(combined_code) <= 4:
+        suffix = "x"
+    elif len(combined_code) > 3 and combined_code[:4] in tingkung_code2char:
+        suffix = "'"
+        if len(combined_code) == 5:
+            res.append(tingkung_code2char[combined_code[:4]]
+                       + single_key(combined_code[4:5]) + "\t"
+                       + combined_code[:5] + "'")
+    elif combined_code[:3] in tingkung_code2char:
+        if len(combined_code) == 4:
+            suffix = "'"
+            res.append(tingkung_code2char[combined_code[:3]]
+                       + single_key(combined_code[3:4]) + "\t"
+                       + combined_code[:4] + "'")
+        elif len(combined_code) == 5:
+            res.append(tingkung_code2char[combined_code[:3]]
+                       + single_key(combined_code[3:4]) + "\t"
+                       + combined_code[:4] + "'")
+    res.append(word + "\t" + combined_code + suffix)
+
+
+def n_chars_word(word, map, tingkung_code2char):
+    if len(word) <= 4 or converter.convert(word) not in qq_set:
+        return None
+    for c in word:
+        if c not in map:
+            return None
+    res = []
+    for code1 in map[word[0]]:
+        for code2 in map[word[1]]:
+            for code3 in map[word[2]]:
+                for code4 in map[word[3]]:
+                    for code_n in map[word[-1]]:
+                        full1, abbr1 = code1
+                        full2, abbr2 = code2
+                        full3, abbr3 = code3
+                        full4, abbr4 = code4
+                        full_n, abbr_n = code_n
+                        combined_code = full1[0] + abbr2[-1] + abbr3[0]
+                        combined_code += abbr4[-1] + abbr_n[-1]
+                        append_res(res, combined_code)
+    return res
+
+
+def _4_chars_word(word, map, tingkung_code2char):
+    if len(word) != 4 or converter.convert(word) not in qq_set:
+        return None
+    for c in word:
+        if c not in map:
+            return None
+    res = []
+    for code1 in map[word[0]]:
+        for code2 in map[word[1]]:
+            for code3 in map[word[2]]:
+                for code4 in map[word[3]]:
+                    full1, abbr1 = code1
+                    full2, abbr2 = code2
+                    full3, abbr3 = code3
+                    full4, abbr4 = code4
+                    combined_code = full1[0] + abbr2[-1] + abbr3[0]
+                    if len(abbr3) > 1:
+                        combined_code += abbr3[-1] + abbr4[-1]
+                    elif len(abbr4) > 1:
+                        combined_code += abbr4[0] + abbr4[-1]
+                    else:
+                        combined_code += abbr4[-1]
+                    append_res(res, combined_code)
+    return res
+
+
 def _2_chars_word(word, map, tingkung_code2char):
-    if len(word) != 2:
+    if len(word) != 2 or converter.convert(word) not in qq_set:
         return None
     if word[0] not in map or word[1] not in map:
         return None
@@ -33,24 +122,12 @@ def _2_chars_word(word, map, tingkung_code2char):
                 combined_code += abbr2[0]
             else:
                 combined_code += abbr2[0] + abbr2[1] + abbr2[-1]
-            if len(combined_code) <= 4:
-                combined_code += "x"
-            if combined_code[:3] in tingkung_code2char:
-                if len(combined_code) == 4:
-                    combined_code += "'"
-                    res.append(tingkung_code2char[combined_code[:3]]
-                               + single_key(combined_code[3:4]) + "\t"
-                               + combined_code[:4] + "'")
-                elif len(combined_code) == 5:
-                    res.append(tingkung_code2char[combined_code[:3]]
-                               + single_key(combined_code[3:4]) + "\t"
-                               + combined_code[:4] + "'")
-            res.append(word + "\t" + combined_code)
+            append_res(res, combined_code)
     return res
 
 
 def _3_chars_word(word, map, tingkung_code2char):
-    if len(word) != 3:
+    if len(word) != 3 or converter.convert(word) not in qq_set:
         return None
     if word[0] not in map or word[1] not in map or word[2] not in map:
         return None
@@ -83,20 +160,7 @@ def _3_chars_word(word, map, tingkung_code2char):
                     combined_code += abbr3[-1]
                 else:
                     combined_code += abbr3[0] + abbr3[-1]
-
-                if len(combined_code) <= 4:
-                    combined_code += "x"
-                if combined_code[:3] in tingkung_code2char:
-                    if len(combined_code) == 4:
-                        combined_code += "'"
-                        res.append(tingkung_code2char[combined_code[:3]]
-                                   + single_key(combined_code[3:4]) + "\t"
-                                   + combined_code[:4] + "'")
-                    elif len(combined_code) == 5:
-                        res.append(tingkung_code2char[combined_code[:3]]
-                                   + single_key(combined_code[3:4]) + "\t"
-                                   + combined_code[:4] + "'")
-                res.append(word + "\t" + combined_code)
+                append_res(res, combined_code)
     return res
 
 
@@ -179,21 +243,19 @@ arr.sort(key=lambda x: -x[1])
 for item in arr:
     word = item[0]
     weight = item[1]
-    if weight < 50:
-        break
     lines = _2_chars_word(word, map, tingkung_code2char)
-    if not lines:
-        continue
-    for line in lines:
-        print(line)
-
-for item in arr:
-    word = item[0]
-    weight = item[1]
-    if weight < 200:
-        break
+    if lines:
+        for line in lines:
+            print(line)
     lines = _3_chars_word(word, map, tingkung_code2char)
-    if not lines:
-        continue
-    for line in lines:
-        print(line)
+    if lines:
+        for line in lines:
+            print(line)
+    lines = _4_chars_word(word, map, tingkung_code2char)
+    if lines:
+        for line in lines:
+            print(line)
+    lines = n_chars_word(word, map, tingkung_code2char)
+    if lines:
+        for line in lines:
+            print(line)
