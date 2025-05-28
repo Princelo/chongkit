@@ -22,18 +22,21 @@ for line in qq:
 
 
 def append_res(res, combined_code):
+    suffix_z = ""
     suffix = ""
     if len(combined_code) <= 4:
-        suffix = "x"
-    elif len(combined_code) > 3 and combined_code[:4] in tingkung_code2char:
-        suffix = "'"
+        suffix_z = "z"
+    if len(combined_code) > 3 and combined_code[:4] in tingkung_code2char:
+        if not suffix_z:
+            suffix = "'"
         if len(combined_code) == 5:
             res.append(tingkung_code2char[combined_code[:4]]
                        + single_key(combined_code[4:5]) + "\t"
                        + combined_code[:5] + "'")
     elif combined_code[:3] in tingkung_code2char:
         if len(combined_code) == 4:
-            suffix = "'"
+            if not suffix_z:
+                suffix = "'"
             res.append(tingkung_code2char[combined_code[:3]]
                        + single_key(combined_code[3:4]) + "\t"
                        + combined_code[:4] + "'")
@@ -41,7 +44,7 @@ def append_res(res, combined_code):
             res.append(tingkung_code2char[combined_code[:3]]
                        + single_key(combined_code[3:4]) + "\t"
                        + combined_code[:4] + "'")
-    res.append(word + "\t" + combined_code + suffix)
+    res.append(word + "\t" + combined_code + suffix_z + suffix)
 
 
 def n_chars_word(word, map, tingkung_code2char):
@@ -229,6 +232,19 @@ for line in cangjie:
     else:
         map[char] = []
         map[char].append([full, abbr])
+
+fix = open("fix.txt", mode="r")
+for line in fix:
+    line = line[:-1]
+    line = line.split("\t")
+    char = line[0]
+    full = line[1]
+    abbr = full
+    if len(line) > 2:
+        full = line[2].replace("'", "")
+        abbr = line[2].split("'")[0]
+    map[char] = []
+    map[char].append([full, abbr])
 
 for line in essay:
     line = line[:-1]
