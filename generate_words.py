@@ -20,6 +20,14 @@ for line in qq:
     if len(line[1]) > 1:
         qq_set.add(line[1])
 
+blacklist = open("blacklist.txt", mode="r")
+
+blacklist_set = set()
+
+for line in blacklist:
+    line = line[:-1]
+    blacklist_set.add(line)
+
 
 def append_res(res, combined_code):
     suffix_z = ""
@@ -53,6 +61,8 @@ def n_chars_word(word, map, tingkung_code2char):
     for c in word:
         if c not in map:
             return None
+    if word in blacklist_set:
+        return None
     res = []
     for code1 in map[word[0]]:
         for code2 in map[word[1]]:
@@ -76,6 +86,8 @@ def _4_chars_word(word, map, tingkung_code2char):
     for c in word:
         if c not in map:
             return None
+    if word in blacklist_set:
+        return None
     res = []
     for code1 in map[word[0]]:
         for code2 in map[word[1]]:
@@ -100,6 +112,8 @@ def _2_chars_word(word, map, tingkung_code2char):
     if len(word) != 2 or converter.convert(word) not in qq_set:
         return None
     if word[0] not in map or word[1] not in map:
+        return None
+    if word in blacklist_set:
         return None
     res = []
     for code1 in map[word[0]]:
@@ -133,6 +147,8 @@ def _3_chars_word(word, map, tingkung_code2char):
     if len(word) != 3 or converter.convert(word) not in qq_set:
         return None
     if word[0] not in map or word[1] not in map or word[2] not in map:
+        return None
+    if word in blacklist_set:
         return None
     res = []
     for code1 in map[word[0]]:
