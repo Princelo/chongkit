@@ -17,17 +17,23 @@ def single_key(code):
     return keyboard[i]
 
 
-qq = open("qq.txt", mode="r")
+candidates = open("tigress_ci.dict.yaml", mode="r")
 
-qq_set = set()
+candidates_set = set()
 
-for line in qq:
+start = False
+for line in candidates:
     line = line[:-1]
     if line == "":
         continue
+    if line == "...":
+        start = True
+        continue
+    if not start:
+        continue
     line = line.split("\t")
-    if len(line[1]) > 1:
-        qq_set.add(line[1])
+    if len(line[0]) > 1:
+        candidates_set.add(line[0])
 
 blacklist = open("blacklist.txt", mode="r")
 
@@ -65,7 +71,7 @@ def append_res(res, combined_code):
 
 
 def n_chars_word(word, map, tingkung_code2char):
-    if len(word) <= 4 or converter.convert(word) not in qq_set:
+    if len(word) <= 4 or converter.convert(word) not in candidates_set:
         return None
     for c in word:
         if c not in map:
@@ -90,7 +96,7 @@ def n_chars_word(word, map, tingkung_code2char):
 
 
 def _4_chars_word(word, map, tingkung_code2char):
-    if len(word) != 4 or converter.convert(word) not in qq_set:
+    if len(word) != 4 or converter.convert(word) not in candidates_set:
         return None
     for c in word:
         if c not in map:
@@ -118,7 +124,7 @@ def _4_chars_word(word, map, tingkung_code2char):
 
 
 def _2_chars_word(word, map, tingkung_code2char):
-    if len(word) != 2 or converter.convert(word) not in qq_set:
+    if len(word) != 2 or converter.convert(word) not in candidates_set:
         return None
     if word[0] not in map or word[1] not in map:
         return None
@@ -153,7 +159,7 @@ def _2_chars_word(word, map, tingkung_code2char):
 
 
 def _3_chars_word(word, map, tingkung_code2char):
-    if len(word) != 3 or converter.convert(word) not in qq_set:
+    if len(word) != 3 or converter.convert(word) not in candidates_set:
         return None
     if word[0] not in map or word[1] not in map or word[2] not in map:
         return None
