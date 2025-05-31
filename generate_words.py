@@ -1,6 +1,15 @@
 import opencc
 converter = opencc.OpenCC('t2s.json')
 
+head = """
+---
+name: chongkit.words
+version: "2025.06.01"
+sort: by_weight
+...
+
+"""
+
 
 def single_key(code):
     keyboard = "日月金木水火土竹戈十大中一弓人心手口尸廿山女田的卜我"
@@ -272,22 +281,24 @@ for line in essay:
     arr.append([word, weight])
 arr.sort(key=lambda x: -x[1])
 
-for item in arr:
-    word = item[0]
-    weight = item[1]
-    lines = _2_chars_word(word, map, tingkung_code2char)
-    if lines:
-        for line in lines:
-            print(line)
-    lines = _3_chars_word(word, map, tingkung_code2char)
-    if lines:
-        for line in lines:
-            print(line)
-    lines = _4_chars_word(word, map, tingkung_code2char)
-    if lines:
-        for line in lines:
-            print(line)
-    lines = n_chars_word(word, map, tingkung_code2char)
-    if lines:
-        for line in lines:
-            print(line)
+with open("chongkit.words.dict.yaml", mode="w") as words:
+    words.writelines(head)
+    for item in arr:
+        word = item[0]
+        weight = item[1]
+        lines = _2_chars_word(word, map, tingkung_code2char)
+        if lines:
+            for line in lines:
+                words.write(line + "\n")
+        lines = _3_chars_word(word, map, tingkung_code2char)
+        if lines:
+            for line in lines:
+                words.write(line + "\n")
+        lines = _4_chars_word(word, map, tingkung_code2char)
+        if lines:
+            for line in lines:
+                words.write(line + "\n")
+        lines = n_chars_word(word, map, tingkung_code2char)
+        if lines:
+            for line in lines:
+                words.write(line + "\n")
