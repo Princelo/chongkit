@@ -82,7 +82,7 @@ def n_chars_word(word, map, tingkung_code2char):
     for code1 in map[word[0]]:
         for code2 in map[word[1]]:
             for code3 in map[word[2]]:
-                for code4 in map[word[3]]:
+                for code4 in map[word[-2]]:
                     for code_n in map[word[-1]]:
                         full1, abbr1 = code1
                         full2, abbr2 = code2
