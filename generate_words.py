@@ -45,12 +45,12 @@ for line in blacklist:
 
 
 def append_res(res, combined_code):
-    suffix_z = ""
+    suffix_x = ""
     suffix = ""
     if len(combined_code) <= 4:
-        suffix_z = "z"
+        suffix_x = "x"
     if len(combined_code) > 3 and combined_code[:4] in tingkung_code2char:
-        if not suffix_z:
+        if not suffix_x:
             suffix = "'"
         if len(combined_code) == 5:
             res.append(tingkung_code2char[combined_code[:4]]
@@ -58,7 +58,7 @@ def append_res(res, combined_code):
                        + combined_code[:5] + "'")
     elif combined_code[:3] in tingkung_code2char:
         if len(combined_code) == 4:
-            if not suffix_z:
+            if not suffix_x:
                 suffix = "'"
             res.append(tingkung_code2char[combined_code[:3]]
                        + single_key(combined_code[3:4]) + "\t"
@@ -67,7 +67,7 @@ def append_res(res, combined_code):
             res.append(tingkung_code2char[combined_code[:3]]
                        + single_key(combined_code[3:4]) + "\t"
                        + combined_code[:4] + "'")
-    res.append(word + "\t" + combined_code + suffix_z + suffix)
+    res.append(word + "\t" + combined_code + suffix_x + suffix)
 
 
 def n_chars_word(word, map, tingkung_code2char):

@@ -217,7 +217,7 @@ encoder:
 曷	apvo
 晴	aqb
 晴	aqmb
-闊	ar
+問	ar
 暇	are
 煦	arf
 暇	arse
@@ -1464,7 +1464,6 @@ cd 	cd
 滌	eold
 淪	eomb
 涂	eomd
-汽	eomn
 渝	eomn
 洽	eomr
 渝	eomv
@@ -2486,7 +2485,8 @@ git 	git
 簍	hlv
 笛	hlw
 簫	hlx
-徑	hm
+生	hm
+徑	hmx
 歸	hmb
 築	hmd
 筑	hmhn
@@ -2508,6 +2508,7 @@ git 	git
 甥	hmwks
 斥	hmy
 几	hn
+風	hnx
 颺	hnamh
 颶	hnbmc
 颶	hnc
@@ -2543,7 +2544,6 @@ git 	git
 得	hoami
 爬	hoau
 很	hoav
-籲	hobc
 衢	hobgn
 籲	hoc
 籲一	hocm'
@@ -3114,7 +3114,8 @@ iOS	ios
 啟	irok
 感	irp
 怠	irpx
-户	is
+成	is
+户	isx
 盛	isbt
 扁	isbt	isb't
 雇	isg
@@ -3407,6 +3408,7 @@ placeholder	jjmjjm
 宸	jmv
 富	jmw
 定	jmyo
+直	jmx
 事	jn
 寃	jnai
 字	jnd
@@ -4662,7 +4664,8 @@ ls 	ls
 硫	mryiu
 碎	mryoj
 砧	mryr
-万	ms
+功	ms
+万	msx
 豕	msho
 攷	msk
 攷	msok
@@ -4835,7 +4838,8 @@ ls 	ls
 孟	ndt
 孔	ndu
 孩	ndyvo
-氹	ne
+發	ne
+氹	nex
 🪡	needle
 丞	nem
 🪆	nestingdolls
@@ -5046,6 +5050,7 @@ ls 	ls
 彊	nmwm
 疏	nmyiu
 了	nn
+多	nnx
 預	nnc
 弥	nnf
 孑	nnm
@@ -5405,6 +5410,7 @@ ls 	ls
 会	ommix
 伝	ommix
 佞	ommv
+仃	omn
 邱	omnl
 例	omnn
 何	omnr
@@ -5599,7 +5605,8 @@ ls 	ls
 個	owr
 偎	owv
 每	owy
-仆	oy
+每	oy
+仆	oyx
 儲	oya
 禽	oyb
 傍	oybs
@@ -6805,7 +6812,6 @@ ls 	ls
 📐	ruler
 喘	rumb
 嗤	rumi
-啱	rumr
 饕	ruoiv
 啱	rur
 巽	rutc
@@ -7425,7 +7431,6 @@ ls 	ls
 對	ti
 莆	tib
 蘑	ticr
-薬	tiod
 蘑	tidr
 薦	tif
 🐯	tiger
@@ -8255,7 +8260,8 @@ vim 	vim
 婀	vnr
 奶	vns
 娩	vnu
-縱	vo
+以	vo
+縱	vox
 🌋	volcano
 🏐	vollyball
 䗍	volmi
