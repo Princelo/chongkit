@@ -113,7 +113,9 @@ def _4_chars_word(word, map, tingkung_code2char):
                     full3, abbr3 = code3
                     full4, abbr4 = code4
                     combined_code = full1[0] + abbr2[-1] + abbr3[0]
-                    if len(abbr3) > 1:
+                    if len(abbr3) == 1 and len(full3) > 1:
+                        combined_code += full3[-1] + abbr4[-1]
+                    elif len(abbr3) > 1:
                         combined_code += abbr3[-1] + abbr4[-1]
                     elif len(abbr4) > 1:
                         combined_code += abbr4[0] + abbr4[-1]
