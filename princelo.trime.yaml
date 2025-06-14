@@ -813,7 +813,7 @@ preset_keyboards:
     keys:
     - {click: '', key_back_color: border_color, width: 4}
     - {draw_icon: 'delete_material_dark', click: BackSpace, width: 26, key_back_color: hilited_back_color, shadow: 'true'}
-    - {label: '心', long_click: 0, click: p, hint_location: 'top_right', shadow: 'true', key_hint_offset_x: 8, key_hint offset_y: -2, hint: '0'}
+    - {label: '心', long_click: 0, click: p, hint_location: 'top_right', shadow: 'true'}
     - {label: '火', long_click: '?', click: f, hint_location: 'top_right', shadow: 'true'}
     - {label: '一', long_click: '@', click: m, hint_location: 'top_right', shadow: 'true'}
     - {label: '中', long_click: '"', click: l, hint_location: 'top_right', shadow: 'true'}
@@ -835,7 +835,7 @@ preset_keyboards:
     - {label: '廿', long_click: '-', click: t, hint_location: 'top_right', shadow: 'true'}
     - {label: '竹', long_click: ':', click: h, hint_location: 'top_right', shadow: 'true'}
     - {label: '水', long_click: '!', click: e, hint_location: 'top_right', shadow: 'true'}
-    - {label: '日', long_click: '/', click: a, hint_location: 'top_right', shadow: 'true', draw_hint_icon: 'none'}
+    - {label: '日', long_click: '/', click: a, hint_location: 'top_right', shadow: 'true'}
     - {click: '', key_back_color: border_color, width: 5}
     - {click: '', key_back_color: border_color, width: 4}
     - {label: '難', click: x, long_click: 7, hint_location: 'top_right', shadow: 'true'}
