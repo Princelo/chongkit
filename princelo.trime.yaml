@@ -499,7 +499,7 @@ preset_keyboards:
     - {click: space, width: 40, key_text_color: 0x969ea1, shadow: 'true', height: 55}
     - {width: 15, draw_icon: 'delete_material_dark', click: BackSpace, key_back_color: 0x313c42, shadow: 'true', height: 55}
     - {draw_icon: 'enter', click: Return, width: 15, key_back_color: 0x6eaca7, key_text_color: 0xfdfffe, shadow: 'true', height: 55}
-      #    - {click: '', key_back_color: 0x273238, width: 100, height: 5}
+      #    - {click: '', key_back_color: border_color, width: 100, height: 5}
   qwerty:
     name: 預設26鍵
     author: "osfans <waxaca@163.com>"
@@ -554,7 +554,7 @@ preset_keyboards:
     - {click: '.', long_click: '>', shadow: 'true', height: 55}
     - {click: '/', long_click: '?', shadow: 'true', height: 55}
     - {draw_icon: 'enter', click: Return, width: 15, key_back_color: 0x6eaca7, key_text_color: 0xfdfffe, shadow: 'true', height: 55}
-      #    - {click: '', key_back_color: 0x273238, width: 100, height: 5}
+      #    - {click: '', key_back_color: border_color, width: 100, height: 5}
   number:
     name: 預設數字
     author: "osfans <waxaca@163.com>"
@@ -586,7 +586,7 @@ preset_keyboards:
     - {click: space, key_text_color: 0x969ea1, shadow: 'true'}
     - {draw_icon: 'delete_material_dark', click: BackSpace, key_back_color: 0x313c42, shadow: 'true'}
     - {draw_icon: 'enter', click: Return, key_back_color: 0x6eaca7, key_text_color: 0xfdfffe, shadow: 'true'}
-      #    - {click: '', key_back_color: 0x273238, width: 100, height: 5}
+      #    - {click: '', key_back_color: border_color, width: 100, height: 5}
   symbols:
     name: 符號
     author: "天真可愛的滿滿"
@@ -640,7 +640,7 @@ preset_keyboards:
     - {click: '。', ascii: '.', shadow: 'true'}
     - {click: Hide, long_click: Delete, shadow: 'true'}
     - {draw_icon: 'enter', long_click: select_all, click: Return, width: 15, key_back_color: 0x6eaca7, key_text_color: 0xfdfffe, shadow: 'true'}
-      #    - {click: '', key_back_color: 0x273238, width: 100, height: 5}
+      #    - {click: '', key_back_color: border_color, width: 100, height: 5}
   bopomofo:
     name: 註音鍵盤
     author: "皛筱晓小笨鱼"
@@ -697,7 +697,7 @@ preset_keyboards:
     - {long_click: '。', click: '，', shadow: 'true'}
     - {draw_icon: 'delete_material_dark', click: BackSpace, width: 10, key_back_color: 0x313c42, shadow: 'true'}
     - {draw_icon: 'enter', click: Return, width: 10, key_back_color: 0x6eaca7, shadow: 'true'}
-      #    - {click: '', key_back_color: 0x273238, width: 100, height: 5}
+      #    - {click: '', key_back_color: border_color, width: 100, height: 5}
   cangjie5:
     name: 倉頡五代鍵盤
     author: "皛筱晓小笨鱼"
@@ -741,7 +741,7 @@ preset_keyboards:
     - {click: space, long_click: Menu_no_comment, width: 40, height: 60, label: '倉頡', key_text_color: 0x969ea1, shadow: 'true'}
     - {long_click: '>', click: '$', height: 60, key_back_color: 0x313c42, shadow: 'true'}
     - {draw_icon: 'enter', click: Return, long_click: paste_no_comment, width: 15, height: 60, key_back_color: 0x6eaca7, key_text_color: 0xfdfffe, shadow: 'true'}
-      #    - {click: '', key_back_color: 0x273238, width: 100, height: 5}
+      #    - {click: '', key_back_color: border_color, width: 100, height: 5}
   cangjie6:
     ascii_mode: 0
     name: 倉頡六代
@@ -800,7 +800,7 @@ preset_keyboards:
     - {click: space, width: 25, key_text_color: 0x969ea1, shadow: 'true'}
     - {click: "'", long_click: "?", shadow: 'true'}
     - {draw_icon: 'enter', click: Return, width: 25.5, key_back_color: 0x6eaca7, key_text_color: 0xfdfffe, shadow: 'true'}
-      #    - {click: '', key_back_color: 0x273238, width: 100, height: 5}
+      #    - {click: '', key_back_color: border_color, width: 100, height: 5}
   chongkit:
     name: 倉頡常用字
     author: "無敵樟"
@@ -808,15 +808,15 @@ preset_keyboards:
     width: 13
     height: 40
     keys:
-    - {click: '', key_back_color: 0x273238, width: 4}
+    - {click: '', key_back_color: border_color, width: 4}
     - {draw_icon: 'delete_material_dark', click: BackSpace, width: 26, key_back_color: 0x313c42, shadow: 'true'}
     - {label: '心', long_click: 0, click: p, hint_location: 'top_right', shadow: 'true'}
     - {label: '火', long_click: '?', click: f, hint_location: 'top_right', shadow: 'true'}
     - {label: '一', long_click: '@', click: m, hint_location: 'top_right', shadow: 'true'}
     - {label: '中', long_click: '"', click: l, hint_location: 'top_right', shadow: 'true'}
     - {label: '十', long_click: ';', click: j, hint_location: 'top_right', shadow: 'true'}
-    - {click: '', key_back_color: 0x273238, width: 5}
-    - {click: '', key_back_color: 0x273238, width: 4}
+    - {click: '', key_back_color: border_color, width: 5}
+    - {click: '', key_back_color: border_color, width: 4}
     - {label: '手', long_click: 1, click: q, hint_location: 'top_right', shadow: 'true'}
     - {label: '月', long_click: 2, click: b, hint_location: 'top_right', shadow: 'true'}
     - {label: '卜', long_click: 3, click: y, hint_location: 'top_right', shadow: 'true'}
@@ -824,8 +824,8 @@ preset_keyboards:
     - {label: '口', long_click: ')', click: r, hint_location: 'top_right', shadow: 'true'}
     - {label: '尸', long_click: "'", click: s, hint_location: 'top_right', shadow: 'true'}
     - {label: '人', long_click: '+', click: o, hint_location: 'top_right', shadow: 'true'}
-    - {click: '', key_back_color: 0x273238, width: 5}
-    - {click: '', key_back_color: 0x273238, width: 4}
+    - {click: '', key_back_color: border_color, width: 5}
+    - {click: '', key_back_color: border_color, width: 4}
     - {label: '大', long_click: 4, click: k, hint_location: 'top_right', shadow: 'true'}
     - {label: '金', click: c, long_click: 5, hint_location: 'top_right', shadow: 'true'}
     - {label: '木', long_click: 6, click: d, hint_location: 'top_right', shadow: 'true'}
@@ -833,8 +833,8 @@ preset_keyboards:
     - {label: '竹', long_click: ':', click: h, hint_location: 'top_right', shadow: 'true'}
     - {label: '水', long_click: '!', click: e, hint_location: 'top_right', shadow: 'true'}
     - {label: '日', long_click: DeleteCandidate, click: a, hint_location: 'top_right', shadow: 'true', draw_hint_icon: 'none'}
-    - {click: '', key_back_color: 0x273238, width: 5}
-    - {click: '', key_back_color: 0x273238, width: 4}
+    - {click: '', key_back_color: border_color, width: 5}
+    - {click: '', key_back_color: border_color, width: 4}
     - {label: '難', click: x, long_click: 7, hint_location: 'top_right', shadow: 'true'}
     - {label: '土', long_click: 8, click: g, hint_location: 'top_right', shadow: 'true'}
     - {label: '女', long_click: 9, click: v, hint_location: 'top_right', shadow: 'true'}
@@ -842,14 +842,14 @@ preset_keyboards:
     - {label: '弓', long_click: copy, click: n, hint_location: 'top_right', draw_hint_icon: 'none', shadow: 'true'}
     - {label: '戈', long_click: ',', click: i, hint_location: 'top_right', shadow: 'true'}
     - {label: '符', click: z, long_click: '.', hint_location: 'top_right', shadow: 'true'}
-    - {click: '', key_back_color: 0x273238, width: 5}
-    - {click: '', key_back_color: 0x273238, width: 4, height: 50}
+    - {click: '', key_back_color: border_color, width: 5}
+    - {click: '', key_back_color: border_color, width: 4, height: 50}
     - {draw_icon: 'shift_dark', click: Shift_L, height: 50, send_bindings: false, shadow: 'true'}
     - {click: Keyboard_symbols, long_click: Keyboard_number, height: 55, key_back_color: 0x313c42, shadow: 'true'}
     - {click: space, long_click: Menu_no_comment, width: 39, height: 55, label: '倉頡', key_text_color: 0x969ea1, shadow: 'true'}
     - {draw_icon: 'enter', click: Return, long_click: paste_no_comment, width: 26, height: 55, key_back_color: 0x6eaca7, key_text_color: 0xfdfffe, shadow: 'true'}
-    - {click: '', key_back_color: 0x273238, width: 5}
-      #    - {click: '', key_back_color: 0x273238, width: 100, height: 1}
+    - {click: '', key_back_color: border_color, width: 5}
+      #    - {click: '', key_back_color: border_color, width: 100, height: 1}
   tingkung:
     name: 倉頡頂功
     author: "無敵樟"
@@ -857,15 +857,15 @@ preset_keyboards:
     width: 13
     height: 40
     keys:
-    - {click: '', key_back_color: 0x273238, width: 4}
+    - {click: '', key_back_color: border_color, width: 4}
     - {draw_icon: 'delete_material_dark', click: BackSpace, width: 26, key_back_color: 0x313c42, shadow: 'true'}
     - {label: '土', long_click: 0, click: p, hint_location: 'top_right', shadow: 'true'}
     - {label: '火', long_click: '?', click: f, hint_location: 'top_right', shadow: 'true'}
     - {label: '水', long_click: '@', click: m, hint_location: 'top_right', shadow: 'true'}
     - {label: '木', long_click: '"', click: l, hint_location: 'top_right', shadow: 'true'}
     - {label: '金', long_click: ';', click: j, hint_location: 'top_right', shadow: 'true'}
-    - {click: '', key_back_color: 0x273238, width: 5}
-    - {click: '', key_back_color: 0x273238, width: 4}
+    - {click: '', key_back_color: border_color, width: 5}
+    - {click: '', key_back_color: border_color, width: 4}
     - {label: '列', long_click: 1, click: q, hint_location: 'top_right', shadow: 'true'}
     - {label: '前', long_click: 2, click: b, hint_location: 'top_right', shadow: 'true'}
     - {label: '臨', long_click: 3, click: y, hint_location: 'top_right', shadow: 'true'}
@@ -873,8 +873,8 @@ preset_keyboards:
     - {label: '寅', long_click: ')', click: r, hint_location: 'top_right', shadow: 'true'}
     - {label: '丑', long_click: "'", click: s, hint_location: 'top_right', shadow: 'true'}
     - {label: '子', long_click: '+', click: o, hint_location: 'top_right', shadow: 'true'}
-    - {click: '', key_back_color: 0x273238, width: 5}
-    - {click: '', key_back_color: 0x273238, width: 4}
+    - {click: '', key_back_color: border_color, width: 5}
+    - {click: '', key_back_color: border_color, width: 4}
     - {label: '陣', long_click: 4, click: k, hint_location: 'top_right', shadow: 'true'}
     - {label: '行', click: c, long_click: 5, hint_location: 'top_right', shadow: 'true'}
     - {label: '兵', long_click: 6, click: d, hint_location: 'top_right', shadow: 'true'}
@@ -882,8 +882,8 @@ preset_keyboards:
     - {label: '午', long_click: ':', click: h, hint_location: 'top_right', shadow: 'true'}
     - {label: '巳', long_click: '!', click: e, hint_location: 'top_right', shadow: 'true'}
     - {label: '辰', long_click: DeleteCandidate, click: a, hint_location: 'top_right', shadow: 'true', draw_hint_icon: 'none'}
-    - {click: '', key_back_color: 0x273238, width: 5}
-    - {click: '', key_back_color: 0x273238, width: 4}
+    - {click: '', key_back_color: border_color, width: 5}
+    - {click: '', key_back_color: border_color, width: 4}
     - {label: '皆', click: x, long_click: 7, hint_location: 'top_right', shadow: 'true'}
     - {label: '者', long_click: 8, click: g, hint_location: 'top_right', shadow: 'true'}
     - {label: '鬥', long_click: 9, click: v, hint_location: 'top_right', shadow: 'true'}
@@ -891,14 +891,14 @@ preset_keyboards:
     - {label: '戌', long_click: copy, click: n, hint_location: 'top_right', draw_hint_icon: 'none', shadow: 'true'}
     - {label: '酉', long_click: ',', click: i, hint_location: 'top_right', shadow: 'true'}
     - {label: '申', click: z, long_click: '.', hint_location: 'top_right', shadow: 'true'}
-    - {click: '', key_back_color: 0x273238, width: 5}
-    - {click: '', key_back_color: 0x273238, width: 4, height: 50}
+    - {click: '', key_back_color: border_color, width: 5}
+    - {click: '', key_back_color: border_color, width: 4, height: 50}
     - {draw_icon: 'shift_dark', click: Shift_L, height: 50, send_bindings: false, shadow: 'true'}
     - {click: Keyboard_symbols, long_click: Keyboard_number, height: 55, key_back_color: 0x313c42, shadow: 'true'}
     - {click: space, long_click: Menu_no_comment, width: 39, height: 55, label: '倉頡', key_text_color: 0x969ea1, shadow: 'true'}
     - {draw_icon: 'enter', click: Return, long_click: paste_no_comment, width: 26, height: 55, key_back_color: 0x6eaca7, key_text_color: 0xfdfffe, shadow: 'true'}
-    - {click: '', key_back_color: 0x273238, width: 5}
-      #    - {click: '', key_back_color: 0x273238, width: 100, height: 1}
+    - {click: '', key_back_color: border_color, width: 5}
+      #    - {click: '', key_back_color: border_color, width: 100, height: 1}
   scj6:
     __include: /preset_keyboards/cangjie5
   stroke:
@@ -924,7 +924,7 @@ preset_keyboards:
     - {click: space, width: 40, label: '筆畫', key_text_color: 0x969ea1, shadow: 'true'}
     - {click: Keyboard_letter, long_click: Menu, width: 10, shadow: 'true'}
     - {draw_icon: 'enter', click: Return, width: 20, key_back_color: 0x6eaca7, key_text_color: 0xfdfffe, shadow: 'true'}
-      #    - {click: '', key_back_color: 0x273238, width: 100, height: 5}
+      #    - {click: '', key_back_color: border_color, width: 100, height: 5}
   terra_pinyin:
     name: 地球拼音鍵盤
     author: 默默ㄇㄛˋ
@@ -969,4 +969,4 @@ preset_keyboards:
     - {click: ".", long_click: '"', shadow: 'true'}
     - {click: '\', long_click: '.', composing: 'ˋ', send_bindings: false, shadow: 'true'}  #四聲
     - {draw_icon: 'enter', click: Return, key_back_color: 0x6eaca7, key_text_color: 0xfdfffe, shadow: 'true'}
-      #    - {click: '', key_back_color: 0x273238, width: 100, height: 5}
+      #    - {click: '', key_back_color: border_color, width: 100, height: 5}
