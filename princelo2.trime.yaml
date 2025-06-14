@@ -1527,45 +1527,45 @@ preset_keyboards:
     height: 40
     keys:
     - {click: '', key_back_color: 0x273238, width: 4}
-    - {draw_icon: 'delete_material_dark', click: BackSpace, width: 26, key_back_color: '0x313c42', shadow: true}
-    - {label: '心', long_click: 0, click: p, shadow: true}
-    - {label: '火', long_click: '?', click: f, shadow: true}
-    - {label: '一', long_click: '@', click: m, shadow: true}
-    - {label: '中', long_click: '"', click: l, shadow: true}
-    - {label: '十', long_click: ';', click: j, shadow: true}
+    - {click: BackSpace, width: 26, key_back_color: '0x313c42'}
+    - {label: '心', long_click: 0, click: p}
+    - {label: '火', long_click: '?', click: f}
+    - {label: '一', long_click: '@', click: m}
+    - {label: '中', long_click: '"', click: l}
+    - {label: '十', long_click: ';', click: j}
     - {click: '', key_back_color: '0x273238', width: 5}
     - {click: '', key_back_color: '0x273238', width: 4}
-    - {label: '手', long_click: 1, click: q, shadow: true}
-    - {label: '月', long_click: 2, click: b, shadow: true}
-    - {label: '卜', long_click: 3, click: y, shadow: true}
-    - {label: '山', long_click: '(', click: u, shadow: true}
-    - {label: '口', long_click: ')', click: r, shadow: true}
-    - {label: '尸', long_click: "'", click: s, shadow: true}
-    - {label: '人', long_click: '+', click: o, shadow: true}
+    - {label: '手', long_click: 1, click: q}
+    - {label: '月', long_click: 2, click: b}
+    - {label: '卜', long_click: 3, click: y}
+    - {label: '山', long_click: '(', click: u}
+    - {label: '口', long_click: ')', click: r}
+    - {label: '尸', long_click: "'", click: s}
+    - {label: '人', long_click: '+', click: o}
     - {click: '', key_back_color: '0x273238', width: 5}
     - {click: '', key_back_color: '0x273238', width: 4}
-    - {label: '大', long_click: 4, click: k, shadow: true}
-    - {label: '金', click: c, long_click: 5, shadow: true}
-    - {label: '木', long_click: 6, click: d, shadow: true}
-    - {label: '廿', long_click: '-', click: t, shadow: true}
-    - {label: '竹', long_click: ':', click: h, shadow: true}
-    - {label: '水', long_click: '!', click: e, shadow: true}
-    - {label: '日', long_click: DeleteCandidate, click: a, shadow: true}
+    - {label: '大', long_click: 4, click: k}
+    - {label: '金', click: c, long_click: 5}
+    - {label: '木', long_click: 6, click: d}
+    - {label: '廿', long_click: '-', click: t}
+    - {label: '竹', long_click: ':', click: h}
+    - {label: '水', long_click: '!', click: e}
+    - {label: '日', long_click: '/', click: a}
     - {click: '', key_back_color: '0x273238', width: 5}
     - {click: '', key_back_color: '0x273238', width: 4}
-    - {label: '難', click: x, long_click: 7, shadow: true}
-    - {label: '土', long_click: 8, click: g, shadow: true}
-    - {label: '女', long_click: 9, click: v, shadow: true}
-    - {label: '田', long_click: select_all, click: w, shadow: true}
-    - {label: '弓', long_click: copy, click: n, shadow: true}
-    - {label: '戈', long_click: ',', click: i, shadow: true}
-    - {label: '符', click: z, long_click: '.', shadow: true}
+    - {label: '難', click: x, long_click: 7}
+    - {label: '土', long_click: 8, click: g}
+    - {label: '女', long_click: 9, click: v}
+    - {label: '田', long_click: select_all, click: w}
+    - {label: '弓', long_click: copy, click: n}
+    - {label: '戈', long_click: ',', click: i}
+    - {label: '符', click: z, long_click: '.'}
     - {click: '', key_back_color: '0x273238', width: 5}
     - {click: '', key_back_color: '0x273238', width: 4, height: 50}
-    - {draw_icon: 'shift_dark', click: Shift_L, height: 50, send_bindings: false, shadow: true}
-    - {click: Keyboard_symbols, long_click: Keyboard_number, height: 55, key_back_color: '0x313c42', shadow: true}
-    - {click: space, long_click: Menu_no_comment, width: 39, height: 55, label: '倉頡', key_text_color: '0x969ea1', shadow: true}
-    - {draw_icon: 'enter', click: Return, long_click: paste_no_comment, width: 26, height: 55, key_back_color: '0x6eaca7', key_text_color: '0xfdfffe', shadow: true}
+    - {click: Shift_L, height: 50, send_bindings: false}
+    - {click: Keyboard_symbols, long_click: Keyboard_number, height: 55, key_back_color: '0x313c42'}
+    - {click: space, long_click: Menu, width: 39, height: 55, label: '倉頡', key_text_color: '0x969ea1'}
+    - {click: Return, long_click: paste, width: 26, height: 55, key_back_color: '0x6eaca7', key_text_color: '0xfdfffe'}
     - {click: '', key_back_color: '0x273238', width: 5}
   tingkung:
     name: 倉頡頂功
