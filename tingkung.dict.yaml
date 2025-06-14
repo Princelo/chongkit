@@ -103,7 +103,6 @@ encoder:
 即	ail
 既	aimvu
 即	aisl
-曠	aitc
 既	aiu
 早	aj
 暑	aja
@@ -715,7 +714,6 @@ cd 	cd
 頌	cimbc
 瓮	cin
 鑣	cipf
-翁	cism
 鐮	citc
 鍍	cite
 針	cj
@@ -784,6 +782,8 @@ cd 	cd
 谷	cor
 鐫	cos
 慾	cp
+鎭	cpbc
+鎭	cpc
 鉍	cph
 釣	cpi
 鈎	cpix
@@ -2440,7 +2440,6 @@ git 	git
 笞	hir
 篇	hisb
 簾	hitc
-魁	hiyj
 魑	hiyub
 千	hj
 箸	hja
@@ -6611,6 +6610,7 @@ ls 	ls
 蹟	rmqmc
 趺	rmqox
 路	rmr
+嗝	rmrbx
 路口	rmrr'
 躁	rmrrd
 号	rms
@@ -7691,7 +7691,6 @@ ls 	ls
 菇	tvjr
 勘	tvks
 莊	tvmg
-蔣	tvmi
 薅	tvmi
 慈	tvp
 茹	tvr
@@ -8526,13 +8525,11 @@ vim 	vim
 貞	ybc
 敲	ybe
 望	ybg
-望	ybhg
 獻	ybik
 運	ybj
 獻	ybk
 帝	yblb
 睿	ybmcu
-望	ybmg
 鄗	ybnl
 離	ybog
 敵	ybok
@@ -8976,7 +8973,6 @@ placeholder	yrhvl
 諜	yrptd
 詳	yrq
 詳一	yrqm'
-請	yrqmb
 話	yrr
 話一	yrrm'
 誤	yrrmk
@@ -9155,7 +9151,6 @@ placeholder	yrhvl
 壅	yvgg
 甕	yvgn
 雍	yvhg
-亥	yvho
 瓤	yvhvo
 玄	yvi
 甕	yvn

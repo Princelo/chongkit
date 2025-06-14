@@ -195,7 +195,12 @@ def _3_chars_word(word, map, tingkung_code2char):
                 if occupied_by_mid == 2 or len(full3) == 1:
                     combined_code += abbr3[-1]
                 else:
-                    combined_code += abbr3[0] + abbr3[-1]
+                    if len(full3) > 1 and len(abbr3) == 1:
+                        combined_code += full3[0] + full3[-1]
+                    elif len(abbr3) == 1:
+                        combined_code += abbr3[-1]
+                    else:
+                        combined_code += abbr3[0] + abbr3[-1]
                 append_res(res, combined_code)
     return res
 
