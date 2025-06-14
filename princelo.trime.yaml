@@ -586,7 +586,7 @@ preset_keyboards:
     - {click: ',', shadow: 'true'}
     - {click: '=', shadow: 'true'}
     - {click: Keyboard_default, long_click: Keyboard_symbols, shadow: 'true'}
-    - {click: space, key_text_color: space_text, shadow: 'true', label: '　'}
+    - {click: space, key_text_color: space_text, shadow: 'true'}
     - {draw_icon: 'delete_material_dark', click: BackSpace, key_back_color: hilited_back_color, shadow: 'true'}
     - {draw_icon: 'enter', click: Return, key_back_color: enter_back, key_text_color: enter_text, shadow: 'true'}
       #    - {click: '', key_back_color: border_color, width: 100, height: 5}
