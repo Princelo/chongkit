@@ -1519,7 +1519,6 @@ preset_keyboards:
     - {click: space, width: 25, key_text_color: 0x969ea1, shadow: true}
     - {click: "'", long_click: "?", shadow: true}
     - {draw_icon: 'enter', click: Return, width: 25.5, key_back_color: 0x6eaca7, key_text_color: 0xfdfffe, shadow: true}
-      #    - {click: '', key_back_color: 0x273238, width: 100, height: 5}
   chongkit:
     name: 倉頡常用字
     author: "無敵樟"
@@ -1568,7 +1567,6 @@ preset_keyboards:
     - {click: space, long_click: Menu_no_comment, width: 39, height: 55, label: '倉頡', key_text_color: '0x969ea1', shadow: true}
     - {draw_icon: 'enter', click: Return, long_click: paste_no_comment, width: 26, height: 55, key_back_color: '0x6eaca7', key_text_color: '0xfdfffe', shadow: true}
     - {click: '', key_back_color: '0x273238', width: 5}
-      #    - {click: '', key_back_color: '0x273238', width: 100, height: 1}
   tingkung:
     name: 倉頡頂功
     author: "無敵樟"
