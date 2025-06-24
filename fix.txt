@@ -27,3 +27,4 @@
 炭	ukf
 約	vfpi
 鼎	bul
+條	old
