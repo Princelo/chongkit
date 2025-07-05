@@ -44,6 +44,25 @@ for line in blacklist:
     blacklist_set.add(line)
 
 
+def do_filter(combined_code, word):
+    if (len(combined_code) == 5
+        and combined_code[:3] in tingkung_code2char
+        and (combined_code[:1] + combined_code[2:3]
+             not in tingkung_code2char
+        or tingkung_code2char[combined_code[:1] + combined_code[2:3]]
+             != tingkung_code2char[combined_code[:3]])
+            and combined_code[3:] == "tu"):
+        if converter.convert(word) in candidates_set:
+            print(tingkung_code2char[combined_code[:3]] + "\t" + word)
+    return (len(combined_code) >= 5
+            and combined_code[:3] in tingkung_code2char
+            and (combined_code[:1] + combined_code[2:3]
+                 not in tingkung_code2char
+            or tingkung_code2char[combined_code[:1] + combined_code[2:3]]
+                 != tingkung_code2char[combined_code[:3]])
+            and converter.convert(word) not in candidates_set)
+
+
 def append_res(res, combined_code):
     suffix_x = ""
     suffix = ""
@@ -73,13 +92,11 @@ def append_res(res, combined_code):
 
 
 def n_chars_word(word, map, tingkung_code2char):
-    if len(word) <= 4:
-        return None
     for c in word:
         if c not in map:
-            return None
+            return []
     if word in blacklist_set:
-        return None
+        return []
     res = []
     for code1 in map[word[0]]:
         for code2 in map[word[1]]:
@@ -93,20 +110,18 @@ def n_chars_word(word, map, tingkung_code2char):
                         full_n, abbr_n = code_n
                         combined_code = full1[0] + abbr2[-1] + abbr3[0]
                         combined_code += abbr4[-1] + abbr_n[-1]
-                        if do_filter(combined_code):
+                        if do_filter(combined_code, word):
                             continue
                         append_res(res, combined_code)
     return res
 
 
 def _4_chars_word(word, map, tingkung_code2char):
-    if len(word) != 4:
-        return None
     for c in word:
         if c not in map:
-            return None
+            return []
     if word in blacklist_set:
-        return None
+        return []
     res = []
     for code1 in map[word[0]]:
         for code2 in map[word[1]]:
@@ -125,19 +140,17 @@ def _4_chars_word(word, map, tingkung_code2char):
                         combined_code += abbr4[0] + abbr4[-1]
                     else:
                         combined_code += abbr4[-1]
-                    if do_filter(combined_code):
+                    if do_filter(combined_code, word):
                         continue
                     append_res(res, combined_code)
     return res
 
 
 def _2_chars_word(word, map, tingkung_code2char):
-    if len(word) != 2:
-        return None
     if word[0] not in map or word[1] not in map:
-        return None
+        return []
     if word in blacklist_set:
-        return None
+        return []
     res = []
     for code1 in map[word[0]]:
         for code2 in map[word[1]]:
@@ -162,19 +175,17 @@ def _2_chars_word(word, map, tingkung_code2char):
                 combined_code += abbr2[0]
             else:
                 combined_code += abbr2[0] + abbr2[1] + abbr2[-1]
-            if do_filter(combined_code):
+            if do_filter(combined_code, word):
                 continue
             append_res(res, combined_code)
     return res
 
 
 def _3_chars_word(word, map, tingkung_code2char):
-    if len(word) != 3:
-        return None
     if word[0] not in map or word[1] not in map or word[2] not in map:
-        return None
+        return []
     if word in blacklist_set:
-        return None
+        return []
     res = []
     for code1 in map[word[0]]:
         for code2 in map[word[1]]:
@@ -209,7 +220,7 @@ def _3_chars_word(word, map, tingkung_code2char):
                         combined_code += abbr3[-1]
                     else:
                         combined_code += abbr3[0] + abbr3[-1]
-                if do_filter(combined_code):
+                if do_filter(combined_code, word):
                     continue
                 append_res(res, combined_code)
     return res
@@ -309,28 +320,19 @@ with open("chongkit.words.dict.yaml", mode="w") as words:
     for item in arr:
         word = item[0]
         weight = item[1]
-        lines = _2_chars_word(word, map, tingkung_code2char)
-        if lines:
+        if len(word) == 2:
+            lines = _2_chars_word(word, map, tingkung_code2char)
             for line in lines:
                 words.write(line + "\n")
-        lines = _3_chars_word(word, map, tingkung_code2char)
-        if lines:
+        if len(word) == 3:
+            lines = _3_chars_word(word, map, tingkung_code2char)
             for line in lines:
                 words.write(line + "\n")
-        lines = _4_chars_word(word, map, tingkung_code2char)
-        if lines:
+        if len(word) == 4:
+            lines = _4_chars_word(word, map, tingkung_code2char)
             for line in lines:
                 words.write(line + "\n")
-        lines = n_chars_word(word, map, tingkung_code2char)
-        if lines:
+        if len(word) > 4:
+            lines = n_chars_word(word, map, tingkung_code2char)
             for line in lines:
                 words.write(line + "\n")
-
-
-def do_filter(combined_code):
-    return (len(combined_code) >= 5
-            and combined_code[:3] in tingkung_code2char
-            and (combined_code[:2] not in tingkung_code2char
-            or tingkung_code2char[combined_code[:2]]
-                 != tingkung_code2char[combined_code[:3]])
-            and converter.convert(word) not in candidates_set)
