@@ -98,6 +98,7 @@ encoder:
 昇	aht
 眉	ahu
 昂	ahvl
+影響	ahvla
 時	ai
 曠	aic
 即	ail
@@ -1895,11 +1896,11 @@ cd 	cd
 燶	ftwv
 光	fu
 輝	fubjj
-🖕	fuck
+🖕	fuck'
 耀	fug
 輝	fuj
-💯	fullmark
-⚱️	funeralurn
+💯	fullmark'
+⚱️	funeralurn'
 耀	fusmg
 裳	fv
 爍	fvd
@@ -1909,7 +1910,6 @@ cd 	cd
 當	fw
 巣	fwd
 燭	fwi
-単	fwj
 燭	fwli
 劏	fwln
 煨	fwmv
@@ -5198,7 +5198,6 @@ ls 	ls
 侍	ogi
 傲	ogk
 雋	oglms
-隽	ognhs
 歓	ogno
 售	ogr
 售口	ogrr'
@@ -6049,6 +6048,7 @@ ls 	ls
 拔	qik
 搪	qilr
 拭	qim
+挨	qiok
 撼	qip
 抬	qir
 拚	qit
@@ -8597,6 +8597,7 @@ vim 	vim
 虧	ygs
 達	ygtq
 遠	ygv
+遠的	ygvhai
 步	yh
 迫	yha
 遍	yhb
@@ -9139,6 +9140,7 @@ placeholder	yrhvl
 齪	yuryo
 齷	yusmg
 競	yuu
+竟	yux
 競	yuytu
 亡	yv
 肓	yvb
@@ -10138,99 +10140,99 @@ placeholder	yrhvl
 ˊ	yyyym
 ˇ	yyyyn
 ˋ	yyyyo
-@{ shape: paper-tape, label: "" }	papertape
-@{ shape: procs, label: ""}	procs
-@{ shape: docs, label: ""}	docs
-@{ shape: manual-input, label: ""}	input
-@{ shape: manual-file, label: ""}	trianglerev
-@{ shape: text, label: "" }	text
-@{ shape: notch-rect, label: "" }	card
-@{ shape: sm-circ, label: "Small start" }	circle
-@{ shape: sm-circ, label: "Small start" }	start
-@{ shape: framed-circle, label: "Stop" }	stop
-@{ shape: fork, label: "Fork or Join" }	fork
+@{ shape: paper-tape, label: "" }	papertape'
+@{ shape: procs, label: ""}	procs'
+@{ shape: docs, label: ""}	docs'
+@{ shape: manual-input, label: ""}	input'
+@{ shape: manual-file, label: ""}	trianglerev'
+@{ shape: text, label: "" }	text'
+@{ shape: notch-rect, label: "" }	card'
+@{ shape: sm-circ, label: "Small start" }	circle'
+@{ shape: sm-circ, label: "Small start" }	start'
+@{ shape: framed-circle, label: "Stop" }	stop'
+@{ shape: fork, label: "Fork or Join" }	fork'
 爬口	hour'
-@{ shape: hourglass, label: "Collate" }	hourglass
-@{ shape: braces, label: "" }	comment
-@{ shape: comment, label: "" }	commentopen
-@{ shape: brace-r, label: "" }	commentclose
-@{ shape: bolt, label: "Communication link" }	bolt
-@{ shape: doc, label: "" }	document
-@{ shape: delay, label: "" }	delay
-@{ shape: das, label: "" }	messageq
-@{ shape: lin-cyl, label: "" }	cylinder
-@{ shape: curv-trap, label: "" }	display
-@{ shape: div-rect, label: "" }	process
-@{ shape: tri, label: "" }	triangle
-@{ shape: win-pane, label: "" }	window
+@{ shape: hourglass, label: "Collate" }	hourglass'
+@{ shape: braces, label: "" }	comment'
+@{ shape: comment, label: "" }	commentopen'
+@{ shape: brace-r, label: "" }	commentclose'
+@{ shape: bolt, label: "Communication link" }	bolt'
+@{ shape: doc, label: "" }	document'
+@{ shape: delay, label: "" }	delay'
+@{ shape: das, label: "" }	messageq'
+@{ shape: lin-cyl, label: "" }	cylinder'
+@{ shape: curv-trap, label: "" }	display'
+@{ shape: div-rect, label: "" }	process'
+@{ shape: tri, label: "" }	triangle'
+@{ shape: win-pane, label: "" }	window'
 剋金	junc'
-@{ shape: f-circ, label: "Junction" }	junction
-@{ shape: lin-doc, label: "" }	documentlined
-@{ shape: notch-pent, label: "" }	looplimit
-@{ shape: flip-tri, label: "" }	triangleflipped
+@{ shape: f-circ, label: "Junction" }	junction'
+@{ shape: lin-doc, label: "" }	documentlined'
+@{ shape: notch-pent, label: "" }	looplimit'
+@{ shape: flip-tri, label: "" }	triangleflipped'
 臥心	slop'
-@{ shape: sl-rect, label: "" }	slopedrec
-@{ shape: processes, label: "" }	processes
-@{ shape: bow-rect, label: "" }	bowtie
-@{ shape: cross-circ, label: "Summary" }	summary
-@{ shape: tag-doc, label: "" }	doctagged
-@{ shape: tag-rect, label: "" }	processtagged
-@{ shape: tag-rect, label: "" }	rectagged
-classDef black color:#fff,fill:\#000;	classblack
-classDef white color:#022e1f,fill:\#fff;	classwhite
-color:#fff, fill:#000	black
-color:#000, fill:#fff	white
-color:#FFFFFF, stroke:#2962FF, fill:#2962FF	blue
-color:#FFFFFF, stroke:#00C853, fill:#00C853	green
-color:#FFFFFF, fill:#AA00FF, stroke:#AA00FF	purple
-	playstation
-󰨡	windows98
-	windows8
-	windows10
-	apple
-󰀶	finder
-󰀹	safari
-󰏎	operaold
-	opera
+@{ shape: sl-rect, label: "" }	slopedrec'
+@{ shape: processes, label: "" }	processes'
+@{ shape: bow-rect, label: "" }	bowtie'
+@{ shape: cross-circ, label: "Summary" }	summary'
+@{ shape: tag-doc, label: "" }	doctagged'
+@{ shape: tag-rect, label: "" }	processtagged'
+@{ shape: tag-rect, label: "" }	rectagged'
+classDef black color:#fff,fill:\#000;	classblack'
+classDef white color:#022e1f,fill:\#fff;	classwhite'
+color:#fff, fill:#000	black'
+color:#000, fill:#fff	white'
+color:#FFFFFF, stroke:#2962FF, fill:#2962FF	blue'
+color:#FFFFFF, stroke:#00C853, fill:#00C853	green'
+color:#FFFFFF, fill:#AA00FF, stroke:#AA00FF	purple'
+	playstation'
+󰨡	windows98'
+	windows8'
+	windows10'
+	apple'
+󰀶	finder'
+󰀹	safari'
+󰏎	operaold'
+	opera'
 鉛人	chro'
-	chrome
-󰈹	firefox
-	xbox
+	chrome'
+󰈹	firefox'
+	xbox'
 坦水	game'
-󰖺	gamepad
-	gamepad
-󰊖	gamepad
-	tools
-	terminal
-	react
-󰄑	cart
-	intellij
-	json
-	box
+󰖺	gamepad'
+	gamepad'
+󰊖	gamepad'
+	tools'
+	terminal'
+	react'
+󰄑	cart'
+	intellij'
+	json'
+	box'
 	vim'
-󰿰	cards
-󱘢	log
-󰘑	wechat
+󰿰	cards'
+󱘢	log'
+󰘑	wechat'
 	qq'
-	tmux
-󰋊	harddisk
-	database
-󱀏	kafka
+	tmux'
+󰋊	harddisk'
+	database'
+󱀏	kafka'
 嗓戈	redi'
-	redis
+	redis'
 閑口 	andr'
-	android
+	android'
 󰀷	ios'
 昆尸	apps'
-	appstore
+	appstore'
 瓷戈	moni'
-󰍹	monitor
-󰌢	laptop
-󱦟	sand
-	spring
+󰍹	monitor'
+󰌢	laptop'
+󱦟	sand'
+	spring'
 馨口	gear'
 	geara'
-	cache
-󰒚	shop
+	cache'
+󰒚	shop'
 17478743	eumfi
 12595530	siqi

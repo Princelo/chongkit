@@ -71,7 +71,7 @@ def append_res(res, combined_code):
 
 
 def n_chars_word(word, map, tingkung_code2char):
-    if len(word) <= 4 or converter.convert(word) not in candidates_set:
+    if len(word) <= 4:
         return None
     for c in word:
         if c not in map:
@@ -90,13 +90,15 @@ def n_chars_word(word, map, tingkung_code2char):
                         full4, abbr4 = code4
                         full_n, abbr_n = code_n
                         combined_code = full1[0] + abbr2[-1] + abbr3[0]
+                        if combined_code in tingkung_code2char and converter.convert(word) not in candidates_set:
+                            continue
                         combined_code += abbr4[-1] + abbr_n[-1]
                         append_res(res, combined_code)
     return res
 
 
 def _4_chars_word(word, map, tingkung_code2char):
-    if len(word) != 4 or converter.convert(word) not in candidates_set:
+    if len(word) != 4:
         return None
     for c in word:
         if c not in map:
@@ -113,6 +115,8 @@ def _4_chars_word(word, map, tingkung_code2char):
                     full3, abbr3 = code3
                     full4, abbr4 = code4
                     combined_code = full1[0] + abbr2[-1] + abbr3[0]
+                    if combined_code in tingkung_code2char and converter.convert(word) not in candidates_set:
+                        continue
                     if len(abbr3) == 1 and len(full3) > 1:
                         combined_code += full3[-1] + abbr4[-1]
                     elif len(abbr3) > 1:
@@ -126,7 +130,7 @@ def _4_chars_word(word, map, tingkung_code2char):
 
 
 def _2_chars_word(word, map, tingkung_code2char):
-    if len(word) != 2 or converter.convert(word) not in candidates_set:
+    if len(word) != 2:
         return None
     if word[0] not in map or word[1] not in map:
         return None
@@ -156,12 +160,14 @@ def _2_chars_word(word, map, tingkung_code2char):
                 combined_code += abbr2[0]
             else:
                 combined_code += abbr2[0] + abbr2[1] + abbr2[-1]
+            if len(combined_code) >= 3 and combined_code[:3] in tingkung_code2char and converter.convert(word) not in candidates_set:
+                continue
             append_res(res, combined_code)
     return res
 
 
 def _3_chars_word(word, map, tingkung_code2char):
-    if len(word) != 3 or converter.convert(word) not in candidates_set:
+    if len(word) != 3:
         return None
     if word[0] not in map or word[1] not in map or word[2] not in map:
         return None
@@ -201,6 +207,8 @@ def _3_chars_word(word, map, tingkung_code2char):
                         combined_code += abbr3[-1]
                     else:
                         combined_code += abbr3[0] + abbr3[-1]
+                if len(combined_code) >= 3 and combined_code[:3] in tingkung_code2char and converter.convert(word) not in candidates_set:
+                    continue
                 append_res(res, combined_code)
     return res
 
