@@ -138,6 +138,8 @@ def _4_chars_word(word, map, tingkung_code2char):
                         combined_code += abbr3[-1] + abbr4[-1]
                     elif len(abbr4) > 1:
                         combined_code += abbr4[0] + abbr4[-1]
+                    elif len(full4) > 1:
+                        combined_code += full4[0] + full4[-1]
                     else:
                         combined_code += abbr4[-1]
                     if do_filter(combined_code, word):
@@ -227,6 +229,7 @@ def _3_chars_word(word, map, tingkung_code2char):
 
 
 essay = open("essay.txt", mode="r")
+essay_cantonese = open("essay-cantonese.txt", mode="r")
 cangjie = open("cangjie5.dict.yaml", mode="r")
 tingkung = open("tingkung.dict.yaml", mode="r")
 
@@ -306,6 +309,14 @@ for line in fix:
     map[char].append([full, abbr])
 
 for line in essay:
+    line = line[:-1]
+    line = line.split("\t")
+    word = line[0]
+    if len(word) <= 1:
+        continue
+    weight = int(line[1])
+    arr.append([word, weight])
+for line in essay_cantonese:
     line = line[:-1]
     line = line.split("\t")
     word = line[0]
