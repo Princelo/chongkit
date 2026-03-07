@@ -403,7 +403,7 @@ schema:
     碼表源自倉頡之友發佈的《五倉世紀版》
     www.chinesecj.com
     
-  name: "倉頡 Dvorak"
+  name: "倉頡"
   schema_id: chongkit
   version: 0.30
 simplifier:
