@@ -413,7 +413,7 @@ with open("chongkit.words.dict.yaml", mode="w") as words:
             for line in lines:
                 words.write(line + "\n")
 
-with open("private.words.dict.yaml", mode="w") as words:
+with open("private.words.dict.yaml", mode="a") as words:
     for item in private_arr:
         word = item[0]
         weight = item[1]
