@@ -903,8 +903,8 @@ preset_keyboards:
     - {draw_icon: 'enter', click: Return, long_click: paste_no_comment, width: 26, height: 55, key_back_color: enter_back, key_text_color: enter_text, shadow: 'true', round_corner: 4}
     - {click: '', key_back_color: border_color, width: 5}
       #    - {click: '', key_back_color: border_color, width: 100, height: 1}
-  scj6:
-    __include: /preset_keyboards/cangjie5
+  #scj6:
+  #  __include: /preset_keyboards/cangjie5
   stroke:
     name: 五筆畫鍵盤
     author: 皛筱晓小笨鱼

@@ -13,6 +13,15 @@ patch:
     - {schema: zyenpheng}
     - {schema: triungkoxsampheng}
     - {schema: tingkung}
+    - {schema: combo_jyutping}
+  switcher:
+    abbreviate_options: true
+    caption: "〔方案選單〕"
+    fold_options: true
+    hotkeys:
+      - "Control+grave"
+      - "Control+Shift+grave"
+      #- F4
 __patch:
 # Rx: custom:set:config=default,key=installed_from,value=rime-cantonese {
   - patch/+:

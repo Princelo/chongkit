@@ -48,6 +48,7 @@ encoder:
 import_tables:
   - tingkung
   - chongkit.words
+  - private.words
 ...
 
 過長	ybbsv

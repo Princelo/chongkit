@@ -3,3 +3,6 @@
 user.yaml
 installation.yaml
 build/
+private.words.dict.yaml
+private.essay.txt
+private.words.secret

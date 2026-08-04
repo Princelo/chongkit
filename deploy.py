@@ -1,4 +1,47 @@
 import opencc
+from Crypto.Cipher import AES
+import base64
+import hashlib
+
+
+def decrypt_string(key_string, encoded_data):
+    key = hashlib.sha256(key_string.encode()).digest()
+    decoded_data = base64.b64decode(encoded_data)
+    nonce_len = 16
+    tag_len = 16
+    nonce = decoded_data[:nonce_len]
+    tag = decoded_data[nonce_len:nonce_len + tag_len]
+    ciphertext = decoded_data[nonce_len + tag_len:]
+    cipher = AES.new(key, AES.MODE_GCM, nonce=nonce)
+    plaintext_bytes = cipher.decrypt_and_verify(ciphertext, tag)
+    return plaintext_bytes.decode('utf-8')
+
+
+head = """
+---
+name: private.words
+version: "2025.06.01"
+sort: by_weight
+...
+
+"""
+secret = open("private.words.secret", mode="r").read()
+encrypted_private_words = open("private.words.dict.encrypted", mode="r")
+with open("private.words.dict.yaml", mode="w") as words:
+    words.writelines(head)
+    for line in encrypted_private_words:
+        if len(line) > 1:
+            decrypted = decrypt_string(secret, line)
+            words.write(decrypted + "\n")
+
+encrypted_private_essay = open("private.essay.encrypted", mode="r")
+with open("private.essay.txt", mode="w") as words:
+    for line in encrypted_private_essay:
+        if len(line) > 1:
+            decrypted = decrypt_string(secret, line)
+            words.write(decrypted + "\n")
+
+
 converter = opencc.OpenCC('t2s.json')
 
 head = """
@@ -48,17 +91,17 @@ def do_filter(combined_code, word):
     if (len(combined_code) == 5
         and combined_code[:3] in tingkung_code2char
         and (combined_code[:1] + combined_code[2:3]
-             not in tingkung_code2char
-        or tingkung_code2char[combined_code[:1] + combined_code[2:3]]
+             not in tingkung_code2char or
+             tingkung_code2char[combined_code[:1] + combined_code[2:3]]
              != tingkung_code2char[combined_code[:3]])
-            and combined_code[3:] == "tu"):
+            and combined_code[3:] in ["tu", "ha"]):
         if converter.convert(word) in candidates_set:
             print(tingkung_code2char[combined_code[:3]] + "\t" + word)
     return (len(combined_code) >= 5
             and combined_code[:3] in tingkung_code2char
             and (combined_code[:1] + combined_code[2:3]
-                 not in tingkung_code2char
-            or tingkung_code2char[combined_code[:1] + combined_code[2:3]]
+                 not in tingkung_code2char or
+                 tingkung_code2char[combined_code[:1] + combined_code[2:3]]
                  != tingkung_code2char[combined_code[:3]])
             and converter.convert(word) not in candidates_set)
 
@@ -230,6 +273,8 @@ def _3_chars_word(word, map, tingkung_code2char):
 
 essay = open("essay.txt", mode="r")
 essay_cantonese = open("essay-cantonese.txt", mode="r")
+essay_custom = open("custom-essay.txt", mode="r")
+essay_private = open("private.essay.txt", mode="r")
 cangjie = open("cangjie5.dict.yaml", mode="r")
 tingkung = open("tingkung.dict.yaml", mode="r")
 
@@ -266,6 +311,7 @@ for line in tingkung:
 
 
 arr = []
+private_arr = []
 map = {}
 
 start = False
@@ -324,11 +370,51 @@ for line in essay_cantonese:
         continue
     weight = int(line[1])
     arr.append([word, weight])
+for line in essay_custom:
+    line = line[:-1]
+    line = line.split("\t")
+    word = line[0]
+    if len(word) <= 1:
+        continue
+    weight = int(line[1])
+    arr.append([word, weight])
+    candidates_set.add(converter.convert(word))
+for line in essay_private:
+    line = line[:-1]
+    line = line.split("\t")
+    word = line[0]
+    if len(word) <= 1:
+        continue
+    weight = int(line[1])
+    private_arr.append([word, weight])
+    candidates_set.add(converter.convert(word))
 arr.sort(key=lambda x: -x[1])
+private_arr.sort(key=lambda x: -x[1])
 
 with open("chongkit.words.dict.yaml", mode="w") as words:
     words.writelines(head)
     for item in arr:
+        word = item[0]
+        weight = item[1]
+        if len(word) == 2:
+            lines = _2_chars_word(word, map, tingkung_code2char)
+            for line in lines:
+                words.write(line + "\n")
+        if len(word) == 3:
+            lines = _3_chars_word(word, map, tingkung_code2char)
+            for line in lines:
+                words.write(line + "\n")
+        if len(word) == 4:
+            lines = _4_chars_word(word, map, tingkung_code2char)
+            for line in lines:
+                words.write(line + "\n")
+        if len(word) > 4:
+            lines = n_chars_word(word, map, tingkung_code2char)
+            for line in lines:
+                words.write(line + "\n")
+
+with open("private.words.dict.yaml", mode="w") as words:
+    for item in private_arr:
         word = item[0]
         weight = item[1]
         if len(word) == 2:
