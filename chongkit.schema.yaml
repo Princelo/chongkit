@@ -408,7 +408,7 @@ schema:
   schema_id: chongkit
   version: 0.30
 simplifier:
-  tips: all
+  # tips: all
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
   delimiter: " "
@@ -428,6 +428,7 @@ switches:
     states: ["。，", "．，"]
 translator:
   comment_format:
+    # - xform/^.*$//
     - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符～|"
   dictionary: chongkit
   disable_user_dict_for_patterns:
