@@ -14,6 +14,8 @@ patch:
     - {schema: triungkoxsampheng}
     - {schema: tingkung}
     - {schema: combo_jyutping}
+    - {schema: japanese}
+    - {schema: luna_pinyin}
   switcher:
     abbreviate_options: true
     caption: "〔方案選單〕"

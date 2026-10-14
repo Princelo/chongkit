@@ -33,3 +33,5 @@
 刪	btln
 柵	dbt
 姍	vbt
+髮	shk
+號	rsu

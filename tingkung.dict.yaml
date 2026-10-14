@@ -1,21 +1,3 @@
-# encoding: utf-8
-#
-# 單字碼表《五倉世紀》來自 www.chinesecj.com
-#
-# 又：
-# 倉頡五代構詞碼碼表
-# 由惜緣兄製作
-# 佛振修訂於 2012-04-08
-#
-# License: GPL
-#
-# 說明：
-# 詞彙編碼中，單字的取碼有幾種情況：
-# 取首碼、取尾碼、取首尾二碼、取首、次、尾三碼。
-# 輔助字形中的單字，在詞彙中直接用倉頡字母而不拆開；
-# 包含結構的單字，被包含部分的編碼位於'符號之後，可據此取得尾碼。
-#
-
 ---
 name: "tingkung"
 version: "0.18"
@@ -27,24 +9,6 @@ columns:
   - text
   - code
   - stem
-encoder:
-  exclude_patterns:
-    - '^x.*$'
-    - '^z.*$'
-  rules:
-    - length_equal: 2
-      formula: "AaAzBaBbBz"
-    - length_equal: 3
-      formula: "AaAzBaBzCz"
-    - length_in_range: [4, 10]
-      formula: "AaBzCaYzZz"
-  tail_anchor: "'"
-    #import_tables:
-    #- dicts/extend/luna_pinyin.wenhua # 成语、诗词、文言
-    #- dicts/extend/luna_pinyin.computer # 计算机
-    #- dicts/extend/luna_pinyin.changyong # 常用聊天用语
-    #- dicts/extend/luna_pinyin.zhuanye # 专业术语，地理，法律，军事，天文，物理，数学
-    #- dicts/extend/luna_pinyin.sgmain # @scomper 做的搜狗词汇汇总
 ...
 
 日	a
@@ -2636,6 +2600,7 @@ git 	git
 徘中	hoyl'
 徙	hoylo
 悉	hp
+穩	hpx
 昏	hpa
 筍	hpax
 筷	hpdk
@@ -4535,6 +4500,7 @@ ls 	ls
 🪤	mousetrap
 姿	mov
 死	mp
+麗	mpx
 貮	mpbuc
 貮	mpc
 武	mpm
@@ -5114,6 +5080,7 @@ ls 	ls
 勉	nus
 🔩	nutbolt
 張	nv
+nvim 	nvim'
 陋	nvx
 陳	nw
 魯	nwa
@@ -6869,7 +6836,7 @@ ls 	ls
 📡	satelliteantenna
 💾	save
 😋	savoring
-🪚	saw
+🪚	saw'
 層	sax
 騙	sb
 刷	sbln
@@ -8144,7 +8111,6 @@ ls 	ls
 姓	vhm
 媳	vhp
 娥	vhqi
-姓	vhqm
 妒	vhs
 媳	vhup
 婢	vhwj
@@ -8170,7 +8136,7 @@ ls 	ls
 獎	vik
 幼	viks
 斷	vil
-vim 	vim
+vim 	vim'
 醬	vimcw
 以	vio
 始	vir

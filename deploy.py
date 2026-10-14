@@ -99,8 +99,17 @@ def should_exclude(combined_code, word, simplified, ctx):
              not in char_lookup or
              char_lookup[combined_code[:1] + combined_code[2:3]]
              != char_lookup[combined_code[:3]])
-            # 緊接 「着」「的」等高頻後置字
-            and combined_code[3:] in ["tu", "ha"]):
+            # 緊接 「着」「的」「沒」「了」「之」等高頻後置字
+            and combined_code[3:] in ["tu0", "ha0", "ee0", "nn0", "io0", "hq0", "of0", "op0", "jp0", "vp0", "mf0", "mm0", "ao"]):
+        if simplified in ctx.whitelist and ctx.debug:
+            print(char_lookup[combined_code[:3]] + "\t" + word)
+    if (len(combined_code) == 5
+        and combined_code[:3] in char_lookup
+        and (combined_code[:1] + combined_code[2:3]
+             not in char_lookup or
+             char_lookup[combined_code[:1] + combined_code[2:3]]
+             != char_lookup[combined_code[:3]])
+            and combined_code[:3] in ["mgn0"]):
         if simplified in ctx.whitelist and ctx.debug:
             print(char_lookup[combined_code[:3]] + "\t" + word)
     return (len(combined_code) >= 5
