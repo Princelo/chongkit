@@ -1,0 +1,1205 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chongkit 用戶詞典管理器</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --primary: #4a6fa5;
+      --primary-dark: #3a5a8a;
+      --bg: #f5f7fa;
+      --card: #ffffff;
+      --border: #e2e8f0;
+      --text: #2d3748;
+      --text-light: #718096;
+      --success: #48bb78;
+      --danger: #f56565;
+      --warning: #ed8936;
+      --info: #4299e1;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .header {
+      background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+      color: white;
+      padding: 20px 30px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    .header h1 { font-size: 24px; font-weight: 600; }
+    .header p { opacity: 0.85; font-size: 14px; margin-top: 4px; }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .alert {
+      padding: 12px 16px;
+      border-radius: 8px;
+      margin-bottom: 16px;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .alert-warning {
+      background: #fff8e1;
+      border: 1px solid #ffe082;
+      color: #f57f17;
+    }
+
+    .alert-info {
+      background: #e3f2fd;
+      border: 1px solid #90caf9;
+      color: #1565c0;
+    }
+
+    .stats-bar {
+      display: flex;
+      gap: 15px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+
+    .stat-card {
+      background: var(--card);
+      border-radius: 10px;
+      padding: 15px 20px;
+      flex: 1;
+      min-width: 120px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+      border: 1px solid var(--border);
+    }
+
+    .stat-card .label { font-size: 12px; color: var(--text-light); text-transform: uppercase; letter-spacing: 0.5px; }
+    .stat-card .value { font-size: 22px; font-weight: 700; color: var(--primary); margin-top: 4px; }
+
+    .toolbar {
+      background: var(--card);
+      border-radius: 10px;
+      padding: 15px 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+      border: 1px solid var(--border);
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .filter-section {
+      width: 100%;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 5px;
+    }
+
+    .filter-section label {
+      font-size: 12px;
+      color: var(--text-light);
+      font-weight: 500;
+      white-space: nowrap;
+    }
+
+    .filter-section select, .filter-section input[type="number"] {
+      padding: 6px 10px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-size: 13px;
+      background: white;
+    }
+
+    .filter-section select:focus, .filter-section input[type="number"]:focus {
+      outline: none;
+      border-color: var(--primary);
+      box-shadow: 0 0 0 2px rgba(74,111,165,0.15);
+    }
+
+    .filter-section input[type="number"] {
+      width: 70px;
+      text-align: center;
+    }
+
+    .filter-group {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .filter-group .filter-label {
+      font-size: 12px;
+      color: var(--primary);
+      font-weight: 600;
+      min-width: 16px;
+    }
+
+    .filter-separator {
+      width: 1px;
+      height: 24px;
+      background: var(--border);
+      margin: 0 4px;
+    }
+
+    .search-box {
+      flex: 1;
+      min-width: 200px;
+      position: relative;
+    }
+
+    .search-box input {
+      width: 100%;
+      padding: 10px 15px 10px 38px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 14px;
+      transition: border-color 0.2s;
+    }
+
+    .search-box input:focus {
+      outline: none;
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(74,111,165,0.15);
+    }
+
+    .search-box::before {
+      content: '🔍';
+      position: absolute;
+      left: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 14px;
+    }
+
+    .btn {
+      padding: 10px 18px;
+      border: none;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.2s;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      white-space: nowrap;
+    }
+
+    .btn-primary { background: var(--primary); color: white; }
+    .btn-primary:hover { background: var(--primary-dark); }
+    .btn-success { background: var(--success); color: white; }
+    .btn-success:hover { opacity: 0.9; }
+    .btn-danger { background: var(--danger); color: white; }
+    .btn-danger:hover { opacity: 0.9; }
+    .btn-info { background: var(--info); color: white; }
+    .btn-info:hover { opacity: 0.9; }
+    .btn-outline { background: white; color: var(--text); border: 1px solid var(--border); }
+    .btn-outline:hover { background: var(--bg); }
+    .btn-sm { padding: 6px 12px; font-size: 12px; }
+
+    .table-container {
+      background: var(--card);
+      border-radius: 10px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+      border: 1px solid var(--border);
+      overflow: hidden;
+    }
+
+    table { width: 100%; border-collapse: collapse; }
+
+    th {
+      background: var(--bg);
+      padding: 12px 16px;
+      text-align: left;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--text-light);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      font-size: 14px;
+    }
+
+    tr:last-child td { border-bottom: none; }
+    tr:hover { background: #f8fafc; }
+
+    .key-cell {
+      font-family: 'SF Mono', 'Fira Code', monospace;
+      font-size: 13px;
+      color: var(--primary);
+      max-width: 300px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .value-cell {
+      max-width: 400px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      font-family: 'SF Mono', 'Fira Code', monospace;
+      font-size: 13px;
+    }
+
+    .type-badge {
+      display: inline-block;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 10px;
+      font-weight: 600;
+      margin-left: 6px;
+      vertical-align: middle;
+    }
+
+    .type-badge.text { background: #e8f5e9; color: #2e7d32; }
+    .type-badge.hex { background: #fff3e0; color: #e65100; }
+
+    .actions-cell { display: flex; gap: 6px; }
+
+    .pagination {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+      padding: 15px;
+      border-top: 1px solid var(--border);
+    }
+
+    .pagination button {
+      padding: 8px 14px;
+      border: 1px solid var(--border);
+      background: white;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 13px;
+      transition: all 0.2s;
+    }
+
+    .pagination button:hover:not(:disabled) { background: var(--primary); color: white; border-color: var(--primary); }
+    .pagination button:disabled { opacity: 0.4; cursor: not-allowed; }
+    .pagination .page-info { color: var(--text-light); font-size: 13px; }
+
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.5);
+      z-index: 1000;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .modal-overlay.active { display: flex; }
+
+    .modal {
+      background: var(--card);
+      border-radius: 12px;
+      width: 90%;
+      max-width: 600px;
+      max-height: 80vh;
+      overflow-y: auto;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+    }
+
+    .modal-header {
+      padding: 20px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .modal-header h2 { font-size: 18px; font-weight: 600; }
+
+    .modal-close {
+      background: none; border: none; font-size: 20px;
+      cursor: pointer; color: var(--text-light); padding: 4px;
+    }
+
+    .modal-body { padding: 20px; }
+
+    .form-group { margin-bottom: 16px; }
+    .form-group label { display: block; font-size: 13px; font-weight: 500; margin-bottom: 6px; color: var(--text-light); }
+
+    .form-group input, .form-group textarea {
+      width: 100%; padding: 10px 14px;
+      border: 1px solid var(--border); border-radius: 8px;
+      font-size: 14px; font-family: inherit;
+    }
+
+    .form-group input:focus, .form-group textarea:focus {
+      outline: none; border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(74,111,165,0.15);
+    }
+
+    .form-group textarea { min-height: 100px; resize: vertical; font-family: 'SF Mono', 'Fira Code', monospace; }
+
+    .modal-footer {
+      padding: 15px 20px;
+      border-top: 1px solid var(--border);
+      display: flex; justify-content: flex-end; gap: 10px;
+    }
+
+    .loading { text-align: center; padding: 40px; color: var(--text-light); }
+
+    .loading .spinner {
+      display: inline-block; width: 30px; height: 30px;
+      border: 3px solid var(--border); border-top-color: var(--primary);
+      border-radius: 50%; animation: spin 0.8s linear infinite;
+    }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .empty-state { text-align: center; padding: 60px 20px; color: var(--text-light); }
+    .empty-state .icon { font-size: 48px; margin-bottom: 16px; }
+    .empty-state h3 { font-size: 18px; margin-bottom: 8px; color: var(--text); }
+
+    .toast {
+      position: fixed; bottom: 20px; right: 20px;
+      padding: 12px 20px; border-radius: 8px;
+      color: white; font-size: 14px; z-index: 2000;
+      transform: translateY(100px); opacity: 0; transition: all 0.3s;
+    }
+
+    .toast.show { transform: translateY(0); opacity: 1; }
+    .toast.success { background: var(--success); }
+    .toast.error { background: var(--danger); }
+    .toast.warning { background: var(--warning); }
+
+    .checkbox-col { width: 40px; }
+    .checkbox-col input { cursor: pointer; }
+
+    .batch-bar {
+      display: none; background: var(--primary); color: white;
+      padding: 10px 20px; border-radius: 8px; margin-bottom: 15px;
+      align-items: center; justify-content: space-between;
+    }
+
+    .batch-bar.active { display: flex; }
+
+    .detail-view {
+      background: var(--bg); border-radius: 8px; padding: 12px;
+      font-family: 'SF Mono', 'Fira Code', monospace; font-size: 13px;
+      white-space: pre-wrap; word-break: break-all;
+      max-height: 200px; overflow-y: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div style="display:flex;align-items:center;justify-content:space-between">
+      <div>
+        <h1>Rime 用戶詞典管理器</h1>
+        <p>LevelDB 資料庫管理工具</p>
+      </div>
+      <div style="display:flex;align-items:center;gap:10px">
+        <label style="font-size:13px;opacity:0.9">資料庫：</label>
+        <select id="dbSelector" onchange="switchDatabase()" style="padding:8px 12px;border:1px solid rgba(255,255,255,0.3);border-radius:8px;background:rgba(255,255,255,0.15);color:white;font-size:14px;cursor:pointer;min-width:180px">
+          <option>載入中...</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div id="modeAlert" style="display:none"></div>
+
+    <div class="stats-bar" id="statsBar">
+      <div class="stat-card">
+        <div class="label">總條目數</div>
+        <div class="value" id="totalEntries">-</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">當前頁</div>
+        <div class="value" id="currentPage">-</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">總頁數</div>
+        <div class="value" id="totalPages">-</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">資料庫狀態</div>
+        <div class="value" id="dbStatus" style="font-size:16px;">-</div>
+      </div>
+    </div>
+
+    <div class="toolbar">
+      <div class="filter-section">
+        <label>類型：</label>
+        <select id="typeFilter" onchange="applyFilter()">
+          <option value="all">全部</option>
+          <option value="enc">enc 詞（編碼器）</option>
+          <option value="user">用戶詞</option>
+        </select>
+        <div class="filter-separator"></div>
+        <label>標量篩選：</label>
+        <div class="filter-group">
+          <span class="filter-label">c</span>
+          <input type="number" id="minC" placeholder="最小" onchange="applyFilter()" />
+          <span style="font-size:12px;color:var(--text-light)">~</span>
+          <input type="number" id="maxC" placeholder="最大" onchange="applyFilter()" />
+        </div>
+        <div class="filter-group">
+          <span class="filter-label">d</span>
+          <input type="number" id="minD" placeholder="最小" step="0.1" onchange="applyFilter()" />
+          <span style="font-size:12px;color:var(--text-light)">~</span>
+          <input type="number" id="maxD" placeholder="最大" step="0.1" onchange="applyFilter()" />
+        </div>
+        <div class="filter-group">
+          <span class="filter-label">t</span>
+          <input type="number" id="minT" placeholder="最小" onchange="applyFilter()" />
+          <span style="font-size:12px;color:var(--text-light)">~</span>
+          <input type="number" id="maxT" placeholder="最大" onchange="applyFilter()" />
+        </div>
+        <button class="btn btn-outline btn-sm" onclick="clearFilter()">清除篩選</button>
+        <div class="filter-separator"></div>
+        <label>排序：</label>
+        <select id="sortBy" onchange="applyFilter()">
+          <option value="">預設</option>
+          <option value="key">鍵 (Key)</option>
+          <option value="value">值 (Value)</option>
+          <option value="c">c (次數)</option>
+          <option value="d">d (權重)</option>
+          <option value="t">t (時間)</option>
+        </select>
+        <select id="sortOrder" onchange="applyFilter()">
+          <option value="asc">升序 ↑</option>
+          <option value="desc">降序 ↓</option>
+        </select>
+      </div>
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="搜尋鍵名或值..." />
+      </div>
+      <button class="btn btn-primary" onclick="searchEntries()">搜尋</button>
+      <button class="btn btn-outline" onclick="loadEntries()">重新整理</button>
+      <button class="btn btn-success" onclick="showAddModal()">+ 新增</button>
+      <button class="btn btn-info" onclick="exportDB()">匯出</button>
+      <button class="btn btn-outline" onclick="showImportModal()">匯入</button>
+      <button class="btn btn-warning" id="syncBtn" onclick="syncToOriginal()" style="display:none">同步回原始資料庫</button>
+      <button class="btn btn-outline" id="refreshCopyBtn" onclick="refreshCopy()" style="display:none">重新整理副本</button>
+    </div>
+
+    <div class="batch-bar" id="batchBar">
+      <span id="selectedCount">已選擇 0 項</span>
+      <button class="btn btn-danger btn-sm" onclick="batchDelete()">刪除選中</button>
+    </div>
+
+    <div class="table-container">
+      <div id="loadingArea" class="loading">
+        <div class="spinner"></div>
+        <p style="margin-top:12px">載入中...</p>
+      </div>
+
+      <div id="emptyState" class="empty-state" style="display:none">
+        <div class="icon">📭</div>
+        <h3>暫無資料</h3>
+        <p>資料庫中沒有找到條目</p>
+      </div>
+
+      <table id="dataTable" style="display:none">
+        <thead>
+          <tr>
+            <th class="checkbox-col"><input type="checkbox" id="selectAll" onchange="toggleSelectAll()"></th>
+            <th>鍵 (Key)</th>
+            <th>值 (Value)</th>
+            <th>操作</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+      </table>
+
+      <div class="pagination" id="pagination" style="display:none">
+        <button onclick="goToPage(1)" id="firstBtn">首頁</button>
+        <button onclick="goToPage(state.page-1)" id="prevBtn">上一頁</button>
+        <span class="page-info" id="pageInfo"></span>
+        <button onclick="goToPage(state.page+1)" id="nextBtn">下一頁</button>
+        <button onclick="goToPage(state.totalPages)" id="lastBtn">末頁</button>
+        <span class="page-info" style="margin-left:8px">跳至</span>
+        <input type="number" id="jumpInput" min="1" style="width:60px;padding:6px 8px;border:1px solid var(--border);border-radius:6px;font-size:13px;text-align:center" onkeypress="if(event.key==='Enter')jumpToPage()" />
+        <span class="page-info">頁</span>
+        <button onclick="jumpToPage()" class="btn btn-primary btn-sm">跳轉</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 編輯彈窗 -->
+  <div class="modal-overlay" id="editModal">
+    <div class="modal">
+      <div class="modal-header">
+        <h2 id="modalTitle">編輯條目</h2>
+        <button class="modal-close" onclick="closeModal()">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label>鍵 (Key)</label>
+          <input type="text" id="editKey" placeholder="輸入鍵名" />
+        </div>
+        <div class="form-group">
+          <label>值 (Value) - 文字模式</label>
+          <textarea id="editValue" placeholder="輸入文字值"></textarea>
+        </div>
+        <div class="form-group">
+          <label>值 (Hex) - 十六進位模式（優先級高於文字）</label>
+          <textarea id="editHex" placeholder="輸入十六進位值，如：63686f6e676b6974" style="min-height:60px"></textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-outline" onclick="closeModal()">取消</button>
+        <button class="btn btn-primary" id="saveBtn" onclick="saveEntry()">儲存</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 查看詳情彈窗 -->
+  <div class="modal-overlay" id="detailModal">
+    <div class="modal">
+      <div class="modal-header">
+        <h2>條目詳情</h2>
+        <button class="modal-close" onclick="closeDetailModal()">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label>鍵 (Key)</label>
+          <div class="detail-view" id="detailKey"></div>
+        </div>
+        <div class="form-group">
+          <label>值 (Value)</label>
+          <div class="detail-view" id="detailValue"></div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-outline" onclick="closeDetailModal()">關閉</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 匯入彈窗 -->
+  <div class="modal-overlay" id="importModal">
+    <div class="modal">
+      <div class="modal-header">
+        <h2>匯入資料</h2>
+        <button class="modal-close" onclick="closeImportModal()">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label>選擇 JSON 檔案</label>
+          <input type="file" id="importFile" accept=".json" />
+        </div>
+        <div class="form-group">
+          <label>或貼上 JSON 資料</label>
+          <textarea id="importData" placeholder='{"entries": [{"key": "xxx", "value": "yyy"}]}' style="min-height:150px"></textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-outline" onclick="closeImportModal()">取消</button>
+        <button class="btn btn-primary" onclick="importDB()">匯入</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 確認刪除彈窗 -->
+  <div class="modal-overlay" id="deleteModal">
+    <div class="modal">
+      <div class="modal-header">
+        <h2>確認刪除</h2>
+        <button class="modal-close" onclick="closeDeleteModal()">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p id="deleteMessage">確定要刪除這個條目嗎？此操作不可撤銷。</p>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-outline" onclick="closeDeleteModal()">取消</button>
+        <button class="btn btn-danger" id="confirmDeleteBtn">刪除</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- enc 統計彈窗 -->
+  <div class="modal-overlay" id="encStatsModal">
+    <div class="modal" style="max-width:800px">
+      <div class="modal-header">
+        <h2>enc 候選詞頻率統計</h2>
+        <button class="modal-close" onclick="closeEncStatsModal()">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p style="margin-bottom:12px;color:var(--text-light);font-size:13px">統計每個候選詞被多少不同編碼觸發，出現次數越多表示該候選詞越常用。enc 詞的 c=0、d=0.1 無法區分頻率，但候選詞出現次數可以作為替代指標。</p>
+        <div style="display:flex;gap:10px;margin-bottom:12px;align-items:center">
+          <label style="font-size:13px;white-space:nowrap">最少出現次數：</label>
+          <input type="number" id="encMinOccurrences" value="2" min="1" style="width:70px;padding:6px 8px;border:1px solid var(--border);border-radius:6px;font-size:13px" />
+          <button class="btn btn-primary btn-sm" onclick="loadEncStats()">重新統計</button>
+          <span id="encStatsInfo" style="font-size:12px;color:var(--text-light)"></span>
+        </div>
+        <div style="max-height:400px;overflow-y:auto">
+          <table style="width:100%;border-collapse:collapse">
+            <thead>
+              <tr>
+                <th style="text-align:left;padding:8px;border-bottom:1px solid var(--border);font-size:12px">排名</th>
+                <th style="text-align:left;padding:8px;border-bottom:1px solid var(--border);font-size:12px">候選詞</th>
+                <th style="text-align:right;padding:8px;border-bottom:1px solid var(--border);font-size:12px">出現次數</th>
+                <th style="text-align:right;padding:8px;border-bottom:1px solid var(--border);font-size:12px">最新 t</th>
+                <th style="text-align:left;padding:8px;border-bottom:1px solid var(--border);font-size:12px">編碼範例</th>
+              </tr>
+            </thead>
+            <tbody id="encStatsBody"></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-outline" onclick="closeEncStatsModal()">關閉</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+
+  <script>
+    const state = {
+      page: 1, limit: 50, total: 0, totalPages: 0,
+      entries: [], selectedKeys: new Set(),
+      isSearch: false, searchQuery: '',
+      dbMode: 'unknown', originalLocked: false,
+      filter: { type: 'all', minC: '', maxC: '', minD: '', maxD: '', minT: '', maxT: '' },
+      currentDb: ''
+    };
+
+    async function loadDatabases() {
+      try {
+        const res = await fetch('/api/databases');
+        const data = await res.json();
+        const selector = document.getElementById('dbSelector');
+        selector.innerHTML = '';
+        data.databases.forEach(db => {
+          const opt = document.createElement('option');
+          opt.value = db;
+          opt.textContent = db.replace('.userdb', '');
+          if (db === data.current) opt.selected = true;
+          selector.appendChild(opt);
+        });
+        state.currentDb = data.current;
+      } catch (err) {
+        console.error('載入資料庫列表失敗:', err);
+      }
+    }
+
+    async function switchDatabase() {
+      const selector = document.getElementById('dbSelector');
+      const name = selector.value;
+      if (name === state.currentDb) return;
+      try {
+        showToast('正在切換資料庫...', 'warning');
+        const res = await fetch('/api/switch-db', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ name })
+        });
+        const data = await res.json();
+        if (data.success) {
+          state.currentDb = name;
+          showToast(`已切換到 ${name}`, 'success');
+          state.page = 1;
+          clearFilter();
+          loadStats();
+        } else {
+          showToast(data.error || '切換失敗', 'error');
+          selector.value = state.currentDb;
+        }
+      } catch (err) {
+        showToast('切換失敗: ' + err.message, 'error');
+        selector.value = state.currentDb;
+      }
+    }
+
+    function getFilterParams() {
+      const params = [];
+      const type = document.getElementById('typeFilter').value;
+      if (type !== 'all') params.push(`type=${type}`);
+      ['minC', 'maxC', 'minD', 'maxD', 'minT', 'maxT'].forEach(id => {
+        const val = document.getElementById(id).value;
+        if (val !== '') params.push(`${id}=${val}`);
+      });
+      const sortBy = document.getElementById('sortBy').value;
+      if (sortBy) params.push(`sortBy=${sortBy}`);
+      const sortOrder = document.getElementById('sortOrder').value;
+      if (sortOrder) params.push(`sortOrder=${sortOrder}`);
+      return params;
+    }
+
+    function applyFilter() {
+      state.page = 1;
+      fetchEntries();
+    }
+
+    function clearFilter() {
+      document.getElementById('typeFilter').value = 'all';
+      ['minC', 'maxC', 'minD', 'maxD', 'minT', 'maxT'].forEach(id => {
+        document.getElementById(id).value = '';
+      });
+      document.getElementById('sortBy').value = '';
+      document.getElementById('sortOrder').value = 'asc';
+      state.page = 1;
+      fetchEntries();
+    }
+
+    async function loadStats() {
+      try {
+        const res = await fetch('/api/stats');
+        const data = await res.json();
+        document.getElementById('totalEntries').textContent = data.totalEntries;
+        document.getElementById('dbStatus').textContent = data.status === 'connected' ? '✅ 已連接' : '❌ 斷開';
+        state.dbMode = data.mode;
+        state.originalLocked = data.originalLocked;
+
+        const alert = document.getElementById('modeAlert');
+        const syncBtn = document.getElementById('syncBtn');
+        const refreshCopyBtn = document.getElementById('refreshCopyBtn');
+        if (data.originalLocked || data.mode === 'copy') {
+          alert.style.display = 'block';
+          alert.className = 'alert alert-warning';
+          alert.innerHTML = '⚠️ 原始資料庫被 Rime 鎖定，目前操作的是資料庫副本。修改不會自動同步到原始資料庫。關閉 Rime 後可點擊「同步回原始資料庫」按鈕持久化修改。';
+          syncBtn.style.display = 'inline-flex';
+          refreshCopyBtn.style.display = 'inline-flex';
+        } else if (data.mode === 'original') {
+          alert.style.display = 'block';
+          alert.className = 'alert alert-info';
+          alert.innerHTML = 'ℹ️ 直接連接原始資料庫，修改將立即生效。建議在修改前先匯出備份。';
+          syncBtn.style.display = 'none';
+          refreshCopyBtn.style.display = 'none';
+        }
+      } catch (err) {
+        document.getElementById('dbStatus').textContent = '❌ 錯誤';
+      }
+    }
+
+    async function loadEntries() {
+      state.isSearch = false;
+      state.searchQuery = '';
+      document.getElementById('searchInput').value = '';
+      clearFilter();
+    }
+
+    async function searchEntries() {
+      const query = document.getElementById('searchInput').value.trim();
+      if (!query) return loadEntries();
+      state.isSearch = true;
+      state.searchQuery = query;
+      state.page = 1;
+      await fetchEntries();
+    }
+
+    async function fetchEntries() {
+      showLoading(true);
+      try {
+        const filterParams = getFilterParams();
+        let url;
+        if (state.isSearch) {
+          url = `/api/search?q=${encodeURIComponent(state.searchQuery)}&limit=${state.limit}&page=${state.page}`;
+        } else {
+          url = `/api/entries?page=${state.page}&limit=${state.limit}`;
+        }
+        if (filterParams.length > 0) {
+          url += '&' + filterParams.join('&');
+        }
+
+        const res = await fetch(url);
+        const data = await res.json();
+
+        state.entries = data.entries;
+        state.total = data.total;
+        state.totalPages = data.totalPages || 1;
+        state.page = data.page || 1;
+        state.selectedKeys.clear();
+        updateBatchBar();
+
+        renderTable();
+        renderPagination();
+        updateStats();
+        showLoading(false);
+      } catch (err) {
+        showToast('載入資料失敗: ' + err.message, 'error');
+        showLoading(false);
+      }
+    }
+
+    function renderTable() {
+      const tbody = document.getElementById('tableBody');
+      const table = document.getElementById('dataTable');
+      const empty = document.getElementById('emptyState');
+
+      if (state.entries.length === 0) {
+        table.style.display = 'none';
+        empty.style.display = 'block';
+        return;
+      }
+
+      table.style.display = 'table';
+      empty.style.display = 'none';
+
+      tbody.innerHTML = state.entries.map(entry => {
+        const displayValue = entry.value.length > 80 ? entry.value.substring(0, 80) + '...' : entry.value;
+        const typeBadge = entry.valueType === 'hex' ? '<span class="type-badge hex">HEX</span>' : '<span class="type-badge text">TXT</span>';
+        return `
+        <tr>
+          <td class="checkbox-col">
+            <input type="checkbox"
+              ${state.selectedKeys.has(entry.key) ? 'checked' : ''}
+              onchange="toggleSelect('${escapeAttr(entry.key)}')" />
+          </td>
+          <td class="key-cell" title="${escapeAttr(entry.key)}" onclick="showDetail('${escapeAttr(entry.key)}', '${escapeAttr(entry.value)}', '${escapeAttr(entry.hex || '')}', '${entry.valueType || 'text'}')" style="cursor:pointer">${escapeHtml(entry.key)}</td>
+          <td class="value-cell" title="${escapeAttr(entry.value)}" onclick="showDetail('${escapeAttr(entry.key)}', '${escapeAttr(entry.value)}', '${escapeAttr(entry.hex || '')}', '${entry.valueType || 'text'}')" style="cursor:pointer">${escapeHtml(displayValue)} ${typeBadge}</td>
+          <td>
+            <div class="actions-cell">
+              <button class="btn btn-outline btn-sm" onclick="showEditModal('${escapeAttr(entry.key)}', '${escapeAttr(entry.value)}', '${escapeAttr(entry.hex || '')}', '${entry.valueType || 'text'}')">編輯</button>
+              <button class="btn btn-danger btn-sm" onclick="confirmDelete('${escapeAttr(entry.key)}')">刪除</button>
+            </div>
+          </td>
+        </tr>
+      `;}).join('');
+    }
+
+    function renderPagination() {
+      const pagination = document.getElementById('pagination');
+      if (state.totalPages <= 1) {
+        pagination.style.display = 'none';
+        return;
+      }
+      pagination.style.display = 'flex';
+      document.getElementById('pageInfo').textContent = `第 ${state.page} / ${state.totalPages} 頁`;
+      document.getElementById('prevBtn').disabled = state.page <= 1;
+      document.getElementById('nextBtn').disabled = state.page >= state.totalPages;
+      document.getElementById('firstBtn').disabled = state.page <= 1;
+      document.getElementById('lastBtn').disabled = state.page >= state.totalPages;
+      document.getElementById('jumpInput').value = '';
+      document.getElementById('jumpInput').max = state.totalPages;
+    }
+
+    function updateStats() {
+      document.getElementById('currentPage').textContent = state.page;
+      document.getElementById('totalPages').textContent = state.totalPages;
+    }
+
+    function goToPage(page) {
+      if (page < 1 || page > state.totalPages) return;
+      state.page = page;
+      fetchEntries();
+    }
+
+    function jumpToPage() {
+      const input = document.getElementById('jumpInput');
+      const page = parseInt(input.value);
+      if (isNaN(page) || page < 1 || page > state.totalPages) {
+        showToast(`請輸入 1 到 ${state.totalPages} 之間的頁碼`, 'warning');
+        return;
+      }
+      goToPage(page);
+    }
+
+    function showLoading(show) {
+      document.getElementById('loadingArea').style.display = show ? 'block' : 'none';
+      if (show) {
+        document.getElementById('dataTable').style.display = 'none';
+        document.getElementById('emptyState').style.display = 'none';
+      }
+    }
+
+    function showDetail(key, value, hex, type) {
+      document.getElementById('detailKey').textContent = key;
+      const detailValue = document.getElementById('detailValue');
+      detailValue.textContent = type === 'hex' && hex ? 'HEX: ' + hex : value;
+      document.getElementById('detailModal').classList.add('active');
+    }
+
+    function closeDetailModal() {
+      document.getElementById('detailModal').classList.remove('active');
+    }
+
+    function showAddModal() {
+      document.getElementById('modalTitle').textContent = '新增條目';
+      document.getElementById('editKey').value = '';
+      document.getElementById('editKey').disabled = false;
+      document.getElementById('editValue').value = '';
+      document.getElementById('editHex').value = '';
+      document.getElementById('saveBtn').textContent = '新增';
+      document.getElementById('editModal').classList.add('active');
+    }
+
+    function showEditModal(key, value, hex, type) {
+      document.getElementById('modalTitle').textContent = '編輯條目';
+      document.getElementById('editKey').value = key;
+      document.getElementById('editKey').disabled = true;
+      document.getElementById('editValue').value = type === 'hex' ? '' : value;
+      document.getElementById('editHex').value = hex || '';
+      document.getElementById('saveBtn').textContent = '儲存';
+      document.getElementById('editModal').classList.add('active');
+    }
+
+    function closeModal() {
+      document.getElementById('editModal').classList.remove('active');
+    }
+
+    async function saveEntry() {
+      const key = document.getElementById('editKey').value.trim();
+      const value = document.getElementById('editValue').value;
+      const hex = document.getElementById('editHex').value.trim();
+
+      if (!key) { showToast('請輸入鍵名', 'warning'); return; }
+      if (!value && !hex) { showToast('請輸入值或十六進位資料', 'warning'); return; }
+
+      try {
+        const body = hex ? { hex } : { value };
+        const res = await fetch(`/api/entries/${encodeURIComponent(key)}`, {
+          method: 'PUT',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(body)
+        });
+        const data = await res.json();
+        if (res.ok) {
+          showToast(data.message, 'success');
+          closeModal(); fetchEntries(); loadStats();
+        } else { showToast(data.error, 'error'); }
+      } catch (err) { showToast('儲存失敗: ' + err.message, 'error'); }
+    }
+
+    function confirmDelete(key) {
+      document.getElementById('deleteMessage').textContent = `確定要刪除鍵「${key}」嗎？此操作不可撤銷。`;
+      document.getElementById('deleteModal').classList.add('active');
+      document.getElementById('confirmDeleteBtn').onclick = () => deleteEntry(key);
+    }
+
+    function closeDeleteModal() {
+      document.getElementById('deleteModal').classList.remove('active');
+    }
+
+    async function deleteEntry(key) {
+      try {
+        const res = await fetch(`/api/entries/${encodeURIComponent(key)}`, { method: 'DELETE' });
+        const data = await res.json();
+        if (res.ok) { showToast(data.message, 'success'); closeDeleteModal(); fetchEntries(); loadStats(); }
+        else { showToast(data.error, 'error'); }
+      } catch (err) { showToast('刪除失敗: ' + err.message, 'error'); }
+    }
+
+    function toggleSelect(key) {
+      state.selectedKeys.has(key) ? state.selectedKeys.delete(key) : state.selectedKeys.add(key);
+      updateBatchBar();
+    }
+
+    function toggleSelectAll() {
+      const checked = document.getElementById('selectAll').checked;
+      checked ? state.entries.forEach(e => state.selectedKeys.add(e.key)) : state.selectedKeys.clear();
+      renderTable(); updateBatchBar();
+    }
+
+    function updateBatchBar() {
+      const bar = document.getElementById('batchBar');
+      if (state.selectedKeys.size > 0) {
+        bar.classList.add('active');
+        document.getElementById('selectedCount').textContent = `已選擇 ${state.selectedKeys.size} 項`;
+      } else { bar.classList.remove('active'); }
+    }
+
+    async function batchDelete() {
+      if (state.selectedKeys.size === 0) return;
+      document.getElementById('deleteMessage').textContent = `確定要刪除選中的 ${state.selectedKeys.size} 個條目嗎？此操作不可撤銷。`;
+      document.getElementById('deleteModal').classList.add('active');
+      document.getElementById('confirmDeleteBtn').onclick = async () => {
+        try {
+          const res = await fetch('/api/batch-delete', {
+            method: 'POST', headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ keys: Array.from(state.selectedKeys) })
+          });
+          const data = await res.json();
+          if (res.ok) { showToast(data.message, 'success'); closeDeleteModal(); state.selectedKeys.clear(); fetchEntries(); loadStats(); }
+          else { showToast(data.error, 'error'); }
+        } catch (err) { showToast('批次刪除失敗: ' + err.message, 'error'); }
+      };
+    }
+
+    async function syncToOriginal() {
+      if (!confirm('確定要將工作副本同步回原始資料庫嗎？\n\n請確保 Rime 輸入法已關閉，否則同步將失敗。\n此操作會覆蓋原始資料庫的內容。')) return;
+      try {
+        showToast('正在同步...', 'warning');
+        const res = await fetch('/api/sync', { method: 'POST' });
+        const data = await res.json();
+        if (data.success) {
+          showToast(data.message, 'success');
+          loadStats();
+          fetchEntries();
+        } else {
+          showToast(data.message, 'error');
+        }
+      } catch (err) {
+        showToast('同步失敗: ' + err.message, 'error');
+      }
+    }
+
+    async function refreshCopy() {
+      if (!confirm('確定要從原始資料庫重新整理副本嗎？\n\n這將丟失目前副本中的所有修改。')) return;
+      try {
+        showToast('正在重新整理副本...', 'warning');
+        const res = await fetch('/api/refresh-copy', { method: 'POST' });
+        const data = await res.json();
+        if (data.success) {
+          showToast(data.message, 'success');
+          fetchEntries();
+          loadStats();
+        } else {
+          showToast(data.message, 'error');
+        }
+      } catch (err) {
+        showToast('重新整理失敗: ' + err.message, 'error');
+      }
+    }
+
+    async function showEncStats() {
+      document.getElementById('encStatsModal').classList.add('active');
+      loadEncStats();
+    }
+
+    function closeEncStatsModal() {
+      document.getElementById('encStatsModal').classList.remove('active');
+    }
+
+    async function loadEncStats() {
+      const minOccurrences = parseInt(document.getElementById('encMinOccurrences').value) || 1;
+      const tbody = document.getElementById('encStatsBody');
+      const info = document.getElementById('encStatsInfo');
+      tbody.innerHTML = '<tr><td colspan="5" style="text-align:center;padding:20px;color:var(--text-light)">統計中...</td></tr>';
+      info.textContent = '';
+      try {
+        const res = await fetch(`/api/enc-stats?limit=200&minOccurrences=${minOccurrences}`);
+        const data = await res.json();
+        info.textContent = `共 ${data.total} 個候選詞（出現 ≥${minOccurrences} 次）`;
+        if (data.stats.length === 0) {
+          tbody.innerHTML = '<tr><td colspan="5" style="text-align:center;padding:20px;color:var(--text-light)">無符合條件的候選詞</td></tr>';
+          return;
+        }
+        tbody.innerHTML = data.stats.map((item, i) => `
+          <tr>
+            <td style="padding:6px 8px;border-bottom:1px solid var(--border);font-size:13px;color:var(--text-light)">${i + 1}</td>
+            <td style="padding:6px 8px;border-bottom:1px solid var(--border);font-size:14px;font-weight:500">${escapeHtml(item.candidate)}</td>
+            <td style="padding:6px 8px;border-bottom:1px solid var(--border);font-size:14px;text-align:right;font-weight:600;color:var(--primary)">${item.count}</td>
+            <td style="padding:6px 8px;border-bottom:1px solid var(--border);font-size:13px;text-align:right;color:var(--text-light)">${item.maxT}</td>
+            <td style="padding:6px 8px;border-bottom:1px solid var(--border);font-size:12px;color:var(--text-light);font-family:monospace">${item.codes.map(c => escapeHtml(c)).join(', ')}</td>
+          </tr>
+        `).join('');
+      } catch (err) {
+        tbody.innerHTML = `<tr><td colspan="5" style="text-align:center;padding:20px;color:var(--danger)">統計失敗: ${err.message}</td></tr>`;
+      }
+    }
+
+    async function exportDB() {
+      try {
+        showToast('正在匯出...', 'warning');
+        const filterParams = getFilterParams();
+        let url = '/api/export';
+        const params = [];
+        if (state.isSearch && state.searchQuery) {
+          params.push(`q=${encodeURIComponent(state.searchQuery)}`);
+        }
+        if (filterParams.length > 0) {
+          params.push(...filterParams);
+        }
+        if (params.length > 0) {
+          url += '?' + params.join('&');
+        }
+        const res = await fetch(url);
+        const blob = await res.blob();
+        const urlObj = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = urlObj;
+        a.download = `chongkit-export-${new Date().toISOString().slice(0,10)}.json`;
+        a.click();
+        URL.revokeObjectURL(urlObj);
+        showToast('匯出成功', 'success');
+      } catch (err) { showToast('匯出失敗: ' + err.message, 'error'); }
+    }
+
+    function showImportModal() {
+      document.getElementById('importFile').value = '';
+      document.getElementById('importData').value = '';
+      document.getElementById('importModal').classList.add('active');
+    }
+
+    function closeImportModal() {
+      document.getElementById('importModal').classList.remove('active');
+    }
+
+    async function importDB() {
+      let data;
+      const fileInput = document.getElementById('importFile');
+      if (fileInput.files.length > 0) {
+        const text = await fileInput.files[0].text();
+        try { data = JSON.parse(text); } catch (e) { showToast('JSON 格式錯誤', 'error'); return; }
+      } else {
+        const text = document.getElementById('importData').value.trim();
+        if (!text) { showToast('請選擇檔案或貼上 JSON 資料', 'warning'); return; }
+        try { data = JSON.parse(text); } catch (e) { showToast('JSON 格式錯誤', 'error'); return; }
+      }
+
+      if (!data.entries || !Array.isArray(data.entries)) {
+        showToast('資料格式錯誤，需要 {entries: [...]} 格式', 'error'); return;
+      }
+
+      try {
+        const res = await fetch('/api/import', {
+          method: 'POST', headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(data)
+        });
+        const result = await res.json();
+        if (res.ok) { showToast(result.message, 'success'); closeImportModal(); fetchEntries(); loadStats(); }
+        else { showToast(result.error, 'error'); }
+      } catch (err) { showToast('匯入失敗: ' + err.message, 'error'); }
+    }
+
+    function showToast(message, type = 'success') {
+      const toast = document.getElementById('toast');
+      toast.textContent = message;
+      toast.className = `toast ${type} show`;
+      setTimeout(() => { toast.classList.remove('show'); }, 3000);
+    }
+
+    function escapeHtml(str) {
+      if (!str) return '';
+      return str.replace(/&/g, '&').replace(/</g, '<').replace(/>/g, '>').replace(/"/g, '"');
+    }
+
+    function escapeAttr(str) {
+      if (!str) return '';
+      return str.replace(/\\/g, '\\\\').replace(/'/g, "\\'").replace(/"/g, '\\"').replace(/\n/g, '\\n').replace(/\r/g, '\\r');
+    }
+
+    document.getElementById('searchInput').addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') searchEntries();
+    });
+
+    document.querySelectorAll('.modal-overlay').forEach(overlay => {
+      overlay.addEventListener('click', (e) => { if (e.target === overlay) overlay.classList.remove('active'); });
+    });
+
+    loadDatabases();
+    loadStats();
+    fetchEntries();
+  </script>
+</body>
+</html>
